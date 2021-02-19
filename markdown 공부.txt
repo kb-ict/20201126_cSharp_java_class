@@ -1,1 +1,6 @@
-1. https://gist.github.com/ihoneymon/652be052a0727ad59601
+첫번째. 깃허브 공식 사이트
+https://gist.github.com/ihoneymon/652be052a0727ad59601
+
+두번째. md를 좀 더 쉽게 정리해 둔 사이트
+https://heropy.blog/2017/09/30/markdown/
+
