@@ -1,0 +1,10 @@
+D:\Jaun\Juann\Cshap\VerySimpleExample\VerySimpleExample\bin\Release\VerySimpleExample.exe.config
+D:\Jaun\Juann\Cshap\VerySimpleExample\VerySimpleExample\bin\Release\VerySimpleExample.exe
+D:\Jaun\Juann\Cshap\VerySimpleExample\VerySimpleExample\bin\Release\VerySimpleExample.pdb
+D:\Jaun\Juann\Cshap\VerySimpleExample\VerySimpleExample\obj\Release\VerySimpleExample.csprojAssemblyReference.cache
+D:\Jaun\Juann\Cshap\VerySimpleExample\VerySimpleExample\obj\Release\VerySimpleExample.Form1.resources
+D:\Jaun\Juann\Cshap\VerySimpleExample\VerySimpleExample\obj\Release\VerySimpleExample.Properties.Resources.resources
+D:\Jaun\Juann\Cshap\VerySimpleExample\VerySimpleExample\obj\Release\VerySimpleExample.csproj.GenerateResource.cache
+D:\Jaun\Juann\Cshap\VerySimpleExample\VerySimpleExample\obj\Release\VerySimpleExample.csproj.CoreCompileInputs.cache
+D:\Jaun\Juann\Cshap\VerySimpleExample\VerySimpleExample\obj\Release\VerySimpleExample.exe
+D:\Jaun\Juann\Cshap\VerySimpleExample\VerySimpleExample\obj\Release\VerySimpleExample.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beak_Fibonacci", "Beak_Fibonacci\Beak_Fibonacci.csproj", "{295BD9D3-95D2-4467-AB6A-9DDB039407D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{295BD9D3-95D2-4467-AB6A-9DDB039407D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{295BD9D3-95D2-4467-AB6A-9DDB039407D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{295BD9D3-95D2-4467-AB6A-9DDB039407D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{295BD9D3-95D2-4467-AB6A-9DDB039407D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCB00483-60A6-4778-B9F0-3667D8111206}
+	EndGlobalSection
+EndGlobal

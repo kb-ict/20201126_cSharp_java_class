@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>디폴트는 Get방식</h1>
+    <!-- input 태그는 form 태그 안에서 작성해야함 -->
+    <form>
+        <!-- input은 닫는 태그가 없는 태그에 속함 -->
+        <input type="text" name="search">
+
+        <input type="submit">
+
+    </form>
+
+    <h1>디폴트는 Get방식</h1>
+    <form method="get">
+        <!-- get 방식은 data가 저장됨(남음) -> 검색용으로 쓰임-->
+        <input type="text" name="search">
+
+        <input type="submit">
+
+    </form>
+
+    <h1>디폴트는 post방식</h1>
+    <form method="post">
+        <!-- post 방식은 data 저장안됨 (남지 않음) -> 로그인 용으로 쓰임-->
+        <input type="text" name="search">
+
+        <input type="submit">
+
+    </form>
+
+    <h1>reset 실습</h1>
+    <form method="post">
+        <!-- post 방식은 data 저장안됨 (남지 않음) -> 로그인 용으로 쓰임-->
+        <input type="text" name="search">
+
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+
+    <h1>디폴트는 Get방식&reset</h1>
+    <form method="get">
+        <!-- get 방식은 data가 저장됨(남음) -> 검색용으로 쓰임-->
+        <input type="text" name="search">
+
+        <input type="submit" value="입력">
+        <input type="reset" value="clear">
+        <!-- value를 넣으면 버튼위의 글자가 바뀜 -->
+        <!-- C#으로 치면 text 값이 바뀌는것 -->
+    </form>
+</body>
+
+</html>

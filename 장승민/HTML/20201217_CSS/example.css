@@ -1,0 +1,13 @@
+  h1
+  {
+    background-color: yellow;
+  }
+  p
+  {
+background-color: aqua;
+  }
+        /* h1과 p에만 이탤릭체 적용 */
+  h1,p
+  {
+      font-style: italic;
+  }

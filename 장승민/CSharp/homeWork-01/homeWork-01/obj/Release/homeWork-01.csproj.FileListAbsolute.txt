@@ -1,0 +1,11 @@
+D:\GitFolder\Juann\Cshap\homeWork-01\homeWork-01\bin\Release\homeWork-01.exe.config
+D:\GitFolder\Juann\Cshap\homeWork-01\homeWork-01\bin\Release\homeWork-01.exe
+D:\GitFolder\Juann\Cshap\homeWork-01\homeWork-01\bin\Release\homeWork-01.pdb
+D:\GitFolder\Juann\Cshap\homeWork-01\homeWork-01\bin\Release\Bunifu_UI_v1.52.dll
+D:\GitFolder\Juann\Cshap\homeWork-01\homeWork-01\obj\Release\homeWork_01.Form1.resources
+D:\GitFolder\Juann\Cshap\homeWork-01\homeWork-01\obj\Release\homeWork_01.Properties.Resources.resources
+D:\GitFolder\Juann\Cshap\homeWork-01\homeWork-01\obj\Release\homeWork-01.csproj.GenerateResource.cache
+D:\GitFolder\Juann\Cshap\homeWork-01\homeWork-01\obj\Release\homeWork-01.csproj.CoreCompileInputs.cache
+D:\GitFolder\Juann\Cshap\homeWork-01\homeWork-01\obj\Release\homeWork-01.csproj.CopyComplete
+D:\GitFolder\Juann\Cshap\homeWork-01\homeWork-01\obj\Release\homeWork-01.exe
+D:\GitFolder\Juann\Cshap\homeWork-01\homeWork-01\obj\Release\homeWork-01.pdb

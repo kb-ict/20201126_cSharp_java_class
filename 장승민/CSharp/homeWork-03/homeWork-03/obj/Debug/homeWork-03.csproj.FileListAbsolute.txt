@@ -1,0 +1,12 @@
+D:\GitFolder\Juann\Cshap\homeWork-03\homeWork-03\bin\Debug\homeWork-03.exe.config
+D:\GitFolder\Juann\Cshap\homeWork-03\homeWork-03\bin\Debug\homeWork-03.exe
+D:\GitFolder\Juann\Cshap\homeWork-03\homeWork-03\bin\Debug\homeWork-03.pdb
+D:\GitFolder\Juann\Cshap\homeWork-03\homeWork-03\obj\Debug\homeWork_03.FirstCustomControl.resources
+D:\GitFolder\Juann\Cshap\homeWork-03\homeWork-03\obj\Debug\homeWork_03.Form1.resources
+D:\GitFolder\Juann\Cshap\homeWork-03\homeWork-03\obj\Debug\homeWork_03.Properties.Resources.resources
+D:\GitFolder\Juann\Cshap\homeWork-03\homeWork-03\obj\Debug\homeWork-03.csproj.GenerateResource.cache
+D:\GitFolder\Juann\Cshap\homeWork-03\homeWork-03\obj\Debug\homeWork-03.csproj.CoreCompileInputs.cache
+D:\GitFolder\Juann\Cshap\homeWork-03\homeWork-03\obj\Debug\homeWork-03.exe
+D:\GitFolder\Juann\Cshap\homeWork-03\homeWork-03\obj\Debug\homeWork-03.pdb
+D:\GitFolder\Juann\Cshap\homeWork-03\homeWork-03\obj\Debug\homeWork-03.csprojAssemblyReference.cache
+D:\GitFolder\Juann\Cshap\homeWork-03\homeWork-03\obj\Debug\homeWork_03.SecondCustomControl.resources

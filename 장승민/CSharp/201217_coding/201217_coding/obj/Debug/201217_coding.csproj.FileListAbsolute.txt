@@ -1,0 +1,14 @@
+C:\Users\KB\source\repos\201217_coding\201217_coding\obj\Debug\201217_coding.csprojAssemblyReference.cache
+C:\Users\KB\source\repos\201217_coding\201217_coding\obj\Debug\201217_coding.csproj.CoreCompileInputs.cache
+C:\Users\KB\source\repos\201217_coding\201217_coding\bin\Debug\201217_coding.exe.config
+C:\Users\KB\source\repos\201217_coding\201217_coding\bin\Debug\201217_coding.exe
+C:\Users\KB\source\repos\201217_coding\201217_coding\bin\Debug\201217_coding.pdb
+C:\Users\KB\source\repos\201217_coding\201217_coding\obj\Debug\201217_coding.exe
+C:\Users\KB\source\repos\201217_coding\201217_coding\obj\Debug\201217_coding.pdb
+D:\Jaun\Juann\Cshap\201217_coding\201217_coding\obj\Debug\201217_coding.csprojAssemblyReference.cache
+D:\Jaun\Juann\Cshap\201217_coding\201217_coding\obj\Debug\201217_coding.csproj.CoreCompileInputs.cache
+D:\Jaun\Juann\Cshap\201217_coding\201217_coding\obj\Debug\201217_coding.exe
+D:\Jaun\Juann\Cshap\201217_coding\201217_coding\obj\Debug\201217_coding.pdb
+D:\Jaun\Juann\Cshap\201217_coding\201217_coding\bin\Debug\201217_coding.exe.config
+D:\Jaun\Juann\Cshap\201217_coding\201217_coding\bin\Debug\201217_coding.exe
+D:\Jaun\Juann\Cshap\201217_coding\201217_coding\bin\Debug\201217_coding.pdb

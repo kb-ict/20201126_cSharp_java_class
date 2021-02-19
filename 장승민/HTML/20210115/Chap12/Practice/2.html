@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS3 Property Basic</title>
+    <style>
+        .container {
+            width: 960px;
+            margin: 0 auto;
+            display : grid;
+            grid-template-areas:
+            'header header'
+            'nav nav'
+            'aside  section'
+            'footer footer';
+            grid-template-columns: 2fr 8fr;
+            gap: 10px;
+        }
+        .container>div{
+            box-sizing: border-box;
+            border:lightgreen solid 1px;
+        }
+        .header{ grid-area : header;}
+        .nav{ grid-area : nav;}
+        .aside{ grid-area : aside;
+            margin-right : 15px;
+        background-color:#FAEBD7}
+        .section{ grid-area : section;
+            margin-left:15px;
+        background-color: #00FFFF}
+        .footer{ grid-area : footer;
+        background-color: #ffc0cb}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Header</h1>
+        </div>
+        <div class="nav">
+            <h1>Navigation</h1>
+        </div>
+        <div class="aside">
+            <h1>Aside</h1>
+            <p>Lorem ipsum dolor (중략) </p>
+        </div>
+        <div class="section">
+            <h1>Section</h1>
+            <p> Lorem ipsum dolor (중략) </p>
+        </div>
+        <div class="footer">
+            <h1>Footer</h1>
+        </div>
+    </div>
+</body>
+
+</html>

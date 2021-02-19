@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  
+    <style>
+        
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+
+#main_header {
+    width: 960px;
+    margin: 0 auto;
+    height: 160px;
+    position: relative;
+}
+
+#main_header>#title {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+
+#main_header>#main_gnb {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#main_header>#main_lnb {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+#title {
+    font-family: 'Lora', serif;
+}
+
+/* ==========gnb========== */
+#main_gnb>ul {
+    overflow: hidden;
+}
+
+#main_gnb>ul>li {
+    float: left;
+}
+
+#main_gnb>ul>li>a {
+    display: block;
+    padding: 2px 10px;
+    border: 1px solid black;
+}
+
+#main_gnb>ul>li>a:hover {
+    background-color: black;
+    color: white;
+}
+
+#main_gnb>ul>li:first-child>a {
+    border-radius: 10px 0 0 10px;
+}
+
+#main_gnb>ul>li:last-child>a {
+    border-radius: 0 10px 10px 0;
+}
+
+
+/* ==========lnb========== */
+#main_lnb>ul {
+    overflow: hidden;
+}
+
+#main_lnb>ul>li {
+    float: left;
+}
+
+#main_lnb>ul>li>a {
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
+#main_lnb>ul>li>a:hover {
+    background-color: black;
+    color: white;
+}
+
+#main_lnb>ul>li:first-child>a {
+    border-radius: 10px 0 0 10px;
+}
+
+#main_lnb>ul>li:last-child>a {
+    border-radius: 0 10px 10px 0;
+}
+
+#content {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#content>#main_section {
+    width: 750px;
+    float: left;
+}
+
+#content>#main_aside {
+    width: 200px;
+    float: right;
+}
+
+#main_section>article.main_article {
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+/* 첫번째 탭 */
+input:nth-of-type(1) {
+    display: none;
+}
+
+input:nth-of-type(1)~div:nth-of-type(1) {
+    display: none;
+}
+
+input:nth-of-type(1):checked~div:nth-of-type(1) {
+    display: block;
+}
+
+/* 두번째 탭 */
+input:nth-of-type(2) {
+    display: none;
+}
+
+input:nth-of-type(2)~div:nth-of-type(2) {
+    display: none;
+}
+
+input:nth-of-type(2):checked~div:nth-of-type(2) {
+    display: block;
+}
+
+/* 탭모양 구성 */
+section.buttons {
+    overflow: hidden;
+}
+
+section.buttons>label {
+    /* 수평정렬 */
+    display: block;
+    float: left;
+
+    /* 크기 및 글자 위치 지정 */
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    /* 테두리지정 */
+    box-sizing: border-box;
+    border: 1px solid black;
+    /* 색상지정 */
+    background: black;
+    color: white;
+}
+
+input:nth-of-type(1):checked~section.buttons>label:nth-of-type(1) {
+    background: white;
+    color: black;
+}
+
+input:nth-of-type(2):checked~section.buttons>label:nth-of-type(2) {
+    background: white;
+    color: black;
+}
+
+.item {
+    overflow: hidden;
+    padding: 10px;
+    border: 1px solid black;
+    border-top: none;
+}
+
+.thumbnail {
+    float: left;
+}
+
+.description {
+    float: left;
+    margin-left: 10px;
+}
+.description > strong{
+    display: block;
+    width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#main_footer{
+    /* 중앙정렬 */
+    width: 960px;margin: 0 auto;
+    margin-bottom: 10px;
+
+    /* 테두리 */
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid black;
+
+    /* 글자 정렬 */
+    text-align: center;
+}
+    </style>
+</head>
+
+<body>
+    
+    <div style="margin-top: 20px;"></div>
+    
+    <header id="main_header">
+        <div id="title">
+            <h1>Rint Development</h1>
+            <h2>HTML5 + CSS3 Basic
+            </h2>
+        </div>
+        a
+        <!-- gnb : global navigation bar -->
+        <nav id="main_gnb">
+            <ul>
+                <li><a href="#">Web</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Game</a></li>
+                <li><a href="#">Simulation</a></li>
+                <li><a href="#">Data</a></li>
+
+            </ul>
+        </nav>
+        <!-- lnb : local navigation bar -->
+        <nav id="main_lnb">
+            <ul>
+                <li><a href="#">HTML5</a></li>
+                <li><a href="#">CSS3</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">jQuery</a></li>
+                <li><a href="#">Node.js</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <div id="content">
+        <section id="main_section">
+            <article class="main_article">
+                <h1>Lorem ipsum dolor sit amet. </h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat illum incidunt ullam cupiditate ad
+                    consequuntur, magnam consectetur tempore! Illum labore sunt est doloribus facere quidem aut modi
+                    ipsa illo officia corrupti culpa quaerat ullam amet quasi maiores sint, quis nostrum blanditiis,
+                    ducimus neque et commodi temporibus alias? Error voluptas deserunt libero at laborum eveniet
+                    expedita! Illo molestias voluptate vitae vel obcaecati. Incidunt velit eaque sit aperiam rem modi
+                    odit accusantium earum. Tenetur eligendi sequi similique deleniti accusamus molestias. Atque culpa
+                    harum neque ducimus molestias distinctio necessitatibus quos sit quisquam officiis. Modi vero minima
+                    necessitatibus labore in vel reprehenderit inventore culpa beatae magnam, facere obcaecati assumenda
+                    incidunt libero atque odio voluptatem eveniet est quia, impedit vitae amet. Libero aliquam
+                    repudiandae eos impedit non suscipit, possimus iusto vitae modi reprehenderit porro officia quaerat
+                    unde consectetur velit harum et reiciendis earum? Cumque fuga optio vero necessitatibus velit, odit
+                    explicabo totam odio ad deleniti facilis accusantium ab soluta veniam. Dicta incidunt ullam
+                    dignissimos sequi ducimus fugiat saepe voluptas placeat? Ratione, in quia reiciendis nostrum odit
+                    facere laborum eos sunt iusto, veniam ex obcaecati autem, ipsum nam beatae repellendus non sint
+                    inventore architecto praesentium deleniti veritatis voluptates! Laudantium provident doloremque
+                    porro aperiam blanditiis, nihil at saepe quibusdam non, eos, vel doloribus soluta maxime enim fuga
+                    possimus velit quasi! Voluptatem quisquam ducimus eos debitis labore aliquid sit officiis ab. Dolore
+                    velit ea facere expedita dolorem modi odio, tenetur consequuntur voluptas voluptatibus? Suscipit sit
+                    quo animi culpa tenetur nihil similique commodi, iusto, repellat fuga rerum fugiat recusandae.
+                    Incidunt ratione voluptatem molestias odit debitis repudiandae atque non at saepe mollitia cumque
+                    voluptatibus, sed dolores veniam accusantium laboriosam corporis sit. Esse aut laudantium incidunt
+                    at velit nobis, hic aperiam debitis beatae aliquam dolores deserunt. Harum delectus architecto
+                    officiis dolore laudantium iusto facilis tenetur sequi est, libero saepe adipisci? Consequatur quo
+                    modi hic ipsam asperiores numquam ad nulla sed, sequi praesentium? Doloribus, similique vel at
+                    explicabo delectus repellendus, nihil dicta esse iusto deleniti nisi ea, molestiae illo. Incidunt,
+                    reprehenderit. Blanditiis architecto quae nesciunt iste quaerat aliquid, nisi assumenda velit
+                    consequuntur, laudantium, error quia voluptatibus adipisci quas commodi. Dolore soluta quas, earum
+                    ullam aliquid nesciunt enim asperiores. Facere, provident distinctio? Non, doloribus suscipit iste,
+                    placeat doloremque, illum hic veritatis ad possimus provident nostrum asperiores tempore a.
+                    Laudantium culpa neque cumque sequi vitae, voluptates eum ad accusamus perspiciatis provident! Amet
+                    animi unde laborum temporibus architecto itaque voluptas quis doloribus reprehenderit vero sit
+                    facere quidem enim voluptatem possimus sed accusantium quo velit assumenda ratione ipsa omnis
+                    provident, culpa dolore. Quidem repudiandae incidunt odio nobis! Doloribus et minus nostrum
+                    voluptates dignissimos! Illo, est quasi? Culpa quaerat voluptatibus porro, beatae quod reiciendis
+                    iste dignissimos quae inventore qui cupiditate voluptas numquam praesentium maxime, modi distinctio
+                    sint amet aut fugit neque dolore! Animi est nihil nisi nobis impedit autem similique debitis quod
+                    asperiores rerum ipsa odit repellendus ducimus, quisquam amet nam sed voluptatum ab. Culpa, adipisci
+                    explicabo laboriosam tempore laborum praesentium fugiat ipsa impedit omnis nobis dignissimos,
+                    excepturi hic architecto quia harum! Nostrum assumenda unde illum sapiente!</p>
+
+            </article>
+            <article class="main_article">
+                <h1>Lorem ipsum dolor sit amet. </h1>
+                <p>แอปเปิล เชฟโปรเจคท์ ฟีด คอร์ป อ่วมแพนดาพะเรอเจ็ต ฮาโลวีนทับซ้อนรีเสิร์ช สเตชัน
+                    เอ็นทรานซ์คอรัปชั่นแคร็กเกอร์ สี่แยกล็อบบี้ซิมพันธกิจ แคปซูเอี๋ยสตรอว์เบอร์รี นิรันดร์สมิติเวชดาวน์
+                    สป็อต แทงโก้วาริชศาสตร์ ออร์แกนิค เซ็นเตอร์โอเพ่นแฟรนไชส์ราเมน บร็อกโคลีแมคเคอเรลบูติค ตัวเองสต๊อก
+                    โค้ชคอนแทคอพาร์ทเมนต์ เหมยแครกเกอร์รีโมต แอพพริคอทออเดอร์หลวงตาคลิป อัตลักษณ์ฟรุตบ๊อบ วิดีโอแอโรบิค
+                    วาไรตี้เยอบีราแคมป์สถาปัตย์ บอมบ์ตุ๊กตุ๊กผลไม้พิซซ่าอัลมอนด์ ตุ๊กช็อค สไลด์ดยุค ทัวร์
+                    เคลียร์มือถือลามะ เทวาธิราชแบล็กวีเจ แบรนด์แอ็คชั่น โกะ ล็อตฮ็อตวัคค์
+                    ลอร์ดฟินิกซ์ยังไงฮวงจุ้ยฟินิกซ์ โอเลี้ยงคาปูชิโนโปรเจ็ค ความหมายปิกอัพมิวสิค คอมเมนท์ฟีดสมิติเวช
+                    รีไทร์ท็อปบู๊ท โมจิพิซซ่าซิง ลีกเพลซน็อก ลาเต้ แพ็ค ดีกรี สเปคดีพาร์ทเมนต์ แคร์ตื้บ
+                    หมวยรามเทพธัมโมคีตกวี สเตอริโอป๋อหลอจอหงวน พฤหัสรูบิคปูอัดริคเตอร์ พาร์ทเนอร์รีทัช มาร์ชไอติม
+                    ม้าหินอ่อน ฮีโร่ บาร์บี้ ทับซ้อนโมเดิร์นคาร์โก้สปอต ลิมูซีนมาร์เก็ตติ้ง
+                    ฮัมถูกต้องโปรดิวเซอร์แอดมิชชั่น พาสเจอร์ไรส์โบ้ยเกสต์เฮาส์ บร็อกโคลีนรีแพทย์ ความหมายว่ะสมาพันธ์
+                    แหววเอสเพรสโซอพาร์ทเมนท์ มั้ยนิวส์ สต๊อคท็อปบู๊ท ไนน์เทวาระโงก แบคโฮช็อปชัตเตอร์
+                    ตอกย้ำฮ็อตด็อกตัวตนอัลตราแซ็ก ปอดแหก คอนเซ็ปต์ม้งเวเฟอร์ ซูฮกสเก็ตช์ กีวีวิดีโอ ทัวริสต์ เซรามิก
+                    ม้าหินอ่อน แมกกาซีนฟรุตสปอตแชมปิยอง วีเจ สเก็ตช์แฟล็ตแพกเกจกุนซือ แดนเซอร์ไหร่ รันเวย์ปาสกาลโบ้ย
+                    ฟีเวอร์มาร์เก็ตคอนเทนเนอร์รัม ฟีเวอร์ เซฟตี้ดีกรี สไตรค์สามช่าดาวน์ โมเดิร์นเทค จิตพิสัย อัลมอนด์
+                    ทิปวโรกาส นายแบบแอลมอนด์วอลล์ แทคติค โอยัวะดาวน์ใช้งานแทงกั๊ก สเตชันฟรุต ริกเตอร์คาราโอเกะ
+                    ปาสกาลอิกัวนา ฮัลโหล ไฮบริด พาสปอร์ต แจม ยนตรกรรม มอคค่าเซ็นทรัลซาร์ดีน จูเนียร์ต่อยอดฟอยล์
+                    อัลมอนด์สะบึมวาไรตี้ เทคนิค ดูน่าสนใจขึ้นมากกว่าภาพนิ่ง แอปเปิล เชฟโปรเจคท์ ฟีด คอร์ป
+                    อ่วมแพนดาพะเรอเจ็ต ฮาโลวีนทับซ้อนรีเสิร์ช สเตชัน เอ็นทรานซ์คอรัปชั่นแคร็กเกอร์
+                    สี่แยกล็อบบี้ซิมพันธกิจ แคปซูเอี๋ยสตรอว์เบอร์รี นิรันดร์สมิติเวชดาวน์ สป็อต แทงโก้วาริชศาสตร์
+                    ออร์แกนิค เซ็นเตอร์โอเพ่นแฟรนไชส์ราเมน บร็อกโคลีแมคเคอเรลบูติค ตัวเองสต๊อก โค้ชคอนแทคอพาร์ทเมนต์
+                    เหมยแครกเกอร์รีโมต แอพพริคอทออเดอร์หลวงตาคลิป อัตลักษณ์ฟรุตบ๊อบ วิดีโอแอโรบิค
+                    วาไรตี้เยอบีราแคมป์สถาปัตย์ บอมบ์ตุ๊กตุ๊กผลไม้พิซซ่าอัลมอนด์ ตุ๊กช็อค สไลด์ดยุค ทัวร์
+                    เคลียร์มือถืป็อต แทงโก้วาริชศาสตร์
+                    ออร์แกนิค เซ็นเตอร์โอเพ่นแฟรนไชส์ราเมน บร็อกโคลีแมคเคอเรลบูติค ตัวเองสต๊อก โค้ชคอนแทคอพาร์ทเมนต์
+                    เหมยแครกเกอร์รีโมต แอพพริคอทออเดอร์หลวงตาคลิป อัตลักษณ์ฟรุตบ๊อบ วิดีโอแอโรบิค
+                    วาไรตี้เยอบีราแคมป์สถาปัตย์ บอมบ์ตุ๊กตุ๊กผลไม้พิซซ่าอัลมอนด์ ตุ๊กช็อค สไลด์ดยุค ทัวร์
+                    เคลียร์มือถือลามะ เทวาธิราชแบล็กวีเจ แบรนด์แอ็คชั่น โกะ ล็อตฮ็อตวัคค์
+                    ลอร์ดฟินิกซ์ยังไงฮวงจุ้ยฟินิกซ์ โอเลี้ยงคาปูชิโนโปรเจ็ค ความหมายปิกอัพมิวสิค คอมเมนท์ฟีดสมิติเวช
+                    รีไทร์ท็อปบู๊ท โมจิพิซซ่าซิง ลีกเพลซน็อก ลาเต้ แพ็ค ดีกรี สเปคดีพาร์ทเมนต์ แคร์ตื้บ
+                    หมวยรามเทพธัมโมคีตกวี สเตอริโอป๋อหลอจอหงวน พฤหัสรูบิคปูอัดริคเตอร์ พาร์ทเนอร์รีทัช มาร์ชไอติม
+                    ม้าหินอ่อน ฮีโร่ บาร์บี้ ทับซ้อนโมเดิร์นคาร์โก้สปอต ลิมูซีนมาร์เก็ตติ้ง
+                    ฮัมถูกต้องโปรดิวเซอร์แอดมิชชั่น พาสเจอร์ไรส์โบ้ยเกสต์เฮาส์ บร็อกโคลีนรีแพทย์ ความหมายว่ะสมาพันธ์
+                    แหววเอสเพรสโซอพาร์ทเมนท์ มั้ยนิวส์ สต๊อคท็อปบู๊ท ไนน์เทวาระโงก แบคโฮช็อปชัตเตอร์
+                    ตอกย้ำฮ็อตด็อกตัวตนอัลตราแซ็ก ปอดแหก คอนเซ็ปต์ม้งเวเฟอร์ ซูฮกสเก็ตช์ กีวีวิดีโอ ทัวริสต์ เซรามิก
+                    ม้าหินอ่อน แมกกาซีนฟรุตสปอตแชมปิยอง วีเจ สเก็ตช์แฟล็ตแพกเกจกุนซือ แดนเซอร์ไหร่ รันเวย์ปาสกาลโบ้ย
+                    ฟีเวอร์มาร์เก็ตคอนเทนเนอร์รัม ฟีเวอร์ เซฟตี้ดีกรี สไตรค์สามช่าดาวน์ โมเดิร์นเทค จิตพิสัย อัลมอนด์
+                    ทิปวโรกาส นายแบบแอลมอนด์วอลล์ แทคติค โอยัวะดาวน์ใช้งานแทงกั๊ก สเตชันฟรุต ริกเตอร์คาราโอเกะ
+                    ปาสกาลอิกัวนา ฮัลโหล ไฮบริด พาสปอร์ต แจม ยนตรกรรม มอคค่าเซ็นทรัลซาร์ดีน จูเนียร์ต่อยอดฟอยล์
+                    อัลมอนด์สะบึมวาไรตี้ เทคนิค ดูน่าสนใจขึ้นมากกว่าภาพนิ่ง
+                </p>
+
+            </article>
+            <article class="main_article">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>予或订真曾蒲掉这雷召了力持亡天会惊，如国若洪关回，不好瞠导月小沉商光九，许化战法药陛文在太历，仅命韩但年留郭尹便朗后贼天杨氏叹，反乐是下者几教三，能本谢杨，王高元，念秦不时韩啊洪为气快土谋，娘纯才圣人非处嗣招是够归盲资尘今如，曰中不人看，由至骂天生，不拿融入德小答未，自憾到我天以次杨生葬当非落战会览自，也帅等朗全谓谭见应不么以玉姑五玉，畴定诗策，升不人吾谓尘乡惊韩厄有爱月骂生极保，但反虽人君感自觉洪快在如司登然心时郭商，对绪中动人，投次留低生预里一起，土不太么历的服娘游已哥承老嗣，他血音冒小不了后同法订皇，仄人房，为那承太我怒资十承，竟极娘创谭雷是甲人活郭马化极，李却老里徒但感气明人杀国后给地，得友何磊我不说看以国书，郭的好谷，令创对在畴惊，中死大秦入是杨山则死了耐担，君就不太回明张价斗其后几，国一了反我才一派怎派羊法恶种领落里定，揽们秦贼的，联我力使种到久秦只在，投你仍亲妄吞一感览主兄到在啦不后，上罚范留因弟知说正仓的非生过珍，要自马外思怒关与国那俭着回的法世也人韩，杨陈看于日笔变人五迷不生传年气倒锐人下，谢非血没卡落别意更一方学己才才外司那区，与魂不召者但那，土为小，并非大沾帝能。
+                </p>
+
+            </article>
+        </section>
+        <aside id="main_aside">
+            <input type="radio" name="tab" id="first" checked="checked">
+            <input type="radio" name="tab" id="second">
+            <section class="buttons">
+                <label for="first">First</label>
+                <label for="second">Second</label>
+            </section>
+            <div class="tab_item">
+                <ul>
+                    <li class="item"><a href="#">
+                            <div class="thumbnail"><img src="https://picsum.photos/id/1020/45/45"></div>
+                            <div class="description"><strong>HTML5 Canvas</strong>
+                                <p>2021-01-08</p>
+                            </div>
+                        </a></li>
+                    <li class="item"><a href="#">
+                            <div class="thumbnail"><img src="https://picsum.photos/id/1020/45/45"></div>
+                            <div class="description"><strong>HTML5 Audio</strong>
+                                <p>2021-01-08</p>
+                            </div>
+                        </a></li>
+                    <li class="item"><a href="#">
+                            <div class="thumbnail"><img src="https://picsum.photos/id/1020/45/45"></div>
+                            <div class="description"><strong>HTML5 Video</strong>
+                                <p>2021-01-08</p>
+                            </div>
+                        </a></li>
+                    <li class="item"><a href="#">
+                            <div class="thumbnail"><img src="https://picsum.photos/id/1020/45/45"></div>
+                            <div class="description"><strong>HTML5 Semantic Web</strong>
+                                <p>2021-01-08</p>
+                            </div>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="tab_item">
+                <ul>
+                    <li><a href="#">CSS3 Transition</a></li>
+                    <li><a href="#">CSS3 Animation</a></li>
+                    <li><a href="#">CSS3 Border</a></li>
+                    <li><a href="#">CSS3 Box</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+    <footer id="main_footer">
+        <h3>HTML5 + CSS3 Basic</h3>
+        <address>Website Layout Basic</address>
+    </footer>
+
+
+</body>
+
+</html>

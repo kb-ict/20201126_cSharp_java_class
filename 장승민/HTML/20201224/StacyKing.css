@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+  }
+  .bg-custom{
+   background: #efefef;
+    //background:#777;
+  }
+  /**************************/
+  #header{
+    margin:15px 5px;
+    font-family: 'Handlee', cursive;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:280px;
+    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+    background-size: cover;
+    text-align:center;
+    border-radius:15px;
+  }
+  #img-caption{
+     // font-size: 25pt;
+      color: #3b464c;
+      padding-top: 0px;
+  }
+  #img-div{
+    width:98%;
+    max-width: 100%;
+    display: block;
+    height:auto;
+    margin:auto;
+    //background:white;
+  }
+  #image img{
+    max-width:100%;
+    /*this is the only way to make image responsive inside the flexbox*/
+    margin:auto;
+    display: block;
+    border:6px solid #fff;
+    border-radius:50%;
+    
+  }
+  #image{
+    /*responsive*/
+    max-width: 99%;
+    height: auto;
+        /* */ 
+    /*centerized*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+         /* */
+    
+  }
+  /********************************/
+  #about-me{
+    font-family: 'Handlee', cursive;
+    border-radius:15px;
+  }
+  #about-me h2, #my-codeing-schedule h2, #skills h2 , #my-media h2, #contact h2, #follow h2{
+    display:inline-block;
+    text-align:center;
+    border:5px dashed #20bcd5;
+    padding:20px 15px;
+    color:#20bcd5;
+    margin:auto 10px;
+  }
+  #about-me .content{
+    font-size:25px;
+  }
+  #about-me .right{
+    font-size:25px;
+  }
+  /*********************************/
+  #my-codeing-schedule, #skills, #my-media , #contact, #follow{
+    margin:15px 5px;
+    font-family: 'Handlee', cursive;
+    border-radius:15px;
+    
+  }
+  tbody td h4{
+    font-size:30px;
+  }
+  table, th, td, thead {
+   border: 3px solid #cecece;
+   border-collapse: collapse;
+  }
+  /********************************/
+  #skills ul h4{
+    font-size:30px;
+    margin-bottom:-4px;
+  }
+  #skills li{
+   // border:1px solid black;
+    margin:20px 5px 10px 5px ;
+  }
+  progress {
+      width: 70%;
+      height: 30px;
+      color: #3fb6b2;
+      background: #efefef;
+      margin-top:0px;
+  }
+  progress::-webkit-progress-bar {
+      background: #efefef;
+  }
+  progress::-webkit-progress-value {
+      background: #3fb6b2;
+  } 
+  progress::-moz-progress-bar {
+      color: #3fb6b2;
+      background: #efefef;
+  }
+  /********************************/
+  #my-media iframe{
+    border:5px solid #3fb6b2;
+  }
+  #survey-form input, #survey-form #texbox{
+  background-color :#f0f0f0; 
+  
+  }
+  ::placeholder {
+    color: rgb(128, 128, 128);
+    font-weight:bold;
+    font-family:'Arial', sans-serif;
+    font-size: 15px;
+  }
+  #survey-form button[type="submit"]{
+    color:#FFF;
+    background:#3fb6b2;
+    border:1px solid #3fb6b2;
+    font-size:20px;
+    font-weight:800;
+    padding:10px 10px;
+    margin-top:10px;
+    border-radius:5px;
+  }
+  #survey-form button[type="submit"]:hover, #survey-form button[type="submit"]:active{
+    color:#fff;
+    background-color: #43a09d;
+    border:1px solid #43a09d;
+    box-shadow:none;
+  }
+  /***************************/
+  #follow a:hover{
+     text-decoration: none;
+  }
+  .hvr-grow{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  #follow img:hover{
+    opacity:0.6;
+  }
+  #foot{
+    font-family: 'Handlee', cursive;
+    color:gray;
+    font-size:18px;
+    margin-top:0px;
+  }
+  

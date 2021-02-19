@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 상태 선택자 -->
+    <style>
+        /* chech박스를 체크하면, 그 바로 뒤에 있는 태그가 사라짐 */
+        input[type=checkbox]:checked+div {
+            height: 0px;
+        }
+
+        div {
+            overflow: hidden;
+            width: 650px;
+            height: 300px;
+            -ms-transition-duration: 0.1s;
+            -webkit-transition-duration: 0.1s;
+            -moz-transition-duration: 0.1s;
+            transition-duration: 0.1s;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="checkbox">
+    <div>
+        <h1>失句谭亡而友厄不上。</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nostrum quo architecto! Dolores maiores et
+            asperiores ab, sequi nulla vero perspiciatis hic, veritatis iusto quae quisquam accusantium eligendi quia
+            magnam in beatae provident impedit eum molestiae quibusdam neque repellat omnis. Culpa sit minima beatae
+            possimus commodi aut earum asperiores, voluptatem sed maiores velit minus dicta dolore in ad assumenda sunt
+            perferendis temporibus debitis animi illo quidem nemo ex. Labore dignissimos assumenda molestias
+            exercitationem quidem temporibus sapiente enim dicta illo inventore molestiae, sunt itaque quo culpa earum
+            quam atque quibusdam similique ipsum? Odio ad asperiores, accusamus explicabo necessitatibus ullam
+            aspernatur error.</p>
+
+
+
+    </div>
+</body>
+
+</html>

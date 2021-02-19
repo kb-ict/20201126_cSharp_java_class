@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <textarea  cols="50" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam impedit quibusdam consectetur necessitatibus vitae. Cupiditate doloribus, facere ex perferendis quas accusantium sunt iste eaque quod animi, architecto exercitationem beatae autem ullam harum asperiores ad illo saepe repellat delectus eos non impedit commodi aut! Incidunt, aperiam quisquam! Repellat perspiciatis laudantium placeat.</textarea>
+<!-- textarea 주의점 .  
+    태그 안의 공백들도 모두 그대로 출력. -->
+<textarea  cols="50" rows="10">
+테스트
+테스트
+</textarea>
+<!-- 일반적인 태그에서는 태그내 공백이 없다. -->
+<!-- 줄 띄움하려면 특수문자 필요하고 글자도 한 칸만 띄어짐 -->
+
+<p>
+    테             스트
+    테스트
+
+</p>
+<!-- &nbsp : 스페이스바 -->
+<!-- <br> : 줄바꿈-->
+<p> 테&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp스트<br>
+ 테스트
+</p>
+<!-- p contenteditable p태그의 문장을 수정할 수 있음. -->
+<p contenteditable>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, qui?</p>
+</body>
+</html>

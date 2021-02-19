@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <script>
+        $(function(){
+
+            $('form').submit(function(event){
+                var name = $('#name').val();
+            var pw = $('#password').val();
+
+
+            alert(`'name : ${name}, 비번 : ${pw}'`);
+            alert('name :'+ name + ', 비번 :'+ pw);
+
+            // 기본이벤트 제거
+            //event : jQuery에서 제공해주는 객체
+            event.preventDefault();
+            });
+            
+        });
+    </script>
+</head>
+<body>
+    <form >
+        <input id="name" type="text">
+        <input id="password" type="text">
+        <input type="submit" value="제출">
+    </form>
+</body>
+</html>

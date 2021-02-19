@@ -1,0 +1,7 @@
+D:\Jaun\Juann\Cshap\201218_coding\201218_coding_sol\201218_coding_sol\bin\Debug\201218_coding_sol.exe.config
+D:\Jaun\Juann\Cshap\201218_coding\201218_coding_sol\201218_coding_sol\bin\Debug\201218_coding_sol.exe
+D:\Jaun\Juann\Cshap\201218_coding\201218_coding_sol\201218_coding_sol\bin\Debug\201218_coding_sol.pdb
+D:\Jaun\Juann\Cshap\201218_coding\201218_coding_sol\201218_coding_sol\obj\Debug\201218_coding_sol.csprojAssemblyReference.cache
+D:\Jaun\Juann\Cshap\201218_coding\201218_coding_sol\201218_coding_sol\obj\Debug\201218_coding_sol.csproj.CoreCompileInputs.cache
+D:\Jaun\Juann\Cshap\201218_coding\201218_coding_sol\201218_coding_sol\obj\Debug\201218_coding_sol.exe
+D:\Jaun\Juann\Cshap\201218_coding\201218_coding_sol\201218_coding_sol\obj\Debug\201218_coding_sol.pdb

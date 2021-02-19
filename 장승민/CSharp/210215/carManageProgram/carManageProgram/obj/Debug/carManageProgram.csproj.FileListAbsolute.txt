@@ -1,0 +1,6 @@
+D:\Jaun\Juann\Cshap\210215\carManageProgram\carManageProgram\bin\Debug\carManageProgram.exe.config
+D:\Jaun\Juann\Cshap\210215\carManageProgram\carManageProgram\bin\Debug\carManageProgram.exe
+D:\Jaun\Juann\Cshap\210215\carManageProgram\carManageProgram\bin\Debug\carManageProgram.pdb
+D:\Jaun\Juann\Cshap\210215\carManageProgram\carManageProgram\obj\Debug\carManageProgram.csproj.CoreCompileInputs.cache
+D:\Jaun\Juann\Cshap\210215\carManageProgram\carManageProgram\obj\Debug\carManageProgram.exe
+D:\Jaun\Juann\Cshap\210215\carManageProgram\carManageProgram\obj\Debug\carManageProgram.pdb

@@ -1,0 +1,7 @@
+D:\Jaun\Juann\Cshap\210215\studentManageProgram\studentManageProgram\bin\Debug\studentManageProgram.exe.config
+D:\Jaun\Juann\Cshap\210215\studentManageProgram\studentManageProgram\bin\Debug\studentManageProgram.exe
+D:\Jaun\Juann\Cshap\210215\studentManageProgram\studentManageProgram\bin\Debug\studentManageProgram.pdb
+D:\Jaun\Juann\Cshap\210215\studentManageProgram\studentManageProgram\obj\Debug\studentManageProgram.csprojAssemblyReference.cache
+D:\Jaun\Juann\Cshap\210215\studentManageProgram\studentManageProgram\obj\Debug\studentManageProgram.csproj.CoreCompileInputs.cache
+D:\Jaun\Juann\Cshap\210215\studentManageProgram\studentManageProgram\obj\Debug\studentManageProgram.exe
+D:\Jaun\Juann\Cshap\210215\studentManageProgram\studentManageProgram\obj\Debug\studentManageProgram.pdb

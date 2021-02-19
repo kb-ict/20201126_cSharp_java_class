@@ -1,0 +1,7 @@
+D:\Juann\Juann\Cshap\201221_Beakjun\Beakjun_\Beakjun_\bin\Debug\Beakjun_.exe.config
+D:\Juann\Juann\Cshap\201221_Beakjun\Beakjun_\Beakjun_\bin\Debug\Beakjun_.exe
+D:\Juann\Juann\Cshap\201221_Beakjun\Beakjun_\Beakjun_\bin\Debug\Beakjun_.pdb
+D:\Juann\Juann\Cshap\201221_Beakjun\Beakjun_\Beakjun_\obj\Debug\Beakjun_.csprojAssemblyReference.cache
+D:\Juann\Juann\Cshap\201221_Beakjun\Beakjun_\Beakjun_\obj\Debug\Beakjun_.csproj.CoreCompileInputs.cache
+D:\Juann\Juann\Cshap\201221_Beakjun\Beakjun_\Beakjun_\obj\Debug\Beakjun_.exe
+D:\Juann\Juann\Cshap\201221_Beakjun\Beakjun_\Beakjun_\obj\Debug\Beakjun_.pdb

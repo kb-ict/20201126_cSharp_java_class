@@ -1,0 +1,10 @@
+D:\Jaun\Juann\Cshap\sample_login_form\sample_login_form\bin\Debug\sample_login_form.exe.config
+D:\Jaun\Juann\Cshap\sample_login_form\sample_login_form\bin\Debug\sample_login_form.exe
+D:\Jaun\Juann\Cshap\sample_login_form\sample_login_form\bin\Debug\sample_login_form.pdb
+D:\Jaun\Juann\Cshap\sample_login_form\sample_login_form\obj\Debug\sample_login_form.csprojAssemblyReference.cache
+D:\Jaun\Juann\Cshap\sample_login_form\sample_login_form\obj\Debug\sample_login_form.Form1.resources
+D:\Jaun\Juann\Cshap\sample_login_form\sample_login_form\obj\Debug\sample_login_form.Properties.Resources.resources
+D:\Jaun\Juann\Cshap\sample_login_form\sample_login_form\obj\Debug\sample_login_form.csproj.GenerateResource.cache
+D:\Jaun\Juann\Cshap\sample_login_form\sample_login_form\obj\Debug\sample_login_form.csproj.CoreCompileInputs.cache
+D:\Jaun\Juann\Cshap\sample_login_form\sample_login_form\obj\Debug\sample_login_form.exe
+D:\Jaun\Juann\Cshap\sample_login_form\sample_login_form\obj\Debug\sample_login_form.pdb

@@ -1,0 +1,38 @@
+
+body{
+    background-color: lightblue;
+}
+
+.carousel-inner img {
+    border: 2px outset black;
+}
+
+.row-cols-3 {
+    background-color: lawngreen;
+}
+
+.header {
+    margin-top: 20px;
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: mediumseagreen;
+}
+.aside{
+    background-color: mediumvioletred;
+}
+.personal{
+    background-color: beige;
+}
+
+#trainSearch .btn-sm{
+margin-left: 5px;
+}
+.dropdown-menu {         
+    max-height: 200px;
+    overflow-y: auto;
+  }
+#day{
+    width: 30px;
+}

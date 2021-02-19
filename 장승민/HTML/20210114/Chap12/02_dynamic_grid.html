@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            /* 중앙정렬 */
+            margin: 0 ;
+            padding: 0;
+        }
+
+        /* 수평정렬 */
+        .row {
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .row [class*=span] {
+            float: left;
+            margin-left: 2%;
+            /* Gutter 적용함*/
+        }
+
+        .row [class*=span]:first-child {
+            margin-left: 0;
+        }
+
+        .span_1 {
+            width: 6.5%;
+            *width: 6%;
+            /* 스타핵 : 구버전의 인터넷 익스플롤러 용*/
+        }
+
+        .span_2 {
+            width: 15%;
+            *width: 14.5%;
+        }
+
+        .span_3 {
+            width: 23.5%;
+            *width: 23%;
+        }
+
+        .span_4 {
+            width: 32%;
+            *width: 31.5%;
+        }
+
+        .span_5 {
+            width: 40.5%;
+            *width: 40%;
+        }
+
+        .span_6 {
+            width: 49%;
+            *width: 48.5%;
+        }
+
+        .span_7 {
+            width: 57.5%;
+            *width: 57%;
+        }
+
+        .span_8 {
+            width: 66%;
+            *width: 65.5%;
+        }
+
+        .span_9 {
+            width: 74.5%;
+            *width: 74%;
+        }
+
+        .span_10 {
+            width: 83%;
+            *width: 82.5%;
+        }
+
+        .span_11 {
+            width: 91.5%;
+            *width: 91%;
+        }
+
+        .span_12 {
+            width: 100%;
+            *width: 99.5%;
+        }
+
+        * {
+            background-color: black;
+            color: lightgrey;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="span_12">
+                <h1>header</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam qui iure dignissimos sunt soluta
+                    eius nemo quisquam, hic quas accusamus.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span_6">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus harum mollitia, id quos magnam illum assumenda eius. Soluta totam temporibus non aperiam
+                    repellat? Architecto fugiat, autem voluptatum molestias illum voluptates! adipisicing elit. Deleniti
+                    dolore dicta iusto mollitia sed aut
+                    doloribus unde at ab illo.</p>
+            </div>
+            <div class="span_6">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus harum mollitia, id quos magnam illum assumenda eius. Soluta totam temporibus non aperiam
+                    repellat? Architecto fugiat, autem voluptatum molestias illum voluptates! adipisicing elit. Deleniti
+                    dolore dicta iusto mollitia sed aut
+                    doloribus unde at ab illo.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span_4">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus harum mollitia, id quos magnam illum assumenda eius. Soluta totam temporibus non aperiam
+                    repellat? Architecto fugiat, autem voluptatum molestias illum voluptates! adipisicing elit. Deleniti
+                    dolore dicta iusto mollitia sed aut
+                    doloribus unde at ab illo.</p>
+            </div>
+            <div class="span_4">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus harum mollitia, id quos magnam illum assumenda eius. Soluta totam temporibus non aperiam
+                    repellat? Architecto fugiat, autem voluptatum molestias illum voluptates! adipisicing elit. Deleniti
+                    dolore dicta iusto mollitia sed aut
+                    doloribus unde at ab illo.</p>
+            </div>
+            <div class="span_4">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus harum mollitia, id quos magnam illum assumenda eius. Soluta totam temporibus non aperiam
+                    repellat? Architecto fugiat, autem voluptatum molestias illum voluptates! adipisicing elit. Deleniti
+                    dolore dicta iusto mollitia sed aut
+                    doloribus unde at ab illo.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span_3">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus harum mollitia, id quos magnam illum assumenda eius. Soluta totam temporibus non aperiam
+                    repellat? Architecto fugiat, autem voluptatum molestias illum voluptates! adipisicing elit. Deleniti
+                    dolore dicta iusto mollitia sed aut
+                    doloribus unde at ab illo.</p>
+            </div>
+            <div class="span_3">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus harum mollitia, id quos magnam illum assumenda eius. Soluta totam temporibus non aperiam
+                    repellat? Architecto fugiat, autem voluptatum molestias illum voluptates! adipisicing elit. Deleniti
+                    dolore dicta iusto mollitia sed aut
+                    doloribus unde at ab illo.</p>
+            </div>
+            <div class="span_3">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus harum mollitia, id quos magnam illum assumenda eius. Soluta totam temporibus non aperiam
+                    repellat? Architecto fugiat, autem voluptatum molestias illum voluptates! adipisicing elit. Deleniti
+                    dolore dicta iusto mollitia sed aut
+                    doloribus unde at ab illo.</p>
+            </div>
+            <div class="span_3">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus harum mollitia, id quos magnam illum assumenda eius. Soluta totam temporibus non aperiam
+                    repellat? Architecto fugiat, autem voluptatum molestias illum voluptates! adipisicing elit. Deleniti
+                    dolore dicta iusto mollitia sed aut
+                    doloribus unde at ab illo.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span_2">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus harum mollitia, id quos magnam illum assumenda eius. Soluta totam temporibus non aperiam
+                    repellat? Architecto fugiat, autem voluptatum molestias illum voluptates! adipisicing elit. Deleniti
+                    dolore dicta iusto mollitia sed aut
+                    doloribus unde at ab illo.</p>
+            </div>
+            <div class="span_2">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus harum mollitia, id quos magnam illum assumenda eius. Soluta totam temporibus non aperiam
+                    repellat? Architecto fugiat, autem voluptatum molestias illum voluptates! adipisicing elit. Deleniti
+                    dolore dicta iusto mollitia sed aut
+                    doloribus unde at ab illo.</p>
+            </div>
+            <div class="span_2">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus harum mollitia, id quos magnam illum assumenda eius. Soluta totam temporibus non aperiam
+                    repellat? Architecto fugiat, autem voluptatum molestias illum voluptates! adipisicing elit. Deleniti
+                    dolore dicta iusto mollitia sed aut
+                    doloribus unde at ab illo.</p>
+            </div>
+            <div class="span_2">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus harum mollitia, id quos magnam illum assumenda eius. Soluta totam temporibus non aperiam
+                    repellat? Architecto fugiat, autem voluptatum molestias illum voluptates! adipisicing elit. Deleniti
+                    dolore dicta iusto mollitia sed aut
+                    doloribus unde at ab illo.</p>
+            </div>
+            <div class="span_2">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus harum mollitia, id quos magnam illum assumenda eius. Soluta totam temporibus non aperiam
+                    repellat? Architecto fugiat, autem voluptatum molestias illum voluptates! adipisicing elit. Deleniti
+                    dolore dicta iusto mollitia sed aut
+                    doloribus unde at ab illo.</p>
+            </div>
+            <div class="span_2">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Delectus harum mollitia, id quos magnam illum assumenda eius. Soluta totam temporibus non aperiam
+                    repellat? Architecto fugiat, autem voluptatum molestias illum voluptates! adipisicing elit. Deleniti
+                    dolore dicta iusto mollitia sed aut
+                    doloribus unde at ab illo.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span_1">
+                <h1>lo</h1>
+                <p>12</p>
+            </div>
+            <div class="span_1">
+                <h1>lo</h1>
+                <p>12</p>
+            </div>
+            <div class="span_1">
+                <h1>lo</h1>
+                <p>12</p>
+            </div>
+            <div class="span_1">
+                <h1>lo</h1>
+                <p>12</p>
+            </div>
+            <div class="span_1">
+                <h1>lo</h1>
+                <p>12</p>
+            </div>
+            <div class="span_1">
+                <h1>lo</h1>
+                <p>12</p>
+            </div>
+            <div class="span_1">
+                <h1>lo</h1>
+                <p>12</p>
+            </div>
+            <div class="span_1">
+                <h1>lo</h1>
+                <p>12</p>
+            </div>
+            <div class="span_1">
+                <h1>lo</h1>
+                <p>12</p>
+            </div>
+            <div class="span_1">
+                <h1>lo</h1>
+                <p>12</p>
+            </div>
+            <div class="span_1">
+                <h1>lo</h1>
+                <p>12</p>
+            </div>
+            <div class="span_1">
+                <h1>lo</h1>
+                <p>12</p>
+            </div>
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

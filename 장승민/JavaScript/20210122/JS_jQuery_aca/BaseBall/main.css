@@ -1,0 +1,19 @@
+.container{
+    width: 400px;
+    height: 600px;
+    background-color: lightgreen;
+    
+}
+.btn-lg{
+    width: 120px;
+    height: 120px;
+    padding: 30px;
+    background-color: lightgreen;
+}
+.btn-lg:hover {
+    background-color: lightblue; 
+    color: black;
+  }
+.number{
+    margin: 20px;
+}

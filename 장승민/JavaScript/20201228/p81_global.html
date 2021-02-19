@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>varscope</title>
+    <script>
+        var global = "전역";
+    </script>
+</head>
+
+<body>
+    <script>
+        function func() {
+            var local = "로컬";
+            document.write("함수 안 local =" + local + "<br>");
+            document.write("함수 안 global =" + global + "<br>");
+        }
+        func();
+        // document.write("함수 밖 local ="+local +"<br>");
+        document.write("함수 밖 global =" + global + "<br>");
+    </script>
+</body>
+
+</html>

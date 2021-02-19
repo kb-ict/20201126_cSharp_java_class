@@ -1,0 +1,7 @@
+D:\Jaun\Juann\Cshap\201228_Csharp_array\CSharp_array\CSharp_array\bin\Debug\CSharp_array.exe.config
+D:\Jaun\Juann\Cshap\201228_Csharp_array\CSharp_array\CSharp_array\bin\Debug\CSharp_array.exe
+D:\Jaun\Juann\Cshap\201228_Csharp_array\CSharp_array\CSharp_array\bin\Debug\CSharp_array.pdb
+D:\Jaun\Juann\Cshap\201228_Csharp_array\CSharp_array\CSharp_array\obj\Debug\CSharp_array.csprojAssemblyReference.cache
+D:\Jaun\Juann\Cshap\201228_Csharp_array\CSharp_array\CSharp_array\obj\Debug\CSharp_array.csproj.CoreCompileInputs.cache
+D:\Jaun\Juann\Cshap\201228_Csharp_array\CSharp_array\CSharp_array\obj\Debug\CSharp_array.exe
+D:\Jaun\Juann\Cshap\201228_Csharp_array\CSharp_array\CSharp_array\obj\Debug\CSharp_array.pdb

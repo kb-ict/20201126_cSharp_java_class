@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <script>
+        var one =1;
+        var two = '2';
+        let three = 3;
+        var one=111;
+        console.log('hi');
+        // let 변수 중복선언 안됨
+      
+        console.log('hello');
+
+        var arr = [1,2,3,4,"이게돼?",'헐',4,'음'];
+        for(var i=0;i<arr.length;i++){
+            console.log(arr[i]);
+        }
+        arr=100;
+        console.log(arr);
+
+        var obj = {
+                    name:'장승민',
+                    age:30,
+                    teacher:'이동준',
+                    123 : '이게돼?',
+                    _:'언더바는 허용됨'
+        }
+        console.log(obj['name']);
+        console.log(obj['age']);
+        console.log(obj['teacher']);
+        console.log(obj['123']);
+        console.log(obj['_']);
+        console.log(obj.name);
+        console.log(obj.age);
+        console.log(obj.teacher);
+        console.log(obj._);
+
+        var wow = function(){
+            console.log('대애애박');
+        };
+        wow();
+
+        console.log(wow);
+        console.log(wow());
+
+        var devilArray =[
+                        1,2,'3',{ teacher : "이동준", name:"장승민"},[1,2,3]
+        ]
+        console.log(devilArray[0]);
+        console.log(devilArray[1]);
+        console.log(devilArray[2]);
+        console.log(devilArray[3]);
+        console.log(devilArray[4]);
+
+        console.log('~~~~~~~~~~~~~~~~~~~~');
+        var devilJson={
+            one : [1,2,3,4,5],
+            two : {two_one : '2',
+                    two_two : 'twotwo'},
+            three :5
+        }
+        console.log(devilJson['one']);
+        console.log(devilJson.two);
+        console.log(devilJson.three);
+        
+    </script>
+</body>
+</html>

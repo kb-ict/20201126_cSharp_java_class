@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .redText{
+            color:red;
+        }
+    </style>
+    </head>
+<body>
+    <h1 id="firstHeadTag">Lorem ipsum dolor sit amet.</h1>
+    <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, fugit.</h2>
+    
+    <script>
+
+    //자바스크립트(=DOM 객체를 이용했다)
+    var fir = document.querySelector('#firstHeadTag');
+
+    // 속성을 줘서 스타일 바꾸기
+    fir.setAttribute('class','redText');
+    
+    //직접 스타일 바꾸기
+    fir.style.background='yellow';
+
+    </script>
+
+
+    <script>
+        console.log('Hello world');
+        alert('하위^^');
+        document.write('하위^^');
+
+        var now =100;
+        now = '노경준';
+        now = 100.5;
+        now =[1,2,3,4,5];
+        now = {
+            name : '노경준',
+            teacher :'이동준',
+            age : 12
+        };
+    </script>
+</body>
+</html>

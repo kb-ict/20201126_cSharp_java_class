@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .example
+        {
+            color: red;
+        }
+        /* h1이면서 class 명이 example인것 */
+        h1.example
+        {
+            background-color: aqua;
+        }
+        /* class 속성값이 example이면서 test인것 */
+        .example.test
+    {
+        color: blue;
+    }
+    .test
+    {
+        font-style: italic;
+    }
+    </style>
+</head>
+<body>
+    <h1 class="example">lorem</h1>
+    <!-- example test / test example 순서는 상관 없음 -->
+    <h1 class="example test">lorem</h1> 
+    <h1 class="test example">lorem</h1>
+    <h1>lorem</h1>
+    <h1 class="test">lorem</h1>
+    <p>lorem</p>
+    <p >lorem</p>
+    <p class="example">lorem</p>
+</body>
+</html>

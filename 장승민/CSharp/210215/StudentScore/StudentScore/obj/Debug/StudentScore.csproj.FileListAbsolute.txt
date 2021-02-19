@@ -1,0 +1,7 @@
+D:\Jaun\Juann\Cshap\210215\StudentScore\StudentScore\bin\Debug\StudentScore.exe.config
+D:\Jaun\Juann\Cshap\210215\StudentScore\StudentScore\bin\Debug\StudentScore.exe
+D:\Jaun\Juann\Cshap\210215\StudentScore\StudentScore\bin\Debug\StudentScore.pdb
+D:\Jaun\Juann\Cshap\210215\StudentScore\StudentScore\obj\Debug\StudentScore.csprojAssemblyReference.cache
+D:\Jaun\Juann\Cshap\210215\StudentScore\StudentScore\obj\Debug\StudentScore.csproj.CoreCompileInputs.cache
+D:\Jaun\Juann\Cshap\210215\StudentScore\StudentScore\obj\Debug\StudentScore.exe
+D:\Jaun\Juann\Cshap\210215\StudentScore\StudentScore\obj\Debug\StudentScore.pdb

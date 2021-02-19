@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        // 자바스크립트
+        window.onload = function () {
+            // alert('경고창 출력');
+            var adiv = document.getElementById('adiv');
+            var btn1 = document.getElementById('btn1');
+            console.log('javaScript adiv \n' + adiv);
+            adiv.style.backgroundColor = 'blue';
+            btn1.onclick = function () {
+                adiv.style.backgroundColor = 'yellow';
+            }
+        }
+
+        // jQuery
+        // $(document).ready(function(){
+        //     alert('경고창 출력');
+        // })
+
+        // ↓축약형
+        $(function () {
+            //     alert('경고창 출력');
+            var adiv = $('#adiv');
+            var btn2 = $('#btn2');
+            console.log('jQuery adiv \n' + adiv);
+            adiv.css('backgroundColor', 'red');
+            btn2.on('click', function () {
+                adiv.css('backgroundColor', 'green');
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div id="adiv">배경색 바뀜</div>
+    <button id="btn1">버튼</button>
+    <button id="btn2">버튼</button>
+</body>
+
+</html>

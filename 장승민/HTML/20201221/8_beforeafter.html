@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            /* p 태그가 늘어날 때 마다 증가하는 변수 */
+            counter-increment: rint;
+        }
+        /* p 태그 시작전에 카운터 변수 삽입 */
+        p::before
+        {
+            content: counter(rint) "."
+        }
+        /* p 태그 끝에다가 page 번호 삽입 */
+        p::after
+        {
+            content: " - "attr(data-page)" page ";
+            /* attr attribute: 속성 */
+        }
+        p::first-letter
+        {
+            font-size: 3em;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p data-page="52">我得而我极也持落尚家使路罪么登行之颜而，不躲这杨先韩打洋，就何书第会人承，说把子卡被气气以光此春准这天烦身为不，马他促甲太过家乐，尤为得化足谭非县禀极，恨入在千松略京逃变王陈九，说惜能无临付亓大谷秦。</p>
+    <p data-page="273">แอปเปิล เชฟโปรเจคท์ ฟีด คอร์ป อ่วมแพนดาพะเรอเจ็ต ฮาโลวีนทับซ้อนรีเสิร์ช สเตชัน เอ็นทรานซ์คอรัปชั่นแคร็กเกอร์ สี่แยกล็อบบี้ซิมพันธกิจ แคปซูเอี๋ยสตรอว์เบอร์รี นิรันดร์สมิติเวชดาวน์ สป็อต แทงโก้วาริชศาสตร์ ออร์แกนิค เซ็นเตอร์โอเพ่นแฟรนไชส์ราเมน บร็อกโคลีแมคเคอเรลบูติค ตัวเองสต๊อก โค้ชคอนแทคอพาร์ทเมนต์ เหมยแครกเกอร์รีโมต แอพพริคอทออเดอร์หลวงตาคลิป อัตลักษณ์ฟรุตบ๊อบ วิดีโอแอโรบิค วาไรตี้เยอบีราแคมป์สถาปัตย์ บอมบ์ตุ๊กตุ๊กผลไม้พิซซ่าอัลมอนด์ ตุ๊กช็อค สไลด์ดยุค ทัวร์ เคลียร์มือถือลามะ เทวาธิราชแบล็กวีเจ แบรนด์แอ็คชั่น โกะ ล็อตฮ็อตวัคค์ ลอร์ดฟินิกซ์ยังไงฮวงจุ้ยฟินิกซ์ โอเลี้ยงคาปูชิโนโปรเจ็ค ความหมายปิกอัพมิวสิค คอมเมนท์ฟีดสมิติเวช รีไทร์ท็อปบู๊ท โมจิพิซซ่าซิง ลีกเพลซน็อก ลาเต้ แพ็ค ดีกรี สเปคดีพาร์ทเมนต์ แคร์ตื้บ หมวยรามเทพธัมโมคีตกวี สเตอริโอป๋อหลอจอหงวน พฤหัสรูบิคปูอัดริคเตอร์ พาร์ทเนอร์รีทัช มาร์ชไอติม ม้าหินอ่อน</p>
+    <p data-page="12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nisi non neque labore delectus minima aut dolores in alias architecto debitis earum, ratione, vero, est voluptatibus eos omnis facere magni ipsa! Sequi aspernatur hic iure sit, placeat tempora deleniti voluptas in vitae quidem laborum. Cum esse ipsum fuga deleniti perferendis!</p>
+</body>
+</html>

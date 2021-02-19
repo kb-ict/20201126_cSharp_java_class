@@ -1,0 +1,7 @@
+D:\Jaun\Juann\Cshap\210208\210208_carClass\210208_carClass\bin\Debug\210208_carClass.exe.config
+D:\Jaun\Juann\Cshap\210208\210208_carClass\210208_carClass\bin\Debug\210208_carClass.exe
+D:\Jaun\Juann\Cshap\210208\210208_carClass\210208_carClass\bin\Debug\210208_carClass.pdb
+D:\Jaun\Juann\Cshap\210208\210208_carClass\210208_carClass\obj\Debug\210208_carClass.csproj.CoreCompileInputs.cache
+D:\Jaun\Juann\Cshap\210208\210208_carClass\210208_carClass\obj\Debug\210208_carClass.exe
+D:\Jaun\Juann\Cshap\210208\210208_carClass\210208_carClass\obj\Debug\210208_carClass.pdb
+D:\Jaun\Juann\Cshap\210208\210208_carClass\210208_carClass\obj\Debug\210208_carClass.csprojAssemblyReference.cache

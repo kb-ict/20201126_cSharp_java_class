@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+        $(function () {
+            $('input[type=checkbox]').removeAttr("checked");
+            $('#projects').tabs();
+            $('ul').sortable({
+                axis: "x",
+                containment: "#projects"
+            });
+            $('ol').sortable({
+                axis: "y",
+                containment: "#projects"
+            });
+            $('#projects').on('click', 'input[type=checkbox]', function () {
+                $(this).closest("li").slideUp(function () {
+                    $(this).remove();
+                });
+            });
+            $('#projects').on('click', 'span.ui-icon-close', function () {
+                var index = $(this).closest("li").index();
+                var id = $("#main li:eq(" + index + ") a").attr('href');
+                $("#main li:eq(" + index + ")").remove();
+                $(id).remove();
+                $('#projects').tabs('refresh');
+            });
+            $('#btnAddTask').button().click(function () {
+                $('#task-dialog').dialog({
+                    width: 400,
+                    resizable: false,
+                    modal: true,
+                    buttons: {
+                        "Add new task": function () {
+                            $('#projects').tabs("refresh");
+                            var activeTab = $('#projects').tabs("option", "active");
+
+                            var title = $("#main> li:nth-child(" + (activeTab + 1) +
+                                ") > a").attr("href");
+
+                            $("#projects " + title).append("<li><input type='checkbox'>" +
+                                $("#new-task").val() + "</li>");
+
+                            $('#new-task').val("");
+                            $(this).dialog("close");
+
+                        },
+                        "Cancle": function () {
+                            $('#new-task').val("");
+                            $(this).dialog("close");
+                        }
+                    }
+                })
+            });
+            $('#btnAddProject').button().click(function () {
+                $('#project-dialog').dialog({
+                    width: 400,
+                    resizable: false,
+                    modal: true,
+                    buttons: {
+                        "Add new project": function () {
+                            var projectName = $('#new-project').val();
+                            var replaceName = projectName.split(" ").join("_");
+                            $(" <li><a href='#" + replaceName + "'>" + projectName +
+                                    "</a><span class='ui-icon ui-icon-close'></span></li>")
+                                .appendTo('#main');
+                            $("<ol id='" + replaceName + "'></ol").appendTo('#projects')
+                                .sortable();
+                            $('#projects').tabs("refresh");
+
+                            var tabCount = $('#projects .ui-tabs-nav li').length;
+                            $('#projects').tabs('option', 'active', tabCount - 1);
+
+                            $('#new-project').val("");
+                            $(this).dialog("close");
+                        },
+                        "Cancle": function () {
+                            $('#new-project').val("");
+                            $(this).dialog("close");
+                        }
+                    }
+                });
+            });
+
+        });
+    </script>
+    <style>
+        #container {
+            width: 700px;
+            height: 450px;
+            margin: 70px auto;
+            border: 2px solid rgb(125, 181, 66);
+        }
+
+        h2 {
+            color: rgb(125, 181, 66);
+            text-align: center;
+        }
+
+        #projects {
+            width: 650px;
+            height: 250px;
+            margin: 0 auto;
+        }
+
+        ol li {
+            border: 1px dotted black;
+            cursor: pointer;
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+
+        ol li:hover {
+            background-color: #6eb7d6;
+        }
+
+        #btnAddProject {
+            margin-left: 540px;
+            margin-bottom: 20px;
+        }
+
+        #btnAddTask {
+            margin-left: 550px;
+            margin-top: 20px;
+        }
+
+        .ui-icon-close {
+            transform: scale(1.5);
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h2> To Do List</h2>
+        <button id="btnAddProject">Add Project</button>
+        <div id="projects">
+            <ul id="main">
+                <li><a href="#personal">Personal</a><span class="ui-icon ui-icon-close"></span></li>
+                <li><a href="#work">Work</a><span class="ui-icon ui-icon-close"></span></li>
+            </ul>
+            <ol id="personal">
+                <li><input type="checkbox">Doctor appointment</li>
+                <li><input type="checkbox">Call the plumber</li>
+            </ol>
+            <ol id="work">
+                <li><input type="checkbox">Complete test case document</li>
+                <li><input type="checkbox">Meet project manager</li>
+                <li><input type="checkbox">Record jQuery video</li>
+            </ol>
+        </div>
+        <button id="btnAddTask">Add Task</button>
+
+        <div id="project-dialog" title="Add a project" style="display: none;">
+            <label for="new-project">Project name:</label><input id="new-project" type="text">
+        </div>
+        <div id="task-dialog" title="Add a task" style="display: none;">
+            <label for="new-task">Task name:</label><input id="new-task" type="text">
+        </div>
+    </div>
+</body>
+
+</html>

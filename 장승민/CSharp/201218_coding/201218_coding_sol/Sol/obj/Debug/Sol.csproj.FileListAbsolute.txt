@@ -1,0 +1,7 @@
+D:\Jaun\Juann\Cshap\201218_coding\201218_coding_sol\Sol\bin\Debug\Sol.exe.config
+D:\Jaun\Juann\Cshap\201218_coding\201218_coding_sol\Sol\bin\Debug\Sol.exe
+D:\Jaun\Juann\Cshap\201218_coding\201218_coding_sol\Sol\bin\Debug\Sol.pdb
+D:\Jaun\Juann\Cshap\201218_coding\201218_coding_sol\Sol\obj\Debug\Sol.csprojAssemblyReference.cache
+D:\Jaun\Juann\Cshap\201218_coding\201218_coding_sol\Sol\obj\Debug\Sol.csproj.CoreCompileInputs.cache
+D:\Jaun\Juann\Cshap\201218_coding\201218_coding_sol\Sol\obj\Debug\Sol.exe
+D:\Jaun\Juann\Cshap\201218_coding\201218_coding_sol\Sol\obj\Debug\Sol.pdb

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*
+ * Slideshow
+ */
+.slideshow {
+    overflow: hidden;
+    position: relative;
+    min-width: 960px;/*960이하로는 줄지 않는다.*/
+    height: 465px;
+}
+.slideshow img {
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -800px;
+}
+
+/* JavsScript  */
+.no-js .slideshow img:first-child {
+    display: inline;
+}

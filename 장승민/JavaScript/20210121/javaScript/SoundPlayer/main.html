@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SoundPlayer</title>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <div class="app">
+        <header>
+            <!-- 시멘틱 웹에서 쓰임. div랑 같음-->
+            <h1>Lorem ipsum dolor sit.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, quia?</p>
+        </header>
+        <div class="visual">
+        </div>
+            <p class="title"></p>
+            <!-- (div[class=pad$]>audio[class=sound][src=sound/$.mp3])*6 -->
+            <div class="pads">
+                <div class="pad1">
+                    <audio src="sound/1.mp3" class="sound"></audio>
+                </div>
+                <div class="pad2">
+                    <audio src="sound/2.mp3" class="sound"></audio>
+                </div>
+                <div class="pad3">
+                    <audio src="sound/3.mp3" class="sound"></audio>
+                </div>
+                <div class="pad4">
+                    <audio src="sound/4.mp3" class="sound"></audio>
+                </div>
+                <div class="pad5">
+                    <audio src="sound/5.mp3" class="sound"></audio>
+                </div>
+                <div class="pad6">
+                    <audio src="sound/6.mp3" class="sound"></audio>
+                </div>
+            </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

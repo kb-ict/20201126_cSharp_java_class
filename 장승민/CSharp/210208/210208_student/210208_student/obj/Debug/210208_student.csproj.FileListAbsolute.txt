@@ -1,0 +1,7 @@
+D:\Jaun\Juann\Cshap\210208\210208_student\210208_student\bin\Debug\210208_student.exe.config
+D:\Jaun\Juann\Cshap\210208\210208_student\210208_student\bin\Debug\210208_student.exe
+D:\Jaun\Juann\Cshap\210208\210208_student\210208_student\bin\Debug\210208_student.pdb
+D:\Jaun\Juann\Cshap\210208\210208_student\210208_student\obj\Debug\210208_student.csprojAssemblyReference.cache
+D:\Jaun\Juann\Cshap\210208\210208_student\210208_student\obj\Debug\210208_student.csproj.CoreCompileInputs.cache
+D:\Jaun\Juann\Cshap\210208\210208_student\210208_student\obj\Debug\210208_student.exe
+D:\Jaun\Juann\Cshap\210208\210208_student\210208_student\obj\Debug\210208_student.pdb

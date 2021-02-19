@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function onA(){
+        var x,y,z;
+        x=10;
+        y=20;
+        z=30;
+        var myTxt1 = 'aaaa';
+        var myTxt2 = 'bbbb';
+        var adiv = document.getElementById('adiv');
+        adiv.innerHTML = x+y+z + myTxt1 + myTxt2;
+        }
+    </script>
+</head>
+<body>
+    <div id="adiv"></div>
+    <button onclick="onA()"></button>
+
+</body>
+</html>

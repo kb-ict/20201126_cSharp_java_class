@@ -1,0 +1,7 @@
+D:\Juann\Juann\Cshap\201221_Beakjun\Beak_Fibonacci\Beak_Fibonacci\bin\Debug\Beak_Fibonacci.exe.config
+D:\Juann\Juann\Cshap\201221_Beakjun\Beak_Fibonacci\Beak_Fibonacci\bin\Debug\Beak_Fibonacci.exe
+D:\Juann\Juann\Cshap\201221_Beakjun\Beak_Fibonacci\Beak_Fibonacci\bin\Debug\Beak_Fibonacci.pdb
+D:\Juann\Juann\Cshap\201221_Beakjun\Beak_Fibonacci\Beak_Fibonacci\obj\Debug\Beak_Fibonacci.csprojAssemblyReference.cache
+D:\Juann\Juann\Cshap\201221_Beakjun\Beak_Fibonacci\Beak_Fibonacci\obj\Debug\Beak_Fibonacci.csproj.CoreCompileInputs.cache
+D:\Juann\Juann\Cshap\201221_Beakjun\Beak_Fibonacci\Beak_Fibonacci\obj\Debug\Beak_Fibonacci.exe
+D:\Juann\Juann\Cshap\201221_Beakjun\Beak_Fibonacci\Beak_Fibonacci\obj\Debug\Beak_Fibonacci.pdb

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        
+        function sum(){
+        var one=document.getElementById('one').value;        
+        var two=document.getElementById('two').value;        
+        var result = Number(one) + Number(two);           
+        document.getElementById('result').innerText=result;
+        document.getElementById('char').innerText = '+';
+        }
+
+        function minus(){
+        var one=document.getElementById('one').value;
+        var two=document.getElementById('two').value;
+        var result = Number(one) - Number(two);    
+        document.getElementById('result').innerText=result;
+        document.getElementById('char').innerText = '-';
+        }
+
+        function gop(){
+        var one=document.getElementById('one').value;
+        var two=document.getElementById('two').value;        
+        var result= (Number(one) * Number(two));    
+        document.getElementById('result').innerText=result;
+        document.getElementById('char').innerText = 'x';
+        }
+
+        function divide(){
+        var one=document.getElementById('one').value;
+        var two=document.getElementById('two').value;        
+        var result= (Number(one) / Number(two));    
+        document.getElementById('result').innerText=result;
+        document.getElementById('char').innerText = '/';
+        }
+
+        
+    </script>
+</head>
+<body>
+    <input id="one" type="text">
+    <span id="char">+</span>
+    <input id="two" type="text">
+    <span> = </span>
+    <span id="result">결과</span>
+    <div style="margin-top: 10px;">
+    <input type="button" value="덧셈" onclick ="sum()">
+    <input type="button" value="뺄셈" onclick ="minus()">
+    <input type="button" value="곱셈" onclick ="gop()">
+    <input type="button" value="나눗셈" onclick ="divide()">
+    </div>
+</body>
+</html>

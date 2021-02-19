@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function changeCaption(cap){
+            document.getElementById('fruit').innerText = cap;
+        }
+    </script>
+    <script>
+        var jsm = "장승민";
+        document.write(jsm+"<br>");
+        jsm = '장승민';
+        document.write(jsm+"<br>");
+
+        // 쌍따옴표 안에는 홑따옴표가 역슬래시 없이 들이갈 수 있다.
+        jsm='"장"승민';
+        document.write(jsm+"<br>");
+
+        // 쌍따옴표 안에는 홑따옴표가 역슬래시 없이 들이갈 수 있다.
+        jsm="장'승'민";
+        document.write(jsm+"<br>");
+
+        jsm='\'장\'승민';
+        document.write(jsm+"<br>");
+
+
+    </script>
+</head>
+<body>
+    <h1 id='fruit'>과일</h1>
+    <input type="button" value="Apple" onclick="changeCaption('Apple')">
+    <input type="button" value="Orange" onclick="changeCaption('Orange')">
+</body>
+</html>

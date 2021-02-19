@@ -1,0 +1,12 @@
+D:\Jaun\Juann\Cshap\homeWork-01\homeWork-01\bin\Debug\homeWork-01.exe.config
+D:\Jaun\Juann\Cshap\homeWork-01\homeWork-01\bin\Debug\homeWork-01.exe
+D:\Jaun\Juann\Cshap\homeWork-01\homeWork-01\bin\Debug\homeWork-01.pdb
+D:\Jaun\Juann\Cshap\homeWork-01\homeWork-01\bin\Debug\Bunifu_UI_v1.52.dll
+D:\Jaun\Juann\Cshap\homeWork-01\homeWork-01\obj\Debug\homeWork-01.csprojAssemblyReference.cache
+D:\Jaun\Juann\Cshap\homeWork-01\homeWork-01\obj\Debug\homeWork_01.Form1.resources
+D:\Jaun\Juann\Cshap\homeWork-01\homeWork-01\obj\Debug\homeWork_01.Properties.Resources.resources
+D:\Jaun\Juann\Cshap\homeWork-01\homeWork-01\obj\Debug\homeWork-01.csproj.GenerateResource.cache
+D:\Jaun\Juann\Cshap\homeWork-01\homeWork-01\obj\Debug\homeWork-01.csproj.CoreCompileInputs.cache
+D:\Jaun\Juann\Cshap\homeWork-01\homeWork-01\obj\Debug\homeWork-01.csproj.CopyComplete
+D:\Jaun\Juann\Cshap\homeWork-01\homeWork-01\obj\Debug\homeWork-01.exe
+D:\Jaun\Juann\Cshap\homeWork-01\homeWork-01\obj\Debug\homeWork-01.pdb

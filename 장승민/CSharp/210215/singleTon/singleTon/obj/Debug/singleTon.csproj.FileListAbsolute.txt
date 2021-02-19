@@ -1,0 +1,7 @@
+D:\Jaun\Juann\Cshap\210215\singleTon\singleTon\bin\Debug\singleTon.exe.config
+D:\Jaun\Juann\Cshap\210215\singleTon\singleTon\bin\Debug\singleTon.exe
+D:\Jaun\Juann\Cshap\210215\singleTon\singleTon\bin\Debug\singleTon.pdb
+D:\Jaun\Juann\Cshap\210215\singleTon\singleTon\obj\Debug\singleTon.csprojAssemblyReference.cache
+D:\Jaun\Juann\Cshap\210215\singleTon\singleTon\obj\Debug\singleTon.csproj.CoreCompileInputs.cache
+D:\Jaun\Juann\Cshap\210215\singleTon\singleTon\obj\Debug\singleTon.exe
+D:\Jaun\Juann\Cshap\210215\singleTon\singleTon\obj\Debug\singleTon.pdb

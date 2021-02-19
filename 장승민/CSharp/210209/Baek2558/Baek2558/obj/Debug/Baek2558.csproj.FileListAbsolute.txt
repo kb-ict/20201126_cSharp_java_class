@@ -1,0 +1,7 @@
+D:\Jaun\Juann\Cshap\210209\Baek2558\Baek2558\bin\Debug\Baek2558.exe.config
+D:\Jaun\Juann\Cshap\210209\Baek2558\Baek2558\bin\Debug\Baek2558.exe
+D:\Jaun\Juann\Cshap\210209\Baek2558\Baek2558\bin\Debug\Baek2558.pdb
+D:\Jaun\Juann\Cshap\210209\Baek2558\Baek2558\obj\Debug\Baek2558.csprojAssemblyReference.cache
+D:\Jaun\Juann\Cshap\210209\Baek2558\Baek2558\obj\Debug\Baek2558.csproj.CoreCompileInputs.cache
+D:\Jaun\Juann\Cshap\210209\Baek2558\Baek2558\obj\Debug\Baek2558.exe
+D:\Jaun\Juann\Cshap\210209\Baek2558\Baek2558\obj\Debug\Baek2558.pdb

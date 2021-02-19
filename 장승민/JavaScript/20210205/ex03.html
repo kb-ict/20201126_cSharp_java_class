@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        .adiv{
+            position: absolute;
+            top: 50px;
+            height: 100px;
+            width: 100px;
+            left: 0;
+            background-color: aquamarine;
+        }
+        
+    </style>
+    <script>
+        var aa={
+            a:10,
+            b:20,
+            c:function(){alert('c 함수입니다.')}
+
+        }
+        $(function(){
+            $('#btn').on('click',function(){
+                $('.adiv').animate({left : '200px', width : '300px', top : '300px', fontSize : '3em'}, 1000, function(){
+                    alert(aa.a);
+                    alert(aa.b);
+                    alert(aa.c);
+                    aa.c();
+                });
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="adiv">HELLO</div>
+    <button id="btn">버튼</button>
+</body>
+</html>

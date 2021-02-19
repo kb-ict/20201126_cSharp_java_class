@@ -1,0 +1,283 @@
+/*
+ * Base
+ */
+html {
+    font-family: "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+    background-color: #656565;
+}
+
+img {
+    vertical-align: middle;
+}
+
+button {
+    outline: none;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+.page-header {
+    background-color: #fff;
+}
+
+.page-header h1 {
+    width: 976px;
+    height: 80px;
+    margin: 0 auto;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 80px;
+    letter-spacing: 0.1em;
+}
+
+.page-main {
+    position: relative;
+}
+
+.page-main > div {
+    padding: 50px 0 100px;
+}
+
+.page-main > div h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0 0 50px;
+    font-weight: normal;
+    letter-spacing: 0.15em;
+}
+
+.page-main > aside {
+    background-color: rgba(0,0,0,0.8);
+    width: 350px;
+    height: 100%;
+    top: 0;
+    left: -350px;
+    position: fixed;
+}
+
+.page-main > aside ul {
+    margin: 0;
+    padding: 0;
+    top: 50px;
+    left: 114px;
+    position: absolute;
+}
+
+.page-main > aside li {
+    margin: 0 0 20px;
+    list-style: none;
+}
+
+.page-main > aside button {
+    background-color: rgba(0,0,0,0.8);
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    width: 52px;
+    height: 132px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+#typo {
+    margin: 0;
+    padding: 0;
+    background-color: #3498db;
+    font-weight: bold;
+    font-size: 110px;
+    color: #fff;
+    text-align: center;
+    line-height: 500px;
+    height: 500px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+#buttons1 {
+    background-color: #ebc000;
+}
+
+#buttons2 {
+    background-color: #01b169;
+    height: 340px;
+}
+
+#images {
+    background-color: #ff8873;
+}
+
+#easing {
+    background-color: #019faa;
+}
+
+#typo .inner,
+#buttons1 .inner,
+#buttons2 .inner,
+#images .inner{
+    position: relative;
+    width: 976px;
+    margin: 0 auto;
+}
+
+#buttons1 button {
+    display: block;
+    float: left;
+    width: 224px;
+    height: 80px;
+    margin: 0 10px 20px;
+    padding: 0;
+    font-size: 16px;
+    letter-spacing: 0.15em;
+    color: #ebc000;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+
+#buttons2 button {
+    display: block;
+    position: absolute;
+    width: 224px;
+    height: 224px;
+    overflow: hidden;
+    padding: 0 0 35px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #01b169;
+    background-color: #fff;
+    border: none;
+    border-radius: 112px;
+}
+#buttons2 button:nth-child(1) {
+    left: 10px;
+}
+#buttons2 button:nth-child(2) {
+    left: 254px;
+}
+#buttons2 button:nth-child(3) {
+    left: 498px;
+}
+#buttons2 button:nth-child(4) {
+    left: 742px;
+}
+
+#images p {
+    position: relative;
+    width: 580px;
+    height: 380px;
+    margin: 0 auto 80px;
+}
+
+#images p strong {
+    color: #fff;
+    font-size: 20px;
+}
+
+.page-footer {
+    background-color: #656565;
+}
+
+.page-footer small {
+    display: block;
+    color: #fff;
+    font-size: 11px;
+    text-align: right;
+    width: 976px;
+    margin: 0 auto;
+    height: 120px;
+    line-height: 120px;
+    letter-spacing: 0.15em;
+}
+
+.page-footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*
+ * Helpers
+ */
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+
+/*
+ * sample.js用
+ */
+
+/* #images */
+#images p {
+    overflow: hidden;
+}
+
+#images p strong {
+    position: absolute;
+    display: block;
+    z-index: 1;
+    bottom: 0;
+    width: 540px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    padding: 20px;
+}
+
+#images p span {
+    position: absolute;
+    display: block;
+    z-index: 0;
+    top: 0;
+    width: 580px;
+    height: 380px;
+    box-shadow: inset 0 0 50px rgba(50, 30, 0, 0.6),
+                inset 0 0 100px rgba(50, 30, 0, 0.3);
+    background: rgba(255, 155, 0, 0.2);
+    opacity: 0;
+}
+
+#images p:nth-child(1) strong {
+    opacity: 0;
+}
+
+#images p:nth-child(2) strong {
+    opacity: 0;
+    left: -200%;
+}
+
+#images p:nth-child(3) strong {
+    bottom: -80px;
+    background: rgba(34, 34, 34, 1);
+}
+
+#images p:nth-child(3) img {
+    position: absolute;
+    top: 0px;
+}
+
+

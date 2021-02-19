@@ -1,0 +1,9 @@
+C:\Users\KB\Desktop\210201_02\210201_02\bin\Debug\210201_02.exe
+C:\Users\KB\Desktop\210201_02\210201_02\bin\Debug\210201_02.pdb
+C:\Users\KB\Desktop\210201_02\210201_02\obj\Debug\_210201_02.Form1.resources
+C:\Users\KB\Desktop\210201_02\210201_02\obj\Debug\_210201_02.Properties.Resources.resources
+C:\Users\KB\Desktop\210201_02\210201_02\obj\Debug\210201_02.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\210201_02\210201_02\obj\Debug\210201_02.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\210201_02\210201_02\obj\Debug\210201_02.exe
+C:\Users\KB\Desktop\210201_02\210201_02\obj\Debug\210201_02.pdb
+C:\Users\KB\Desktop\210201_02\210201_02\obj\Debug\210201_02.csprojAssemblyReference.cache

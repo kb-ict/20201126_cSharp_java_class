@@ -1,0 +1,10 @@
+D:\GitFolder\Juann\Cshap\Winform_practice\Winform_practice\obj\Debug\Winform_practice.csprojAssemblyReference.cache
+D:\GitFolder\Juann\Cshap\Winform_practice\Winform_practice\obj\Debug\Winform_practice.Form1.resources
+D:\GitFolder\Juann\Cshap\Winform_practice\Winform_practice\obj\Debug\Winform_practice.Properties.Resources.resources
+D:\GitFolder\Juann\Cshap\Winform_practice\Winform_practice\obj\Debug\Winform_practice.csproj.GenerateResource.cache
+D:\GitFolder\Juann\Cshap\Winform_practice\Winform_practice\obj\Debug\Winform_practice.csproj.CoreCompileInputs.cache
+D:\GitFolder\Juann\Cshap\Winform_practice\Winform_practice\bin\Debug\Winform_practice.exe.config
+D:\GitFolder\Juann\Cshap\Winform_practice\Winform_practice\bin\Debug\Winform_practice.exe
+D:\GitFolder\Juann\Cshap\Winform_practice\Winform_practice\bin\Debug\Winform_practice.pdb
+D:\GitFolder\Juann\Cshap\Winform_practice\Winform_practice\obj\Debug\Winform_practice.exe
+D:\GitFolder\Juann\Cshap\Winform_practice\Winform_practice\obj\Debug\Winform_practice.pdb

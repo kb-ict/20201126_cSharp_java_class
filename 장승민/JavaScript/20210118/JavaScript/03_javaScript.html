@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <script>
+        // 배열
+        var array = [1,2,'장승민',3.5];
+        // 하나의 배열 안에 여러가지 자료형이 다 들어갈 수 있다.
+        for (let index = 0; index < array.length; index++) {
+            const element = array[index];
+            console.log(element);
+        }
+        
+        // 객체 = JSON = JavaScriptObjdectNotation
+        var obj = {
+            age :20,
+            name:'피카츄', 
+            master : '장승민',
+            evolution : '라이츄',
+            "!!!" : '후덜덜',
+            123: '전기뚱띵이'
+        };
+        console.log(obj.age);
+        console.log(obj.name);
+        console.log(obj.master);
+        console.log(obj.evolution);
+        console.log(obj['age']);
+        console.log(obj['name']);
+        console.log(obj['master']);
+        console.log(obj['evolution']);
+        console.log(obj["!!!"]);
+        console.log(obj[123]);
+
+        var newArray = [array,obj];
+        console.log(newArray);
+        for (let index = 0; index < newArray.length; index++) {
+            const element = newArray[index];
+            console.log(element);
+        }
+
+        //함수
+
+        // 함수 이름과 함께 선언
+        function testFunc(){
+            console.log('하위^^');
+        }
+        testFunc();
+
+        // 변수에 함수를 집어넣는 방법
+        var testFunc2 = function(){
+            console.log('하위루^^');
+        }
+        testFunc2();
+
+        //리턴타입과 파라메터가 있는 경우
+        function jsFunc(param1,param2){
+            var love = param1 +' ♡ ' + param2;
+            return love;
+        }
+        console.log(jsFunc('장승민','김혜정'));
+
+    </script>
+</body>
+</html>

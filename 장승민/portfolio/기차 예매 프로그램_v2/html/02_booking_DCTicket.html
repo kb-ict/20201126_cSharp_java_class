@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GORAIL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.8.18/themes/base/jquery-ui.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../image/GORAIL.png" alt="" width="120" height="40" class="d-inline-block align-top"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="../index.html">GORAIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="booking.html">승차권예매</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">기차역정보/노선도</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <div class="header text-center">
+            <h1>승차권 예매</h1>
+        </div>
+        <div class="container-fluid">
+            <!-- 승차권 종류 탭 -->
+            <!-- 승차권 예매 부분 -->
+            <div class="p-3 col col-lg-10 col-md-12 col-12 ">
+                <div class="card" style="width: auto;">
+                    <div class="card-body">
+                        <div class="btn-group me-2" role="group" aria-label="Second group">
+                            <a href="01_booking_normalTicket.html"><button type="button" class="btn btn-secondary">일반
+                                    승차권</button></a>
+                            <a href="02_booking_DCTicket.html"><button type="button" class="btn btn-secondary">할인
+                                승차권</button></a>
+                            <a href="03_booking_togetherTicket.html"><button type="button"
+                                class="btn btn-secondary">4인 동반석</button></a>
+                        </div>
+                        <div class="tab-content" id="myTabContent">
+                            <!-- 일반승차권 TAP -->
+                            <div class="tab-pane fade " id="normalTicket" role="tabpanel"
+                                aria-labelledby="normalTicket-tab">
+                                <!-- 일반승차권 내용 -->
+
+                            </div>
+                            <!-- 할인승차권 TAP -->
+                            <div class="tab-pane fade show active" id="DCTicket" role="tabpanel"
+                                aria-labelledby="DCTicket-tab">
+                                <div class="card" style="width: auto;">
+                                    <div class="card-body">
+                                        <!-- 승객 정보 -->
+                                        <div class="row" style="background-color: rosybrown;">
+                                            <!-- 인원정보 -->
+                                            <div class="col-lg-3 col-sm-6 personal">
+                                                <label
+                                                    style="border: 1px solid black; margin: 10px; background-color: cornflowerblue;">인원정보</label>
+                                                <div class="input-group mb-3 ">
+                                                    <button type="button" class="btn btn-outline-dark " id="adult">어른
+                                                        1명</button>
+                                                    <button type="button"
+                                                        class="btn btn-outline-dark  dropdown-toggle dropdown-toggle-split"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <span class="visually-hidden">Toggle Dropdown</span>
+                                                    </button>
+                                                    <ul class="dropdown-menu adult">
+                                                        <li><a class="dropdown-item">어른 1명</a></li>
+                                                        <li><a class="dropdown-item">어른 2명</a></li>
+                                                        <li><a class="dropdown-item">어른 3명</a></li>
+                                                        <li><a class="dropdown-item">어른 4명</a></li>
+                                                        <li><a class="dropdown-item">어른 5명</a></li>
+                                                        <li><a class="dropdown-item">어른 6명</a></li>
+                                                        <li><a class="dropdown-item">어른 7명</a></li>
+                                                        <li><a class="dropdown-item">어른 8명</a></li>
+                                                        <li><a class="dropdown-item">어른 9명</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="input-group mb-3 ">
+                                                    <button type="button" class="btn btn-outline-dark " id="children">만
+                                                        6세~12세</button>
+                                                    <button type="button"
+                                                        class="btn btn-outline-dark  dropdown-toggle dropdown-toggle-split"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <span class="visually-hidden">Toggle Dropdown</span>
+                                                    </button>
+                                                    <ul class="dropdown-menu children">
+                                                        <li><a class="dropdown-item">만 6세~12세</a></li>
+                                                        <li><a class="dropdown-item">어린이 1명</a></li>
+                                                        <li><a class="dropdown-item">어린이 2명</a></li>
+                                                        <li><a class="dropdown-item">어린이 3명</a></li>
+                                                        <li><a class="dropdown-item">어린이 4명</a></li>
+                                                        <li><a class="dropdown-item">어린이 5명</a></li>
+                                                        <li><a class="dropdown-item">어린이 6명</a></li>
+                                                        <li><a class="dropdown-item">어린이 7명</a></li>
+                                                        <li><a class="dropdown-item">어린이 8명</a></li>
+                                                        <li><a class="dropdown-item">어린이 9명</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="input-group mb-3 ">
+                                                    <button type="button" class="btn btn-outline-dark " id="baby">만
+                                                        6세
+                                                        미만</button>
+                                                    <button type="button"
+                                                        class="btn btn-outline-dark  dropdown-toggle dropdown-toggle-split"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <span class="visually-hidden">Toggle Dropdown</span>
+                                                    </button>
+                                                    <ul class="dropdown-menu baby">
+                                                        <li><a class="dropdown-item">만 6세 미만</a></li>
+                                                        <li><a class="dropdown-item">유아 1명</a></li>
+                                                        <li><a class="dropdown-item">유아 2명</a></li>
+                                                        <li><a class="dropdown-item">유아 3명</a></li>
+                                                        <li><a class="dropdown-item">유아 4명</a></li>
+                                                        <li><a class="dropdown-item">유아 5명</a></li>
+                                                        <li><a class="dropdown-item">유아 6명</a></li>
+                                                        <li><a class="dropdown-item">유아 7명</a></li>
+                                                        <li><a class="dropdown-item">유아 8명</a></li>
+                                                        <li><a class="dropdown-item">유아 9명</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="input-group mb-3 ">
+                                                    <button type="button" class="btn btn-outline-dark " id="order">만
+                                                        65세
+                                                        이상</button>
+                                                    <button type="button"
+                                                        class="btn btn-outline-dark  dropdown-toggle dropdown-toggle-split"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <span class="visually-hidden">Toggle Dropdown</span>
+                                                    </button>
+                                                    <ul class="dropdown-menu order">
+                                                        <li><a class="dropdown-item">만 65세 이상</a></li>
+                                                        <li><a class="dropdown-item">경로 1명</a></li>
+                                                        <li><a class="dropdown-item">경로 2명</a></li>
+                                                        <li><a class="dropdown-item">경로 3명</a></li>
+                                                        <li><a class="dropdown-item">경로 4명</a></li>
+                                                        <li><a class="dropdown-item">경로 5명</a></li>
+                                                        <li><a class="dropdown-item">경로 6명</a></li>
+                                                        <li><a class="dropdown-item">경로 7명</a></li>
+                                                        <li><a class="dropdown-item">경로 8명</a></li>
+                                                        <li><a class="dropdown-item">경로 9명</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-3 col-sm-6 personal">
+                                                <label
+                                                    style="border: 1px solid black; margin: 10px;  background-color: cornflowerblue">장애정도</label>
+                                                <div class="input-group mb-3 ">
+                                                    <button type="button" class="btn btn-outline-dark "
+                                                        id="hardHandicap">중증
+                                                        0명</button>
+                                                    <button type="button"
+                                                        class="btn btn-outline-dark  dropdown-toggle dropdown-toggle-split"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <span class="visually-hidden">Toggle Dropdown</span>
+                                                    </button>
+                                                    <ul class="dropdown-menu hardHandicap">
+                                                        <li><a class="dropdown-item">중증 0명</a></li>
+                                                        <li><a class="dropdown-item">중증 1명</a></li>
+                                                        <li><a class="dropdown-item">중증 2명</a></li>
+                                                        <li><a class="dropdown-item">중증 3명</a></li>
+                                                        <li><a class="dropdown-item">중증 4명</a></li>
+                                                        <li><a class="dropdown-item">중증 5명</a></li>
+                                                        <li><a class="dropdown-item">중증 6명</a></li>
+                                                        <li><a class="dropdown-item">중증 7명</a></li>
+                                                        <li><a class="dropdown-item">중증 8명</a></li>
+                                                        <li><a class="dropdown-item">중증 9명</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="input-group mb-3 ">
+                                                    <button type="button" class="btn btn-outline-dark "
+                                                        id="lightHandicap">경증
+                                                        0명</button>
+                                                    <button type="button"
+                                                        class="btn btn-outline-dark  dropdown-toggle dropdown-toggle-split"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <span class="visually-hidden">Toggle Dropdown</span>
+                                                    </button>
+                                                    <ul class="dropdown-menu lightHandicap">
+                                                        <li><a class="dropdown-item">경증 0명</a></li>
+                                                        <li><a class="dropdown-item">경증 1명</a></li>
+                                                        <li><a class="dropdown-item">경증 2명</a></li>
+                                                        <li><a class="dropdown-item">경증 3명</a></li>
+                                                        <li><a class="dropdown-item">경증 4명</a></li>
+                                                        <li><a class="dropdown-item">경증 5명</a></li>
+                                                        <li><a class="dropdown-item">경증 6명</a></li>
+                                                        <li><a class="dropdown-item">경증 7명</a></li>
+                                                        <li><a class="dropdown-item">경증 8명</a></li>
+                                                        <li><a class="dropdown-item">경증 9명</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6">
+                                                <div id="trainType" class="container p-3">
+                                                    <div class="row">
+                                                        <div class="form-check form-check-inline col-lg-3">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="normal_trainType" id="normal_allTrain"
+                                                                value="option1" checked>
+                                                            <label class="form-check-label"
+                                                                for="normal_allTrain">전체</label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline col-lg-3">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="normal_trainType" id="normal_ktxSrt"
+                                                                value="option2">
+                                                            <label class="form-check-label"
+                                                                for="normal_ktxSrt">KTX/SRT</label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline col-lg-3">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="normal_trainType" id="normal_itx-chungchoon"
+                                                                value="option3">
+                                                            <label class="form-check-label"
+                                                                for="normal_itx-chungchoon">ITX-청춘</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="form-check form-check-inline col-lg-4">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="normal_trainType" id="normal_newtown"
+                                                                value="option4">
+                                                            <label class="form-check-label"
+                                                                for="normal_newtown">새마을호/ITX-새마을</label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline col-lg-4">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="normal_trainType" id="normal_nuriro"
+                                                                value="option5">
+                                                            <label class="form-check-label"
+                                                                for="normal_nuriro">무궁화호/누리로</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <br>
+
+                                                <div class="container" id="TrainTypeSelector">
+                                                    <li>여정경로</li>
+
+                                                    <div class="row">
+                                                        <div class="form-check form-check-inline col-lg-3">
+                                                            <input class="form-check-input" type="radio" name="course"
+                                                                id="normal_inlineRadio1" value="option1" checked>
+                                                            <label class="form-check-label"
+                                                                for="normal_inlineRadio1">직통</label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline col-lg-3">
+                                                            <input class="form-check-input" type="radio" name="course"
+                                                                id="normal_inlineRadio2" value="option2">
+                                                            <label class="form-check-label"
+                                                                for="normal_inlineRadio2">환승</label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline col-lg-3">
+                                                            <input class="form-check-input" type="radio" name="course"
+                                                                id="normal_inlineRadio3" value="option3">
+                                                            <label class="form-check-label"
+                                                                for="normal_inlineRadio3">왕복</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-sm-12 ">
+                                                <hr class="dropdown-divider">
+                                                <label
+                                                    style="border: 1px solid black; margin: 10px; background-color: cornflowerblue;">좌석
+                                                    종류 선택</label>
+                                                <div class="row">
+                                                    <div class="col-lg-3 col-sm-3">
+                                                        <div class="input-group mb-3">
+                                                            <button type="button" class="btn btn-outline-dark "
+                                                                id="position">기본</button>
+                                                            <button type="button"
+                                                                class="btn btn-outline-dark  dropdown-toggle dropdown-toggle-split"
+                                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                                <span class="visually-hidden">Toggle Dropdown</span>
+                                                            </button>
+                                                            <ul class="dropdown-menu position">
+                                                                <li><a class="dropdown-item">기본</a></li>
+                                                                <li><a class="dropdown-item">1인석</a></li>
+                                                                <li><a class="dropdown-item">창측 좌석</a></li>
+                                                                <li><a class="dropdown-item">내측 좌석</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-4">
+                                                        <div class="input-group mb-3">
+                                                            <button type="button" class="btn btn-outline-dark "
+                                                                id="direction">좌석
+                                                                방향</button>
+                                                            <button type="button"
+                                                                class="btn btn-outline-dark  dropdown-toggle dropdown-toggle-split"
+                                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                                <span class="visually-hidden">Toggle Dropdown</span>
+                                                            </button>
+                                                            <ul class="dropdown-menu direction">
+                                                                <li><a class="dropdown-item">좌석 방향</a></li>
+                                                                <li><a class="dropdown-item">순방향성</a></li>
+                                                                <li><a class="dropdown-item">역방향성</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-3 col-sm-3">
+                                                        <div class="input-group mb-3">
+                                                            <button type="button" class="btn btn-outline-dark "
+                                                                id="ect">기본</button>
+                                                            <button type="button"
+                                                                class="btn btn-outline-dark  dropdown-toggle dropdown-toggle-split"
+                                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                                <span class="visually-hidden">Toggle Dropdown</span>
+                                                            </button>
+                                                            <ul class="dropdown-menu ect">
+                                                                <li><a class="dropdown-item">기본</a></li>
+                                                                <li><a class="dropdown-item">유아동반</a></li>
+                                                                <li><a class="dropdown-item">편한 대화</a></li>
+                                                                <li><a class="dropdown-item">노트북</a></li>
+                                                                <li><a class="dropdown-item">휠체어</a></li>
+                                                                <li><a class="dropdown-item">전동 휠체어</a></li>
+                                                                <li><a class="dropdown-item">수유실 인접</a></li>
+                                                                <li><a class="dropdown-item">2층석</a></li>
+                                                                <li><a class="dropdown-item">자전거 거치대</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-lg-6 col-sm-12" id="trainSearch">
+                                                <div>
+                                                    <li>출발역</li><input id="departStation" type="text"
+                                                        value="서울역"><button type="submit"
+                                                        class="btn btn-primary btn-sm">조회</button>
+                                                </div>
+                                                <div>
+                                                    <li>도착역</li><input id="arriveStation" type="text"
+                                                        value="부산역"><button type="submit"
+                                                        class="btn btn-primary btn-sm">조회</button><button id="changeBtn"
+                                                        class="btn btn-success btn-sm">변경</button>
+                                                </div>
+                                                <div>
+                                                    <li>출발일</li>
+                                                    <button type="button"
+                                                        class="btn btn-outline-dark dropdown-toggle-split"
+                                                        data-bs-toggle="dropdown" aria-expanded="false"
+                                                        id="year">2021</button>
+
+                                                    <ul class="dropdown-menu year">
+                                                        <li><a class="dropdown-item">2021</a></li>
+                                                        <li><a class="dropdown-item">2022</a></li>
+                                                        <li><a class="dropdown-item">2023</a></li>
+                                                    </ul>
+                                                    <span>년</span>
+                                                    <button type="button"
+                                                        class="btn btn-outline-dark dropdown-toggle-split"
+                                                        data-bs-toggle="dropdown" aria-expanded="false"
+                                                        id="month">1</button>
+                                                    <ul class="dropdown-menu month">
+                                                        <li><a class="dropdown-item">1</a></li>
+                                                        <li><a class="dropdown-item">2</a></li>
+                                                        <li><a class="dropdown-item">3</a></li>
+                                                        <li><a class="dropdown-item">4</a></li>
+                                                        <li><a class="dropdown-item">5</a></li>
+                                                        <li><a class="dropdown-item">6</a></li>
+                                                        <li><a class="dropdown-item">7</a></li>
+                                                        <li><a class="dropdown-item">8</a></li>
+                                                        <li><a class="dropdown-item">9</a></li>
+                                                        <li><a class="dropdown-item">10</a></li>
+                                                        <li><a class="dropdown-item">11</a></li>
+                                                        <li><a class="dropdown-item">12</a></li>
+                                                    </ul>
+                                                    <span>월</span>
+                                                    <button type="button"
+                                                        class="btn btn-outline-dark dropdown-toggle-split"
+                                                        data-bs-toggle="dropdown" aria-expanded="false"
+                                                        id="date">1</button>
+                                                    <ul class="dropdown-menu date">
+                                                        <li><a class="dropdown-item">1</a></li>
+                                                        <li><a class="dropdown-item">2</a></li>
+                                                        <li><a class="dropdown-item">3</a></li>
+                                                        <li><a class="dropdown-item">4</a></li>
+                                                        <li><a class="dropdown-item">5</a></li>
+                                                        <li><a class="dropdown-item">6</a></li>
+                                                        <li><a class="dropdown-item">7</a></li>
+                                                        <li><a class="dropdown-item">8</a></li>
+                                                        <li><a class="dropdown-item">9</a></li>
+                                                        <li><a class="dropdown-item">10</a></li>
+                                                        <li><a class="dropdown-item">11</a></li>
+                                                        <li><a class="dropdown-item">12</a></li>
+                                                        <li><a class="dropdown-item">13</a></li>
+                                                        <li><a class="dropdown-item">14</a></li>
+                                                        <li><a class="dropdown-item">15</a></li>
+                                                        <li><a class="dropdown-item">16</a></li>
+                                                        <li><a class="dropdown-item">17</a></li>
+                                                        <li><a class="dropdown-item">18</a></li>
+                                                        <li><a class="dropdown-item">19</a></li>
+                                                        <li><a class="dropdown-item">20</a></li>
+                                                        <li><a class="dropdown-item">21</a></li>
+                                                        <li><a class="dropdown-item">22</a></li>
+                                                        <li><a class="dropdown-item">23</a></li>
+                                                        <li><a class="dropdown-item">24</a></li>
+                                                        <li><a class="dropdown-item">25</a></li>
+                                                        <li><a class="dropdown-item">26</a></li>
+                                                        <li><a class="dropdown-item">27</a></li>
+                                                        <li><a class="dropdown-item">28</a></li>
+                                                        <li><a class="dropdown-item">29</a></li>
+                                                        <li><a class="dropdown-item">30</a></li>
+                                                        <li><a class="dropdown-item">31</a></li>
+
+                                                    </ul>
+                                                    <span>일</span>
+                                                    <button type="button"
+                                                        class="btn btn-outline-dark dropdown-toggle-split"
+                                                        data-bs-toggle="dropdown" aria-expanded="false"
+                                                        id="time">0(오전00)</button>
+                                                    <ul class="dropdown-menu time">
+                                                        <li><a class="dropdown-item">0(오전00)</a></li>
+                                                        <li><a class="dropdown-item">1(오전01)</a></li>
+                                                        <li><a class="dropdown-item">2(오전02)</a></li>
+                                                        <li><a class="dropdown-item">3(오전03)</a></li>
+                                                        <li><a class="dropdown-item">4(오전04)</a></li>
+                                                        <li><a class="dropdown-item">5(오전05)</a></li>
+                                                        <li><a class="dropdown-item">6(오전06)</a></li>
+                                                        <li><a class="dropdown-item">7(오전07)</a></li>
+                                                        <li><a class="dropdown-item">8(오전08)</a></li>
+                                                        <li><a class="dropdown-item">9(오전09)</a></li>
+                                                        <li><a class="dropdown-item">10(오전10)</a></li>
+                                                        <li><a class="dropdown-item">11(오전11)</a></li>
+                                                        <li><a class="dropdown-item">12(오후00)</a></li>
+                                                        <li><a class="dropdown-item">13(오후01)</a></li>
+                                                        <li><a class="dropdown-item">14(오후02)</a></li>
+                                                        <li><a class="dropdown-item">15(오후03)</a></li>
+                                                        <li><a class="dropdown-item">16(오후04)</a></li>
+                                                        <li><a class="dropdown-item">17(오후05)</a></li>
+                                                        <li><a class="dropdown-item">18(오후06)</a></li>
+                                                        <li><a class="dropdown-item">19(오후07)</a></li>
+                                                        <li><a class="dropdown-item">20(오후08)</a></li>
+                                                        <li><a class="dropdown-item">21(오후09)</a></li>
+                                                        <li><a class="dropdown-item">22(오후10)</a></li>
+                                                        <li><a class="dropdown-item">23(오후11)</a></li>
+                                                    </ul>
+                                                    <span>시</span>
+                                                    <input type="text" id="day">
+                                                    <input type="image" id="calender"
+                                                        src="../image/calendar-alt-regular.svg"
+                                                        style="width: 25px; height: 25px;" alt="">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="togetherTicker" role="tabpanel"
+                                aria-labelledby="togetherTicker-tab">
+                                3
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer"></div>
+
+
+    </div>
+    <script src="../main.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+</body>
+
+</html>

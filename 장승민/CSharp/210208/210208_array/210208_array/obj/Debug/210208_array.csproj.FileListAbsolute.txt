@@ -1,0 +1,7 @@
+D:\Jaun\Juann\Cshap\210208\210208_array\210208_array\bin\Debug\210208_array.exe.config
+D:\Jaun\Juann\Cshap\210208\210208_array\210208_array\bin\Debug\210208_array.exe
+D:\Jaun\Juann\Cshap\210208\210208_array\210208_array\bin\Debug\210208_array.pdb
+D:\Jaun\Juann\Cshap\210208\210208_array\210208_array\obj\Debug\210208_array.csprojAssemblyReference.cache
+D:\Jaun\Juann\Cshap\210208\210208_array\210208_array\obj\Debug\210208_array.csproj.CoreCompileInputs.cache
+D:\Jaun\Juann\Cshap\210208\210208_array\210208_array\obj\Debug\210208_array.exe
+D:\Jaun\Juann\Cshap\210208\210208_array\210208_array\obj\Debug\210208_array.pdb

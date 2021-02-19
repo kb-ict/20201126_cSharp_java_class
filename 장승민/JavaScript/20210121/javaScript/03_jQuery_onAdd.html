@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <title>Document</title>
+    <script>
+        // 웹페이지 로딩 다하고 나서 스크립트 실행
+        // $(document).ready(function(){
+            $(function(){
+
+                //h1 태그 클릭하면 글자를 추가해주는 기능
+                $('h1').on('click', function(){
+                    $(this).html(function(index,html){
+                        return html+'+';
+                    });
+                });
+
+                $('h1').hover(
+                    function(){
+                        $(this).addClass('reverse');
+                    },
+                    function(){
+                        $(this).removeClass('reverse');
+
+                    }
+                )
+
+            });
+    </script>
+     <style>
+        .reverse {
+            background-color: black;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>1</h1>
+    <h1>2</h1>
+    <h1>3</h1>
+   
+</body>
+</html>

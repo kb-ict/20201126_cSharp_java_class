@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <input id="first" type="text" class="num">
+    <span>+</span>
+    <input id="two" type="text" class="num">
+    <span>=</span>
+    <span id="result" class="result"> 결과 </span>
+    <div>
+        <input type="button" value="합 구하기" onclick="sum()">
+    </div>    
+    
+    <script>
+        function sum(){
+            var one = document.getElementsByClassName('num')[0].value;
+            // one = document.getElementById('first').value;
+            // one = document.querySelector('#first').value;
+            var two = document.getElementsByClassName('num')[1].value;
+            document.getElementsByClassName('result')[0].innerText = Number(one) + Number(two);
+        }
+    </script>
+</body>
+</html>
