@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            width: 400px;
+            height: 220px;
+            overflow: hidden;
+        }
+
+        .outer {
+            margin-left: 0px;
+        }
+
+        img {
+            height: auto;
+            width: 400px;
+            display: block;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="outer">
+            <img src="Sources/movie_image_1.jpg" id="a">
+            <img src="Sources/movie_image_2.jpg" id="b">
+            <img src="Sources/movie_image_3.jpg" id="c">
+        </div>
+    </div>
+
+    <script>
+        var ml = 0;
+        setInterval(function () {
+            $(".outer").css("margin-left", ml+"px");
+            ml = ml-400;
+            if(ml < -800){
+                ml = 0;
+            }
+        }, 2000);
+    </script>
+</body>
+
+</html>

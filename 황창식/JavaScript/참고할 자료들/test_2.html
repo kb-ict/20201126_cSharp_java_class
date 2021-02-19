@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>암호해독</title>
+</head>
+
+<body>
+    <input type="textbox" id="inputText" value="" />
+    <input type="button" value="클릭" id="output" onclick="output()">
+    <script>
+        window.oncontextmenu = function() {
+            alert('밑장빼지마3');
+            return false;
+        }
+        var code = {
+            a: "ㄱ",
+            b: "ㄴ",
+            c: "ㄷ",
+            d: "ㄹ",
+            e: "ㅁ",
+            f: "ㅂ",
+            g: "ㅅ",
+            h: "ㅇ",
+            i: "ㅈ",
+            j: "ㅊ",
+            k: "ㅋ",
+            l: "ㅌ",
+            m: "ㅍ",
+            n: "ㅎ",
+            o: "ㅏ",
+            p: "ㅑ",
+            q: "ㅓ",
+            r: "ㅕ",
+            s: "ㅗ",
+            t: "ㅛ",
+            u: "ㅜ",
+            v: "ㅠ",
+            w: "ㅡ",
+            x: "ㅣ",
+        }
+
+        function output() {
+            var input = document.getElementById("inputText").value;
+            input = input.toLowerCase();
+            var s = '';
+            for (var i = 0; i < input.length; i++) {
+                var temp = code[input.charAt(i)]
+                if (temp == undefined) {
+                    alert('잘못된 입력이 있습니다.');
+                    return;
+                }
+                s += temp;
+            }
+            alert(s);
+        }
+    </script>
+</body>
+
+</html>

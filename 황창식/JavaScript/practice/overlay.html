@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .thumbnail {
+            margin: 6px;
+        }
+
+        .thumbnail>img {
+            width: 250px;
+            cursor: pointer;
+        }
+
+        #overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 999;
+
+            /* 시작시 보이지 않게 처리 */
+            visibility: hidden;
+            opacity: 0;
+            transition: all 0.5s;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* overlay show */
+        #overlay.show {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .photo {
+            width: 500px;
+            height: auto;
+            border: 1px solid gray;
+        }
+
+        .photo>img {
+            width: 100%;
+        }
+
+        .close {
+            width: 36px;
+            margin: 0;
+            padding: 0;
+            cursor: pointer;
+            margin: 8px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>오버레이 연습</h1>
+
+    <!-- overlay -->
+    <div id="overlay">
+        <div class="photo"></div>
+        <img src="Sources/close_white.png" class="close">
+    </div>
+
+    <!-- thumbnail -->
+    <div class="container">
+        <div class="thumbnail p1"><img src="Sources/movie_image_1.jpg"></div>
+        <div class="thumbnail p2"><img src="Sources/movie_image_2.jpg"></div>
+        <div class="thumbnail p3"><img src="Sources/movie_image_3.jpg"></div>
+    </div>
+
+    <script>
+        const overlay = document.querySelector("#overlay");
+        const photoCon = document.querySelector(".photo");
+        const thumb1 = document.querySelector(".p1");
+        const thumb2 = document.querySelector(".p2");
+        const thumb3 = document.querySelector(".p3");
+        const closeButton = document.querySelector(".close");
+
+        thumb1.addEventListener('click', function () {
+            const highResPhoto = thumb1.children.src;
+            const output = '<img src="Sources/movie_image_1.jpg">';
+            photoCon.innerHTML = output;
+            overlay.classList.add("show");
+        });
+
+        thumb2.addEventListener('click', function () {
+            const highResPhoto = thumb2.children.src;
+            const output = '<img src="Sources/movie_image_2.jpg">';
+            photoCon.innerHTML = output;
+            overlay.classList.add("show");
+        });
+
+        thumb3.addEventListener('click', function () {
+            const highResPhoto = thumb3.children.src;
+            const output = '<img src="Sources/movie_image_3.jpg">';
+            photoCon.innerHTML = output;
+            overlay.classList.add("show");
+        });
+
+        // close button setting
+        closeButton.addEventListener('click', function () {
+            overlay.classList.remove("show");
+        });
+    </script>
+</body>
+
+</html>

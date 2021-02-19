@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        window.oncontextmenu = function() {
+                alert('밑장빼지마3');
+                return false;
+            }
+            /*
+                    //문서 객체연결   ,  문서 객체를 자바스크립트로 가져와서 조작할 수 있다.
+                    window.onload=function(){
+                        //변수 선언
+                        var header=document.createElement('header');
+                        var textNode=document.createTextNode('Hello kobalja');
+                    
+                    //노드를 연결합니다.
+                    header.appendChild(textNode);
+                    document.body.appendChild(header);
+                    };
+            */
+            /*
+                    //문서 객체 생성
+                    window.onload = function () {
+                        //변수 선언
+                        var img = document.createElement('img');
+                        img.src = '밤하늘.jpg';
+                        img.width = 500;
+                        img.height = 500;
+                        
+                        //노드 연결
+                        document.body.appendChild(img);
+                    };
+                    */
+            /*
+                    //문서 객체 속성 지정
+                    window.onload=function(){
+                        //변수 선언
+                        var img=document.createElement('img');
+                        img.setAttribute('src','밤하늘.jpg');
+                        img.setAttribute('width',500);
+                        img.setAttribute('height',350);
+
+                        //setAttribute() 메서드를 사용하지 않으면 불가능하다.
+                        img.setAttribute('data-property',350);
+
+                        //노드 연결
+                        document.body.appendChild(img);
+                    }
+            */
+
+        /*
+                //innerHTML 속성 사용
+                window.onload = function () {
+                    var output = '';
+                    output += '<ul>';
+                    output += '    <li>KOBALJA</li>';
+                    output += '    <li>kobalja</li>';
+                    output += '</ul>';
+
+                    
+                    document.body.innerHTML = output;
+                    document.body.innerHTML += '<h1>Today study user</h1>';
+                };
+                */
+
+        /*
+                //문서 객체의 innerHTML 속성 변경
+                window.onload = function () {
+                    //문서 객체
+                    var ko = document.getElementById('ko');
+                    var bal = document.getElementById('bal');
+
+                    ko.innerHTML = 'kobalja';
+                    bal.innerHTML = 'Kobalja';
+                };
+                */
+
+        /*
+                //getElementsByTagName() 메서드
+                window.onload=function(){
+                    var ko=document.getElementsByTagName('h1');
+                    for(var i=0; i<ko.length; i++){
+                        ko[i].innerHTML='Kobalja getElementByTagName()메서드 활용';
+                    }
+                };
+                */
+
+        //문서 객체를 사용한 움직임 구현
+
+
+        //문서 객체의 회전
+        window.onload = function() {
+            //객체 이미지
+
+            var sun = document.getElementById('sun');
+            var earth = document.getElementById('earth');
+            var moon = document.getElementById('moon');
+
+            //문서 객체의 innerHTML로 속성 변경
+
+            sun.innerHTML = '<img src="sun.png">';
+            earth.innerHTML = '<img src="earth.png">';
+            moon.innerHTML = '<img src="moon.png">';
+            // sun.innerHTML = '태양';
+            // earth.innerHTML = '지구';
+            // moon.innerHTML = '달';
+            //문서 객체 스타일 속성 변경
+            sun.style.position = 'absolute';
+            earth.style.position = 'absolute';
+            moon.style.position = 'absolute';
+            sun.style.left = 250 + 'px';
+            sun.style.top = 200 + 'px';
+            var earthAngle = 0;
+            var moonAngle = 0;
+
+            //애니메이션 시작
+            setInterval(function() {
+                //각도로 지구 , 달 좌표 구하기
+                var earthLeft = 250 + 150 * Math.cos(earthAngle);
+                var earthTop = 200 + 150 * Math.sin(earthAngle);
+                var moonLeft = earthLeft + 50 * Math.cos(moonAngle);
+                var moonTop = earthTop + 50 * Math.sin(moonAngle);
+                //위치를 이동한다.
+                earth.style.left = earthLeft + 'px';
+                earth.style.top = earthTop + 'px';
+                moon.style.left = moonLeft + 'px';
+                moon.style.top = moonTop + 'px';
+                //각도를 변경
+                earthAngle += 0.1;
+                moonAngle += 0.3;
+            }, 1000 / 30);
+        };
+    </script>
+    <style>
+        #scroll {
+            width: 700px;
+            height: 700px;
+            background-image: url('nightsky.jpg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <!--innerHTML-->
+    <!-- <h1 id="ko">kokoko</h1>
+    <h1 id="bal">kokoko</h1> -->
+    <!--문서객체의 회전-->
+    <div id="scroll">
+        <h1 id="sun">@</h1>
+        <h1 id="earth">0</h1>
+        <h1 id="moon">*</h1>
+    </div>
+</body>
+
+</html>

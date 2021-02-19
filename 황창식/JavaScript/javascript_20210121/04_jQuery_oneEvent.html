@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+
+<body>
+    <h1>lorem1</h1>
+    <h1>lorem2</h1>
+    <h1>lorem3</h1>
+    <h1>lorem4</h1>
+    <h1>lorem5</h1>
+
+    <script>
+        $(document).ready(function () {
+            $('h1').click(function () {
+                // h1클릭 이벤트 추가
+                $(this).html('Click');
+                alert('이벤트 발생')
+
+                // h1클릭 이벤트 삭제
+                $(this).off();
+            });
+        });
+    </script>
+</body>
+
+</html>

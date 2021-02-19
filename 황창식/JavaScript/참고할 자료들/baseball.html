@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    button {
+            width: 30px;
+            height: 30px;
+            margin-left: 20px;
+            font-size: 20px;
+        }
+        
+        button#answer,
+        button#submit,
+        button#cancel {
+            width: 100px;
+            height: 50px;
+            font-size: 20px;
+        }
+        
+        #input {
+            position: absolute;
+            top: 50px;
+            left: 150px;
+        }
+        
+        #time {
+            position: absolute;
+            top: 50px;
+            left: 500px;
+        }
+    }
+    </style>
+    <script>
+        window.oncontextmenu = function ()
+        {
+            alert('밑장빼지마3');
+            return false;
+        }
+        window.onload = function() {
+
+            // alert(12);
+            var array = [];
+            // var TempArray = [];
+            var input = 0;
+            // alert(13);
+            var output = '';
+            do {
+                var computer = Math.floor(Math.random() * 10);
+                input = computer;
+                // alert(14);
+                const idx = array.indexOf(input);
+                if (idx == -1) {
+                    array.push(input);
+                    output += input;
+                }
+                // alert(15);
+            } while (array.length < 3);
+            // alert(output);
+            console.log(output);
+
+            function shuffleNewNumber() {
+                for (let k = 0; k < buttons.length; k++) {
+                    buttons[k].style.color = '';
+                }
+                // alert(12);
+                var shuffleArray = [];
+                // var TempArray = [];
+                var input = 0;
+                // alert(13);
+                output = '';
+                do {
+                    var computer = Math.floor(Math.random() * 10);
+                    input = computer;
+                    // alert(14);
+                    const idx = shuffleArray.indexOf(input);
+                    if (idx == -1) {
+                        shuffleArray.push(input);
+                        output += input;
+                    }
+                    // alert(15);
+                } while (shuffleArray.length < 3);
+                //alert(output);
+                console.log(output);
+            }
+            // var outputbyId = document.getElementById('output');
+            var cancel = document.getElementById('cancel');
+            var submit = document.getElementById('submit');
+            var buttons = document.getElementsByClassName('choiceValue');
+            var h1output = document.getElementById('output');
+            var h3input = document.getElementById('input');
+            var answer = document.getElementById('answer');
+            var time = document.getElementById('time');
+            var count = 0;
+            var timecount = 0;
+
+            // buttons[0].style.visibility = 'hidden';
+
+            var timeCountInterval = setInterval(
+                function() {
+                    timecount++;
+                    time.innerHTML = timecount;
+                }, 150
+            )
+
+            //var 키우드의 비동기 이슈
+            //i를 출력하는 시점에는 i 값이 buttons.length값이다.
+            //var는 중복 선언이 되고, i 자체가 전역 영역에 존재한다.
+            //따라서 let 키워드를 쓰거나 함수로 한 번 더 감싸줘야 한다.
+            //(73p 참고)
+            for (let i = 0; i < buttons.length; i++) {
+                buttons[i].addEventListener('click', function() {
+                    if (h1output.innerHTML.includes(i) == false) {
+                        if (h1output.innerHTML.length < 3) {
+                            h1output.innerHTML += i;
+                        }
+
+                    }
+                });
+            }
+            submit.addEventListener('click', function() {
+
+                if (h1output.innerHTML.length != 3)
+                    return;
+
+                count++;
+
+                if (parseInt(output) == parseInt(h1output.innerHTML)) {
+                    count = 0;
+                    alert('정답!');
+                    // alert('정답!' + timecount);
+                    if (timecount < 50) {
+                        alert('are you a genius?');
+                    } else if (timecount >= 40 && timecount < 100) {
+                        alert('are you jenny?');
+                    } else if (timecount >= 100 && timecount < 300) {
+                        alert('are you a dolphin?');
+                    } else if (timecount >= 300 && timecount < 700) {
+                        alert('are you a monkey?');
+                    } else if (timecount >= 700 && timecount < 1000) {
+                        alert('are you crazy?');
+                    } else if (timecount >= 1000 && timecount < 2000) {
+                        alert('Are you a chicken?');
+                    } else {
+                        alert('Are you parasite?');
+                    }
+                    h3input.innerHTML = '';
+                    shuffleNewNumber();
+                    h1output.innerHTML = '';
+                    answer.innerHTML = '정답은 ? ';
+                    timecount = 0;
+
+                    clearInterval(timeCountInterval);
+                    timeCountInterval = setInterval(
+                        function() {
+                            timecount++;
+                            time.innerHTML = timecount;
+                        }, 150
+                    )
+
+                } else {
+                    var arr = [output[0], output[1], output[2]];
+                    var ball = 0;
+                    var strike = 0;
+                    // alert(arr);
+                    // alert(h1output.innerHTML.length);
+                    for (let j = 0; j < h1output.innerHTML.length; j++) {
+                        var test = arr.indexOf(h1output.innerHTML[j]);
+                        if (test != -1) {
+                            if (arr[j] == h1output.innerHTML[j]) {
+                                strike++;
+                            } else {
+                                ball++;
+                            }
+                        }
+                    }
+                    var h1Temp = h1output.innerHTML;
+                    if (ball == 0 & strike == 0) {
+                        h3input.innerHTML += '[' + h1output.innerHTML + ']' + '   ' + 'out';
+                        h3input.innerHTML += '<br>';
+                        h1output.innerHTML = '';
+                    } else {
+                        h3input.innerHTML += '[' + h1output.innerHTML + ']' + '   ' + strike + 'S ' + ball + 'B';
+                        h3input.innerHTML += '<br>';
+                        h1output.innerHTML = '';
+                    }
+
+
+                    if (count == 3) {
+                        var invisibleButtonIdx = Math.floor(Math.random() * 10);
+                        var detectNumber = arr.indexOf(invisibleButtonIdx + '');
+                        while (detectNumber != -1) //존재할 경우 계속 while문을 돈다. 존재하지 않은 경우 while을 벗어난다. 
+                        {
+                            invisibleButtonIdx = Math.floor(Math.random() * 10);
+                            detectNumber = arr.indexOf(invisibleButtonIdx + '');
+                        }
+                        buttons[invisibleButtonIdx].style.color = 'red';
+
+                    } else if (count == 5) {
+                        // buttons[0].style.color = 'red';
+                        var invisibleButtonIdx = Math.floor(Math.random() * 10);
+                        var detectNumber = arr.indexOf(invisibleButtonIdx + '');
+                        while (detectNumber != -1 || buttons[invisibleButtonIdx].style.color != '') //존재할 경우 계속 while문을 돈다. 존재하지 않은 경우 while을 벗어난다. 
+                        {
+                            invisibleButtonIdx = Math.floor(Math.random() * 10);
+                            detectNumber = arr.indexOf(invisibleButtonIdx + '');
+                        }
+                        buttons[invisibleButtonIdx].style.color = 'red';
+                    } else if (count == 7) {
+                        // buttons[0].style.color = 'red';
+                        var invisibleButtonIdx = Math.floor(Math.random() * 10);
+                        var detectNumber = arr.indexOf(invisibleButtonIdx + '');
+                        while (detectNumber != -1 || buttons[invisibleButtonIdx].style.color != '') //존재할 경우 계속 while문을 돈다. 존재하지 않은 경우 while을 벗어난다. 
+                        {
+                            invisibleButtonIdx = Math.floor(Math.random() * 10);
+                            detectNumber = arr.indexOf(invisibleButtonIdx + '');
+                        }
+                        buttons[invisibleButtonIdx].style.color = 'red';
+                    } else if (count == 8) {
+                        // buttons[0].style.color = 'red';
+                        var invisibleButtonIdx = Math.floor(Math.random() * 10);
+                        var detectNumber = arr.indexOf(invisibleButtonIdx + '');
+                        while (detectNumber != -1 || buttons[invisibleButtonIdx].style.color != '') //존재할 경우 계속 while문을 돈다. 존재하지 않은 경우 while을 벗어난다. 
+                        {
+                            invisibleButtonIdx = Math.floor(Math.random() * 10);
+                            detectNumber = arr.indexOf(invisibleButtonIdx + '');
+                        }
+                        buttons[invisibleButtonIdx].style.color = 'red';
+                    }
+                    if (count >= 9) {
+                        count = 0;
+                        alert
+                            ('마지막으로 입력한 ' +
+                                h1Temp +
+                                '도 정답이 아닙니다. ' +
+                                'game Over! 정답은 ' + output);
+                        h3input.innerHTML = '';
+                        shuffleNewNumber();
+                        h1output.innerHTML = '';
+                        answer.innerHTML = '정답은 ? ';
+                        timecount = 0;
+
+                        clearInterval(timeCountInterval);
+                        timeCountInterval = setInterval(
+                            function() {
+                                timecount++;
+                                time.innerHTML = timecount;
+                            }, 150
+                        )
+
+                    }
+
+                }
+
+            });
+
+            cancel.addEventListener('click', function() {
+                h1output.innerHTML = '';
+                answer.innerHTML = '정답은 ?'
+            });
+            answer.addEventListener('click', function() {
+                this.innerHTML = '정답은 ' + output;
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <div style="height: 60px;">
+        <h1 id="output" style="margin-left: 170px"></h1>
+    </div>
+    <div>
+        <div style="margin-bottom: 20px;">
+            <button class="choiceValue">0</button>
+            <button class="choiceValue">1</button>
+            <button class="choiceValue">2</button>
+            <button class="choiceValue">3</button>
+            <button class="choiceValue">4</button>
+        </div>
+        <div style="margin-bottom: 20px;">
+            <button class="choiceValue">5</button>
+            <button class="choiceValue">6</button>
+            <button class="choiceValue">7</button>
+            <button class="choiceValue">8</button>
+            <button class="choiceValue">9</button>
+        </div>
+        <button id="cancel" style="margin-right: 20px;">취소</button>
+        <button id="submit" style="margin-top: 20px;">제출</button>
+
+        <div style="height: 60px;">
+            <h3 id="input" style="margin-left: 170px"></h3>
+            <h5 id="time"></h5>
+        </div>
+        <button id='answer'>정답은 ? </button>
+    </div>
+    <div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>자바스크립트 예제</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            text-align: center;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        header > h1 {
+            color:crimson;
+        }
+        header > p {
+            color:rgb(247, 27, 11);
+        }
+        section{
+            display: flex;
+            flex-direction: row;
+            padding: 16px;
+        }
+        section > div > h2 {
+           text-align: center;
+           padding-bottom: 16px;
+        }
+        section > div {
+            flex: 1;
+            margin: 0 3px;
+            padding: 5px 10px;
+            background: rgb(248, 250, 116);
+            text-align: left;
+        }
+        ul{
+            width: 100%;
+            padding: 8px;
+            list-style-position: inside;
+        }
+    </style>
+</head>
+<body>
+
+<h1>자바스크립트 예제 : JSON</h1>
+<p>JSON 데이터의 활용에 대해 알아 보자.</p>
+
+<header></header>
+<section></section>
+
+<script>
+    /*
+    주의> 아직 var, let, const에 대한 개념 정립이 안되서 그냥 let 사용함. ^^;; 새로 나와서 많이 사용하길래 씀!!!
+    함수레벨스코프니 블록레벨스코프니 어려움...
+    */
+    //샘플 json 데이터 준비
+    let sampleJson = "https://dongjoonleedj.github.io/testWebHosting/test2.json";
+
+    let header = document.querySelector('header');
+    let section = document.querySelector('section');
+
+    let xhr = new XMLHttpRequest(); //리퀘스트 객체를 만든다.
+    xhr.open('GET', sampleJson);
+    //xhr.responseText = 'json'; //자바스크립트 객체 바로 변환 된다-> 이건 안됨
+    xhr.send();
+    //응답을 받으면 함수 실행
+    xhr.onload = () => {
+        
+        //응답받은 문자열을 자바스크립트 객체로 변환 해 준다.
+        let superHeroes = JSON.parse(xhr.response); 
+        populateData(superHeroes);
+    }
+
+    function populateData(jsonObj){
+        let heroes = jsonObj['members'];
+        console.log(heroes);
+        //header안에 새로운 엘리먼트를 만들어 추가해 준다.
+        let myH1 = document.createElement('h1');
+        myH1.textContent = jsonObj['squadName'];
+        header.appendChild(myH1);
+        let myPara = document.createElement('p');
+        myPara.textContent = jsonObj['homeTown'] + jsonObj['formed'];
+        header.appendChild(myPara);
+
+        heroes.forEach(element => {
+            let mDiv = document.createElement('Div');
+            let mH2 =  document.createElement('h2');
+            let mP1 =  document.createElement('p');
+            let mP2 =  document.createElement('p');
+            let mList =  document.createElement('ul');
+
+            mH2.textContent = element.name;
+            mP1.textContent = "나이: " + element.age;
+            mP2.textContent = "능력:";
+            element.powers.forEach(e =>{
+                let listItem = document.createElement('li');
+                listItem.textContent = e;
+                mList.appendChild(listItem);
+            })
+
+            section.appendChild(mDiv);
+            mDiv.appendChild(mH2);
+            mDiv.appendChild(mP1);
+            mDiv.appendChild(mP2);
+            mDiv.appendChild(mList);
+        });
+        
+    }
+</script>
+    
+</body>
+</html>

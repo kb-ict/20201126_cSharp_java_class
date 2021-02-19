@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="onesum">
+    <span>+</span>
+    <input type="text" id="twosum">
+    <span>=</span>
+    <span id="resultsum">결과 출력</span>
+    <div>
+        <input type="button" value="합" onclick="sum()">
+    </div>
+
+    <input type="text" id="onemin">
+    <span>-</span>
+    <input type="text" id="twomin">
+    <span>=</span>
+    <span id="resultminus">결과 출력</span>
+    <div>
+        <input type="button" value="빼기" onclick="minus()">
+    </div>
+
+    <input type="text" id="onex">
+    <span>x</span>
+    <input type="text" id="twox">
+    <span>=</span>
+    <span id="resultx">결과 출력</span>
+    <div>
+        <input type="button" value="곱하기" onclick="gop()">
+    </div>
+
+    <input type="text" id="onediv">
+    <span>/</span>
+    <input type="text" id="twodiv">
+    <span>=</span>
+    <span id="resultdiv">결과 출력</span>
+    <div>
+        <input type="button" value="나누기" onclick="divide()">
+    </div>
+    
+
+    <script>
+        function sum() {
+            var one = document.getElementById('onesum').value;
+            var two = document.getElementById('twosum').value;
+
+            document.getElementById('resultsum').innerText = Number(one) + Number(two);
+        }
+
+        function minus() {
+            var one = document.getElementById('onemin').value;
+            var two = document.getElementById('twomin').value;
+
+            document.getElementById('resultminus').innerText = Number(one) - Number(two);
+        }
+
+        function gop() {
+            var one = document.getElementById('onex').value;
+            var two = document.getElementById('twox').value;
+
+            document.getElementById('resultx').innerText = Number(one) * Number(two);
+        }
+
+        function divide() {
+            var one = document.getElementById('onediv').value;
+            var two = document.getElementById('twodiv').value;
+
+            document.getElementById('resultdiv').innerText = Number(one) / Number(two);
+        }
+
+
+    </script>
+</body>
+</html>

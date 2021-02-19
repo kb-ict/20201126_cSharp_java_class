@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var one = 1;
+        var two = "2";
+        // let변수는 중복선언 불가
+        let three = 3;
+
+        var array = [1, 2, 4, '헐', '그녀', '스파이크 존스', '호아킨 피닉스'];
+        for (let i = 0; i < array.length; i++) {
+            // alert(array[i]);
+            console.log(array[i]);
+        }
+
+        array = 100;
+
+        // alert(array);
+        console.log(array);
+
+        var obj = {
+            name: "황창식",
+            age: 300,
+            master: "최여사",
+            123: "이건 뭐야",
+            _: "언더바는 혀용됨"
+        }
+
+        // alert(obj['name']);
+        // alert(obj['age']);
+        // alert(obj['master']);
+        // alert(obj.name);
+        // alert(obj.age);
+        // alert(obj.master);
+
+        console.log(obj['name']);
+        console.log(obj['age']);
+        console.log(obj['master']);
+        // 숫자속성 접근 가능
+        console.log(obj['123']);
+
+
+        console.log(obj.name);
+        console.log(obj.age);
+        console.log(obj.master);
+        // 숫자 속성 접근 불가능
+        // console.log(obj.123);
+
+
+        var wow = function () {
+            // alert("big bak")
+            console.log("big bak")
+        };
+
+        wow();
+
+        console.log(wow);
+        console.log("!!!!!")
+        console.log(wow());
+        //  == console.log(console.log("big bak"));
+        console.log("!!!!!")
+
+
+        var devilArray = [
+            1, 2, "3", {master : "Walter white", name : "Jessie Pinkman"}, [1, 2, 3]
+        ]
+
+        console.log(devilArray[0]);
+        console.log(devilArray[1]);
+        console.log(devilArray[2]);
+        console.log(devilArray[3]);
+        console.log(devilArray[4]);
+
+
+        var devilJason = {
+            one : [1, 2, 3, 4, 5],
+            two : {two_one : "2", two_two : "twotwo"},
+            three : 5
+        }
+
+        console.log(devilJason['one'])
+        console.log(devilJason.two)
+        console.log(devilJason.three)
+    </script>
+</body>
+
+</html>

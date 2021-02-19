@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .max
+        {
+            color:blueviolet;
+        }
+    </style>
+    <script>
+        // $(document).ready(function()
+        // $(function() //문서 로드 완료시 호출
+        window.addEventListener('load',function () 
+        {
+            var bigCountLaw = prompt('대수의 법칙을 증명할 숫자는?(주사위 던질 횟수)', 10000);
+            var emptyArray = [0,0,0,0,0,0];
+            for(var i = 0; i <bigCountLaw; i++)
+            {
+                 //1부터 6
+                var random = Math.floor(Math.random()*6); //0 부터 5
+                emptyArray[random]++;
+            }
+            for(var i = 1; i<=emptyArray.length; i++)
+            {
+                // $('h1.'+(i+1)).text(emptyArray[i]);
+                // console.log('h1.'+(i+1+('a').charCodeAt(0)));
+
+
+
+                // 근데 사실 이름은 숫자로 시작하면 안 됨!!!
+                document.querySelector(`h1:nth-of-type(${(2*i)})`).innerHTML = emptyArray[i-1]; //0으로 바꾸기
+            }
+
+            //가장 큰 값을 색칠하는 코드 + % 표시 코드
+            var max = 0;
+            var maxIndex = 0; //클래스명을 이용할 때 쓰이는 변수
+
+            for(var j = 1; j <= 6; j++)
+            {
+                // var percent = $('h1.'+String(j)).text(); //h1.1 부터 h1.6가 나옴
+                var percent = document.querySelector(`h1:nth-of-type(${2*j})`).innerHTML;
+                if(max<percent)
+                {
+                    max = percent;
+                    maxIndex = j;
+                }
+                percent = (percent/bigCountLaw) * 100;
+                // $('h2.'+String(j)).text(parseFloat(percent).toFixed(2)+'%');
+                document.querySelector(`h2:nth-of-type(${j})`).innerHTML = parseFloat(percent).toFixed(2)+'%';
+            }
+
+            // $('h1.'+maxIndex).addClass('max');
+            document.querySelector('h1:nth-of-type('+(Number(maxIndex)*2)+')').setAttribute('class','max');
+            
+
+            // $('h2.'+maxIndex).addClass('max');
+            document.querySelector('h2:nth-of-type('+maxIndex+')').setAttribute('class','max');
+
+
+            //querySelector이 좀 더 느리다곤 하니까 참고하기
+            //다만 쿼리셀렉터가 쓰긴 편하다. 우린 둘 다 배웠다 ㅋ
+            // document.querySelector('#test').style.backgroundColor = 'red';
+            // document.getElementById('test').style.color = 'white';
+
+        });
+    </script>
+</head>
+<body id="test">a
+    <h1>1</h1>
+    <h1 class="one">0</h1>
+    <h2 class="one">0</h2>
+    <h1>2</h1>
+    <h1 class="two">0</h1>
+    <h2 class="two">0</h2>
+    <h1>3</h1>
+    <h1 class="three">0</h1>
+    <h2 class="three">0</h2>
+    <h1>4</h1>
+    <h1 class="four">0</h1>
+    <h2 class="four">0</h2>
+    <h1>5</h1>
+    <h1 class="five">0</h1>
+    <h2 class="five">0</h2>
+    <h1>6</h1>
+    <h1 class="six">0</h1>
+    <h2 class="six">0</h2>
+
+        <!-- script 코드를 body 밑부분에 삽입시 document.ready가 필요없음 -->
+</body>
+</html>

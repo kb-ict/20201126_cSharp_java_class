@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="one" class="num" type="text">
+    <span>+</span>
+    <input id="two" class="num" type="text">
+    <span>=</span>
+    <span class="result">결과 출력</span>
+    <div><input type="button" value="합" onclick="sum()"></div>
+
+    <script>
+        function sum() {
+            var one = document.getElementsByClassName('num')[0].value;
+            // console.log(one);
+            one = document.getElementById('one').value;
+            // console.log(one);
+            one = document.querySelector('#one').value;
+            // console.log(one);
+
+            var two = document.getElementsByClassName('num')[1].value;
+
+            document.getElementsByClassName('result')[0].innerText = Number(one) + Number(two);
+        }
+        
+    </script>
+</body>
+</html>

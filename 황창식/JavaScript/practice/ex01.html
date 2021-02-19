@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #adiv{
+            background: brown;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div id="adiv">
+        이걸 누르면 경고창 뜸!
+    </div>
+
+    <div id="bdiv">
+
+    </div>
+    <script>
+        // body내용을 다 읽고나서 script 실행
+        window.onload = function () {
+            document.getElementById("adiv").onclick = function () {
+                alert("test");
+                alert("굿굿");
+            }
+        }
+        document.getElementById("bdiv").innerHTML = "tag 들어간다 입벌려라";
+    </script>
+</body>
+</html>

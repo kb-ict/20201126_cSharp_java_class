@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function newPrint() {
+            document.writeln("이제 곧 집에 간다.");
+        }
+    </script>
+</head>
+<body>
+    <script>
+        // $nbsp : 공백
+        document.write("king&nbsp;&nbsp;&nbsp;Heisenburg");
+        document.writeln("king&nbsp;&nbsp;&nbsp; <br>Heisenburg");
+        document.writeln("king&nbsp;&nbsp;&nbsp; <br>Heisenburg");
+
+    </script>
+
+    <!-- 함수를 통해 document.write를 호출하면 함수를 통해 호출된 document.write만 남는다. -->
+    <h1 onclick="newPrint()">Lorem ipsum dolor sit amet.</h1>
+
+    <script>
+        document.write("king&nbsp;&nbsp;&nbsp;Heisenburg");
+        document.writeln("king&nbsp;&nbsp;&nbsp; <br>Heisenburg");
+        document.writeln("king&nbsp;&nbsp;&nbsp; <br>Heisenburg");
+
+    </script>
+</body>
+</html>

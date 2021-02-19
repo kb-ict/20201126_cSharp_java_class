@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="01_test.json"></script>
+</head>
+<body>
+    
+    <script>
+        console.log('JSON 파일을 읽어들이기');
+        // parse(stringify) : 데이터를 자른 뒤 String으로 읽어들인다.
+        var parseData = JSON.parse(JSON.stringify(data));
+        console.log(parseData);
+
+        var introduce = `Let me introduce myself, 
+        <br>I'm ${parseData["name"]}.
+        <br>I'm from ${parseData["homeTown"]}
+        <br>I always dreamed to be the Pokemon Master!
+        <br>My rival is ${parseData["Rival"]}
+        <br>He's from ${parseData["Rival's HomeTown"]}
+        <br>He is absolutely country guy lol.
+        <br>Here's my partners!
+        <br>First, ${parseData["member"][0]["location"]} guys!
+        <br>${parseData["member"][0]["pokemon"][0]}, 
+        ${parseData["member"][0]["pokemon"][1]}, 
+        ${parseData["member"][0]["pokemon"][2]}, 
+        ${parseData["member"][0]["pokemon"][3]}, 
+        ${parseData["member"][0]["pokemon"][4]}, 
+        ${parseData["member"][0]["pokemon"][5]}
+        <br>and Second, ${parseData["member"][1]["location"]} guys!
+        <br>${parseData["member"][1]["pokemon"][0]}, 
+        ${parseData["member"][1]["pokemon"][1]}, 
+        ${parseData["member"][1]["pokemon"][2]}, 
+        ${parseData["member"][1]["pokemon"][3]}, 
+        ${parseData["member"][1]["pokemon"][4]}, 
+        ${parseData["member"][1]["pokemon"][5]}`; 
+
+        document.write(`<h1>${introduce}</h1>`);
+    </script>
+</body>
+</html>

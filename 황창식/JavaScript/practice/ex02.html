@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>타이틀</title>
+    <script>
+        var a = 0;
+        function doA() {
+            // alert("window 생략가능");
+        }
+
+        function doB() {
+            alert("a = " + a);
+        }
+
+        function doC() {
+            var adiv = document.getElementsByClassName("adiv")[0];
+            // alert(adiv);
+            // adiv.style.left = a+"px";
+            setInterval(function () {
+                adiv.style.left = a+"px";
+                a = a + 10;
+            }, 1000);
+        }
+    </script>
+    <style>
+        .adiv{
+            position: absolute;
+            height: 100px; width: 100px;
+            background-color: cornflowerblue;
+            left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="adiv">
+    </div>
+    <button onclick="doA();alert('함수 호출하고 나서 경고창');a=a+50;">누르면 달라짐</button>
+    <button onclick="doB();">a값 확인</button>
+    <button onclick="doC();">adiv 위치이동</button>
+</body>
+</html>

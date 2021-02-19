@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+    <div class="history">
+        <ul class="tabs clearfix">
+            <li><a href="#tab1"><img src="blog/Source/portrait.jpg" alt=""></a></li>
+            <li><a href="#tab2"><img src="blog/Source/whiplash.jpg" alt=""></a></li>
+        </ul>
+    </div>
+
+    <div class="tab_content" id="tab1">
+        <table class="history_2012">
+            <tr>
+                <th>1</th>
+                <td>#####</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="tab_content" id="tab2">
+        <table class="history_2002">
+            <tr>
+                <td>#####</td>
+                <th>2</th>
+            </tr>
+        </table>
+    </div>
+    
+    <script>
+        $("ul.tabs li:first a").addClass("active").show();
+        $(".tab_content:first").show();
+
+        $("ul.tabs li").click(function () {
+            $("ul.tabs li a").removeClass("active");
+            $(this).children('a').addClass("active");
+            $(".tab_content").hide();
+
+            var activeTab = $(this).find("a").attr("href");
+
+            $(activeTab).fadeIn();
+            return false;
+        });
+    </script>
+</body>
+</html>

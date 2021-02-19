@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 객체 보충
+        function Student(name, number) {
+            this.name = name;
+            this.number = number;
+        }
+
+        Student.prototype.toString = function () {
+            return "이름 : " + this.name + "    학번 : " + this.number;
+        }
+
+        // 배열 보충
+        var array = [];
+        array.push(new Student("황창식", 20210118));
+        array.push(new Student("황창식2", 20210119));
+
+        var output = '';
+        for (var index in array) {
+            output += array[index] + "\n";
+        }
+        alert(output);
+    </script>
+</body>
+
+</html>

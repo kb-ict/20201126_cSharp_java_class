@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        #pp{
+            display: block;
+        }
+    </style>
+    
+</head>
+<body>
+    <p id="pp">Lorem ipsum dolor sit amet.</p>
+    <p id="pp1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, ea?</p>
+    <button id="pbtn1">(javascript) Hide & Show</button>
+    <button id="pbtn2">(jquery) Hide & Show</button>
+
+    <script>
+        document.getElementById("pbtn1").onclick = function () {
+            if(document.getElementById("pp").style.display == "none")
+                document.getElementById("pp").style.display = "block"
+            else
+                document.getElementById("pp").style.display = "none"
+        };
+    </script>
+
+    <script>
+        $("#pbtn2").click(function () {
+            $("#pp").toggle(500, function () {
+                $("#pp1").toggle(500, function () {
+                    alert("끝났음");
+                });
+            });
+        });
+    </script>
+</body>
+</html>

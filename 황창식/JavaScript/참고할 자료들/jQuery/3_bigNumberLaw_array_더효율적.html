@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<script src="http://code.jquery.com/jquery-1.11.0.js"></script>
+    <title>Document</title>
+    <style>
+        .max
+        {
+            color:blueviolet;
+        }
+    </style>
+    <script>
+        // $(document).ready(function()
+        $(function() //문서 로드 완료시 호출
+        {
+            var bigCountLaw = prompt('대수의 법칙을 증명할 숫자는?(주사위 던질 횟수)', 10000);
+            var emptyArray = [0,0,0,0,0,0];
+            for(var i = 0; i <bigCountLaw; i++)
+            {
+                 //1부터 6
+                var random = Math.floor(Math.random()*6); //0 부터 5
+                emptyArray[random]++;
+            }
+            for(var i = 0; i<emptyArray.length; i++)
+            {
+                $('h1.'+(i+1)).text(emptyArray[i]);
+            }
+
+            //가장 큰 값을 색칠하는 코드 + % 표시 코드
+            var max = 0;
+            var maxIndex = 0; //클래스명을 이용할 때 쓰이는 변수
+
+            for(var j = 1; j <= 6; j++)
+            {
+                var percent = $('h1.'+String(j)).text(); //h1.1 부터 h1.6가 나옴
+                if(max<percent)
+                {
+                    max = percent;
+                    maxIndex = j;
+                }
+                percent = (percent/bigCountLaw) * 100;
+                $('h2.'+String(j)).text(parseFloat(percent).toFixed(2)+'%');
+            }
+
+            $('h1.'+maxIndex).addClass('max');
+            $('h2.'+maxIndex).addClass('max');
+
+        });
+    </script>
+</head>
+<body>
+    <h1>1</h1>
+    <h1 class="1">0</h1>
+    <h2 class="1">0</h1>
+    <h1>2</h1>
+    <h1 class="2">0</h1>
+    <h2 class="2">0</h1>
+    <h1>3</h1>
+    <h1 class="3">0</h1>
+    <h2 class="3">0</h1>
+    <h1>4</h1>
+    <h1 class="4">0</h1>
+    <h2 class="4">0</h1>
+    <h1>5</h1>
+    <h1 class="5">0</h1>
+    <h2 class="5">0</h1>
+    <h1>6</h1>
+    <h1 class="6">0</h1>
+    <h2 class="6">0</h1>
+
+        <!-- script 코드를 body 밑부분에 삽입시 document.ready가 필요없음 -->
+</body>
+</html>
