@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 후손 선택자 */
+        #header h1{
+            color: red;
+        }
+        #selection h1{
+            color: orange;
+        }
+        /* 주의사항 */
+        /* #header2 h1, h2 : header후손 h1과 일반 h2선택*/
+        #header2 h1, #header2 h2{
+            color: aqua;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1 class="title">lorem ipsum</h1>
+        <div id="nav">
+            <h1>Navigation</h1>
+        </div>
+    </div>
+    <div id="selection">
+        <h1 class="title">lorem ipsum</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div id="header2">
+        <h1>Lorem, ipsum.</h1>
+        <h2>Lorem, ipsum.</h2>
+    </div>
+</body>
+</html>

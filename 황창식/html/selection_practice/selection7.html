@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 상태 선택자 */
+        /* input 태그가 사용 가능할 경우 */
+        input:enabled{
+            background-color: white;
+        }
+        /* input 태그가 사용 불가능할 경우 */
+        input:disabled{
+            background-color: gray;
+        }
+        /* input 태그에 초점이 맞춰진 경우 */
+        input:focus{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h2>Enabled</h2>
+    <input>
+    <h2>Disabled</h2>
+    <input disabled="disabled">
+
+</body>
+</html>

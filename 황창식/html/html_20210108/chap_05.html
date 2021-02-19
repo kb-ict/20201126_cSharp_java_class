@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter_5</title>
+    <style>
+        /* 초기화 코드 */
+        *{margin: 0; padding: 0;}
+        body{font-family: sans-serif;}
+        li{list-style: none;}
+        a{text-decoration: none;}
+        img{border: 0;}
+       
+        /* Header 설정 */
+        #main_header{width:960px; margin: 0 auto; height: 160px; position: relative;}
+        #main_header>#title{position: absolute; left: 20px; top: 30px; font-family: 'Coiny', cursive;}
+        #main_header>#main_gnb{position: absolute; right: 0px; top: 0px;}
+        #main_header>#main_lnb{position: absolute; right: 0px; bottom: 10px;}
+        
+        /* Navigation 설정 */
+        #main_gnb>ul{overflow: hidden;}
+        #main_gnb>ul>li{float: left;}
+        #main_gnb>ul>li>a{display: block; padding: 2px 10px; border: 1px solid black;}
+        #main_gnb>ul>li>a:hover{background: black; color: white;}
+        #main_gnb>ul>li:first-child>a{border-radius: 10px 0 0 10px;}
+        #main_gnb>ul>li:last-child>a{border-radius: 0 10px 10px 0;}
+
+        #main_lnb>ul{overflow: hidden;}
+        #main_lnb>ul>li{float: left;}
+        #main_lnb>ul>li>a{display: block; padding: 10px 20px; border: 1px solid black;}
+        #main_lnb>ul>li>a:hover{background: black; color: white;}
+        #main_lnb>ul>li:first-child>a{border-radius: 10px 0 0 10px;}
+        #main_lnb>ul>li:last-child>a{border-radius: 0 10px 10px 0;}
+
+        /* Content 설정 */
+        #content{width: 960px; margin: 0 auto; overflow: hidden;}
+        #content>#main_section{width: 750px; float: left;}
+        #content>#main_aside{width: 200px; float: right;}
+
+        /* Main Section 설정 */
+        #main_section>article.main_article{margin-bottom: 10px; padding: 20px; border: 1px solid black;}
+
+        /* Aside 설정 */
+        input:nth-of-type(1){display: none;}
+        input:nth-of-type(1)~div:nth-of-type(1){display: none;}
+        input:nth-of-type(1):checked~div:nth-of-type(1){display: block;}
+        
+        input:nth-of-type(2){display: none;}
+        input:nth-of-type(2)~div:nth-of-type(2){display: none;}
+        input:nth-of-type(2):checked~div:nth-of-type(2){display: block;}
+
+        section.buttons{overflow: hidden;}
+        section.buttons>label{display: block; float: left; width: 100px; height: 30px; line-height: 30px; text-align: center;
+        box-sizing: border-box; border: 1px solid black; background: black; color: white;}
+        input:nth-of-type(1):checked~section.buttons>label:nth-of-type(1){background: white; color: black;}
+        input:nth-of-type(2):checked~section.buttons>label:nth-of-type(2){background: white; color: black;}
+
+        /* list 설정 */
+        .item{overflow: hidden; padding: 10px; border: 1px solid black; border-top: none;}
+        .thumbnail{float: left;}
+        .description{float: left; margin-left: 10px;}
+        .description>strong{display: block; width: 120px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+
+        /* Footer 설정 */
+        #main_footer{width: 960px; margin: 0 auto; margin-bottom: 10px; box-sizing: border-box; padding: 10px; border: 1px solid black; text-align: center;}
+    </style>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="main_header">
+        <div id="title">
+            <h1>Rint Developement</h1>
+            <h2>HTML5 + CSS3 Basic</h2>
+        </div>
+        <!-- Global navigation bar -->
+         <nav id="main_gnb">
+            <ul>
+                <li><a href="#">Web</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Game</a></li>
+                <li><a href="#">Simulation</a></li>
+                <li><a href="#">Data</a></li>
+            </ul>
+        </nav>
+        <!-- local navigation bar -->
+        <nav id="main_lnb">
+            <ul>
+                <li><a href="#">HTML5</a></li>
+                <li><a href="#">CSS3</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">jQuery</a></li>
+                <li><a href="#">Node.js</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="content">
+        <section id="main_section">
+            <article class="main_article">
+                <h1>Main Article</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae modi unde nihil assumenda ducimus placeat odit officia laborum aliquam, omnis ea. Iste illum mollitia rerum animi voluptatem dignissimos repellat cum libero, ipsam nam aspernatur repudiandae facere consequatur, optio eaque ullam iure illo, aliquid reprehenderit quam nostrum maiores debitis? Eius, at?</p>
+            </article>
+            <article class="main_article">
+                <h1>Main Article</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nostrum deserunt impedit ipsum nulla mollitia voluptatibus odit delectus itaque debitis exercitationem sit fugiat commodi, assumenda vel accusantium sint qui consequatur similique quae voluptates. Doloremque, delectus nihil! Corporis, voluptatem! Iusto modi molestiae inventore. Quae aliquid debitis animi quaerat fugit cum saepe?</p>
+            </article>
+            <article class="main_article">
+                <h1>Main Article</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptate inventore accusantium? Reprehenderit, tenetur ex! Laboriosam repellat doloremque animi fuga error eius modi quo, ad et incidunt. Dolore et eaque unde at hic quis est a temporibus non alias nemo, aspernatur incidunt eius, consequuntur ab labore earum sunt ex facilis?</p>
+            </article>
+        </section>
+        <aside id="main_aside">
+            <input type="radio" name="tab" id="first" checked="checked">
+            <input type="radio" name="tab" id="second">
+            <section class="buttons">
+                <label for="first">First</label>
+                <label for="second">Second</label>
+            </section>
+            <div class="tap_item">
+                <ul>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45">
+                            </div>
+                            <div class="description">
+                                <strong>HTML5 Canvas</strong>
+                                <p>2021-01-08</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45">
+                            </div>
+                            <div class="description">
+                                <strong>HTML5 Audio</strong>
+                                <p>2021-01-08</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45">
+                            </div>
+                            <div class="description">
+                                <strong>HTML5 Video</strong>
+                                <p>2021-01-08</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45">
+                            </div>
+                            <div class="description">
+                                <strong>HTML5 Semantic Web</strong>
+                                <p>2021-01-08</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tap_item">
+                <ul>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45">
+                            </div>
+                            <div class="description">
+                                <strong>CSS3 Transition</strong>
+                                <p>2021-01-08</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45">
+                            </div>
+                            <div class="description">
+                                <strong>CSS3 Animation</strong>
+                                <p>2021-01-08</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45">
+                            </div>
+                            <div class="description">
+                                <strong>CSS3 Border</strong>
+                                <p>2021-01-08</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45">
+                            </div>
+                            <div class="description">
+                                <strong>CSS3 Box</strong>
+                                <p>2021-01-08</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <footer id="main_footer">
+        <h3>HTML5 + CSS3 Basic</h3>
+        <address>Website Layout Basic</address>
+    </footer>
+</body>
+
+</html>

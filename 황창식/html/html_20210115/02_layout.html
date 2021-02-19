@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 960px;
+            margin: 0 auto;
+            display: grid;
+            grid-template: 70px 70px 1fr 70px / 279px 30px 651px;
+            gap: 10px;
+
+            
+        }
+
+        .header{
+            grid-column: 1/4;
+            
+
+        }
+
+        .navigation{
+            grid-column: 1/4;
+        }
+
+        .content>.aside{
+            grid-column: 1/2;
+            
+        }
+
+        .content>.section{
+            grid-column: 3/4;
+        }
+
+
+        .footer{
+            grid-column: 1/4;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Header</h1>
+        </div>
+        <div class="navigation">
+            <h1>Navigation</h1>
+        </div>
+        <div class="content">
+            <div class="aside">
+                <h1>Aside</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, enim? Quaerat repellendus minima rerum exercitationem modi, perspiciatis eligendi dignissimos aliquam amet fugit. Id reprehenderit accusantium perspiciatis ipsa laborum ad, quam obcaecati eius praesentium impedit? Incidunt sunt repudiandae, quae minus suscipit praesentium ad perferendis laudantium, odit qui minima harum in quos.]</p>
+            </div>
+            <div class="section">
+                <h1>section</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi repudiandae harum aperiam nostrum. Reiciendis, vero, inventore similique corporis officiis qui dicta veritatis adipisci minima impedit officia error nulla ducimus tempora? Voluptatem enim dolores explicabo quibusdam vitae incidunt numquam quia. Id sequi pariatur, voluptatibus animi amet ad expedita est impedit quidem.</p>
+            </div>
+        </div>
+        <div class="footer">
+            <h1>Footer</h1>
+        </div>
+    </div>
+    
+</body>
+</html>

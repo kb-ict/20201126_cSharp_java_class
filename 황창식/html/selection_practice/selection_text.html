@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 문자 선택자 */
+        /* 첫번째 글자 선택 */
+        p::first-letter{font-size: 3em;}
+        /* 첫번째 줄 선택 */
+        p::first-line{color: red;}
+
+        p{counter-increment: rint;}
+        /* 태그 앞에 위치하는 공간 선택 */
+        p::before{content:counter(rint) ".";}
+        /* 태그 뒤에 위치하는 공간 선택 */
+        p::after{content:" - " attr(data-page) " page";}
+        /* 드래그한 글자 선택 */
+        p::selection{background: black; color: red;}
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p data-page="52">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate minima libero dolore nemo, magnam repellat impedit similique reprehenderit esse voluptas. Commodi illum aperiam harum dolorum illo eos facilis numquam, omnis perspiciatis quibusdam assumenda esse doloribus delectus alias, ut expedita repellat rem adipisci ullam enim impedit inventore veniam tempore quod! Fuga voluptatem necessitatibus nulla possimus sit neque sed at ex provident harum laborum quaerat quisquam repellendus ut aperiam, illum numquam dolorum! Numquam at tempore placeat aperiam, deserunt qui voluptatem ipsa eum ab consequuntur architecto molestias, odit corporis recusandae commodi quo tempora fugiat pariatur. Enim rerum veniam corporis quaerat earum! Dolorem, ducimus!</p>
+    <p data-page="273">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente architecto numquam inventore distinctio laboriosam totam, qui nemo itaque assumenda labore, ullam voluptas quis, ad nisi voluptatem asperiores sint libero at voluptatum provident error aspernatur? Sed perspiciatis nesciunt tempore corporis quas molestiae eum mollitia quam eius ea? Velit facere magni corporis aut consequatur dicta porro nobis, doloribus beatae possimus nostrum, cumque inventore, fugit ipsa. Exercitationem porro doloribus earum facere, molestias atque nobis recusandae voluptatum nulla accusamus voluptatem laudantium itaque soluta? Quo est et quod sunt inventore saepe voluptatibus, molestiae, iure dignissimos consequuntur minima fuga fugiat magni pariatur quam exercitationem hic illo nesciunt excepturi. Inventore sed quibusdam nostrum officiis id ut aliquid recusandae eum. Nemo optio expedita suscipit harum sapiente ab, est, veritatis iusto itaque eveniet nihil nulla accusantium blanditiis a, soluta porro modi eum delectus quo ipsa et natus excepturi odio architecto. Vitae reprehenderit officia suscipit, totam assumenda iusto commodi unde?</p>
+</body>
+</html>

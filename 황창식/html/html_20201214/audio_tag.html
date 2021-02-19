@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>1. Audio 태그</h1>
+    <p>audio 삽입시 controls를 삽입해야지만 가능</p>
+    <audio src="Kalimba.mp3"></audio>
+    <audio src="Kalimba.mp3" controls></audio>
+    <audio src="Kalimba.mp3" controls="controls"></audio>
+
+    <h1>2. Source 태그</h1>
+    <p>웹 브라우저마다 지원하는 음악형식이 다르므로, 이에 대응하고자 나온 태그</p>
+    <br>
+    <p>type속성을 표기해줘야 웹 브라우저를 읽는 시간이 줄어듦</p>
+    <audio controls="controls">
+        <source src="Kalimba.mp3" type="audio/mp3">
+        <source src="Kalimba.ogg" type="audio/ogg">
+    </audio>
+
+
+</body>
+</html>

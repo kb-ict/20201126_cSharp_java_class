@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            /* static : 기본값 */
+            /* static, relative : 상대적 값 */
+            /* alsolute, fixed : 절대적 값 */
+            
+        }
+
+        .red {
+            background-color: red;
+            /* left: 10px; top: 10px; */
+           
+        }
+
+        .green {
+            background-color: green;
+            /* left: 50px; top: 50px; */
+            position: relative;
+            left: 500px;
+        }
+
+        .blue {
+            background-color: blue;
+            /* left: 90px; top: 90px; */
+            position: fixed;
+            left: 100px; top: 100px;
+        }
+        .pink{
+            background-color: pink;
+            position: absolute;
+            left: 20px; top: 20px;
+            width: 30px; height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box red"></div>
+    
+    <div class="box green">
+        <div class="box pink"></div>
+    </div>
+    
+    <div class="box blue"></div>
+    
+    <div class="box red"> 두번째
+        <!-- absolute의 부모태그의 position이 static일 경우 fixed로 작용 -->
+        <div class="box pink"></div>
+    </div>
+
+</body>
+
+</html>

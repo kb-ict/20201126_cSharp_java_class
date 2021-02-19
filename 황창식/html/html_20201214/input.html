@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>INPUT_Default(Get)</h1>
+    <!--input태그는 form 태그 안에서 작성-->
+    <form>
+        <!--Input은 닫는 태그가 없는 태그에 속함-->
+        <input type="text" name="search">
+        <input type="submit">
+    </form>
+
+    <h1>INPUT_Get</h1>
+    <p>검색에 사용</p>
+    <form method="get">
+        <input type="text" name="search">
+        <input type="submit">
+    </form>
+
+    <h1>INPUT_Post</h1>
+    <p>로그인에 사용</p>
+    <form method="post">
+        <input type="text" name="search">
+        <input type="submit">
+    </form>
+
+    <h1>INPUT_Reset</h1>
+    <form>
+        <input type="text" name="search">
+        <input type="submit" value="submit">
+        <input type="reset" value="clear">
+        <!--value를 넣으면 버튼에 나오는 글자 변경-->
+    </form>
+
+</body>
+
+</html>

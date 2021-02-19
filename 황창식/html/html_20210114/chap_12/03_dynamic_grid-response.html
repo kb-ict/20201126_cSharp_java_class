@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 화면크기가 767이면 스타일 적용x */
+        @media screen and (max-width: 600px) {
+            body {
+                color: brown;
+            }
+        }
+
+        /* 최소 768부터 최대 959까지는 동적 그리드 적용됨 */
+        @media screen and (min-width: 601px) and (max-width: 959px) {
+            body {
+                color: cornflowerblue;
+            }
+
+            .container {
+                /* margin: 0 auto;
+                width: 960px; */
+                margin: 0;
+                padding: 0;
+            }
+
+            .row {
+                overflow: hidden;
+                width: 100%;
+            }
+
+            /* 클래스명 다음 공백을 주어 후손을 선택한다. */
+            .row [class*=span] {
+                float: left;
+                margin-left: 2%;
+            }
+
+            .row [class*=span]:first-child {
+                margin-left: 0;
+            }
+
+            .span_1 {
+                width: 6.5%;
+                /* 스타핵 : 구버전 인터넷 익스플로러용 */
+                *width: 6%;
+            }
+
+            .span_2 {
+                width: 15%;
+                *width: 14.5%;
+            }
+
+            .span_3 {
+                width: 23.5%;
+                *width: 23%;
+            }
+
+            .span_4 {
+                width: 32%;
+                *width: 31.5%;
+            }
+
+            .span_5 {
+                width: 40.5%;
+                *width: 40%;
+            }
+
+            .span_6 {
+                width: 49%;
+                *width: 48.5%;
+            }
+
+            .span_7 {
+                width: 57.5%;
+                *width: 57%;
+            }
+
+            .span_8 {
+                width: 66%;
+                *width: 65.5%;
+            }
+
+            .span_9 {
+                width: 74.5%;
+                *width: 74%;
+            }
+
+            .span_10 {
+                width: 83%;
+                *width: 82.5%;
+            }
+
+            .span_11 {
+                width: 91.5%;
+                *width: 91%;
+            }
+
+            .span_12 {
+                width: 100%;
+                *width: 99.5%;
+            }
+        }
+
+        /* 화면이 960이후 부터는 정적 그리드 적용 */
+        @media screen and (min-width: 960px) {
+            body{
+                color: mediumseagreen;
+            }
+            .container {
+                width: 960px;
+                margin: 0 auto;
+            }
+
+            .row {
+                overflow: hidden;
+            }
+
+            .row [class*=span] {
+                float: left;
+            }
+
+            .span_1 {
+                width: 80px;
+            }
+
+            .span_2 {
+                width: 160px;
+            }
+
+            .span_3 {
+                width: 240px;
+            }
+
+            .span_4 {
+                width: 320px;
+            }
+
+            .span_5 {
+                width: 400px;
+            }
+
+            .span_6 {
+                width: 480px;
+            }
+
+            .span_7 {
+                width: 560px;
+            }
+
+            .span_8 {
+                width: 640px;
+            }
+
+            .span_9 {
+                width: 720px;
+            }
+
+            .span_10 {
+                width: 800px;
+            }
+
+            .span_11 {
+                width: 880px;
+            }
+
+            .span_12 {
+                width: 960px;
+            }
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="span_12">
+                <h1>Header</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti voluptatibus assumenda quod
+                    architecto perspiciatis tempore exercitationem sunt. Sit temporibus quasi nesciunt nobis nulla
+                    aspernatur deleniti repellendus? Enim fuga quisquam provident expedita doloribus ut quidem error
+                    quos autem iusto, porro corporis illo? Voluptatem excepturi culpa ea enim! Quibusdam, sit.
+                    Accusamus, ab?</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="span_6">
+                <h1>Lorem1</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_6">
+                <h1>Lorem2</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="span_4">
+                <h1>Lorem1</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_4">
+                <h1>Lorem2</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_4">
+                <h1>Lorem3</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span_3">
+                <h1>Lorem1</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_3">
+                <h1>Lorem2</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_3">
+                <h1>Lorem3</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_3">
+                <h1>Lorem4</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span_2">
+                <h1>Lorem1</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_2">
+                <h1>Lorem2</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_2">
+                <h1>Lorem3</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_2">
+                <h1>Lorem4</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_2">
+                <h1>Lorem5</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_2">
+                <h1>Lorem6</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span_1">
+                <h1>Lorem1</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_1">
+                <h1>Lorem2</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_1">
+                <h1>Lorem3</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_1">
+                <h1>Lorem4</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_1">
+                <h1>Lorem5</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_1">
+                <h1>Lorem6</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_1">
+                <h1>Lorem7</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_1">
+                <h1>Lorem8</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_1">
+                <h1>Lorem9</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_1">
+                <h1>Lorem10</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_1">
+                <h1>Lorem11</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+            <div class="span_1">
+                <h1>Lorem12</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo laudantium, fuga quibusdam autem quia,
+                    temporibus possimus a explicabo aliquid esse recusandae repellendus. Assumenda dolores aliquid
+                    quisquam consectetur excepturi eligendi totam corporis, esse facere repellat. Explicabo ea facilis
+                    culpa, dolorum vitae obcaecati nobis? Error autem debitis, unde aspernatur maiores tempore eveniet?
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

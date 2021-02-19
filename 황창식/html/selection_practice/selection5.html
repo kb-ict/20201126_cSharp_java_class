@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 동위 선택자 */
+        /* h1태그 바로 뒤에 위치하는 h2태그 선택 */
+        h1 + h2{
+            color: red;
+        }
+        /* h1태그 뒤에 위치히는 h2태그 전체 선택 */
+        h1 ~ h2{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1>Header - 1</h1>
+    <h2>Header - 2</h2>
+    <h2>Header - 2</h2>
+    <h2>Header - 2</h2>
+    <h2>Header - 2</h2>
+</body>
+</html>

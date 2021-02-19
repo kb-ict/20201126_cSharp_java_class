@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 테두리 적용 1 */
+        .box:first-child{
+            border: thick dashed black;
+            /* 좌상 우상 우하 좌하 */
+            border-radius: 50px 40px 20px 10px;
+        }
+        /* 테두리 적용 2 */
+        .box:last-child{
+            border-width: thick;
+            border-style: dashed;
+            border-color: red;
+            border-radius: 20px 10px 50px 40px;
+        }
+
+        .box:nth-child(2){
+            border-left: solid salmon 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+    </div>
+    
+    <div class="box">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+    </div>
+    
+    <div class="box">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 속성 선택자 */
+        input[type=text]{
+            background: red;
+        }
+        input[type=password]{
+            background: blue;
+        }
+        img[src$=png]{
+            border: 3px solid red;
+        }
+        img[src$=jpg]{
+            border: 3px solid green;
+        }
+        img[src$=gif]{
+            border: 3px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <input type="text">
+        <input type="password">
+        <input>
+    </form>
+    <br>
+    <img src="jajq.png" width="200" height="250">
+    <img src="node.jpg" width="200" height="250">
+    <img src="ux.gif" width="200" height="250">
+</body>
+</html>

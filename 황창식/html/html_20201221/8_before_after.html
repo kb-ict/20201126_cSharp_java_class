@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* p태그가 늘어날 때 마다 증가하는 변수 */
+        p {
+            counter-increment: rint;
+        }
+        /* p태그 시작전에 카운터 변수 삽입 */
+        p::before {
+            content: counter(rint) ".";
+        }
+        /* p태그 끝에다가 page 번호 삽입 */
+        p::after {
+            content: " - "attr(data-page) " page";
+        }
+
+        p::first-letter {
+            font-size: 3em;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p data-page="52">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias corrupti dolore distinctio sunt
+        sapiente, tenetur sit impedit similique molestiae quos dignissimos magni nihil nulla modi minus praesentium
+        sequi commodi illo omnis iste id, aspernatur architecto fuga consequuntur! Optio suscipit distinctio assumenda
+        iste. Voluptates corporis asperiores corrupti cupiditate quam rerum iusto eveniet, beatae quibusdam fugit
+        tempore eos eius quisquam adipisci aperiam aut est doloremque saepe facere vitae incidunt excepturi pariatur.
+        Eos necessitatibus minima iusto fugiat, tenetur accusamus rem et, maxime sequi placeat, quas ad? Vitae tempora
+        odit expedita nostrum, fugit possimus quidem consequatur a accusamus, omnis porro corrupti eum quas deserunt!
+    </p>
+    <p data-page="273">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure non commodi aspernatur
+        exercitationem natus recusandae porro sit excepturi quis alias perferendis quod dolorum suscipit animi sunt
+        voluptas, enim culpa repellat totam consequuntur ipsum fugiat dicta id. Excepturi quos tempore fugit possimus
+        perspiciatis sit laudantium sapiente consequuntur quis cupiditate, at maiores, mollitia eaque expedita. Eum
+        molestias, commodi quidem cupiditate voluptates vel tempore! Nulla optio explicabo minus doloribus sit natus
+        voluptates ducimus temporibus quo enim dolores velit vel, quaerat perferendis esse ipsa deleniti illo at illum
+        molestiae. Laudantium commodi tempora unde odit, minus consectetur obcaecati cumque laborum est quidem veniam
+        quis dolorem?</p>
+    <p data-page="12">이렇게 적으면 사람들이 명언인 줄 알더라</p>
+</body>
+
+</html>

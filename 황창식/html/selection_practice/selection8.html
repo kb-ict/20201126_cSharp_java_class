@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 구조 선택자 */
+        ul{
+            overflow: hidden;
+        }
+        li{
+            list-style: none;
+            float: left; padding: 15px;
+        }
+        /* 형제관계중 첫번째에 위치하는 태그 선택 */
+        li:first-child{border-radius: 10px 0 0 10px;}
+        /* 형제괸계중 마지막에 위치하는 태그 선택 */
+        li:last-child{border-radius: 0 10px 10px 0;}
+        
+        /* 형제괸계중 앞에서 2n(짝수)번째에 해당하는 태그 선택 */
+        li:nth-child(2n){
+            background-color: #FF0003;
+        }
+        /* 형제괸계중 앞에서 2n+1(홀수)번째에 해당하는 태그 선택 */
+        li:nth-child(2n+1){
+            background-color: #800000;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+        <li>Fourth</li>
+        <li>Fifth</li>
+        <li>Sixth</li>
+        <li>Seventh</li>
+    </ul>
+</body>
+</html>

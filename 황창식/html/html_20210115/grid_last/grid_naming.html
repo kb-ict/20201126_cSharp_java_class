@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- naming -->
+    <style>
+        .container{
+            /* width: 960px;
+            margin: 0 auto; */
+
+            width: 100%;
+
+            display: grid;
+
+            grid-template-columns: 2fr 8fr;
+            gap: 10px;
+
+            grid-template-areas: 'header header' 'aside section' 'footer footer';
+        }
+
+        .container>div{background: brown; padding: 10px;}
+
+        .header{grid-area: header;}
+
+        .aside{grid-area: aside;}
+
+        .section{grid-area: section;}
+
+        .footer{grid-area: footer;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Header</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, quo.</p>
+        </div>
+        <div class="aside">
+            <h1>Aside</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ad veniam vel ipsam quidem possimus error dolore enim deleniti! Neque porro dolores commodi facilis aliquam quaerat quia nulla, deserunt vitae perspiciatis minus excepturi explicabo odio aspernatur iusto aliquid culpa asperiores sed quidem natus numquam veritatis adipisci blanditiis. Voluptatibus, exercitationem architecto.</p>
+        </div>
+        <div class="section">
+            <h1>Section</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi qui quae quam est, cupiditate temporibus? Tempore necessitatibus obcaecati id incidunt rerum molestias? Labore libero magnam, amet assumenda eos deleniti perspiciatis doloremque, vel iste sed dicta expedita eius alias voluptatem! Non commodi, illo sed ea enim ab iure distinctio qui consequuntur.</p>
+        </div>
+        <div class="footer">
+            <h1>Footer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, ipsum?</p>
+        </div>
+    </div>
+</body>
+</html>

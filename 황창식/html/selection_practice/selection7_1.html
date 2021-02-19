@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* input 태그의 type 속성값이 checkbox인 태그가 체크되었을 경우 */
+        /* 바로 뒤에 위치하는 div태그의 height속성에 0px 적용 */
+        input[type=checkbox]:checked + div{
+            height: 0px;
+        }
+
+        div{
+            overflow: hidden;
+            width: 650px; height: 300px;
+            /* 변환 효과 적용 */
+            -ms-transition-duration: 1s;
+            -webkit-transition-duration: 1s;
+            -moz-transition-duration: 1s;
+            transition-duration: 1s;
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox">
+    <div>
+        <h1>lorem ipsum</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor, adipisci veniam nisi sequi omnis tenetur hic nulla repellendus ratione atque iste numquam soluta esse est? Sed enim quasi nostrum laborum totam voluptates dolorem, quia cum magni repudiandae, quisquam tenetur similique commodi, iusto exercitationem eaque hic modi veritatis ipsam consequatur sapiente consectetur molestias perferendis! Laborum ipsum dolores vel nostrum corporis aliquam pariatur, ipsam doloribus deleniti neque quasi! Asperiores dolore, vero ipsam in, inventore eveniet ipsa delectus, distinctio numquam aut eum a quae qui iusto voluptate exercitationem ea nisi ab tenetur omnis? Iure ullam itaque maxime dolorem delectus blanditiis nostrum omnis!</p>
+    </div>
+</body>
+</html>

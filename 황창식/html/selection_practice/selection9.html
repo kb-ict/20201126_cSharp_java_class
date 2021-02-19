@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 형태 구조 선택자 */
+        /* first-of-type : 형제관계중 첫번째로 등장하는 특정태그 선택 */
+        /* h1:first-of-type{color: red;}
+        h2:first-of-type{color: rebeccapurple;}
+        h3:first-of-type{color: royalblue;} */
+
+        body>*:first-of-type{color: red;}
+    </style>
+</head>
+<body>
+    <h1>Header - 1</h1>
+    <h2>Header - 2</h2>
+    <h3>Header - 3</h3>
+    <h3>Header - 3</h3>
+    <h2>Header - 2</h2>
+    <h1>Header - 1</h1>
+    <h4>Header - 4</h4>
+    <h5>Header - 5</h5>
+    <h6>Header - 6</h6>
+</body>
+</html>

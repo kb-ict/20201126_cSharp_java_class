@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        body{font-family: 'Helvetica', sans-serif;}
+        li{list-style: none;}
+        a{text-decoration: none;}
+
+        #main_header{
+            height: 45px; background: url('header_background.png');
+            
+            position: relative;
+            text-align: center;
+            line-height: 45px;
+        }
+
+        #main_header>h1{
+            color: white;
+        }
+
+        #main_header>a, #main_header>label{
+            display: block;
+            height: 32px;
+            position: absolute;
+        }
+
+        #main_header>a.left{
+            width: 62px;
+            left: 5px;
+            top: 7px;
+            background: url('header_sprites.png');
+            background-position: 0px 0px;
+            text-indent: -99999px;
+        }
+
+        #main_header>label.right{
+            width: 32px;
+            right: 5px;
+            top: 7px;
+            background: url('header_sprites.png');
+            background-position: -62px 0px;
+            text-indent: -99999px;
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="toggle">
+    <div id="wrap">
+        <header id="main_header">
+            <a href="#" class="left">Main</a>
+            <h1>Mobile</h1>
+            <label for="toggle" class="right">Toggle</label>
+        </header>
+    </div>
+    
+</body>
+</html>

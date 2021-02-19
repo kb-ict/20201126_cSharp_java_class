@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 자손 선택자 */
+        #header>h1{
+            color: red;
+        }
+        #selection>h1{
+            color: blue;
+        }
+        /* 주의사항 */
+        /* table 태그는 자손 선택시 tbody 고려 */
+        /* table > tr > th : tbody가 없어서 적용 X*/
+        table>tbody>tr>th{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1 class="title">lorem ipsum</h1>
+        <div id="nav">
+            <h1>Navigation</h1>
+        </div>
+    </div>
+    <div id="selection">
+        <h1 class="title">lorem ipsum</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Region</th>
+        </tr>
+        <tr>
+            <td>홍길동</td>
+            <td>호그와트</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 동위 선택자 */
+        /* + : h1 바로 뒤에 h2 1개 선택 */
+        /* 반드시 h1뒤에 h2가 있어야 적용 */
+        h1 + h2{color: red;}
+        /* ~ : h1 뒤에 모든 h2 선택 */
+        h1 ~ h2{background-color: orange;}
+    </style>
+</head>
+<body>
+    <h1>lorem h1</h1>
+    <h2>lorem 1</h2>
+    <h2>lorem 2</h2>
+    <h2>lorem 3</h2>
+    <h2>lorem 4</h2>
+</body>
+</html>

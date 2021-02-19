@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body태그 중앙정렬 */
+        body{
+            width: 960px;
+            margin: 0 auto;
+        }
+        
+        #aside{
+            width: 200px;
+            float: left;
+            background-color: brown;
+        }
+        #section{
+            width: 740px;
+            float: right;
+            background-color: cornflowerblue;
+        }
+        /* 자손에 float속성을 적용하면 부모의 overflow 속성에 hidden 적용 */
+        #wrap{
+            overflow: hidden;
+        }
+        div>h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="header"><h1>Header</h1></div>
+    <div id="navigation"><h1>Navigation</h1></div>
+    <div id="wrap">
+        <div id="aside">
+            <h1>Aside</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam laboriosam, recusandae culpa ipsam, quas expedita atque numquam eius, iusto aspernatur asperiores consequuntur sed? Iste optio consectetur molestias asperiores sapiente hic reprehenderit mollitia ullam dolorum expedita distinctio natus animi quia error delectus quae, possimus eius velit? Quod debitis ad neque ipsa?</p>
+        </div>
+        <div id="section">
+            <h1>Section</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi non repellat omnis, repellendus repudiandae quidem totam ab magnam ducimus dolorem optio nihil! Ducimus ad pariatur minima ex nobis minus, ipsum voluptas quo assumenda consectetur deleniti ab odit soluta ea dolores, nihil omnis! Nemo velit unde reprehenderit dicta voluptate aut quos provident iste quia perferendis numquam fugit cupiditate, cumque, nam quaerat, sed pariatur soluta similique magnam corrupti tempore dignissimos eaque. Labore aliquam unde recusandae pariatur consequatur, ducimus at ratione? Quaerat fugiat, atque accusamus minima pariatur dolor et exercitationem non ut magnam asperiores minus quo, iure ullam perspiciatis animi est necessitatibus. Illo!</p>
+        </div>
+    </div>
+    <div id="footer"><h1>Footer</h1></div>
+    
+</body>
+</html>

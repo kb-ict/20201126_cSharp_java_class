@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Document</title>
+    <link rel="stylesheet" 
+  href="https://vjs.zencdn.net/7.2.3/video-js.css"/>
+  <script src="https://vjs.zencdn.net/7.2.3/video.js">
+  </script>
+</head>
+
+<body>
+    <h1>Audio 태그</h1>
+    <audio src="Kalimba.mp3" controls></audio>
+    <br>
+    <h1>Source </h1>
+    <audio controls>
+        <source src="Kalimba.mp3" type="audio/mp3">
+        <source src="Kalimba.ogg" type="audio/ogg">
+    </audio>
+
+    <hr>
+
+    <h1>Video 태그</h1>
+    <video width="640" height="480" controls class="video-js" data-setup="{}">
+        <source src="Wildlife.mp4" type="video/mp4">
+        <source src="Wildlife.webm" type="video/webm">
+    </video>
+
+    <hr>
+
+
+    <h1>Input 태그 Default</h1>
+    <form>
+        <input type="text" name="search">
+        <input type="submit">
+    </form>
+
+    <h1>Input 태그 Get</h1>
+    <form method="GET">
+        <input type="text" name="search">
+        <input type="submit">
+    </form>
+
+    <h1>Input 태그 Post</h1>
+    <form method="POST">
+        <input type="text" name="search">
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+    <hr>
+
+    <h1>Check Box</h1>
+    <input type="checkbox" name="hobby">영화
+    <input type="checkbox" name="hobby">음악
+    <input type="checkbox" name="hobby">독서
+
+    <h1>Radio Box</h1>
+    <p>성별</p>
+    <input type="radio" name="gender">남
+    <input type="radio" name="gender">여
+
+    <p>등급</p>
+    <input type="radio" name="grade">상
+    <input type="radio" name="grade">중
+    <input type="radio" name="grade">하
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Tag 연습</title>
+    <link rel="stylesheet" 
+  href="https://vjs.zencdn.net/7.2.3/video-js.css"/>
+  <script src="https://vjs.zencdn.net/7.2.3/video.js">
+  </script>
+</head>
+
+<body>
+    <h1>Video Tag</h1>
+    <video src="Wildlife.mp4" width="640" height="360" controls></video>
+
+    <p>여러가지 확장자에 대한 대비(audio태그와 동일)</p>
+    <p>autoplay muted : 자동 재생을 위한 명령어</p>
+    <!-- 크기 단위 생략시 PX -->
+    <video width="640" height="360" controls autoplay muted>
+        <source src="Wildlife.webm" type="video/webm">
+        <source src="Wildlife.mp4" type="video/mp4">
+    </video>
+    
+    <br>
+    
+    <p>poster : 썸네일</p>
+    <video poster="colosseum.jpg" width="640" height="360" controls>
+        <source src="Wildlife.webm" type="video/webm">
+        <source src="Wildlife.mp4" type="video/mp4">
+    </video>
+
+    <h1>video.js 플러그인 적용</h1>
+    <video width="640" height="360" controls class="video-js" data-setup="{}">
+        <source src="Wildlife.webm" type="video/webm">
+        <source src="Wildlife.mp4" type="video/mp4">
+    </video>
+
+    <h1>Youtube() 플레이어 적용</h1>
+    <p>유튜브 영상에 공유 > 퍼가기 복,붙</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DEBjh_MTNzQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <textarea cols="50" rows="5">테스트</textarea>
+    <br>
+    <br>
+
+    <!-- textarea의 주의점.
+         태그 안의 공백들 모두 그대로 출력 -->
+    <textarea cols="50" rows="5">
+        테스트
+        테스트
+        테스트
+        테스트
+    </textarea>
+
+    <!-- 일반적인 태그에서는 태그내 공백이 없다. -->
+    <!-- 줄 띄움하려면 특수문자 필요, 글자도 한 칸만 띄어짐 -->
+    <hr>
+    <p>
+        테스트
+        테스트
+    </p>
+
+    <!-- &nbsp : 스페이스바 -->
+    <p>
+        테&nbsp&nbsp스&nbsp&nbsp트<br>
+        &nbsp테&nbsp스&nbsp트
+    </p>
+    <!-- p, h1 태그 수정법 : contenteditable 추가 -->
+    <p contenteditable>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, quod.</p>
+
+
+    <h1 contenteditable>Lorem ipsum dolor sit amet.</h1>
+
+    
+</body>
+
+</html>
