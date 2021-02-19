@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //배열
+        console.log("----- 1. 배열 --------------------------------------- ")
+        console.log(`----- var array = [1,2,"배열1", 3.5];---------------- `)
+        var array = [1,2,"배열1", 3.5];
+        //하나의 배열안에 여러가지 자료형이 다 들어갈 수 있다.
+        console.log("1. 배열) var array 하나의 배열안에 여러가지 자료형이 다 들어갈 수 있다.")
+        for (let index = 0; index < array.length; index++) {
+            const element = array[index]; // 상수 const: 돌면서 새로운 객체 선언, 변수 var, 상수 let
+            console.log(element);
+            
+        }
+
+
+        //객체 = JSON = JavaScriptObjectNotation, 객체정의 형태 
+        console.log("----- 2. 객체 = JSON = JavaScriptObjectNotation, 객체정의 형태 ----- ")
+        console.log("2. 객체) = JSON = JavaScriptObjectNotation, 객체정의 형태 ")
+
+        var obj =
+        {
+            age : 21.20,
+            name : "2-2. 피카피카",
+            master : "2-3. ㄴ노노노",
+            evolution : "2-4. 라이츄",
+            "!!!" : "2-5. ㄷㄷㄷ",
+            123 : "2-6. 전기포켓몬"
+        }
+
+        console.log(obj.age);
+        console.log(obj['age']);
+        console.log(obj["age"]);
+        console.log(obj.name);
+        console.log(obj.master);
+        console.log(obj.evolution);
+        console.log("'''', 숫자는 배열연산자로 접근");
+        console.log(obj["!!!"]);
+        console.log(obj["123"]); // "", 숫자는 배열연산자로 접근
+        //배열도 객체
+
+        console.log("----- var newArray출력 -----------------------------");
+        var newArray = [array,obj];
+        console.log(newArray);
+        console.log("----- var newArray출력 -----------------------------");
+        for (let index = 0; index < newArray.length; index++) {
+            const element = newArray[index];
+            console.log(element)
+        }
+        //xml 서버 클라이언트 자료주고 받을 때 쓰이는 형태
+        
+        //함수
+        console.log("----- 3. 함수 --------------------------------------- ")
+
+        //함수 이름과 함께 선언
+        console.log("----- 3-1. 함수 이름과 함께 선언 --------------------- ")
+
+        function testFunc() {
+            console.log("1. 함수 이름과 함께 선언 Hello World ")
+        }
+        testFunc();
+        //변수에 함수를 집어넣는 방법
+        console.log("----- 3-2. 변수에 함수를 집어넣는 방법 --------------- ")
+
+        var testF = function () {
+            console.log("2. 변수에 함수를 집어넣는 방법 testF(); /  var testF = function ()")
+        }
+        testF();
+
+        function jsFunc(param1, param2) {
+            var love = param1 + " ♡ " + param2;
+            return love;
+        }
+        console.log(jsFunc("줄게 내","갤럭시"));
+    </script>
+</body>
+</html>

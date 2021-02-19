@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        #aa{
+            background-color: chartreuse;
+            height: 300px;
+            width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <button id="sbtn">stop</button>
+    <div id="aa">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet libero recusandae quia obcaecati? Fugiat, magni. ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ut et veritatis, animi dignissimos neque.</p>
+    </div>
+
+    <!-- html, css, js, jq 
+         
+         subside lang -> asp(c#), php, jsp(java), 
+         node(jq), js, python
+        
+         // java, c#, python
+         // sub ) 앵귤러, react etc
+        -->
+</body>
+</html>
+<script>
+    $("#aa").click(function(){
+        $("#aa").slideUp(1500);
+    })
+    $("#sbtn").click(function(){
+        $("#aa").stop();
+    })
+</script>

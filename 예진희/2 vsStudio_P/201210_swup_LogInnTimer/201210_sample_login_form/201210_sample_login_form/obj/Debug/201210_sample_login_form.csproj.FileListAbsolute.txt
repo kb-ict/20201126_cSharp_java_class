@@ -1,0 +1,10 @@
+D:\YJH\Csharp\201210_sample_login_form\201210_sample_login_form\bin\Debug\201210_sample_login_form.exe.config
+D:\YJH\Csharp\201210_sample_login_form\201210_sample_login_form\bin\Debug\201210_sample_login_form.exe
+D:\YJH\Csharp\201210_sample_login_form\201210_sample_login_form\bin\Debug\201210_sample_login_form.pdb
+D:\YJH\Csharp\201210_sample_login_form\201210_sample_login_form\obj\Debug\201210_sample_login_form.csprojAssemblyReference.cache
+D:\YJH\Csharp\201210_sample_login_form\201210_sample_login_form\obj\Debug\_201210_sample_login_form.Form1.resources
+D:\YJH\Csharp\201210_sample_login_form\201210_sample_login_form\obj\Debug\_201210_sample_login_form.Properties.Resources.resources
+D:\YJH\Csharp\201210_sample_login_form\201210_sample_login_form\obj\Debug\201210_sample_login_form.csproj.GenerateResource.cache
+D:\YJH\Csharp\201210_sample_login_form\201210_sample_login_form\obj\Debug\201210_sample_login_form.csproj.CoreCompileInputs.cache
+D:\YJH\Csharp\201210_sample_login_form\201210_sample_login_form\obj\Debug\201210_sample_login_form.exe
+D:\YJH\Csharp\201210_sample_login_form\201210_sample_login_form\obj\Debug\201210_sample_login_form.pdb

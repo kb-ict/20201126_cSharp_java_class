@@ -1,0 +1,7 @@
+D:\YJH\Git\jhy0409\2 vsStudio_P\201228_array\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\YJH\Git\jhy0409\2 vsStudio_P\201228_array\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\YJH\Git\jhy0409\2 vsStudio_P\201228_array\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\YJH\Git\jhy0409\2 vsStudio_P\201228_array\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\YJH\Git\jhy0409\2 vsStudio_P\201228_array\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\YJH\Git\jhy0409\2 vsStudio_P\201228_array\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\YJH\Git\jhy0409\2 vsStudio_P\201228_array\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

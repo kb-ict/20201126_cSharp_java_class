@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 첫번째 자손
+        제일 처음 나오는 h1
+        body 첫자손 h1이면 칠해라
+
+        다른태그 담는 태그
+        div의 첫 자손: h1 -> 적색으로 칠함
+         */
+
+         /* 제일 처음오는 h1을 색칠함 */
+        h1:first-of-type{color:red}
+    </style>
+</head>
+<body>
+    <!-- p137, 138 
+        형태 구조 선택자
+    
+    -->
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h1>2이것도 빨강</h1>
+    <h2>Header1</h2>
+    <h3>Header1</h3>
+    <h3>Header1</h3>
+    <h2>Header1</h2>
+    <h1>Header1</h1>
+
+    <div>
+        <h1>1이건 빨간색 나옴</h1>
+        <h2>lorem</h2>
+        <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+    </div>
+</body>
+</html>

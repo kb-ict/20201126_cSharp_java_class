@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 174,177 -->
+    <style>
+        div
+        {
+            width: 100px;
+            height: 100px;
+            background-color: hotpink;
+
+            border: 20px solid blueviolet;
+            margin: 100px;
+            padding: 30px;
+        }
+
+        div:first-child
+        {
+            /* 디폴트값 */
+            /* width : 100px; height: 100px값이 알맹이에 적용 */
+            box-sizing: content-box;
+        }
+        div:last-child
+        {
+            /* width : 100px; height: 100px = border까지의 크기 */
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+<div></div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* body{margin: 0px 0px;} */
+        .box
+        {
+            width: 100px;
+            height: 100px;
+        }
+
+        .red
+        {
+            background-color: red;
+            left: 10px;
+            top: 10px;
+        }
+        .green
+        {
+            background-color: green;
+            position: relative;
+            left: 50px;
+            top: 50px;
+        }
+        /* static : 상대좌표 */
+        /* relative : 상대좌표 원래 위치에서 50씩 이동 */
+        /* fixed, absolute : 절대좌표 */
+
+        .blue
+        {
+            background-color: blue;
+            position: fixed;
+            left: 10px;
+            top: 10px;
+
+        }
+        /* fixed : 원래 위치 상관x, 지정 값대로 위치 */
+
+        .pink
+        {
+            background-color: pink;
+            position: absolute;
+            /* top: 10px; */
+            width: 30px;
+            height: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- div.box*3 -->
+
+    <div class="box red"></div>
+    <div class="box green">
+        <div class="box pink"></div>
+    </div>
+    <div class="box blue"></div>
+    <div class="box red">두번째<div class="box pink"></div>
+    <!-- 부모태그 (.red = static)면, 절대좌표(fixed)와 동일하게 적용 -->
+
+    <!-- 초록색: top주석처리, 부모태그 안에서 0,0에 꽂힘 -->
+    <!-- 두번째 빨강(static): absolute지만 top(좌표)값이 없음 > static으로 "두번째 텍스트 밑에 붙음" -->
+    </div>
+</body>
+</html>

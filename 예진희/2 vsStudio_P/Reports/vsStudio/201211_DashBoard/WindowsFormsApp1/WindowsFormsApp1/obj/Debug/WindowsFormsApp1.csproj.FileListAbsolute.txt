@@ -1,0 +1,10 @@
+D:\9 임시\201210 2과제\vsStudio\201211_DashBoard\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\9 임시\201210 2과제\vsStudio\201211_DashBoard\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\9 임시\201210 2과제\vsStudio\201211_DashBoard\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\9 임시\201210 2과제\vsStudio\201211_DashBoard\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\9 임시\201210 2과제\vsStudio\201211_DashBoard\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\9 임시\201210 2과제\vsStudio\201211_DashBoard\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\9 임시\201210 2과제\vsStudio\201211_DashBoard\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\9 임시\201210 2과제\vsStudio\201211_DashBoard\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+D:\9 임시\201210 2과제\vsStudio\201211_DashBoard\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\9 임시\201210 2과제\vsStudio\201211_DashBoard\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

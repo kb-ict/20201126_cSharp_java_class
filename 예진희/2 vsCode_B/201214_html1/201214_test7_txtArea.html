@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- textarea주의점. 
+        태그안 공백도 모두 그대로 출력 -->
+    <textarea name="" id="" cols="55" rows="5">
+        테스트
+        테스트
+        테스트</textarea>
+
+    <!-- 일반적 태그내 공백 없음 -->
+    <!-- 줄 띄움하려면 특문 필요 글자도 한칸만 띄워짐 -->
+        <p>
+        테          스트<br>
+        테스트
+
+        </p>
+
+
+        <p>
+        테&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp스트<br>
+        테스트
+
+        </p>
+    
+    <!-- 참고 ) p 태그내용 수정하는 기능도 있음 -->
+        <p contenteditable=>ㅁㄴㅇㅁㅇㄴㅁㄴ</p>
+</body>
+</html>

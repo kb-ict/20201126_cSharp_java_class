@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<!-- 5버전 -->
+<html lang="en">
+<head>
+    <!-- 인코딩 A encoding -> 1010 정해지는 방식
+    MS949   A  > 30
+    UTF8    A  > 10, 깍 등 한글이 숫자가 있음
+    -->
+    <meta charset="UTF-8">
+    <!-- 우리나라 규약 -->
+
+    <!-- <meta charset="iso-8859-1"> -->
+    <!-- 프랑스,유럽 규약 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- scale : 그배수 -->
+    <title>Document</title>
+    <script>
+        var a = 0;
+        function doA(){
+            //함수 시작.
+            // window.alert("window");
+            // alert("생략가능");
+            //함수 끝.
+        }
+
+        // a버튼 뒤 2. 누르면 a에 2저장하여 확인가능
+        function doB(){
+            alert("a = "+a);
+        }
+
+        function doC(){
+            // id           class 두개... 
+            // id는 중복x    중복가능
+            var adiv = document.getElementsByClassName("adiv")[0];
+            // alert(adiv);
+            // 주석 ctrl k, c / ctrl, k, u
+            // shift + delete 줄삭제
+
+            // adiv.style.left = a+"px";
+            setInterval(function(){
+                adiv.style.left = a+"px";
+                a = a+30;
+            },500);
+        }
+    
+    </script>
+    <style>
+        .adiv{
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            top: 100px;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="adiv">
+    </div>
+    <button onclick="doA(); console.log('함수 호출 후 경고창');a=a+50;">1. 누르면 달라짐</button>
+    <button onclick="doB();"> 2. a값 확인</button>
+    <button onclick="doC();"> 3. adiv위치이동</button>
+
+</body>
+</html>

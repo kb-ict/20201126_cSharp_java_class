@@ -1,0 +1,7 @@
+E:\kb_c#_work\adressTest0218\adressTest0218\bin\Debug\adressTest0218.exe.config
+E:\kb_c#_work\adressTest0218\adressTest0218\bin\Debug\adressTest0218.exe
+E:\kb_c#_work\adressTest0218\adressTest0218\bin\Debug\adressTest0218.pdb
+E:\kb_c#_work\adressTest0218\adressTest0218\obj\Debug\adressTest0218.csprojAssemblyReference.cache
+E:\kb_c#_work\adressTest0218\adressTest0218\obj\Debug\adressTest0218.csproj.CoreCompileInputs.cache
+E:\kb_c#_work\adressTest0218\adressTest0218\obj\Debug\adressTest0218.exe
+E:\kb_c#_work\adressTest0218\adressTest0218\obj\Debug\adressTest0218.pdb

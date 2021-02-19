@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        #pp {
+            display: block;
+        }
+
+        /* ++ */
+        button {
+            display: inline-block;
+            margin-right: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="pp">1. p태그 / Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellat saepe facere nihil
+        mollitia eligendi. ipsum dolor sit.</p>
+    <p id="pp1">1. p태그 / Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellat saepe facere nihil
+        mollitia eligendi. ipsum dolor sit.</p>
+    <button id="pbtn1">2-1. JS 보이기/숨기기</button>
+    <button id="pbtn2">2-2. jQ 보이기/숨기기</button>
+</body>
+
+</html>
+<script>
+    document.getElementById("pbtn1").onclick = function () {
+        // alert("눌렀음");
+        if (document.getElementById("pp").style.display == "none")
+            document.getElementById("pp").style.display = "block";
+        else
+            document.getElementById("pp").style.display = "none"
+    }
+</script>
+<script>
+    $("#pbtn2").click(function () {
+                $("#pp").toggle(600, function () {
+                    $("#pp1").toggle(600, function () {
+                        alert("끝났음")});
+                    }
+                );
+    })
+</script>

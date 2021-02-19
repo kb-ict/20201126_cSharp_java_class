@@ -1,0 +1,21 @@
+D:\임시\VS\210208_txt\1_arrayTest\1_arrayTest\bin\Debug\1_arrayTest.exe.config
+D:\임시\VS\210208_txt\1_arrayTest\1_arrayTest\bin\Debug\1_arrayTest.exe
+D:\임시\VS\210208_txt\1_arrayTest\1_arrayTest\bin\Debug\1_arrayTest.pdb
+D:\임시\VS\210208_txt\1_arrayTest\1_arrayTest\obj\Debug\1_arrayTest.csprojAssemblyReference.cache
+D:\임시\VS\210208_txt\1_arrayTest\1_arrayTest\obj\Debug\1_arrayTest.csproj.CoreCompileInputs.cache
+D:\임시\VS\210208_txt\1_arrayTest\1_arrayTest\obj\Debug\1_arrayTest.exe
+D:\임시\VS\210208_txt\1_arrayTest\1_arrayTest\obj\Debug\1_arrayTest.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210208_txt\1_arrayTest\1_arrayTest\bin\Debug\1_arrayTest.exe.config
+D:\임시\Git\jhy0409\2 vsStudio_P\210208_txt\1_arrayTest\1_arrayTest\bin\Debug\1_arrayTest.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210208_txt\1_arrayTest\1_arrayTest\bin\Debug\1_arrayTest.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210208_txt\1_arrayTest\1_arrayTest\obj\Debug\1_arrayTest.csprojAssemblyReference.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210208_txt\1_arrayTest\1_arrayTest\obj\Debug\1_arrayTest.csproj.CoreCompileInputs.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210208_txt\1_arrayTest\1_arrayTest\obj\Debug\1_arrayTest.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210208_txt\1_arrayTest\1_arrayTest\obj\Debug\1_arrayTest.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210208_cSharp_basic_P\1_arrayTest\1_arrayTest\bin\Debug\1_arrayTest.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210208_cSharp_basic_P\1_arrayTest\1_arrayTest\bin\Debug\1_arrayTest.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210208_cSharp_basic_P\1_arrayTest\1_arrayTest\bin\Debug\1_arrayTest.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210208_cSharp_basic_P\1_arrayTest\1_arrayTest\obj\Debug\1_arrayTest.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210208_cSharp_basic_P\1_arrayTest\1_arrayTest\obj\Debug\1_arrayTest.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210208_cSharp_basic_P\1_arrayTest\1_arrayTest\obj\Debug\1_arrayTest.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210208_cSharp_basic_P\1_arrayTest\1_arrayTest\obj\Debug\1_arrayTest.pdb

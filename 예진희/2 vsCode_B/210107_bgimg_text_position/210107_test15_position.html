@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 210 p -->
+
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            position: relative;
+        }
+
+        .red {
+            background-color: rgb(255, 118, 152);
+            top: 0px;
+            /* static = 기본값 */
+            position : static;
+
+        }
+
+        .green {
+            background-color: rgb(126, 233, 144);
+            left: 500px;
+
+        }
+
+        .blue {
+            background-color: rgb(75, 183, 255);
+            position: fixed;
+            left: 100px;
+            top: 100px;
+        }
+
+
+        /* absolute, 부모가 relative면 부모태그 기준 */
+        /* 기본값 static이면 바디태그 안에서 fixed와 동일(절대좌표) 0, 0(좌측상단 pink박스) */
+        .pink {
+            background-color: pink;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .container {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box red"></div>
+    <div class="box green">
+        <div class="box pink"></div>
+
+    </div>
+
+    <div class="box blue"></div>
+
+    <div class="box red"> 두번째
+        <div class="box pink"></div>
+    </div>
+
+</body>
+
+</html>

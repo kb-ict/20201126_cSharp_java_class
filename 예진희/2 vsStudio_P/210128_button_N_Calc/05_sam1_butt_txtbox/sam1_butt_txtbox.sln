@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sam1_butt_txtbox", "sam1_butt_txtbox\sam1_butt_txtbox.csproj", "{EF43C437-D919-4D44-A4A9-E8664D278179}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF43C437-D919-4D44-A4A9-E8664D278179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF43C437-D919-4D44-A4A9-E8664D278179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF43C437-D919-4D44-A4A9-E8664D278179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF43C437-D919-4D44-A4A9-E8664D278179}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B94E1CD0-2FF6-408E-823D-BA92F7B65DFD}
+	EndGlobalSection
+EndGlobal

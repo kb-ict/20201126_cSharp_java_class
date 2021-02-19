@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- naming -->
+    <style>
+        .container {    /* 정적인거 */
+                        width: 960px;
+                        margin: 0 auto;
+
+                        /* 동적인 거 */
+                        /* width: 100%;
+                        margin: 0 auto; */
+
+                        display: grid;
+                        /* column(열)에 대해서 2:8 */
+                        grid-template-columns: 2fr 8fr;
+                        gap: 10px;
+                        grid-template-areas:
+                        'header header'
+                        'aside section'
+                        'footer footer';}
+        .container>div { background-color: fuchsia; }
+        .header     { grid-area: header; }
+        .aside      { grid-area: aside; }
+        .section    { grid-area: section; }
+        .footer     { grid-area: footer; }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolorum tenetur ipsum nostrum possimus
+                suscipit reiciendis voluptates quo totam aliquid?</p>
+        </div>
+        <div class="aside">
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolorum tenetur ipsum nostrum possimus
+                suscipit reiciendis voluptates quo totam aliquid?</p>
+        </div>
+        <div class="section">
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolorum tenetur ipsum nostrum possimus
+                suscipit reiciendis voluptates quo totam aliquid?</p>
+        </div>
+        <div class="footer">
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolorum tenetur ipsum nostrum possimus
+                suscipit reiciendis voluptates quo totam aliquid?</p>
+        </div>
+    </div>
+</body>
+
+</html>

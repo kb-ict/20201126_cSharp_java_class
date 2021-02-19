@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 37 p -->
+    <script>
+        function changeCaption(cap) {
+            // cap ='N1';
+            // cap ="N2";
+            document.getElementById("fruit").innerText = cap;
+        }
+    </script>
+
+<script>
+    var irum = "이름일";
+    irum = '이름일';
+
+    // 쌍따옴표 안에 홑따옴표 역슬래시 없이 그냥 들어갈 수 잇다.
+    irum = "'이'름일";
+    // 홑따옴표 안에 쌍따옴표 역슬래시 없이 그냥 들어갈 수 잇다.
+    irum = '"이"름일';
+
+    irum = '\'이\'름일';
+    irum = "\"이\"름일";
+    // 같은종류 넣으려면 이스케이프문자 넣어야함 (자바 동일)
+
+</script>
+
+
+    <!-- <script>
+        var example = '이-름';
+        example = '"이"름';
+        document.write(example);
+        example ="<br>이'름'";
+        document.write(example);
+
+        example ='<br>이\'름\'1';
+        document.write(example);
+        example ="<br>이\"름\"2";
+        document.write(example);
+    </script> -->
+    <!-- ++ -->
+</head>
+<body>
+    <h1 id="fruit">과일</h1>
+    <input type="button" value="Apple" onclick="changeCaption('Apple')">
+    <input type="button" value="Orange" onclick="changeCaption('Orange')">
+
+</body>
+</html>

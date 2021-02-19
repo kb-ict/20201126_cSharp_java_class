@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body>input:nth-of-type(0)~input:nth-of-type(1) {
+            width: 3em;
+            height: 5em;
+        }
+    </style>
+</head>
+
+<body>
+    <input id="one" type="text"><span> + </span>
+    <input id="two" type="text"><span> = </span>
+    <span id="result">결과가 나옴</span>
+    <div>
+        <input type="button" value="합" onclick="sum()">
+    </div><br>
+
+
+    <script>
+        function sum() {
+            var one = document.getElementById('one').value;
+            var two = document.getElementById('two').value;
+            // alert(Number(one) + Number(two));
+            document.getElementById('result').innerText = Number(one) + Number(two);
+        }
+    </script>
+
+</body>
+
+</html>

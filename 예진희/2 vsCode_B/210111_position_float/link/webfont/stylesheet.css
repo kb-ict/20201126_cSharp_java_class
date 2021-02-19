@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Pluto Cond';
+    src: url('PlutoCondBlack.eot');
+    src: url('PlutoCondBlack.eot?#iefix') format('embedded-opentype'),
+        url('PlutoCondBlack.woff2') format('woff2'),
+        url('PlutoCondBlack.woff') format('woff'),
+        url('PlutoCondBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function sayHello() {
+            var who;
+            who = prompt("이름?", "아이유");
+            //입력창에 띄울 메시지 / 입력부분 기본값
+
+            alert(who+"씨 안녕하세요.");
+            //프롬프트가 반환한 입력값을 경고창으로 띄움
+        }
+        // prompt 디버깅시 사용
+    </script>
+</head>
+<body>
+    <p>버튼 push</p>
+    <form action="">
+        <input type="button" value="Button" onclick="sayHello()"> 
+    </form>
+</body>
+</html>

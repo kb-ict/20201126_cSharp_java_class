@@ -1,0 +1,20 @@
+D:\임시\vsStudio\210128\Hello_Form\Hello_Form\bin\Debug\Hello_Form.exe.config
+D:\임시\vsStudio\210128\Hello_Form\Hello_Form\bin\Debug\Hello_Form.exe
+D:\임시\vsStudio\210128\Hello_Form\Hello_Form\bin\Debug\Hello_Form.pdb
+D:\임시\vsStudio\210128\Hello_Form\Hello_Form\obj\Debug\Hello_Form.csprojAssemblyReference.cache
+D:\임시\vsStudio\210128\Hello_Form\Hello_Form\obj\Debug\Hello_Form.Properties.Resources.resources
+D:\임시\vsStudio\210128\Hello_Form\Hello_Form\obj\Debug\Hello_Form.csproj.GenerateResource.cache
+D:\임시\vsStudio\210128\Hello_Form\Hello_Form\obj\Debug\Hello_Form.csproj.CoreCompileInputs.cache
+D:\임시\vsStudio\210128\Hello_Form\Hello_Form\obj\Debug\Hello_Form.exe
+D:\임시\vsStudio\210128\Hello_Form\Hello_Form\obj\Debug\Hello_Form.pdb
+D:\임시\vsStudio\210128\Hello_Form\Hello_Form\obj\Debug\Hello_Form.Form1.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\03_Hello_Form_sam1\Hello_Form\bin\Debug\Hello_Form.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\03_Hello_Form_sam1\Hello_Form\bin\Debug\Hello_Form.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\03_Hello_Form_sam1\Hello_Form\bin\Debug\Hello_Form.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\03_Hello_Form_sam1\Hello_Form\obj\Debug\Hello_Form.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\03_Hello_Form_sam1\Hello_Form\obj\Debug\Hello_Form.Form1.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\03_Hello_Form_sam1\Hello_Form\obj\Debug\Hello_Form.Properties.Resources.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\03_Hello_Form_sam1\Hello_Form\obj\Debug\Hello_Form.csproj.GenerateResource.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\03_Hello_Form_sam1\Hello_Form\obj\Debug\Hello_Form.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\03_Hello_Form_sam1\Hello_Form\obj\Debug\Hello_Form.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\03_Hello_Form_sam1\Hello_Form\obj\Debug\Hello_Form.pdb

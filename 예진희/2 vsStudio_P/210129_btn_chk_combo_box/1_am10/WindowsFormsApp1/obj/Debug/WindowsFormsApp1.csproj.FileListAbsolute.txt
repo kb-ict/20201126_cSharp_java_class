@@ -1,0 +1,30 @@
+D:\임시\vsStudio\210129\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\임시\vsStudio\210129\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\임시\vsStudio\210129\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\임시\vsStudio\210129\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\임시\vsStudio\210129\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\임시\vsStudio\210129\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\임시\vsStudio\210129\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\임시\vsStudio\210129\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\임시\vsStudio\210129\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\임시\vsStudio\210129\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\1_am10\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\1_am10\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\1_am10\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\1_am10\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\1_am10\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\1_am10\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\1_am10\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\1_am10\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\1_am10\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\1_am10\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

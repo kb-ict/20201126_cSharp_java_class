@@ -1,0 +1,7 @@
+D:\YJH\Git\jhy0409\2 vsCode_B\201218_algoriMunge\Answer_201218\Answer_201218\bin\Debug\Answer_201218.exe.config
+D:\YJH\Git\jhy0409\2 vsCode_B\201218_algoriMunge\Answer_201218\Answer_201218\bin\Debug\Answer_201218.exe
+D:\YJH\Git\jhy0409\2 vsCode_B\201218_algoriMunge\Answer_201218\Answer_201218\bin\Debug\Answer_201218.pdb
+D:\YJH\Git\jhy0409\2 vsCode_B\201218_algoriMunge\Answer_201218\Answer_201218\obj\Debug\Answer_201218.csprojAssemblyReference.cache
+D:\YJH\Git\jhy0409\2 vsCode_B\201218_algoriMunge\Answer_201218\Answer_201218\obj\Debug\Answer_201218.csproj.CoreCompileInputs.cache
+D:\YJH\Git\jhy0409\2 vsCode_B\201218_algoriMunge\Answer_201218\Answer_201218\obj\Debug\Answer_201218.exe
+D:\YJH\Git\jhy0409\2 vsCode_B\201218_algoriMunge\Answer_201218\Answer_201218\obj\Debug\Answer_201218.pdb

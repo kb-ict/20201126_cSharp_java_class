@@ -1,0 +1,34 @@
+D:\9 임시\Git\jhy0409\2 vsStudio_P\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\bin\Release\EmartIbgu_Kiosk.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\bin\Release\EmartIbgu_Kiosk.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\bin\Release\EmartIbgu_Kiosk.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\bin\Release\Bunifu_UI_v1.52.dll
+D:\9 임시\Git\jhy0409\2 vsStudio_P\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk._1st_Main.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk._2nd_bestSeller.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk._3rd_Location.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk._4th_customerCenter.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk.Form1.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk.Properties.Resources.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk.csproj.GenerateResource.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk.csproj.CopyComplete
+D:\9 임시\Git\jhy0409\2 vsStudio_P\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk._3_NowSale.resources
+D:\YJH\Git\jhy0409\2 vsStudio_P\Reports\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\bin\Release\EmartIbgu_Kiosk.exe.config
+D:\YJH\Git\jhy0409\2 vsStudio_P\Reports\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\bin\Release\EmartIbgu_Kiosk.exe
+D:\YJH\Git\jhy0409\2 vsStudio_P\Reports\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\bin\Release\EmartIbgu_Kiosk.pdb
+D:\YJH\Git\jhy0409\2 vsStudio_P\Reports\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\bin\Release\Bunifu_UI_v1.52.dll
+D:\YJH\Git\jhy0409\2 vsStudio_P\Reports\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk.csprojAssemblyReference.cache
+D:\YJH\Git\jhy0409\2 vsStudio_P\Reports\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk._1st_Main.resources
+D:\YJH\Git\jhy0409\2 vsStudio_P\Reports\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk._2nd_bestSeller.resources
+D:\YJH\Git\jhy0409\2 vsStudio_P\Reports\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk._3rd_Location.resources
+D:\YJH\Git\jhy0409\2 vsStudio_P\Reports\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk._3_NowSale.resources
+D:\YJH\Git\jhy0409\2 vsStudio_P\Reports\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk._4th_customerCenter.resources
+D:\YJH\Git\jhy0409\2 vsStudio_P\Reports\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk.Form1.resources
+D:\YJH\Git\jhy0409\2 vsStudio_P\Reports\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk.Properties.Resources.resources
+D:\YJH\Git\jhy0409\2 vsStudio_P\Reports\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk.csproj.GenerateResource.cache
+D:\YJH\Git\jhy0409\2 vsStudio_P\Reports\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk.csproj.CoreCompileInputs.cache
+D:\YJH\Git\jhy0409\2 vsStudio_P\Reports\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk.csproj.CopyComplete
+D:\YJH\Git\jhy0409\2 vsStudio_P\Reports\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk.exe
+D:\YJH\Git\jhy0409\2 vsStudio_P\Reports\201215_EmartIbgu_Kiosk\EmartIbgu_Kiosk\EmartIbgu_Kiosk\obj\Release\EmartIbgu_Kiosk.pdb

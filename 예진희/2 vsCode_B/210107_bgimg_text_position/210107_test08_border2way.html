@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 180 p -->
+
+    <style>
+        /* 테두리 적용 첫번째 방법: 한줄에 다 적기*/
+        .box:first-child {
+            border: thick dashed black;
+            /* 좌상 우상 우하 좌하 */
+            border-radius: 80px 50px 20px 10px;
+            padding: 30px;
+
+
+            /* 추가코드 */
+            margin-bottom: 30px; 
+            margin-left: 30px; 
+            margin-right: 30px;
+        }
+
+        /* 테두리 적용 두번째 : 각각 표기 */
+        .box:last-child {
+            border-width: thick;
+            border-style: dashed;
+            border-color: red;
+
+            /* 추가코드 */
+            margin-top: 30px; 
+            margin-left: 30px; 
+            margin-right: 30px;
+        }
+
+        .box:nth-child(2) {
+            border-left: solid salmon 22px;
+
+            /* 추가코드 */
+            border-top: solid dimgray 2px;
+            border-bottom: solid dimgray 2px;
+            border-right: solid dimgray 2px;
+            border-radius: 50px 25px 15px 8px;
+            
+            background-color: rgb(255, 241, 241);
+            box-shadow: 3px 3px 10px 2px rgb(187, 187, 187);
+            margin-left: 30px; 
+            margin-right: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, pariatur! Laborum,  </h1>
+    </div>
+    <div class="box">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, pariatur! Laborum, at.</h1>
+    </div>
+    <div class="box">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, pariatur! Laborum, at.</h1>
+    </div>
+</body>
+
+</html>

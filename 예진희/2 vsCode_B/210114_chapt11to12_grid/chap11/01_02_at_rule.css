@@ -1,0 +1,7 @@
+@import url(01_at_rule.css);
+
+p
+{
+    background-color: pink;
+    color: green;
+}

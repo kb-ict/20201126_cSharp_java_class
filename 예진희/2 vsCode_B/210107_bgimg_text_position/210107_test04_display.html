@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 168 p -->
+    <!-- 인라인 속성 4개, 인라인: 사용영역만큼, 
+        인라인 마진이 좌우만 <-> 인라인블록 width, height속성값 적용가능 -->
+    <style>
+        #box
+        {
+            /* display: none; */
+            /* visibility: hidden; */
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(255, 195, 213);
+        }
+
+        #box2
+        {
+            display: inline;
+            width: 200px;
+            height: 200px;
+            background-color: rgb(190, 255, 224);
+        }
+    </style>
+</head>
+
+<body>
+    <span>1 Lorem ipsum dolor sit.</span>
+    <div id="box">
+        <span>2 Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+    </div>
+
+    <div id="box2">
+
+        <span>2-2 Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+    </div>
+    <span>2-3 Lorem ipsum </span>
+
+</body>
+
+</html>

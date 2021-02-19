@@ -1,0 +1,130 @@
+        /* --------------- 서체 --------------- */
+        .accent {font-family: 'Pluto Cond';  font-weight: 900;   font-style: normal;}
+        p {font-size: 1.17em; font-weight: 100;}
+
+        @font-face {
+        font-family: 'Pluto Cond';
+        src: url('webfont/PlutoCondBlack.eot');
+        src: url('webfont/PlutoCondBlack.eot?#iefix') format('embedded-opentype'),
+            url('webfont/PlutoCondBlack.woff2') format('woff2'),
+            url('webfont/PlutoCondBlack.woff') format('woff'),
+            url('webfont/PlutoCondBlack.ttf') format('truetype');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+        }
+
+        /* --------------- 웹 초기화 --------------- */
+        * {margin: 0; padding: 0;}
+        body {font-family: sans-serif;}     li {list-style: none;}
+        a{text-decoration: none;}           img {border: 0;}
+        #title>h1{text-shadow: 4px 8px 8px #000000bb; font-size: 3.8em; 
+        }
+
+        h1{font-family: 'Pluto Cond';  font-weight: 900;   font-style: normal;}
+
+        #main_header
+        {
+            /* --------------- 중앙정렬 --------------- */
+            width: 100%;        margin: 0 auto;
+            height: 400px;      position: relative;     text-align: center;
+
+            background-image: url("bg2.png");
+            background-attachment: fixed;   background-size: cover;
+            background-repeat: no-repeat;
+
+            margin-bottom: 4%;  color: white;
+            box-shadow: 0em -1em 1em rgba(0, 0, 0, 0.349) inset;
+        }
+
+        .bg{ width:100%; height:400px; position: absolute; 
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#081130+0,2779e5+53&0.6+0,0.2+69 */
+        background: -moz-linear-gradient(top,  rgba(8,17,48,0.6) 0%, rgba(39,121,229,0.29) 53%, rgba(39,121,229,0.2) 69%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  rgba(8,17,48,0.6) 0%,rgba(39,121,229,0.29) 53%,rgba(39,121,229,0.2) 69%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  rgba(8,17,48,0.6) 0%,rgba(39,121,229,0.29) 53%,rgba(39,121,229,0.2) 69%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99081130', endColorstr='#332779e5',GradientType=0 ); /* IE6-9 */
+        }
+
+        #main_header>#title{
+            position: absolute; 
+            left: 50%;          transform: translateX(-50%) translateY(20%);
+            font-size: 1em;     z-index: 4;
+            display: inline;    height: 400px;
+        }
+
+        /* --------------- 상단 메뉴 --------------- */
+        #main_header>#main_gnb{
+        position: absolute;     bottom: 0;
+        left: 50%;              transform: translateX(-50%);
+
+        width: 100%;            margin: 0 auto;
+        height: 60px;           line-height: 60px;
+        text-align: center;     z-index: 5;
+        background-color: rgba(255, 71, 83, 0.7);
+        }
+        #main_gnb>ul{overflow: hidden; display: inline-block; height: 60px; line-height: 60px;}
+        #main_gnb>ul>li{float: left;}
+        #main_gnb>ul>li>a{display: block;       padding: 0 1.25em;   color: white;
+                          font-size: 1.2em;     opacity: 0.65;}
+        #main_gnb>ul>li>a:hover, a:active{
+            opacity: 1;       color: rgb(255, 212, 18);
+            background-color: rgba(255, 47, 61, 0.767);
+        }
+
+        /* --------------- 본문 --------------- */
+        #content{width: 95%;        margin: 0 auto;
+                overflow: hidden;   margin-top: 1.5em; }
+        #content>#main_section{float: left; width: 100%; left: 0; padding: 1em;}
+        
+        .arti_title{text-align: center; margin: 0.1em; font-size: 2.5em; 
+            background: linear-gradient(to left, rgba(255, 71, 84, 0.918) 35%, rgba(255, 208, 99, 0.829) 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;}
+
+        /* --------------- 우측 메뉴 --------------- */
+        
+        #main_aside{position: relative; height: max-content;}
+        #main_lnb{position: fixed; right: 0.05em; height: 20%; top: 50%; overflow: hidden; z-index: 8;}
+        #main_lnb{padding: 1em;}
+        #main_lnb>ul{border: rgba(255, 71, 84) 0.17em solid; border-radius: 1.3em 1.3em 1.3em 1.3em;}
+        #main_lnb>ul>li>a{display: block;   padding: 0.4em 0.5em;         color:rgb(255, 71, 84);
+                          background-color: white;                      box-shadow: 0em 0.2em 0.8em  rgba(0, 0, 0, 0.13);}
+        #main_lnb>ul>li>a:hover, a:active{  color: rgb(255, 255, 255);  background-color:rgb(255, 71, 84);}
+
+        /* 둥글게 둥글게 */
+        #main_lnb>ul>li:first-child>a{border-radius: 0.8em 0.8em 0em 0em;}
+        #main_lnb>ul>li:last-child>a{border-radius: 0em 0em 0.8em 0.8em;}
+
+        #main_lnb>ul>li>a>i{font-size: 0.5em;}
+
+        /* --------------- 아티클 --------------- */
+
+        #main_section>#main_article{
+            padding: 2em;               padding-bottom: 2.5em;
+            border-radius: 1em;         background-color: white;
+            margin-bottom: 4em;         box-shadow: 0em 0.2em 0.8em  rgba(0, 0, 0, 0.13);
+            }
+
+
+        #main_section>#main_article2{
+        padding: 2em;               padding-bottom: 2.5em;
+        border-radius: 1em;         background: rgb(255,213,216);
+
+        margin-bottom: 4em;         background: linear-gradient(306deg, rgba(255,213,216,1) 0%, rgba(255,254,240,1) 83%);
+        box-shadow: 0em 0.2em 0.8em  rgba(0, 0, 0, 0.13);
+        }
+        
+        .arti_txt{margin-top: 1em;}
+        #main_article>h1{font-size: 2em;    margin-bottom: 0.25em;}
+
+        /* --------------- 푸터 --------------- */
+        #main_footer{
+            width: 100%;          height: 8em;
+            position: relative;   background-color: rgb(89, 89, 89);
+            color: white;       border-top:  rgba(59, 59, 59, 0.87) solid 1.5px;}
+
+        #footer_txt{padding-top: 2em;   padding-bottom: 4em;    width:60%;
+                    margin: 0 auto;     position: relative;     text-align: center;}
+        #footer_txt>#F_left{float: left; left: -50%;}
+        #footer_txt>#F_right{float: left; left: -52.5%;}
+        

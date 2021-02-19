@@ -1,0 +1,39 @@
+D:\임시\Git\jhy0409\2 vsStudio_P\210208_txt\2_class\4_mun1_Samdab\bin\Debug\4_mun1_Samdab.exe.config
+D:\임시\Git\jhy0409\2 vsStudio_P\210208_txt\2_class\4_mun1_Samdab\bin\Debug\4_mun1_Samdab.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210208_txt\2_class\4_mun1_Samdab\bin\Debug\4_mun1_Samdab.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210208_txt\2_class\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.csproj.CoreCompileInputs.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210208_txt\2_class\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210208_txt\2_class\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210208_cSharp_basic_P\2_class\4_mun1_Samdab\bin\Debug\4_mun1_Samdab.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210208_cSharp_basic_P\2_class\4_mun1_Samdab\bin\Debug\4_mun1_Samdab.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210208_cSharp_basic_P\2_class\4_mun1_Samdab\bin\Debug\4_mun1_Samdab.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210208_cSharp_basic_P\2_class\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210208_cSharp_basic_P\2_class\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210208_cSharp_basic_P\2_class\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210215_txt\2_class\4_mun1_Samdab\bin\Debug\4_mun1_Samdab.exe.config
+D:\임시\Git\jhy0409\2 vsStudio_P\210215_txt\2_class\4_mun1_Samdab\bin\Debug\4_mun1_Samdab.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210215_txt\2_class\4_mun1_Samdab\bin\Debug\4_mun1_Samdab.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210215_txt\2_class\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.csprojAssemblyReference.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210215_txt\2_class\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.csproj.CoreCompileInputs.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210215_txt\2_class\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210215_txt\2_class\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210215_cSharp_class1_3to5n2_1to3_P\2_class_mun1_3to5\4_mun1_Samdab\bin\Debug\4_mun1_Samdab.exe.config
+D:\임시\Git\jhy0409\2 vsStudio_P\210215_cSharp_class1_3to5n2_1to3_P\2_class_mun1_3to5\4_mun1_Samdab\bin\Debug\4_mun1_Samdab.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210215_cSharp_class1_3to5n2_1to3_P\2_class_mun1_3to5\4_mun1_Samdab\bin\Debug\4_mun1_Samdab.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210215_cSharp_class1_3to5n2_1to3_P\2_class_mun1_3to5\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.csprojAssemblyReference.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210215_cSharp_class1_3to5n2_1to3_P\2_class_mun1_3to5\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.csproj.CoreCompileInputs.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210215_cSharp_class1_3to5n2_1to3_P\2_class_mun1_3to5\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210215_cSharp_class1_3to5n2_1to3_P\2_class_mun1_3to5\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210215_cSharp_class1_3to5n2_1to3_P\2_class_mun1_3to5\4_mun1_Samdab\bin\Debug\4_mun1_Samdab.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210215_cSharp_class1_3to5n2_1to3_P\2_class_mun1_3to5\4_mun1_Samdab\bin\Debug\4_mun1_Samdab.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210215_cSharp_class1_3to5n2_1to3_P\2_class_mun1_3to5\4_mun1_Samdab\bin\Debug\4_mun1_Samdab.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210215_cSharp_class1_3to5n2_1to3_P\2_class_mun1_3to5\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210215_cSharp_class1_3to5n2_1to3_P\2_class_mun1_3to5\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210215_cSharp_class1_3to5n2_1to3_P\2_class_mun1_3to5\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210215_cSharp_class1_3to5n2_1to3_P\2_class_mun1_4_P\4_mun1_Samdab\bin\Debug\4_mun1_Samdab.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210215_cSharp_class1_3to5n2_1to3_P\2_class_mun1_4_P\4_mun1_Samdab\bin\Debug\4_mun1_Samdab.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210215_cSharp_class1_3to5n2_1to3_P\2_class_mun1_4_P\4_mun1_Samdab\bin\Debug\4_mun1_Samdab.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210215_cSharp_class1_3to5n2_1to3_P\2_class_mun1_4_P\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210215_cSharp_class1_3to5n2_1to3_P\2_class_mun1_4_P\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210215_cSharp_class1_3to5n2_1to3_P\2_class_mun1_4_P\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210215_cSharp_class1_3to5n2_1to3_P\2_class_mun1_4_P\4_mun1_Samdab\obj\Debug\4_mun1_Samdab.pdb

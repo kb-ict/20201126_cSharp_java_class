@@ -1,0 +1,8 @@
+https://www.youtube.com/watch?v=4hCiz6aU-7Q&list=PLBXuLgInP-5kLy13XLuK8iBWVFDBJygYr
+
+윤인성님(모던javaScript) -73강까지만 보기
+
+왜냐면 그 뒤에껀 서버단에 대한 것이고,
+node.js 에 대한 것이다.
+
+혹은 같은 작가, 같은 채널의 혼공 자바스크립트 시리즈 보기

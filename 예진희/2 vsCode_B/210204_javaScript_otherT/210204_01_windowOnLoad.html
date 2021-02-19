@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- window.onload 
+         맨위에 있으면 온로드(바디내용 읽고 함수실행 해달라는거) 
+         안적으면 읽으면서 위에서 밑으로 바로 됨
+        
+         T / body 내용을 다 읽고 이 함수를 실행 해달라..
+
+         html, css, javascript, jquery 한세트...
+        -->
+    <script>
+        window.onload = function () {
+            document.getElementById("adiv").onclick = function () {
+                alert("test");
+                alert("테스트");
+            }
+            document.getElementById("bdiv").innerHTML = "2. 태그 사이에 들어간다.";
+            // 셀렉터는 옛날 브라우저에서 구동안됨
+        }
+    </script>
+    <style>
+        #adiv {
+            background-color: aqua;
+            height: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- [doc] ctrl + space키 > tab키 == ! 자동완성 -->
+    <div id="adiv">
+        1. 누르면 경고창이 뜬다.
+    </div>
+
+    <div id="bdiv">
+
+    </div>
+</body>
+</html>
+<!-- <script>
+        document.getElementById("bdiv").innerHTML = "2. 태그 사이에 들어간다.";
+</script> -->

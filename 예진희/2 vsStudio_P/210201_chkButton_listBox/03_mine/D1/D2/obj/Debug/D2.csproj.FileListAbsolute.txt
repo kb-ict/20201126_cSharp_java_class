@@ -1,0 +1,10 @@
+D:\임시\VS\210201\03_mine\D1\D2\bin\Debug\D2.exe.config
+D:\임시\VS\210201\03_mine\D1\D2\bin\Debug\D2.exe
+D:\임시\VS\210201\03_mine\D1\D2\bin\Debug\D2.pdb
+D:\임시\VS\210201\03_mine\D1\D2\obj\Debug\D2.csprojAssemblyReference.cache
+D:\임시\VS\210201\03_mine\D1\D2\obj\Debug\D2.d2.resources
+D:\임시\VS\210201\03_mine\D1\D2\obj\Debug\D2.Properties.Resources.resources
+D:\임시\VS\210201\03_mine\D1\D2\obj\Debug\D2.csproj.GenerateResource.cache
+D:\임시\VS\210201\03_mine\D1\D2\obj\Debug\D2.csproj.CoreCompileInputs.cache
+D:\임시\VS\210201\03_mine\D1\D2\obj\Debug\D2.exe
+D:\임시\VS\210201\03_mine\D1\D2\obj\Debug\D2.pdb

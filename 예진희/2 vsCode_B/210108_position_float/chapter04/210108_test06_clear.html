@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            width: 960px;
+            margin: 0 auto;
+        }
+
+        /* 컨테이너 가운데 정렬, aside+section = body width: 960px */
+        /* #wrap : overflow: hidden; */
+
+        #aside {
+            width: 200px;
+            float: left;
+            background-color: lightskyblue;
+        }
+
+        #section {
+            width: 740px;
+            float: right ;
+            background-color: rosybrown;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <!-- 수평정렬 공식 : 자손 float속성 적용하면 부모는 overflow:hidden 적용 -->
+
+    <div id="header">
+        <h1>Header</h1>
+    </div>
+    <div id="navigation">
+        <h1>navigation</h1>
+    </div>
+    <div id="aside">
+        <h1>aside</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, corrupti similique. Eaque consequuntur
+            dolore suscipit! Dolorum,</p>
+
+    </div>
+    <div id="section">
+        <h1>section</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ratione est earum assumenda facilis, ab
+            dolore eum natus ad voluptatum magni</p>
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+        <h1>footer</h1>
+    </div>
+</body>
+
+</html>

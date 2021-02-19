@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="adiv"></div>
+    <script>
+        var x, y, z;
+        x = 10;
+        y = 20;
+        z = 30;
+        var myTxt1 = "aaa";
+        var myTxt2 = 'bbb';
+        document.getElementById("adiv");
+
+        // "a" + "b" = "ab";
+        var d = "10"+20;    // 1020
+        var e = 10+20;      // 30
+
+        // adiv.innerHTML = x + y + z + myTxt1 + myTxt2;    //60 a~b~
+        adiv.innerHTML = myTxt1 + myTxt2 + (x + y + z);     // 문자가 먼저오면 문자열 연산 a~b~102030
+
+    </script>
+</body>
+
+</html>

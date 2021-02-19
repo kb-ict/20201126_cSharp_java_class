@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        // var one = 1; // 변수선언, 중복허용
+        // var two = "2";
+        // let three = 3; //거의 안씀, 중복X
+        // var one = 111;
+        // alert("ㅎㅇ");
+        console.log("ㅎㅇ");
+
+        // // let three = 333;
+        // alert("ㅎㅇ111");
+        console.log("ㅎㅇ111");
+
+        var array = [1,2,3,"A","B","C",5];
+        for (var i = 0;  i < array.length; i++) {
+        //     alert(array[i]);
+            console.log(array[i]);
+
+        }
+
+        array = 100;
+        console.log(array);
+        // alert(array);
+
+
+        // json
+        var obj = {
+                    name : "obj1. AAA",
+                    age : 300,
+                    master : "obj3. BBB",
+                    123 : "뭐시여",
+                    _ : "언더바는 허용됨",
+                } //객체
+
+        // alert(obj['name']);
+        // alert(obj['age']);
+        // alert(obj['master']);
+        // alert(obj.name);
+        // alert(obj.age);
+        // alert(obj.master);
+
+        // 접근방법 2개---배열과 점-------------
+        // console.log(obj['name']);
+        // console.log(obj['age']);
+        console.log(obj['master']);
+        console.log(obj['123']);
+
+        console.log(obj.name);
+        console.log(obj.age);
+        console.log(obj.master);
+        // console.log(obj.123); //속성이 숫자일 수있지만 .으로는 접근안됨, 변수이름앞 숫자X
+
+        console.log("자바--------------------------")
+        var wow = function () {
+            // alert("bbbb")
+            console.log("wow~~~");
+        };
+        wow(); wow()
+
+        // function wow() {console.log("wow~~~")}
+        wow();
+        
+        console.log(wow);
+        /*
+        ƒ () {
+            // alert("bbbb")
+            console.log("wow~~~");
+        }
+        */
+        console.log("※※※※undefind, wow()자체가 리턴하는 값이 없음--------------")
+        console.log(wow());
+        console.log("※※※※※※※※※※※※")
+        wow= function () {
+            return "AAA";
+        }
+        console.log(wow());
+
+        var devilArray = 
+        [1,2,"3", {master: "이름1", name: "이름2"},[1,2,3]]
+        console.log(devilArray[0]);
+        console.log(devilArray[1]);
+        console.log(devilArray[2]);
+        console.log(devilArray[3]);
+        console.log(devilArray[4]);
+        console.log("※※※※※※※※※※※※")
+
+        var devilJson = 
+        {one : [1,2,3,4,5], two : {two_one : "2", two_two : "twotwo", three : 5}}
+
+        console.log(devilJson['one']);
+        console.log(devilJson.two);
+        console.log(devilJson.three);
+
+        </script>   
+</head>
+<body>
+    
+</body>
+</html>

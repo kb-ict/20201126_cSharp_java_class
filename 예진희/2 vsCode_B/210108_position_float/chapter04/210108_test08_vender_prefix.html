@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input[type=checkbox]:checked+div{
+            height: 0px;
+        }
+        div{
+            overflow: hidden;
+            width: 650px;
+            height: 300px;
+            transition-duration: 1s;
+
+            /* 벤더 프리픽스들 */
+            -ms-transition-duration: 1s;
+            /* microsoft */
+            -moz-transition-duration: 1s;
+            /* ↑ 파이어폭스 */
+            -webkit-transition-duration: 1s;
+            /* 애플 */
+            background-color: pink;
+            /* 벤더 프리픽스들 */
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" name="" id="">
+    <div></div>
+</body>
+</html>

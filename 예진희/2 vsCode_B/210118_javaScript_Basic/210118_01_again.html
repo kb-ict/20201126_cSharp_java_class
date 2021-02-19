@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        console.log("Hello World");
+        // alert("내용내용")
+        document.write("화면에 써지는 거");
+        //클라이언트 단 언어, 테스트는 위 3개로 많이 씀, 릴리즈
+    </script>
+
+    <style>
+        .redText
+        {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="firstHeadTag">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
+    <h2>Lorem, ipsum dolor.</h2>
+    <script>
+        // 자바스크립트 스타일.(=DOM객체를 이용했다.) 돔객체 = fir
+        var fir = document.querySelector('#firstHeadTag');
+        //속성을 줘서 스타일 바꾸기
+        fir.setAttribute('class', 'redText'); //이걸로 많이 씀
+        
+        //직접 스타일 바꾸기
+        fir.style.background = 'yellow';
+    </script>
+    <!-- 제이쿼리 JS보다 쉽게 쓰는 라이브러리-->
+    <script>
+        var row = 100;
+        now = "이름";
+        now = 100.5;
+        now = [1,2,3,4,5]; //배열
+        now = {
+            name : "이름2",
+            lover : "이름3",
+            age : 12
+        }
+        let letitgo = "렛잇고";
+        // let letitgo = "가사..";
+        var now = "중복선언 해도 딱히 에러 안남";
+        for (let index = 0; index < array.length; index++) {
+            const element = array[index];
+            
+        }
+    </script>
+</body>
+</html>

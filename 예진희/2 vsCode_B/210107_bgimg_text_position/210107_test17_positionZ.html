@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 210 p -->
+
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            /* 절대좌표 */
+            /* 부모가 static이면 fix랑 똑같이 동작 */
+        }
+        .red {
+            background-color: rgb(255, 118, 152);
+            left: 10px; top: 10px;
+        }
+        .green {
+            background-color: rgb(126, 233, 144);
+            left: 50px; top: 50px;
+        }
+        .blue {
+            background-color: rgb(75, 183, 255);
+            left: 90px; top: 90px;
+        
+        }
+
+        body >div
+        {
+            width: 400px;
+            height: 100px;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+
+    <div>
+        <div class="box red"></div>
+        <div class="box green"></div>
+        <div class="box blue"></div>
+    </div>
+    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+</body>
+
+</html>

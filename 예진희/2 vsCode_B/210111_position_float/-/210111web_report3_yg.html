@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-desitydpi=medium-dpi">
+    <title>Document</title>
+
+
+    
+    <!--------------- 웹 초기화 --------------->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <style>
+
+        /* --------------- 서체 --------------- */
+        .accent {font-family: 'Pluto Cond';  font-weight: 900;   font-style: normal;}
+        p {font-size: 1.12em;}
+
+        @font-face {
+        font-family: 'Pluto Cond';
+        src: url('/참고/webfont/PlutoCondBlack.eot');
+        src: url('/참고/webfont/PlutoCondBlack.eot?#iefix') format('embedded-opentype'),
+            url('/참고/webfont/PlutoCondBlack.woff2') format('woff2'),
+            url('/참고/webfont/PlutoCondBlack.woff') format('woff'),
+            url('참고/webfont/PlutoCondBlack.ttf') format('truetype');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+        }
+
+        /* --------------- 웹 초기화 --------------- */
+        * {margin: 0; padding: 0;}
+        body {font-family: sans-serif;}     li {list-style: none;}
+        a{text-decoration: none;}           img {border: 0;}
+        #title>h1{text-shadow: 4px 8px 8px #000000bb; font-size: 2.5em;
+        }
+
+        h1{font-family: 'Pluto Cond';  font-weight: 900;   font-style: normal;}
+
+        #main_header
+        {
+            /* --------------- 중앙정렬 --------------- */
+            width: 100%;        margin: 0 auto;
+            height: 680px;      position: relative;     text-align: center;
+
+            background-image: url("link/bg2.jpg");
+            background-attachment: fixed;   background-size: cover;
+            background-repeat: no-repeat;
+
+            margin-bottom: 4%;  color: white;
+            box-shadow: 0em -1em 1em rgba(0, 0, 0, 0.349) inset;
+        }
+
+        .bg{ width:100%; height:680px; position: absolute; 
+ /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a8db27+0,fcf52d+15&0.45+0,0.1+69,0.1+69 */
+background: -moz-linear-gradient(top,  rgba(168,219,39,0.45) 0%, rgba(252,245,45,0.37) 15%, rgba(252,245,45,0.1) 69%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(168,219,39,0.45) 0%,rgba(252,245,45,0.37) 15%,rgba(252,245,45,0.1) 69%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(168,219,39,0.45) 0%,rgba(252,245,45,0.37) 15%,rgba(252,245,45,0.1) 69%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73a8db27', endColorstr='#1afcf52d',GradientType=0 ); /* IE6-9 */
+
+        }
+
+        #main_header>#title{
+            position: absolute; line-height: 680px;
+            left: 50%;          transform: translateX(-50%);
+            font-size: 2em;     z-index: 4;
+        }
+
+        /* --------------- 상단 메뉴 --------------- */
+        #main_header>#main_gnb{
+        position: absolute;     bottom: 0;
+        left: 50%;              transform: translateX(-50%);
+
+        width: 100%;            margin: 0 auto;
+        height: 60px;           line-height: 60px;
+        background-color: rgba(255, 71, 83, 0.7);
+        text-align: center;     z-index: 5;
+        }
+        #main_gnb>ul{overflow: hidden; display: inline-block; height: 60px; line-height: 60px;}
+        #main_gnb>ul>li{float: left;}
+        #main_gnb>ul>li>a{display: block;       padding: 0 2em;   color: white;
+                          font-size: 1.2em;     opacity: 0.65;}
+        #main_gnb>ul>li>a:hover, a:active{
+            opacity: 1;
+            background-color: rgba(255, 71, 83, 0.767);
+        }
+
+        /* --------------- 본문 --------------- */
+        #content{width: 62%;        margin: 0 auto;
+                overflow: hidden;   margin-top: 1.5em; }
+        #content>#main_section{float: left; width: 100%; left: 0; padding: 1em;}
+        
+        .arti_title{text-align: center; margin: 0.5em; font-size: 2.8em; 
+            background: linear-gradient(to left, rgba(255, 71, 84, 0.918) 35%, rgba(255, 208, 99, 0.829) 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;}
+
+        /* --------------- 우측 메뉴 --------------- */
+        
+        #main_aside{position: relative; height: max-content;}
+        #main_lnb{position: fixed; right: 2em; height: 20%; top: 61%; overflow: hidden; z-index: 8;}
+        #main_lnb{padding: 1em;}
+        #main_lnb>ul{border: rgba(255, 71, 84) 3px solid; border-radius: 1.3em 1.3em 1.3em 1.3em;}
+        #main_lnb>ul>li>a{display: block;   padding: 1em 1em;    
+                          background-color: white;   box-shadow: 0em 0.2em 0.8em  rgba(0, 0, 0, 0.13);}
+        #main_lnb>ul>li>a:hover, a:active{background-color:rgb(255, 71, 84); color: white;}
+
+
+        /* 둥글게 둥글게 */
+        #main_lnb>ul>li:first-child>a{border-radius: 1em 1em 0em 0em;}
+        #main_lnb>ul>li:last-child>a{border-radius: 0em 0em 1em 1em;}
+
+
+        /* --------------- 아티클 --------------- */
+
+        #main_section>#main_article{
+            padding: 2em;               padding-bottom: 2.5em;
+            border-radius: 1em;         background-color: white;
+            margin-bottom: 4em;         box-shadow: 0em 0.2em 0.8em  rgba(0, 0, 0, 0.13);
+            }
+        
+        .arti_txt{margin-right: 4em; margin-left: 4em; margin-top: 1em;}
+
+        #main_article>h1{font-size: 2em;    margin-bottom: 0.25em;}
+
+        /* --------------- 푸터 --------------- */
+        #main_footer{
+            width: 100%;          height: 10em;
+            margin-top: 7em;      background-color: rgb(89, 89, 89);
+            color: white;       border-top:  rgba(59, 59, 59, 0.87) solid 1.5px;}
+
+        #footer_txt{padding-top: 2em;   padding-bottom: 4em;    width:60%;
+                    margin: 0 auto;     position: relative;}
+        #footer_txt>#F_left{float: left;}
+        #footer_txt>#F_right{float: right;}
+        
+    </style>
+
+    <script src="https://kit.fontawesome.com/aed52da66c.js" crossorigin="anonymous"></script>
+
+
+
+<!-- 
+    <style>
+        @media (max-width:600px){ /*가로 너비가 600px 이하일 때 아래 스타일 적용*/
+    </style> -->
+    
+</head>
+<body>
+    <header id = "main_header" >
+        <div id="title">
+            <h1>Stay playful</h1>
+        </div> 
+        <div class="bg"></div>
+        <nav id = "main_gnb">
+            <ul>
+                <li><a href="#menu1">Menu 1</a></li>
+                <li><a href="#menu2">Menu 2</a></li>
+                <li><a href="#menu3">Menu 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="content">
+        <!-- 본문 -->
+        <section id="main_section">
+            <article id="main_article">
+                <div id ="menu1" class="arti_title accent">menu1 dolor sit.</div>
+                <div class="arti_txt"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic distinctio, sed dolorem nam veniam cupiditate itaque. Iusto, voluptate eius odio, illum voluptatibus laborum fugit cumque vitae nostrum, distinctio placeat numquam voluptas? Perferendis cumque odit sunt sapiente? Suscipit eum veniam quia incidunt enim architecto nemo voluptates perspiciatis et ea ut porro cum dolorem voluptatibus, repudiandae inventore possimus ipsa. Perferendis eius libero tempore quidem vitae, at beatae, rem itaque pariatur perspiciatis eveniet nemo eum saepe laborum hic, modi amet doloremque mollitia qui quos quas a. Commodi ut sit excepturi, placeat temporibus at eveniet nihil sed non pariatur! Eius a culpa illum recusandae asperiores id mollitia reiciendis nisi quia dicta et autem, minus quas est molestiae distinctio, temporibus dignissimos explicabo veritatis. Minus repudiandae ullam iusto, ipsam autem, aliquid porro sequi animi aliquam quia minima deleniti asperiores cum corrupti perferendis veritatis. Unde recusandae deleniti eum est ut quisquam facere, labore perferendis obcaecati ea aliquid ratione doloremque pariatur magnam ducimus commodi? Delectus ex, quae impedit, vitae error itaque qui facere distinctio magni rem eos nobis et blanditiis fuga optio eaque laudantium dicta eum earum, eveniet ratione cum eligendi. Quia, minus eum doloribus architecto fuga beatae? Ratione voluptatem ipsum reiciendis quisquam iure assumenda mollitia modi veritatis reprehenderit praesentium odit perferendis quas dolore eos nihil, odio et amet quibusdam labore tempora exercitationem quidem eveniet. Illum fugit veniam expedita esse? Fugit maxime obcaecati ea dolorem, dolore, minima commodi voluptates facere eos fugiat laudantium! Ipsam consequuntur repellat explicabo asperiores a, ducimus libero ut, assumenda cumque reiciendis tempora doloribus voluptates? ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </article>
+
+            <article id="main_article">
+                <div id ="menu2" class="arti_title accent">menu2 dolor sit.</div>
+                <div class="arti_txt"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic distinctio, sed dolorem nam veniam cupiditate itaque. Iusto, voluptate eius odio, illum voluptatibus laborum fugit cumque vitae nostrum, distinctio placeat numquam voluptas? Perferendis cumque odit sunt sapiente? Suscipit eum veniam quia incidunt enim architecto nemo voluptates perspiciatis et ea ut porro cum dolorem voluptatibus, repudiandae inventore possimus ipsa. Perferendis eius libero tempore quidem vitae, at beatae, rem itaque pariatur perspiciatis eveniet nemo eum saepe laborum hic, modi amet doloremque mollitia qui quos quas a. Commodi ut sit excepturi, placeat temporibus at eveniet nihil sed non pariatur! Eius a culpa illum recusandae asperiores id mollitia reiciendis nisi quia dicta et autem, minus quas est molestiae distinctio, temporibus dignissimos explicabo veritatis. Minus repudiandae ullam iusto, ipsam autem, aliquid porro sequi animi aliquam quia minima deleniti asperiores cum corrupti perferendis veritatis. Unde recusandae deleniti eum est ut quisquam facere, labore perferendis obcaecati ea aliquid ratione doloremque pariatur magnam ducimus commodi? Delectus ex, quae impedit, vitae error itaque qui facere distinctio magni rem eos nobis et blanditiis fuga optio eaque laudantium dicta eum earum, eveniet ratione cum eligendi. Quia, minus eum doloribus architecto fuga beatae? Ratione voluptatem ipsum reiciendis quisquam iure assumenda mollitia modi veritatis reprehenderit praesentium odit perferendis quas dolore eos nihil, odio et amet quibusdam labore tempora exercitationem quidem eveniet. Illum fugit veniam expedita esse? Fugit maxime obcaecati ea dolorem, dolore, minima commodi voluptates facere eos fugiat laudantium! Ipsam consequuntur repellat explicabo asperiores a, ducimus libero ut, assumenda cumque reiciendis tempora doloribus voluptates? ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </article>
+
+            <article id="main_article">
+                <div id ="menu3" class="arti_title accent">menu3 dolor sit.</div>
+                <div class="arti_txt"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic distinctio, sed dolorem nam veniam cupiditate itaque. Iusto, voluptate eius odio, illum voluptatibus laborum fugit cumque vitae nostrum, distinctio placeat numquam voluptas? Perferendis cumque odit sunt sapiente? Suscipit eum veniam quia incidunt enim architecto nemo voluptates perspiciatis et ea ut porro cum dolorem voluptatibus, repudiandae inventore possimus ipsa. Perferendis eius libero tempore quidem vitae, at beatae, rem itaque pariatur perspiciatis eveniet nemo eum saepe laborum hic, modi amet doloremque mollitia qui quos quas a. Commodi ut sit excepturi, placeat temporibus at eveniet nihil sed non pariatur! Eius a culpa illum recusandae asperiores id mollitia reiciendis nisi quia dicta et autem, minus quas est molestiae distinctio, temporibus dignissimos explicabo veritatis. Minus repudiandae ullam iusto, ipsam autem, aliquid porro sequi animi aliquam quia minima deleniti asperiores cum corrupti perferendis veritatis. Unde recusandae deleniti eum est ut quisquam facere, labore perferendis obcaecati ea aliquid ratione doloremque pariatur magnam ducimus commodi? Delectus ex, quae impedit, vitae error itaque qui facere distinctio magni rem eos nobis et blanditiis fuga optio eaque laudantium dicta eum earum, eveniet ratione cum eligendi. Quia, minus eum doloribus architecto fuga beatae? Ratione voluptatem ipsum reiciendis quisquam iure assumenda mollitia modi veritatis reprehenderit praesentium odit perferendis quas dolore eos nihil, odio et amet quibusdam labore tempora exercitationem quidem eveniet. Illum fugit veniam expedita esse? Fugit maxime obcaecati ea dolorem, dolore, minima commodi voluptates facere eos fugiat laudantium! Ipsam consequuntur repellat explicabo asperiores a, ducimus libero ut, assumenda cumque reiciendis tempora doloribus voluptates? ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+            </article>
+        </section>
+
+        <!-- 메뉴 -->
+        <aside id="main_aside"> 
+            <nav id = "main_lnb">
+                <ul>
+                    
+                    <li><a href="#main_header"><i class="fas fa-chevron-up"></i></a></li>
+                    <li><a href="#main_footer"><i class="fas fa-chevron-down"></i></a></li>
+                </ul>
+            </nav>
+        </aside>
+        
+
+    </div>
+    
+    <footer id="main_footer">
+        <div id="footer_txt">
+            <div id="F_left">Copyright © Mondelez International 2020. All Rights reserved</div>
+            <div id="F_right">Terms and Conditions · Privacy Policy</div>
+        </div>
+    </footer>
+</body>
+</html>

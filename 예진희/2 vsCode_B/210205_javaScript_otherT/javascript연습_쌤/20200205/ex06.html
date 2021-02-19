@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+</script>
+<style>
+    *{ margin: 0; padding: 0; }
+    .content{
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+    }
+    .outer{
+        margin-left: 0px;
+    }
+    .indiv{
+        width: 200px;
+        height: 200px;
+        float: left;
+    }
+    #a{ background-color: red; }
+    #b{ background-color: blue; }
+    #c{ background-color: yellow; }
+</style>
+</head>
+<body>
+    <div class="content">
+        <div class="outer">
+            <div class="indiv" id="a"></div>
+            <div class="indiv" id="b"></div>
+            <div class="indiv" id="c"></div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    var ml = 0;
+    setInterval( function(){
+        $(".outer").css("margin-left",ml+"px");
+        ml = ml - 200;
+        if (ml < -400){
+            ml = 0;
+        }
+    } , 2000 )
+</script>

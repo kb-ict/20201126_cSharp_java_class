@@ -1,0 +1,14 @@
+D:\임시\Git\jhy0409\2 vsStudio_P\210208_txt\2_class\3_munje1_mine\bin\Debug\3_munje1_mine.exe.config
+D:\임시\Git\jhy0409\2 vsStudio_P\210208_txt\2_class\3_munje1_mine\bin\Debug\3_munje1_mine.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210208_txt\2_class\3_munje1_mine\bin\Debug\3_munje1_mine.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210208_txt\2_class\3_munje1_mine\obj\Debug\3_munje1_mine.csproj.CoreCompileInputs.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210208_txt\2_class\3_munje1_mine\obj\Debug\3_munje1_mine.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210208_txt\2_class\3_munje1_mine\obj\Debug\3_munje1_mine.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210208_txt\2_class\3_munje1_mine\obj\Debug\3_munje1_mine.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210208_cSharp_basic_P\2_class\3_munje1_mine\obj\Debug\3_munje1_mine.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210208_cSharp_basic_P\2_class\3_munje1_mine\bin\Debug\3_munje1_mine.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210208_cSharp_basic_P\2_class\3_munje1_mine\bin\Debug\3_munje1_mine.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210208_cSharp_basic_P\2_class\3_munje1_mine\bin\Debug\3_munje1_mine.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210208_cSharp_basic_P\2_class\3_munje1_mine\obj\Debug\3_munje1_mine.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210208_cSharp_basic_P\2_class\3_munje1_mine\obj\Debug\3_munje1_mine.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210208_cSharp_basic_P\2_class\3_munje1_mine\obj\Debug\3_munje1_mine.csprojAssemblyReference.cache

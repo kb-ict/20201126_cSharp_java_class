@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function doA(){
+            var a = document.getElementById("bbb");
+            console.log(a); // 개발자를 도와주는 도구..
+            a.innerHTML = "바뀜";
+        }
+        // var break;
+    </script>
+</head>
+<body>
+    <div id="bbb">
+        여기 글자 바꿀꺼임..
+    </div>
+    <button onclick="doA()">버튼</button>
+</body>
+</html>

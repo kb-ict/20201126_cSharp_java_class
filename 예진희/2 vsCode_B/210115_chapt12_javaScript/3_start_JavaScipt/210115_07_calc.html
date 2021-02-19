@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body>input:nth-of-type(0)~input:nth-of-type(1){width: 3em; height: 5em;}
+    </style>
+</head>
+
+<body>
+    <input id="one" type="text"><span> + </span>
+    <input id="two" type="text"><span> = </span>
+    <span id="result">결과가 나옴</span>
+    <div>
+        <input type="button" value="1. 합" onclick="sum()">
+    </div><br>
+
+    <input id="one2" type="text"><span> - </span>
+    <input id="two2" type="text"><span> = </span>
+    <span id="result2">결과가 나옴</span>
+    <div>
+        <input type="button" value="2. 차" onclick="minus()">
+    </div><br>
+
+    <input id="one3" type="text"><span> * </span>
+    <input id="two3" type="text"><span> = </span>
+    <span id="result3">결과가 나옴</span>
+    <div>
+        <input type="button" value="3. 곱" onclick="gob()">
+    </div><br>
+
+    <input id="one4" type="text"><span> / </span>
+    <input id="two4" type="text"><span> = </span>
+    <span id="result4">결과가 나옴</span>
+    <div>
+        <input type="button" value="4. 나누기" onclick="nanugi()">
+    </div>
+
+    <script>
+        function sum() {
+            var one = document.getElementById('one').value;
+            var two = document.getElementById('two').value;
+            // alert(Number(one) + Number(two));
+            document.getElementById('result').innerText = Number(one) + Number(two);
+        }
+
+        function minus() {
+            var one = document.getElementById('one2').value;
+            var two = document.getElementById('two2').value;
+            // alert(Number(one) - Number(two));
+            document.getElementById('result2').innerText = Number(one) - Number(two);
+        }
+
+        function gob() {
+            var one = document.getElementById('one3').value;
+            var two = document.getElementById('two3').value;
+            // alert(Number(one) * Number(two));
+            document.getElementById('result3').innerText = Number(one) * Number(two);
+        }
+
+        function nanugi() {
+            var one = document.getElementById('one4').value;
+            var two = document.getElementById('two4').value;
+            // alert(Number(one) / Number(two));
+            document.getElementById('result4').innerText = Number(one) / Number(two);
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>

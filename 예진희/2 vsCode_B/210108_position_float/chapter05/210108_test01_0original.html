@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 256 p -->
+
+    <style>
+        /* +++ */
+        #title>h1 {
+            font-size: 3em;
+        }
+
+        /* 헤더파트 */
+        #main_header {
+            width: 960px;
+            margin: 0 auto;
+            height: 160px;
+            position: relative;
+        }
+
+        #main_header>#title {
+            position: absolute;
+            left: 20px;
+            top: 30px;
+        }
+
+        #main_header>#main_gnb {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        #main_header>#main_lnb {
+            position: absolute;
+            right: 0;
+            bottom: 10px;
+        }
+
+
+
+
+        /* 초기화 코드 */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: sans-serif;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        img {
+            border: 0;
+        }
+
+
+        /*  */
+        #title {
+            font-family: 'Yellowtail', cursive;
+        }
+
+
+        /* gnb */
+        #main_gnb>ul {
+            overflow: hidden
+        }
+
+        #main_gnb>ul>li {
+            float: left;
+        }
+
+        #main_gnb>ul>li>a {
+            display: block;
+            padding: 2px 10px;
+            border: 1px solid black;
+            color: slategrey;
+        }
+
+        #main_gnb>ul>li>a:hover {
+            background: black;
+            color: white;
+        }
+
+        /* 227 p 수평정렬 overflow : hidden, float : left */
+        /* lnb */
+        #main_lnb>ul {
+            overflow: hidden
+        }
+
+        #main_lnb>ul>li {
+            float: left;
+        }
+
+        #main_lnb>ul>li>a {
+            display: block;
+            padding: 10px 20px;
+            border: 1px solid black;
+            color: slategrey;
+
+        }
+
+        #main_lnb>ul>li>a:hover {
+            background: black;
+            color: white;
+        }
+
+        #main_gnb>ul>li:first-child>a {
+            border-radius: 10px 0 0 10px;
+        }
+
+        #main_gnb>ul>li:last-child>a {
+            border-radius: 0 10px 10px 0;
+        }
+
+        #main_lnb>ul>li:first-child>a {
+            border-radius: 10px 0 0 10px;
+        }
+
+        #main_lnb>ul>li:last-child>a {
+            border-radius: 0 10px 10px 0;
+        }
+
+        /* 콘텐츠 */
+        #content {
+            /* 중앙정렬 */
+            width: 960px;
+            margin: 0 auto;
+
+            /* 수평 레이아웃 구성 */
+            overflow: hidden;
+        }
+
+        #content>#main_section {
+            width: 750px;
+            float: left;
+        }
+
+        #content>#main_aside {
+            width: 200px;
+            float: right;
+
+        }
+
+        /* 본문 */
+        #main_section>article.main_article {
+            margin-bottom: 10px;
+            padding: 20px;
+            border: 1px solid black;
+        }
+
+        /* 첫번째 탭 */
+        input:nth-of-type(1) {
+            display: none
+        }
+
+        input:nth-of-type(1)~div:nth-of-type(1) {
+            display: none
+        }
+
+        input:nth-of-type(1):checked~div:nth-of-type(1) {
+            display: block;
+        }
+
+        /* 두번째 탭 */
+        input:nth-of-type(2) {
+            display: none;
+        }
+
+        input:nth-of-type(2)~div:nth-of-type(2) {
+            display: none
+        }
+
+        input:nth-of-type(2):checked~div:nth-of-type(2) {
+            display: block;
+        }
+
+        /* 탭 모양 구성 */
+        section.buttons {
+            overflow: hidden;
+        }
+
+        section.buttons>label {
+            display: block;
+            float: left;
+            width: 100px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+
+            box-sizing: border-box;
+            border: 1px solid black;
+
+            background: black;
+            color: white;
+        }
+
+        input:nth-of-type(1):checked~section.buttons>label:nth-of-type(1) {
+            background: white;
+            color: black;
+        }
+
+        input:nth-of-type(2):checked~section.buttons>label:nth-of-type(2) {
+            background: white;
+            color: black;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <!-- 다양한 css, 258 p -->
+
+    <!-- 많이 쓰는거 -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"> -->
+
+
+
+
+
+</head>
+
+<body>
+    <header id="main_header">
+        <div id="title">
+            <!-- (article.main_article)*3 -->
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+        </div>
+        <!-- 261 p -->
+        <!-- gnb : global 내비게이션 -->
+        <!-- lnb : local -->
+        <nav id="main_gnb">
+            <ul>
+                <!-- (li>a[href=#])*4 -->
+                <li><a href="#">one</a></li>
+                <li><a href="#">two</a></li>
+                <li><a href="#">three</a></li>
+                <li><a href="#">four</a></li>
+            </ul>
+        </nav>
+        <nav id="main_lnb">
+            <ul>
+                <!-- (li>a[href=#])*4 -->
+                <li><a href="#">2 one</a></li>
+                <li><a href="#">2 two</a></li>
+                <li><a href="#">2 three</a></li>
+                <li><a href="#">2 four</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="content">
+        <section id="main_section">
+            <article class="main_article">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa laboriosam possimus est animi
+                    adipisci omnis maxime hic quod eaque. Incidunt necessitatibus nulla corporis iste possimus sunt
+                    saepe alias non ullam.</p>
+            </article>
+            <article class="main_article">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa laboriosam possimus est animi
+                    adipisci omnis maxime hic quod eaque. Incidunt necessitatibus nulla corporis iste possimus sunt
+                    saepe alias non ullam.</p>
+            </article>
+            <article class="main_article">
+                <h1>Lorem, ipsum dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa laboriosam possimus est animi
+                    adipisci omnis maxime hic quod eaque. Incidunt necessitatibus nulla corporis iste possimus sunt
+                    saepe alias non ullam.</p>
+            </article>
+        </section>
+        <aside id="main_aside">
+            <input type="radio" name="tab" id="first" checked>
+            <input type="radio" name="tab" id="Second">
+            <section class="buttons">
+                <label for="first">first</label>
+                <label for="Second">Second</label>
+            </section>
+            <div class="tab_item">
+                <ul>
+                    <!-- (li>a[href=#]{$$})*4 -->
+
+                    <li><a href="#">01</a></li>
+                    <li><a href="#">02</a></li>
+                    <li><a href="#">03</a></li>
+                    <li><a href="#">04</a></li>
+                </ul>
+            </div>
+            <div class="tab_item">
+                <ul>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+    <footer></footer>
+</body>
+
+</html>

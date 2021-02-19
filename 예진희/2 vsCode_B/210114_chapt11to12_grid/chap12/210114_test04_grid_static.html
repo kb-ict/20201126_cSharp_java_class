@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 497 p -->
+    <style>
+        .container
+        {   margin: 0 auto;
+            width: 960px;
+            display: grid;
+            /*2대 8*/
+            grid-template-columns: 200px 200px 200px; 
+            grid-template-rows: 200px 200px 200px ; /*위쪽은 500 아래 1000*/
+            gap:10px /*gutter랑 똑같은 거*/
+        }
+
+        /* 컨테 자손>div선택 */
+        .container>div
+        {
+            background-color: springgreen;
+        }
+
+        .header
+        {
+            /* grid-row : 1/2; */
+            grid-row-start: 1;
+            grid-row-end: 2;
+            /* grid-column: 1/4; */
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+        .aside
+        {
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        .section
+        {
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+        .footer
+        {
+            grid-row: 3/4;
+            grid-column: 1/4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>header</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos voluptatum consectetur velit temporibus earum maiores!</p>
+        </div>
+        <div class="aside">
+            <h1>aside</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos voluptatum consectetur velit temporibus earum maiores!</p>
+        </div>
+        <div class="section">
+            <h1>section</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos voluptatum consectetur velit temporibus earum maiores!</p>
+        </div>
+        <div class="footer">
+            <h1>footer</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos voluptatum consectetur velit temporibus earum maiores!</p>
+        </div>
+    </div>
+</body>
+</html>

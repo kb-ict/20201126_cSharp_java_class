@@ -1,0 +1,20 @@
+D:\임시\vsStudio\210129\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+D:\임시\vsStudio\210129\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+D:\임시\vsStudio\210129\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+D:\임시\vsStudio\210129\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
+D:\임시\vsStudio\210129\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+D:\임시\vsStudio\210129\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+D:\임시\vsStudio\210129\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+D:\임시\vsStudio\210129\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+D:\임시\vsStudio\210129\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+D:\임시\vsStudio\210129\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\2_pm3\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\2_pm3\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\2_pm3\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\2_pm3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\2_pm3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\2_pm3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\2_pm3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\2_pm3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\2_pm3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210129_btn_chk_combo_box\2_pm3\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb

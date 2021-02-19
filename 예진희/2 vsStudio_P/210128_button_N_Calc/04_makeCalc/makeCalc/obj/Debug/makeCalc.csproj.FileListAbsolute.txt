@@ -1,0 +1,30 @@
+C:\Users\KB\source\repos\makeCalc\makeCalc\bin\Debug\makeCalc.exe.config
+C:\Users\KB\source\repos\makeCalc\makeCalc\bin\Debug\makeCalc.exe
+C:\Users\KB\source\repos\makeCalc\makeCalc\bin\Debug\makeCalc.pdb
+C:\Users\KB\source\repos\makeCalc\makeCalc\obj\Debug\makeCalc.Form1.resources
+C:\Users\KB\source\repos\makeCalc\makeCalc\obj\Debug\makeCalc.Properties.Resources.resources
+C:\Users\KB\source\repos\makeCalc\makeCalc\obj\Debug\makeCalc.csproj.GenerateResource.cache
+C:\Users\KB\source\repos\makeCalc\makeCalc\obj\Debug\makeCalc.csproj.CoreCompileInputs.cache
+C:\Users\KB\source\repos\makeCalc\makeCalc\obj\Debug\makeCalc.exe
+C:\Users\KB\source\repos\makeCalc\makeCalc\obj\Debug\makeCalc.pdb
+D:\임시\vsStudio\210128\makeCalc\makeCalc\bin\Debug\makeCalc.exe.config
+D:\임시\vsStudio\210128\makeCalc\makeCalc\bin\Debug\makeCalc.exe
+D:\임시\vsStudio\210128\makeCalc\makeCalc\bin\Debug\makeCalc.pdb
+D:\임시\vsStudio\210128\makeCalc\makeCalc\obj\Debug\makeCalc.Form1.resources
+D:\임시\vsStudio\210128\makeCalc\makeCalc\obj\Debug\makeCalc.Properties.Resources.resources
+D:\임시\vsStudio\210128\makeCalc\makeCalc\obj\Debug\makeCalc.csproj.GenerateResource.cache
+D:\임시\vsStudio\210128\makeCalc\makeCalc\obj\Debug\makeCalc.csproj.CoreCompileInputs.cache
+D:\임시\vsStudio\210128\makeCalc\makeCalc\obj\Debug\makeCalc.exe
+D:\임시\vsStudio\210128\makeCalc\makeCalc\obj\Debug\makeCalc.pdb
+D:\임시\vsStudio\210128\makeCalc\makeCalc\obj\Debug\makeCalc.Form2.resources
+D:\임시\vsStudio\210128\makeCalc\makeCalc\obj\Debug\makeCalc.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\04_makeCalc\makeCalc\bin\Debug\makeCalc.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\04_makeCalc\makeCalc\bin\Debug\makeCalc.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\04_makeCalc\makeCalc\bin\Debug\makeCalc.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\04_makeCalc\makeCalc\obj\Debug\makeCalc.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\04_makeCalc\makeCalc\obj\Debug\makeCalc.Form1.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\04_makeCalc\makeCalc\obj\Debug\makeCalc.Properties.Resources.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\04_makeCalc\makeCalc\obj\Debug\makeCalc.csproj.GenerateResource.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\04_makeCalc\makeCalc\obj\Debug\makeCalc.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\04_makeCalc\makeCalc\obj\Debug\makeCalc.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\04_makeCalc\makeCalc\obj\Debug\makeCalc.pdb

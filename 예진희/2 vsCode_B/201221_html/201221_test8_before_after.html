@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            /* p태그가 늘어날 때 마다 증가하는 변수 */
+            /* 다른 아무 변수이름 작성가능 */
+            counter-increment: amuna; /* i값... 같은거 */
+        }
+        /* p태그 시작전에 카운터 변수 삽입 */
+        p::before
+        {
+            content : counter(amuna) ". "
+        }
+        /* p태그 끝에다가 page 번호 삽입 */
+        /* attr: attribute = 속성 */
+        p::after
+        {
+            content: " - " attr(data-page) "page";
+        }
+        p::first-letter
+        {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p data-page="52">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    <p data-page="273">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel.</p>
+</body>
+</html>

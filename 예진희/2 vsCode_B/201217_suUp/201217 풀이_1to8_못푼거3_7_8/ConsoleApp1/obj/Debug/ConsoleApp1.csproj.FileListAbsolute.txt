@@ -1,0 +1,14 @@
+D:\YJH\test\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\YJH\test\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\YJH\test\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\YJH\test\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\YJH\test\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\YJH\test\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\YJH\test\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\YJH\Git\jhy0409\vsCode_B\201217_suUp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\YJH\Git\jhy0409\vsCode_B\201217_suUp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\YJH\Git\jhy0409\vsCode_B\201217_suUp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\YJH\Git\jhy0409\vsCode_B\201217_suUp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+D:\YJH\Git\jhy0409\vsCode_B\201217_suUp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\YJH\Git\jhy0409\vsCode_B\201217_suUp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\YJH\Git\jhy0409\vsCode_B\201217_suUp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

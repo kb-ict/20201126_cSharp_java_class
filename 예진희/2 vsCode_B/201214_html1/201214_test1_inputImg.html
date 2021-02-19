@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol>
+        <li><a href="#with">'../'와 './'</a></li>
+        <li><a href="#webImg">웹이미지 가져오기 (상대경로)</a></li>
+        <li><a href="#dmyImg">입력값 더미이미지 가져오기</a></li>
+        <li><a href="#juldae">절대경로</a></li>
+    </ol>
+    <hr>
+
+    <h3><p id="with">1. '../'와 './'</p></h3>
+    <a href="#">상단으로</a><br>
+    ../ 상위폴더<br>
+    ./ 자기자신이 있는곳 <br>
+    ./는 생략가능, 현위치에서 넣기 Ctrl + Space <br>
+    <img src="../201211_html1/download.png" alt="">
+
+    <h3><p id="webImg">2. 웹이미지 가져오기 (상대경로)</p></h3>
+    <a href="#">상단으로</a><br>
+    picsum 엔터<br>
+    웹주소입력 = 상대경로<br>
+    <img src="https://picsum.photos/id/1020/600/400" alt="">
+    <img src="https://picsum.photos/id/1025/200/50" alt=""> 
+    <br>
+
+    <h3><p id ="dmyImg">3. 입력값 더미이미지 가져오기</p></h3>
+    <a href="#">상단으로</a><br>
+    <img src="http://placehold.it/200x300" alt="">
+    
+    <h3><p id="juldae">4. 절대경로</p></h3>
+    <a href="#">상단으로</a><br>
+    절대경로 : 경로안에 특문 불가능 ex: c'#'등 / '_'는 가능 <br>
+    원하는 크기로 조절 출력가능, 단위는 px(pixel)사용 <br>
+    %도 되네.. <br>
+    <img src="branch-5019381_1920.jpg" width="500px" height="300px" alt=""><br>
+    <img src="branch-5019381_1920.jpg" width="70%" alt="">
+</body>
+</html>

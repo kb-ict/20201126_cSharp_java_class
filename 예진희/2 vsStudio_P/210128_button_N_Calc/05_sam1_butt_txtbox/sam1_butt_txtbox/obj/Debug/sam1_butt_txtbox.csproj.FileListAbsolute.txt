@@ -1,0 +1,20 @@
+D:\임시\vsStudio\210128\sam1_butt_txtbox\sam1_butt_txtbox\bin\Debug\sam1_butt_txtbox.exe.config
+D:\임시\vsStudio\210128\sam1_butt_txtbox\sam1_butt_txtbox\bin\Debug\sam1_butt_txtbox.exe
+D:\임시\vsStudio\210128\sam1_butt_txtbox\sam1_butt_txtbox\bin\Debug\sam1_butt_txtbox.pdb
+D:\임시\vsStudio\210128\sam1_butt_txtbox\sam1_butt_txtbox\obj\Debug\sam1_butt_txtbox.csprojAssemblyReference.cache
+D:\임시\vsStudio\210128\sam1_butt_txtbox\sam1_butt_txtbox\obj\Debug\sam1_butt_txtbox.Form1.resources
+D:\임시\vsStudio\210128\sam1_butt_txtbox\sam1_butt_txtbox\obj\Debug\sam1_butt_txtbox.Properties.Resources.resources
+D:\임시\vsStudio\210128\sam1_butt_txtbox\sam1_butt_txtbox\obj\Debug\sam1_butt_txtbox.csproj.GenerateResource.cache
+D:\임시\vsStudio\210128\sam1_butt_txtbox\sam1_butt_txtbox\obj\Debug\sam1_butt_txtbox.csproj.CoreCompileInputs.cache
+D:\임시\vsStudio\210128\sam1_butt_txtbox\sam1_butt_txtbox\obj\Debug\sam1_butt_txtbox.exe
+D:\임시\vsStudio\210128\sam1_butt_txtbox\sam1_butt_txtbox\obj\Debug\sam1_butt_txtbox.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\05_sam1_butt_txtbox\sam1_butt_txtbox\bin\Debug\sam1_butt_txtbox.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\05_sam1_butt_txtbox\sam1_butt_txtbox\bin\Debug\sam1_butt_txtbox.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\05_sam1_butt_txtbox\sam1_butt_txtbox\bin\Debug\sam1_butt_txtbox.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\05_sam1_butt_txtbox\sam1_butt_txtbox\obj\Debug\sam1_butt_txtbox.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\05_sam1_butt_txtbox\sam1_butt_txtbox\obj\Debug\sam1_butt_txtbox.Form1.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\05_sam1_butt_txtbox\sam1_butt_txtbox\obj\Debug\sam1_butt_txtbox.Properties.Resources.resources
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\05_sam1_butt_txtbox\sam1_butt_txtbox\obj\Debug\sam1_butt_txtbox.csproj.GenerateResource.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\05_sam1_butt_txtbox\sam1_butt_txtbox\obj\Debug\sam1_butt_txtbox.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\05_sam1_butt_txtbox\sam1_butt_txtbox\obj\Debug\sam1_butt_txtbox.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210128_button_N_Calc\05_sam1_butt_txtbox\sam1_butt_txtbox\obj\Debug\sam1_butt_txtbox.pdb

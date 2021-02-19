@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* li의 자손 처음등장 a를 붉게 */
+        /* li>a:first-child{color: red;} 다 붉게 나옴*/
+
+        /* 순서가 중요 */
+        li:first-child>a{color: red;} 
+    </style>
+</head>
+<body>
+    <ul>
+        <!-- (li>a[href=#])*5 -->
+        <!-- (li>a[href=#]{이름이름})*5 -->
+        <li><a href="#">이름이름</a></li>
+        <li><a href="#">이름이름</a></li>
+        <li><a href="#">이름이름</a></li>
+        <li><a href="#">이름이름</a></li>
+        <li><a href="#">이름이름</a></li>
+    </ul>
+</body>
+</html>

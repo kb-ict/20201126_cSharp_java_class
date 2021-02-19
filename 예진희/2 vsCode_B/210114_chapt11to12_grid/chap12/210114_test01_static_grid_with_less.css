@@ -1,0 +1,46 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.row {
+  overflow: hidden;
+}
+.span {
+  float: left;
+}
+.span-1 {
+  width: 80px;
+}
+.span-2 {
+  width: 160px;
+}
+.span-3 {
+  width: 240px;
+}
+.span-4 {
+  width: 320px;
+}
+.span-5 {
+  width: 400px;
+}
+.span-6 {
+  width: 480px;
+}
+.span-7 {
+  width: 560px;
+}
+.span-8 {
+  width: 640px;
+}
+.span-9 {
+  width: 720px;
+}
+.span-10 {
+  width: 800px;
+}
+.span-11 {
+  width: 880px;
+}
+.span-12 {
+  width: 960px;
+}

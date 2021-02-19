@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+
+    <title>Notice</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- table table-bordered table-striped table-hover -->
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>번호</th>
+                    <th>제목</th>
+                    <th>작성자</th>
+                    <th>날짜</th>
+                    <th>조회수</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Lorem ipsum dolor sit amet. </td>
+                    <td>이름1</td>
+                    <td>2020.12.28</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>or sit amet. </td>
+                    <td>이름2</td>
+                    <td>2020.12.29</td>
+                    <td>55</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>sit amet. </td>
+                    <td>이름3</td>
+                    <td>2020.12.30</td>
+                    <td>33</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="text-right">
+            <!-- a[href=#].btn.btn-dark{글쓰기} -->
+            <a href="#" class="btn btn-primary">글쓰기</a>
+        </div>
+
+        <!-- ul.pagination.justify-content-center -->
+        <ul class="pagination justify-content-center">
+            <!-- (li.page-item>a.page-link[href=#]{$})*5 -->
+            <li class="page-item"><a href="#" class="page-link">1</a></li>
+            <li class="page-item"><a href="#" class="page-link">2</a></li>
+            <li class="page-item"><a href="#" class="page-link">3</a></li>
+            <li class="page-item"><a href="#" class="page-link">4</a></li>
+            <li class="page-item"><a href="#" class="page-link">5</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

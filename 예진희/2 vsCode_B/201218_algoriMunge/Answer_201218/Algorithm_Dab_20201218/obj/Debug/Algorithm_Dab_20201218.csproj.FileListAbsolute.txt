@@ -1,0 +1,7 @@
+D:\YJH\Git\jhy0409\2 vsCode_B\201218_algoriMunge\Answer_201218\Algorithm_Dab_20201218\bin\Debug\Algorithm_Dab_20201218.exe.config
+D:\YJH\Git\jhy0409\2 vsCode_B\201218_algoriMunge\Answer_201218\Algorithm_Dab_20201218\bin\Debug\Algorithm_Dab_20201218.exe
+D:\YJH\Git\jhy0409\2 vsCode_B\201218_algoriMunge\Answer_201218\Algorithm_Dab_20201218\bin\Debug\Algorithm_Dab_20201218.pdb
+D:\YJH\Git\jhy0409\2 vsCode_B\201218_algoriMunge\Answer_201218\Algorithm_Dab_20201218\obj\Debug\Algorithm_Dab_20201218.csproj.CoreCompileInputs.cache
+D:\YJH\Git\jhy0409\2 vsCode_B\201218_algoriMunge\Answer_201218\Algorithm_Dab_20201218\obj\Debug\Algorithm_Dab_20201218.exe
+D:\YJH\Git\jhy0409\2 vsCode_B\201218_algoriMunge\Answer_201218\Algorithm_Dab_20201218\obj\Debug\Algorithm_Dab_20201218.pdb
+D:\YJH\Git\jhy0409\2 vsCode_B\201218_algoriMunge\Answer_201218\Algorithm_Dab_20201218\obj\Debug\Algorithm_Dab_20201218.csprojAssemblyReference.cache

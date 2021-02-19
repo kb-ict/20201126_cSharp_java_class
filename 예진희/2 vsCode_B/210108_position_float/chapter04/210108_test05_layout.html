@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            width: 960px;
+            margin: 0 auto;
+        }
+
+        /* 컨테이너 가운데 정렬, aside+section = body width: 960px */
+        /* #wrap : overflow: hidden; */
+
+        #aside {
+            width: 200px;
+            float: left;
+            background-color: lightskyblue;
+
+        }
+
+        #section {
+            width: 740px;
+            float: right;
+            background-color: rosybrown;
+
+        }
+        /* 760에서 20빼고 플롯 left > right변경 */
+
+        #wrap {
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 수평정렬 공식 : 자손 float속성 적용하면 부모는 overflow:hidden 적용 -->
+
+    <div id="header">
+        <h1>Header</h1>
+    </div>
+    <div id="navigation">
+        <h1>navigation</h1>
+    </div>
+    <div id="wrap">
+        <div id="aside">
+            <h1>aside</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, corrupti similique. Eaque consequuntur
+                dolore suscipit! Dolorum,</p>
+
+        </div>
+        <div id="section">
+            <h1>section</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ratione est earum assumenda facilis, ab
+                dolore eum natus ad voluptatum magni quidem ut, in perspiciatis deleniti dignissimos maiores omnis
+                dolorum ex mollitia. Perferendis vero, error odit, similique nobis ipsam ipsa dolor voluptas laudantium
+                libero deleniti sit iste vel voluptate obcaecati? ipsum dolor sit, amet consectetur adipisicing elit.
+                Tempore tenetur, quia praesentium sit inventore
+                vitae distinctio necessitatibus architecto dolores molestias facilis voluptates atque officia delectus!
+                Qui vitae quia et rem est voluptas necessitatibus facilis possimus quas aut iusto cupiditate atque
+                similique ad labore impedit at magnam, minima aliquid cumque cum voluptatum odio provident pariatur!
+                Quidem illum sint libero sequi nobis doloribus. Velit, aliquam iusto unde at cupiditate ipsum neque
+                voluptatum ad placeat laborum dolor eveniet fuga obcaecati fugiat omnis quod? ipsum, dolor sit amet
+                consectetur adipisicing elit. Corrupti, officia? Ab atque harum odit consectetur sapiente ipsam quo,
+                provident, possimus accusantium veniam error nesciunt eos exercitationem repudiandae dolores, quas
+                eveniet maiores optio dolor reprehenderit quod veritatis nemo? Quod ab, omnis soluta architecto atque,
+                excepturi iusto cum iste enim at, molestias delectus voluptatum neque deserunt quam est laboriosam.
+                Mollitia fuga vitae explicabo obcaecati laborum ut quasi voluptatum. Minus sit amet doloribus, aliquam
+                neque perferendis nesciunt sed ab cumque cupiditate facilis commodi! Explicabo, a maxime laboriosam eos
+                cupiditate esse modi numquam nostrum repudiandae! Quibusdam quisquam vitae, nesciunt corrupti maiores
+                aperiam, ullam blanditiis quia, pariatur voluptates ipsam est minus ipsum harum commodi magnam. Sed,
+                nisi itaque. Quibusdam tempora ut perferendis perspiciatis consectetur reiciendis quo exercitationem.
+                Temporibus saepe dolor minima voluptas natus debitis inventore quam fugit totam. Eligendi iusto repellat
+                aperiam reiciendis? Exercitationem in totam veritatis iusto recusandae voluptates quis debitis unde
+                voluptate optio! ipsum dolor sit amet</p>
+        </div>
+    </div>
+    <div id="footer">
+        <h1>footer</h1>
+    </div>
+</body>
+
+</html>

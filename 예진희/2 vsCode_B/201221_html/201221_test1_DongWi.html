@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 동위 선택자 책 p129*/
+
+        /* 바로 뒤에 것 선택 */
+        /* h1 바로 뒤 h2태그 한개 선택자: + */
+        /* 반드시 h1 바로 뒤에 h2가 있어야 함 */
+        /* h1 바로 뒤 h3 그리고 그 뒤 h2가 있으면 적용 안 됨 */
+        h1+h2{color: red}
+
+        /* h1 뒤에 있는 모든 태그들을 선택: ~ */
+        h1~h2{background: orange;}
+
+    </style>
+</head>
+<body>
+    <h1>Lorem, ipsum.</h1>
+    <!-- h2*4{lorem$} -->
+    <h2>lorem1</h2>
+    <h2>lorem2</h2>
+    <h2>lorem3</h2>
+    <h2>lorem4</h2>
+</body>
+</html>
