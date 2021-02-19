@@ -1,0 +1,14 @@
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Class_practice_20210218\Class_practice_20210218\bin\Debug\Class_practice_20210218.exe.config
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Class_practice_20210218\Class_practice_20210218\bin\Debug\Class_practice_20210218.exe
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Class_practice_20210218\Class_practice_20210218\bin\Debug\Class_practice_20210218.pdb
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Class_practice_20210218\Class_practice_20210218\obj\Debug\Class_practice_20210218.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Class_practice_20210218\Class_practice_20210218\obj\Debug\Class_practice_20210218.exe
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Class_practice_20210218\Class_practice_20210218\obj\Debug\Class_practice_20210218.pdb
+D:\응용 SW 개발자 과정\SW_Lesson\C_sharp\Class_practice_20210218\Class_practice_20210218\bin\Debug\Class_practice_20210218.exe.config
+D:\응용 SW 개발자 과정\SW_Lesson\C_sharp\Class_practice_20210218\Class_practice_20210218\bin\Debug\Class_practice_20210218.exe
+D:\응용 SW 개발자 과정\SW_Lesson\C_sharp\Class_practice_20210218\Class_practice_20210218\bin\Debug\Class_practice_20210218.pdb
+D:\응용 SW 개발자 과정\SW_Lesson\C_sharp\Class_practice_20210218\Class_practice_20210218\obj\Debug\Class_practice_20210218.csprojAssemblyReference.cache
+D:\응용 SW 개발자 과정\SW_Lesson\C_sharp\Class_practice_20210218\Class_practice_20210218\obj\Debug\Class_practice_20210218.csproj.CoreCompileInputs.cache
+D:\응용 SW 개발자 과정\SW_Lesson\C_sharp\Class_practice_20210218\Class_practice_20210218\obj\Debug\Class_practice_20210218.exe
+D:\응용 SW 개발자 과정\SW_Lesson\C_sharp\Class_practice_20210218\Class_practice_20210218\obj\Debug\Class_practice_20210218.pdb
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Class_practice_20210218\Class_practice_20210218\obj\Debug\Class_practice_20210218.csprojAssemblyReference.cache

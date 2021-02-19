@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Class_practice_20210215\Class_practice_4\bin\Debug\Class_practice_4.exe.config
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Class_practice_20210215\Class_practice_4\bin\Debug\Class_practice_4.exe
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Class_practice_20210215\Class_practice_4\bin\Debug\Class_practice_4.pdb
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Class_practice_20210215\Class_practice_4\obj\Debug\Class_practice_4.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Class_practice_20210215\Class_practice_4\obj\Debug\Class_practice_4.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Class_practice_20210215\Class_practice_4\obj\Debug\Class_practice_4.exe
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Class_practice_20210215\Class_practice_4\obj\Debug\Class_practice_4.pdb

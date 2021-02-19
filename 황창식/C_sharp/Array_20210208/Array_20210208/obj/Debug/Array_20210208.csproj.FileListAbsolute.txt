@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Array_20210208\Array_20210208\bin\Debug\Array_20210208.exe.config
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Array_20210208\Array_20210208\bin\Debug\Array_20210208.exe
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Array_20210208\Array_20210208\bin\Debug\Array_20210208.pdb
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Array_20210208\Array_20210208\obj\Debug\Array_20210208.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Array_20210208\Array_20210208\obj\Debug\Array_20210208.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Array_20210208\Array_20210208\obj\Debug\Array_20210208.exe
+C:\Users\KB\Desktop\SW_Lesson\C_sharp\Array_20210208\Array_20210208\obj\Debug\Array_20210208.pdb
