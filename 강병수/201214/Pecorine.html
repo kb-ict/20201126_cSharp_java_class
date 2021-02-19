@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- input 태그는 form 태그 안에서 작성을 해야함 -->
+    <form>
+        <!-- input은 닫는 태그가 없는 태그에 속함 -->
+        <h1>디폴트는 get 방식</h1>
+        <input type="text" name="search">
+        <input type="submit">
+    </form>
+    <h1>get 방식</h1>
+    <form method="get">
+        <!-- input은 닫는 태그가 없는 태그에 속함 -->
+        <input type="text" name="search">
+        <input type="submit">
+    </form>
+    <h1>Post 방식</h1>
+    <form method="POST">
+        <!-- input은 닫는 태그가 없는 태그에 속함 -->
+        <input type="text" name="search">
+        <input type="submit">
+        <input type="reset">
+    </form>
+    <form>
+        <h1>Reset 태그 실습</h1>
+        <input type="text" name="search">
+        <input type="submit">
+        <input type="reset" value="클리어">
+        <!-- value를 넣으면 버튼 위의 글자가 바뀜 -->
+        <!-- C#으로 치자면 Text 값이 바뀌는 것-->
+    </form>
+</body>
+
+</html>

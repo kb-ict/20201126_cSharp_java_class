@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <textarea cols="10" rows="10">고양이</textarea>
+    <!-- Textarea의 주의점. 태그 안의 공백들도 모두 그대로 출력 -->
+    <textarea cols="15" rows="20">
+
+        텍스트를테
+        텍스트텍스트셑그스타ㅓㅣㅏㅁㅇ거
+    <!-- 일반적인 태그에서는 태그내 공백이 없다 -->
+    <!-- 줄 띄움하려면 특수문자가 필요하고 글자도 한 칸만 띄어짐 -->
+    
+    </textarea>
+    <p>
+    <!-- &nbsp : 스페이스바 -->
+        테&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp스트<br>
+        테스트
+    </p>
+    <!-- contenteditable 태그는 p 태그에서 수정이 가능할 수 있게 바뀌어진다 -->
+    <p contenteditable> Lorem ipsum dolor sit amet consectetur. </p>
+</body>
+</html>
