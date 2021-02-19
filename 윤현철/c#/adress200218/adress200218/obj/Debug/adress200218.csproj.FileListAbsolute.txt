@@ -1,0 +1,7 @@
+D:\blacksheep\starloge2020\c#\adress200218\adress200218\bin\Debug\adress200218.exe.config
+D:\blacksheep\starloge2020\c#\adress200218\adress200218\bin\Debug\adress200218.exe
+D:\blacksheep\starloge2020\c#\adress200218\adress200218\bin\Debug\adress200218.pdb
+D:\blacksheep\starloge2020\c#\adress200218\adress200218\obj\Debug\adress200218.csprojAssemblyReference.cache
+D:\blacksheep\starloge2020\c#\adress200218\adress200218\obj\Debug\adress200218.csproj.CoreCompileInputs.cache
+D:\blacksheep\starloge2020\c#\adress200218\adress200218\obj\Debug\adress200218.exe
+D:\blacksheep\starloge2020\c#\adress200218\adress200218\obj\Debug\adress200218.pdb
