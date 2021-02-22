@@ -47,5 +47,8 @@ namespace Class_practice_20210218
         public string Address { get => address; set => address = value; }
         public string Email { get => email; set => email = value; }
         public string Id { get => id; set => id = value; }
+
+        //public string ABC { get; set; }
+        //public string ABCC;
     }
 }

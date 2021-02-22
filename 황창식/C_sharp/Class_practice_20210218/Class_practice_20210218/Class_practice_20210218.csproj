@@ -44,7 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="controller\StudentController.cs" />
-    <Compile Include="controller\StudentMenu.cs" />
+    <Compile Include="util\RandData.cs" />
+    <Compile Include="view\Messages.cs" />
+    <Compile Include="view\StudentMenu.cs" />
     <Compile Include="model\Student.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
