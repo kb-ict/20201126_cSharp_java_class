@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <script>
+        function outCount()
+        {
+            var count = 0;
+
+            setInterval( () => 
+            {
+                var h1 = document.getElementsByTagName('h1')[0];
+                h1.innerText = count + "초 지났습니다.";
+                count++;
+                // document.write(count + "초 지났습니다." + "<br>");
+            }, 1000);
+        }
+        outCount();
+        document.write(function(a, b) {return a + b}(2,3));
+        document.write(((a,b) => {return a + b})(2,3));
+    </script>
+</body>
+</html>

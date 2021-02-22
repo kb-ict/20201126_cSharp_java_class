@@ -1,0 +1,7 @@
+D:\Gitter\CShap\programming\Socket\serverAsync\bin\Debug\serverAsync.exe.config
+D:\Gitter\CShap\programming\Socket\serverAsync\bin\Debug\serverAsync.exe
+D:\Gitter\CShap\programming\Socket\serverAsync\bin\Debug\serverAsync.pdb
+D:\Gitter\CShap\programming\Socket\serverAsync\obj\Debug\serverAsync.csprojAssemblyReference.cache
+D:\Gitter\CShap\programming\Socket\serverAsync\obj\Debug\serverAsync.csproj.CoreCompileInputs.cache
+D:\Gitter\CShap\programming\Socket\serverAsync\obj\Debug\serverAsync.exe
+D:\Gitter\CShap\programming\Socket\serverAsync\obj\Debug\serverAsync.pdb

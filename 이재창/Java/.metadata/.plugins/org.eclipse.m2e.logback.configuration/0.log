@@ -1,0 +1,8 @@
+2021-02-16 10:36:38,899 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-02-16 14:57:49,065 [Worker-155: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/scijava/native-lib-loader/2.3.3/native-lib-loader-2.3.3-sources.jar
+2021-02-16 14:57:49,392 [Worker-155: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/scijava/native-lib-loader/2.3.3/native-lib-loader-2.3.3-sources.jar
+2021-02-16 14:57:50,209 [Worker-155: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
+2021-02-16 14:57:50,542 [Worker-155: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
+2021-02-16 14:57:51,224 [Worker-155: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/github/java-native/jssc/2.9.2/jssc-2.9.2-sources.jar
+2021-02-16 14:57:51,827 [Worker-155: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/github/java-native/jssc/2.9.2/jssc-2.9.2-sources.jar
+2021-02-17 10:19:27,241 [Worker-30: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

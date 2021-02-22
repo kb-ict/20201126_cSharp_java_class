@@ -1,0 +1,32 @@
+
+public class P2 {
+
+	public static void main(String[] args) {
+		int arr[] = {20, 34, 22, 14, 36, 23, 67, 25, 99, 88};
+		TestArray ta = new TestArray(arr);
+	}
+
+}
+
+class TestArray {
+	private int sum;
+    private double average;
+    
+    public TestArray(int[] arr) {
+    	for (var a : arr) {
+    		sum += a;
+    	}
+    	average = sum / arr.length;
+    	System.out.println("Че : " + sum);
+    	System.out.println("ЦђБе : " + average);
+    }
+    
+	public int getSum() {
+		return sum;
+	}
+	public double getAverage() {
+		return average;
+	}
+    
+    
+}

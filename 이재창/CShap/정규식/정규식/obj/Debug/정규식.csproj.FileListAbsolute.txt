@@ -1,0 +1,6 @@
+C:\Users\xpdlf\source\repos\정규식\정규식\bin\Debug\정규식.exe.config
+C:\Users\xpdlf\source\repos\정규식\정규식\bin\Debug\정규식.exe
+C:\Users\xpdlf\source\repos\정규식\정규식\bin\Debug\정규식.pdb
+C:\Users\xpdlf\source\repos\정규식\정규식\obj\Debug\정규식.csprojAssemblyReference.cache
+C:\Users\xpdlf\source\repos\정규식\정규식\obj\Debug\정규식.exe
+C:\Users\xpdlf\source\repos\정규식\정규식\obj\Debug\정규식.pdb

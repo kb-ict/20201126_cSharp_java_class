@@ -1,0 +1,13 @@
+
+public class NameData {
+	String[] first;
+	String[] mid;
+	String[] last;
+	
+	public NameData() {
+		first = new String[] {"김", "박", "이", "최", "장"};
+		mid = new String[] {"가", "나", "다", "라", "마"};
+		last = new String[] {"바", "사", "아", "자", "차"};
+	}
+
+}

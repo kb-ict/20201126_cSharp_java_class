@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function changeCaption(cap) {
+            document.getElementById("fruit").innerText = cap;
+        }
+    </script>
+    <script>
+        var example = '이동준';
+        example = '"이"동준';
+        document.write(example);
+    </script>
+</head>
+<body>
+    <h1 id="fruit">과일</h1>
+    <input type="button" value="Apple" onclick="changeCaption('Apple')">
+    <input type="button" value="Orange" onclick="changeCaption('Orange')">
+</body>
+</html>

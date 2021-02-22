@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id="one" type="text"> <span>+</span> 
+    <input id="two" type="text"> <span>=</span>
+    <span id="result">결과가 여기에 나옴</span>
+    <div>
+        <input value="합" type="button" onclick="calc(this)">
+        <input value="차" type="button" onclick="calc(this)">
+        <input value="곱" type="button" onclick="calc(this)">
+        <input value="나" type="button" onclick="calc(this)">
+    </div>
+    <script>
+        function calc(_this) {           
+            var one = document.getElementById('one').value;
+            var two = document.getElementById('two').value;
+            if (_this.value === "합")
+            {
+                var result = Number(one) + Number(two);
+            }
+            else if (_this.value === "차")
+            {
+                var result = Number(one) - Number(two);
+            }
+            else if (_this.value === "곱")
+            {
+                var result = Number(one) * Number(two);
+            }
+            else if (_this.value === "나")
+            {
+                var result = Number(one) / Number(two);
+            }
+            //alert(result);
+            document.getElementById('result').innerText = result;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            width: 960px;
+            margin: 0 auto;
+
+            display: grid;
+            grid-template-columns: 2fr 8fr;
+            gap: 10px;
+
+            grid-template-areas: 
+            'header header'
+            'aside section'
+            'footer footer';
+        }
+        .container>div {background-color: fuchsia;}
+        .header {grid-area: header;}
+        .aside {grid-area: aside;}
+        .section {grid-area: section;}
+        .footer {grid-area: footer;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>header</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, eveniet!</p>
+        </div>
+        <div class="aside">
+            <h1>aside</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, eveniet!</p>
+        </div>
+        <div class="section">
+            <h1>section</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, eveniet!</p>
+        </div>
+        <div class="footer">
+            <h1>footer</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, eveniet!</p>
+        </div>
+    </div>
+</body>
+</html>

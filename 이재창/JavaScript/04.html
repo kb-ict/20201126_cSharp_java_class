@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>   
+    <style>
+        #pp {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <p id="pp">Lorem ipsum dolor sit amet.</p>
+    <button id="pbtn1">Javascript버튼</button>
+    <button id="pbtn2">jquery버튼</button>
+
+    <script>
+        document.getElementById('pbtn1').onclick = function() {
+            if (document.getElementById('pp').style.display == 'none')
+                document.getElementById('pp').style.display = 'block';
+            else
+            document.getElementById('pp').style.display = 'none';
+        }
+    </script>
+    <script>
+        $('#pbtn2').click(function() {
+            $('#pp').toggle(2000, function() {
+                $('#pp1').toggle(2000, function() {
+                    alert("끝났음")
+                });
+            });
+        })
+    </script>
+</body>
+</html>

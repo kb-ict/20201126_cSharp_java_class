@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var a = 0;
+        function doA(){
+            window.alert("window");
+        }
+        function doB() {
+            alert(`a = ${a}`);
+        }
+        function doC() {
+            var adiv = document.getElementsByClassName("adiv")[0];
+            setInterval(() => {
+                a += 1;
+                adiv.style.left = a + "px";
+            }, 50);           
+        }
+    </script>
+    <style>
+        .adiv {
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            background-color: blueviolet;
+            left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="adiv">
+
+    </div>
+    <button onclick="doA(); a += 50;">누르면 달라진다.</button>
+    <button onclick="doB();">a값 확인</button>
+    <button onclick="doC();">adiv 위치이동</button>
+    <marquee behavior="" direction="">움직이는 놈                                                             </marquee>
+</body>
+</html>

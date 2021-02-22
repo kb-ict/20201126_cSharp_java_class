@@ -1,0 +1,12 @@
+E:\Git\CShap\programming\파일형식들\JSON\bin\Debug\JSON.exe.config
+E:\Git\CShap\programming\파일형식들\JSON\bin\Debug\JSON.exe
+E:\Git\CShap\programming\파일형식들\JSON\bin\Debug\JSON.pdb
+E:\Git\CShap\programming\파일형식들\JSON\bin\Debug\Newtonsoft.Json.dll
+E:\Git\CShap\programming\파일형식들\JSON\bin\Debug\Newtonsoft.Json.xml
+E:\Git\CShap\programming\파일형식들\JSON\obj\Debug\JSON.csprojAssemblyReference.cache
+E:\Git\CShap\programming\파일형식들\JSON\obj\Debug\JSON.Form1.resources
+E:\Git\CShap\programming\파일형식들\JSON\obj\Debug\JSON.Properties.Resources.resources
+E:\Git\CShap\programming\파일형식들\JSON\obj\Debug\JSON.csproj.GenerateResource.cache
+E:\Git\CShap\programming\파일형식들\JSON\obj\Debug\JSON.csproj.CopyComplete
+E:\Git\CShap\programming\파일형식들\JSON\obj\Debug\JSON.exe
+E:\Git\CShap\programming\파일형식들\JSON\obj\Debug\JSON.pdb

@@ -1,0 +1,20 @@
+[
+  {
+    "Name": "둘리",
+    "Age": 100,
+    "PhoneNumber": "010-0001-9999",
+    "Address": "지구"
+  },
+  {
+    "Name": "도우너",
+    "Age": 100,
+    "PhoneNumber": "010-0001-9999",
+    "Address": "깐따삐야"
+  },
+  {
+    "Name": "또치",
+    "Age": 100,
+    "PhoneNumber": "010-0001-9999",
+    "Address": "지구"
+  }
+]

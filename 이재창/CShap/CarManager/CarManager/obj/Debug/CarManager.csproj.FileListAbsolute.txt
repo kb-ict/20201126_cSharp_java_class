@@ -1,0 +1,10 @@
+D:\Git\CShap\programming\CarManager\CarManager\obj\Debug\CarManager.csprojAssemblyReference.cache
+D:\Git\CShap\programming\CarManager\CarManager\obj\Debug\CarManager.Form1.resources
+D:\Git\CShap\programming\CarManager\CarManager\obj\Debug\CarManager.Properties.Resources.resources
+D:\Git\CShap\programming\CarManager\CarManager\obj\Debug\CarManager.csproj.GenerateResource.cache
+D:\Git\CShap\programming\CarManager\CarManager\obj\Debug\CarManager.csproj.CoreCompileInputs.cache
+D:\Git\CShap\programming\CarManager\CarManager\bin\Debug\CarManager.exe.config
+D:\Git\CShap\programming\CarManager\CarManager\bin\Debug\CarManager.exe
+D:\Git\CShap\programming\CarManager\CarManager\bin\Debug\CarManager.pdb
+D:\Git\CShap\programming\CarManager\CarManager\obj\Debug\CarManager.exe
+D:\Git\CShap\programming\CarManager\CarManager\obj\Debug\CarManager.pdb

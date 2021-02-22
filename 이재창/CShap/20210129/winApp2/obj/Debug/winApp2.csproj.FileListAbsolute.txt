@@ -1,0 +1,10 @@
+D:\Git\CShap\programming\20210129\winApp2\bin\Debug\winApp2.exe.config
+D:\Git\CShap\programming\20210129\winApp2\bin\Debug\winApp2.exe
+D:\Git\CShap\programming\20210129\winApp2\bin\Debug\winApp2.pdb
+D:\Git\CShap\programming\20210129\winApp2\obj\Debug\winApp2.csprojAssemblyReference.cache
+D:\Git\CShap\programming\20210129\winApp2\obj\Debug\winApp2.Form1.resources
+D:\Git\CShap\programming\20210129\winApp2\obj\Debug\winApp2.Properties.Resources.resources
+D:\Git\CShap\programming\20210129\winApp2\obj\Debug\winApp2.csproj.GenerateResource.cache
+D:\Git\CShap\programming\20210129\winApp2\obj\Debug\winApp2.csproj.CoreCompileInputs.cache
+D:\Git\CShap\programming\20210129\winApp2\obj\Debug\winApp2.exe
+D:\Git\CShap\programming\20210129\winApp2\obj\Debug\winApp2.pdb

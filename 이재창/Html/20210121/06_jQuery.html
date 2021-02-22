@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+        // pivot 함수를 만듬
+        $.fn.pivot = function(options)
+        {
+            // 변수 선언
+            var $target = $(this);
+            var $items = $target.children();
+            // div 태그로 감싸기
+            var $container = $target.wrap('<div></div>').parent();
+            var option = {width:500, height:450};
+
+            // 옵션을 변경
+            // {width:500, height:450} => {width:700, height:700}
+            $.extend(option, options);
+
+            // 스타일 지정
+            $target.css(
+                {
+                    width:$items.length * option.width,
+                    height : option.height,
+                    position:'absolute'
+                }
+            )
+            $items.css(
+                {
+                    float:'left',
+                    width:option.width,
+                    height:option.height
+                }
+            )
+            $container.css(
+                {
+                    overflow:'hidden', position:'relative',
+                    width:option.width, height:option.height
+                }
+            )
+
+            // 이벤트 연결
+            // 이 변수들을 통해서 이미지들이 움직일 것임
+            var originalLeft = 0;
+            var oldLeft = 0;
+            var nowPosition = 0;
+            var isDown = false;
+
+            $target.on('mousedown', function(event) // 마우스 누를 때
+            {
+                oldLeft = originalLeft = event.clientX; // 마우스를 누른 시점의 위치
+                isDown = true;
+                event.preventDefault();
+            })
+
+            $target.on('mousemove', function(event) // 마우스 움직일 때
+            {
+                if(isDown) // 마우스를 눌렀을 때
+                {
+                    var distance = oldLeft - event.clientX;
+                    oldLeft = event.clientX;
+
+                    // 움직입니다.
+                    // 예 left: -=100
+                    $target.animate({left:'-=' + distance}, 0);
+                    $target.stop(true); // 움직이고 나서 멈추기
+                }
+                event.preventDefault();
+            })
+
+            $target.on('mouseup', function(event) // 마우스 업 일때
+            {
+                function movePosition(direction)
+                {
+                    var changePosition = nowPosition + direction;
+                    if(0 <= changePosition && changePosition < $items.length)
+                    {
+                        nowPosition = changePosition;
+                    }
+                }
+
+                // 요소의 1/4이상 드래그시 피벗한다 (움직임)
+                if(originalLeft - event.clientX > option.width / 4)
+                {
+                    movePosition(+1);
+                }
+                else if(originalLeft - event.clientX < -option.width / 4)
+                {
+                    movePosition(-1);
+                }
+
+                // 이동
+                $target.animate({'left' : -nowPosition * option.width}, 'fast');
+                isDown = false;
+                event.preventDefault();
+            })
+        }
+    </script>
+    <script>
+        $(document).ready(function()
+        {
+            $('#pivot_slider').pivot
+            (
+                {
+                    width: 700,
+                    height: 700
+                }
+            )
+        })
+    </script>
+</head>
+<body>
+    <h2>아래 영역 드래그 해보세요.</h2>
+    <div id="pivot_slider">
+        <div>
+            <h1>Lorem, ipsum dolor.</h1>
+            <img src="image/Desert.jpg" alt="" width="300px">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim iusto facilis temporibus nesciunt necessitatibus, libero odit vel ipsa expedita, explicabo aut laboriosam quisquam sed modi. Totam laudantium sed provident esse autem saepe? Et nemo architecto culpa. Nemo doloribus tenetur illum praesentium labore, neque necessitatibus sunt ut expedita enim. Velit, nemo?</p>
+        </div>
+        <div>
+            <h1>Lorem, ipsum dolor.</h1>
+            <img src="image/Hydrangeas.jpg" alt="" width="300px">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim iusto facilis temporibus nesciunt necessitatibus, libero odit vel ipsa expedita, explicabo aut laboriosam quisquam sed modi. Totam laudantium sed provident esse autem saepe? Et nemo architecto culpa. Nemo doloribus tenetur illum praesentium labore, neque necessitatibus sunt ut expedita enim. Velit, nemo?</p>
+        </div>
+        <div>
+            <h1>Lorem, ipsum dolor.</h1>
+            <img src="image/Jellyfish.jpg" alt="" width="300px">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim iusto facilis temporibus nesciunt necessitatibus, libero odit vel ipsa expedita, explicabo aut laboriosam quisquam sed modi. Totam laudantium sed provident esse autem saepe? Et nemo architecto culpa. Nemo doloribus tenetur illum praesentium labore, neque necessitatibus sunt ut expedita enim. Velit, nemo?</p>
+        </div>
+        <div>
+            <h1>Lorem, ipsum dolor.</h1>
+            <img src="image/Koala.jpg" alt="" width="300px">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim iusto facilis temporibus nesciunt necessitatibus, libero odit vel ipsa expedita, explicabo aut laboriosam quisquam sed modi. Totam laudantium sed provident esse autem saepe? Et nemo architecto culpa. Nemo doloribus tenetur illum praesentium labore, neque necessitatibus sunt ut expedita enim. Velit, nemo?</p>
+        </div>
+        <div>
+            <h1>Lorem, ipsum dolor.</h1>
+            <img src="image/Lighthouse.jpg" alt="" width="300px">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim iusto facilis temporibus nesciunt necessitatibus, libero odit vel ipsa expedita, explicabo aut laboriosam quisquam sed modi. Totam laudantium sed provident esse autem saepe? Et nemo architecto culpa. Nemo doloribus tenetur illum praesentium labore, neque necessitatibus sunt ut expedita enim. Velit, nemo?</p>
+        </div>
+    </div>
+</body>
+</html>

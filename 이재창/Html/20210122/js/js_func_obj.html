@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var obj_ex = 
+        {
+            left : "값",
+            age : 100,
+            name : "이재창",
+            "이런:것들" : "안녕",
+            arrayinobj :
+            [
+                "abc",
+                1,
+                2,
+                ["a", "b", "c"],
+                {
+                    hobby : "game",
+                    level : 255
+                }
+            ]
+        }
+
+        //함수 만드는 법1
+
+        function test (params) {
+            console.log(params)
+        }
+
+        test(obj_ex);
+        
+        var temp = function(param)
+        {
+            console.log(param)
+
+        }
+        temp(obj_ex);
+
+        function return_value()
+        {
+            return "안녕하세요";
+        }
+        alert(return_value());
+
+        function wow()
+        {
+            for (let index = 0; index < arguments.length; index++) {
+                alert(arguments[index]);               
+            }
+        }
+        wow(1,2,3,4,5);
+    </script>
+</body>
+</html>

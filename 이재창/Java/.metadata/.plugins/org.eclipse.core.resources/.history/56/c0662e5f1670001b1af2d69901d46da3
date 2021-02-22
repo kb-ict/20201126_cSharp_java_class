@@ -1,0 +1,91 @@
+import java.util.Scanner;
+import jssc.SerialPort;
+import jssc.SerialPortException;
+import jssc.SerialPortList;
+
+public class SerialMain {
+	static final int TV_ON = 1;
+	static final int TV_OFF = 2;
+	static final int HOTTER_ON = 3;
+	static final int CLEANER_ON = 4;
+	static final int EXIT = 5;
+	static SerialPort serialPort;
+
+	public static void main(String[] args) {
+		String[] portNames = SerialPortList.getPortNames();
+		String portName = portNames[0];
+		
+		serialPort = new SerialPort(portName);
+		try {
+			serialPort.openPort();
+			serialPort.setParams(SerialPort.BAUDRATE_9600, 
+					SerialPort.DATABITS_8, SerialPort.STOPBITS_1,
+					SerialPort.PARITY_NONE);
+		} catch (SerialPortException e) {
+			e.printStackTrace();
+		}
+		
+		while (true) {
+			int menu = getMenu();
+			controlSelect(menu);
+			try {					
+				byte[] read = serialPort.readBytes(); {
+				if (read != null && read.length > 0)
+					System.out.print(new String(read));
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	public static void controlSelect(int menu) {
+		switch (menu) {
+		case TV_ON:
+			System.out.println("TV ON");		
+			break;
+		case TV_OFF:
+			System.out.println("TV OFF");
+			break;
+		case HOTTER_ON:
+			System.out.println("보일러 가동");
+			break;
+		case CLEANER_ON:
+			System.out.println("세탁기 가동");
+			break;
+		case EXIT:
+			System.out.println("종료");
+			System.exit(0);
+			break;
+		}
+		serialSend(menu);
+	}
+	
+	public static int getMenu() {
+		Scanner s = new Scanner(System.in);
+				
+		System.out.println("----------------");
+		System.out.println("스마트 홈 제어 v1.0");
+		System.out.println("----------------");
+		System.out.println("1. TV 켜기");
+		System.out.println("2. TV 끄기");
+		System.out.println("3. 보일러 동작");
+		System.out.println("4. 세탁기 동작");
+		System.out.println("5. 종료");
+		System.out.println("----------------");
+		System.out.print("메뉴 선택: ");
+		int menu = s.nextInt();
+		s.close();
+		return menu;	
+	}
+	
+	public static void serialSend(int c) {
+		try {
+			serialPort.writeInt(c);
+		} catch (SerialPortException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

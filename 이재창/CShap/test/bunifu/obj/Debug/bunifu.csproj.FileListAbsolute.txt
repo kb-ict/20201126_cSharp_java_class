@@ -1,0 +1,11 @@
+D:\Git\CShap\programming\test\bunifu\bin\Debug\bunifu.exe.config
+D:\Git\CShap\programming\test\bunifu\bin\Debug\bunifu.exe
+D:\Git\CShap\programming\test\bunifu\bin\Debug\bunifu.pdb
+D:\Git\CShap\programming\test\bunifu\obj\Debug\bunifu.csprojAssemblyReference.cache
+D:\Git\CShap\programming\test\bunifu\obj\Debug\bunifu.Form1.resources
+D:\Git\CShap\programming\test\bunifu\obj\Debug\bunifu.Properties.Resources.resources
+D:\Git\CShap\programming\test\bunifu\obj\Debug\bunifu.csproj.GenerateResource.cache
+D:\Git\CShap\programming\test\bunifu\obj\Debug\bunifu.csproj.CoreCompileInputs.cache
+D:\Git\CShap\programming\test\bunifu\obj\Debug\bunifu.csproj.CopyComplete
+D:\Git\CShap\programming\test\bunifu\obj\Debug\bunifu.exe
+D:\Git\CShap\programming\test\bunifu\obj\Debug\bunifu.pdb

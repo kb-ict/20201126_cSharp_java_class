@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>자바스크립트 - 영화데이터베이스 API</title>
+    <style>
+        *{margin:0; padding: 0;}
+        /* 오버레이 실행시 뒷 배경 스크롤 방지 */
+        .stop-scrolling {
+            /* height: 100%; */
+            overflow: hidden;
+        }
+        h1 {width: 360px; margin: 0 auto; text-align: center;
+            color: blueviolet;
+            padding-top: 20px;
+        }
+        .subsubject {
+            text-align: center;
+        }
+        p{padding: 8px 0px;}
+        .container{
+            display: flex;
+            flex-flow: row wrap;
+            justify-items: center;
+            justify-content: center;
+        }
+
+        .container > div{
+            flex-basis:  25%;
+            flex : 0;
+            margin: 8px;
+            border:1px solid rgb(252, 252, 252);
+            padding: 8px;
+            cursor: pointer;
+            box-sizing: border-box;
+
+        }
+        .container > div:hover {
+            border:1px solid rebeccapurple;
+        }
+        .buttonWrapper{
+            width: 100vs;
+            text-align: center;
+        }
+        .more{
+            width: 120px;
+            padding: 8px 15px;
+            margin: 10px auto;
+        }
+
+        /* 오버레이 설정 */
+        #overlay{
+            position: fixed;
+            top:0; left:0;
+            width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 999;
+            /* 시작시 보이지 않게 처리 */
+            visibility: hidden;
+            opacity: 0;
+            transition: all 0.5s;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* 오버레이를 보여 줄때 사용 */
+        #overlay.show {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .close {
+            position:absolute;
+            top:10px; right: 10px;
+            width: 36px;
+            margin:0; padding: 0;
+            cursor: pointer;
+            margin: 8px auto;
+        }
+
+        /* 이건 테스크탑 기준 - 모바일은 따로 설정할 필요가 있다. */
+        .youtube{
+            width: 60%;
+            height: 60%;
+        }
+
+        iframe{
+            display: block;
+            width: 100%;
+        }
+
+        .noVideo {
+            color: white;
+        }
+
+        /* 모바일 전용 */
+        @media (max-width: 768px) {
+            .youtube {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>The Movie</h1>
+    <p class="subsubject">"영화란 지루한 부분이 커트된 인생이다" - 알프레드 히치콕</p>
+
+    <div class="container">
+
+    </div>
+    <div class="buttonWrapper"><button class="more">더 보기</button></div>
+    <div id="overlay">
+        <div class="youtube"></div>
+        <img class="close" src="img/close_white.png">
+    </div>
+    
+    <script>
+        let page = 1;
+        const key = "df34bc3af9863b31e19c4bd6ab2889ed";
+        const base_url = "https://image.tmdb.org/t/p/w300/";
+        const container = document.querySelector(".container");
+        const youtube = document.querySelector(".youtube");
+        const overlay = document.querySelector("#overlay");
+        const closeButton = document.querySelector(".close");
+        let currentScrollY = "";
+        
+        //API 서버에서 데이터 가져오는 함수
+        function fetchMovie(page){
+            const url = `https://api.themoviedb.org/3/movie/upcoming?api_key=${key}&language=ko-KR&page=${page}`;
+            fetch(url)
+            .then(res => res.json())
+            .then(function(res){
+                const movies = res.results;
+                movies.map(function(movie){
+                    //console.log(movie.title);
+                    const div = document.createElement('div');
+                    const output = `
+                        <img src="${base_url + movie.poster_path}">
+                        <h2>${movie.title}</h2>
+                        <p class="overview">${movie.overview}</p>
+                        <p class="release_date">개봉일: ${movie.release_date}</p>
+                    `;
+                    div.innerHTML = output;
+                    container.appendChild(div);
+                    // 영화의 아이디를 div 에 넣어 줌 - 나중에 이것을 get 해서 활용할 것임.
+                    //div.classList.add("movie");
+                    div.setAttribute("data-id", movie.id);
+                    div.setAttribute("onClick", "openView(this)");      
+                });
+            })
+            .catch(erro => console.log(erro));
+        };
+
+        //썸네일 클릭시 실행 될 함수 event로 DOM 정보를 가져와서 필요한 데이터를 빼서 사용
+        function openView(e){
+            //영화의 아이디를 가져 왔다.
+            const movieId = e.getAttribute("data-id");
+            console.log(movieId);
+
+            //다시 요청을 해서 유튜브 플레이용 아이디(key)를 가져와야 한다. 언어를 한국어로 한정하면 비디오를 찾지 못하는 경우가 많다.
+            const movieUrl = `https://api.themoviedb.org/3/movie/${movieId}/videos?api_key=${key}`;
+            fetch(movieUrl)
+                .then(res => res.json())
+                .then(function(res){
+                    let output = "";
+                    
+                    if(res.results.length > 0){
+                        const youtubeId = res.results[0].key;//첫번재 영상만 사용하기 하자. 값이 없을 경우도 있음.
+                        output = `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/${youtubeId}?autoplay=1"></iframe>`; 
+                    } else {
+                        output = `<h3 class="noVideo">재생할 예고편이 없습니다.</h3>`;
+                        console.log(output);
+                    }
+                    
+                    youtube.innerHTML = output;
+                })
+                .catch(erro => console.log(erro));
+            //포스트의 url을 가져 왔다.
+            const posterImage = e.querySelector("img").src;
+            //오버레이를 열고 영상을 출력 하자.
+            
+            overlay.classList.add("show");
+            
+            overlay.setAttribute("style", `background-image: url(${posterImage}); background-size: auto; background-repeat: no-repeat;`)
+            //배경 body 스크롤 중지
+            document.body.classList.add("stop-scrolling");
+
+        }
+
+        // 클로즈 버튼을 클릭하면 오버레이 show 클래스를 삭제해서 오버레이를 사라지게 함
+        closeButton.addEventListener('click', () => {
+            overlay.classList.remove("show");
+            youtube.innerHTML = "";
+            //스크롤 방지 해제
+            document.body.classList.remove("stop-scrolling");
+        });
+
+
+        //윈도우 로드시 기본으로 한번 함수 실행함.
+        window.addEventListener('onLoad', fetchMovie());
+        
+        //더보기 버튼 클릭 리스너    
+        const moreButton = document.querySelector(".more");
+        moreButton.addEventListener('click', function(){
+            if(page < 3){
+                page += 1;
+                fetchMovie(page);
+            } else {
+                this.disabled = true;
+            }
+            //console.log(page);
+        });
+    </script>
+
+    
+</body>
+</html>

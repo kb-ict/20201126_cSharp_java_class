@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box
+        {
+            width: 100px;
+            height: 100px;
+        }
+        .red
+        {
+            background-color: red;
+            /* static = 기본값 */
+            /* left: 50px;
+            top: 50px; */
+        }
+        .green
+        {
+            background-color: green;
+            left: 500px;
+            position: relative;
+        }
+        .blue
+        {
+            background-color: blue;
+            position: fixed;
+            left:100px;
+            top: 100px;
+        }
+        .pink
+        {
+            background-color: pink;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box red">
+        <div class="box pink"></div>
+    </div>
+    <div class="box green">
+        <div class="box pink"></div>
+    </div>
+    <div class="box blue">
+        <div class="box pink"></div>
+    </div>
+    <div class="box red">두번째
+        <div class="box pink"></div>
+    </div>
+</body>
+</html>

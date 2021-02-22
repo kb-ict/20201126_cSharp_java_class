@@ -1,0 +1,15 @@
+D:\Git\CShap\programming\20210129\winApp1\bin\Debug\netcoreapp3.1\winApp1.exe
+D:\Git\CShap\programming\20210129\winApp1\bin\Debug\netcoreapp3.1\winApp1.deps.json
+D:\Git\CShap\programming\20210129\winApp1\bin\Debug\netcoreapp3.1\winApp1.runtimeconfig.json
+D:\Git\CShap\programming\20210129\winApp1\bin\Debug\netcoreapp3.1\winApp1.runtimeconfig.dev.json
+D:\Git\CShap\programming\20210129\winApp1\bin\Debug\netcoreapp3.1\winApp1.dll
+D:\Git\CShap\programming\20210129\winApp1\bin\Debug\netcoreapp3.1\winApp1.pdb
+D:\Git\CShap\programming\20210129\winApp1\obj\Debug\netcoreapp3.1\winApp1.csprojAssemblyReference.cache
+D:\Git\CShap\programming\20210129\winApp1\obj\Debug\netcoreapp3.1\winApp1.Form1.resources
+D:\Git\CShap\programming\20210129\winApp1\obj\Debug\netcoreapp3.1\winApp1.csproj.GenerateResource.cache
+D:\Git\CShap\programming\20210129\winApp1\obj\Debug\netcoreapp3.1\winApp1.AssemblyInfoInputs.cache
+D:\Git\CShap\programming\20210129\winApp1\obj\Debug\netcoreapp3.1\winApp1.AssemblyInfo.cs
+D:\Git\CShap\programming\20210129\winApp1\obj\Debug\netcoreapp3.1\winApp1.csproj.CoreCompileInputs.cache
+D:\Git\CShap\programming\20210129\winApp1\obj\Debug\netcoreapp3.1\winApp1.dll
+D:\Git\CShap\programming\20210129\winApp1\obj\Debug\netcoreapp3.1\winApp1.pdb
+D:\Git\CShap\programming\20210129\winApp1\obj\Debug\netcoreapp3.1\winApp1.genruntimeconfig.cache

@@ -1,0 +1,4 @@
+
+public class Car {
+	final String agencyName;
+}

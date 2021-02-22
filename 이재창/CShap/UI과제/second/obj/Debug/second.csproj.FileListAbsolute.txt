@@ -1,0 +1,10 @@
+D:\Git\CShap\programming\UI과제\second\bin\Debug\second.exe.config
+D:\Git\CShap\programming\UI과제\second\bin\Debug\second.exe
+D:\Git\CShap\programming\UI과제\second\bin\Debug\second.pdb
+D:\Git\CShap\programming\UI과제\second\obj\Debug\second.csprojAssemblyReference.cache
+D:\Git\CShap\programming\UI과제\second\obj\Debug\second.Form1.resources
+D:\Git\CShap\programming\UI과제\second\obj\Debug\second.Properties.Resources.resources
+D:\Git\CShap\programming\UI과제\second\obj\Debug\second.csproj.GenerateResource.cache
+D:\Git\CShap\programming\UI과제\second\obj\Debug\second.csproj.CoreCompileInputs.cache
+D:\Git\CShap\programming\UI과제\second\obj\Debug\second.exe
+D:\Git\CShap\programming\UI과제\second\obj\Debug\second.pdb

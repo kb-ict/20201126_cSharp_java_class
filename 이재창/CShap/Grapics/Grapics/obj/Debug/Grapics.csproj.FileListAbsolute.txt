@@ -1,0 +1,10 @@
+D:\Git\CShap\programming\Grapics\Grapics\bin\Debug\Grapics.exe.config
+D:\Git\CShap\programming\Grapics\Grapics\bin\Debug\Grapics.exe
+D:\Git\CShap\programming\Grapics\Grapics\bin\Debug\Grapics.pdb
+D:\Git\CShap\programming\Grapics\Grapics\obj\Debug\Grapics.csprojAssemblyReference.cache
+D:\Git\CShap\programming\Grapics\Grapics\obj\Debug\Grapics.Form1.resources
+D:\Git\CShap\programming\Grapics\Grapics\obj\Debug\Grapics.Properties.Resources.resources
+D:\Git\CShap\programming\Grapics\Grapics\obj\Debug\Grapics.csproj.GenerateResource.cache
+D:\Git\CShap\programming\Grapics\Grapics\obj\Debug\Grapics.csproj.CoreCompileInputs.cache
+D:\Git\CShap\programming\Grapics\Grapics\obj\Debug\Grapics.exe
+D:\Git\CShap\programming\Grapics\Grapics\obj\Debug\Grapics.pdb

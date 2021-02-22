@@ -1,0 +1,7 @@
+D:\Gitter\CShap\programming\Socket\Socket\bin\Debug\Socket.exe.config
+D:\Gitter\CShap\programming\Socket\Socket\bin\Debug\Socket.exe
+D:\Gitter\CShap\programming\Socket\Socket\bin\Debug\Socket.pdb
+D:\Gitter\CShap\programming\Socket\Socket\obj\Debug\Socket.csprojAssemblyReference.cache
+D:\Gitter\CShap\programming\Socket\Socket\obj\Debug\Socket.csproj.CoreCompileInputs.cache
+D:\Gitter\CShap\programming\Socket\Socket\obj\Debug\Socket.exe
+D:\Gitter\CShap\programming\Socket\Socket\obj\Debug\Socket.pdb

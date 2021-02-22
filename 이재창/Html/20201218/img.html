@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* img 태그의 src 속성의 끝글자가png로 끝나는 것 */
+        img
+        {
+            width: 250px;
+            height: 350px;
+        }
+        img[src$=png]
+        {
+            border:3px solid red;
+        }
+        img[src$=jpg]
+        {
+            border: 3px solid blue;
+        }
+        img[src$=gif]
+        {
+            border: 3px solid green;
+        }
+    </style>
+</head>
+<body>
+    <img src="./jajq.png" alt="">
+    <img src="./node.jpg" alt="">
+    <img src="./ux.gif" alt="">
+</body>
+</html>

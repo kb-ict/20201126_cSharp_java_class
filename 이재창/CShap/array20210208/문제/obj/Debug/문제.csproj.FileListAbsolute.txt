@@ -1,0 +1,7 @@
+D:\Git\CShap\programming\array20210208\문제\bin\Debug\문제.exe.config
+D:\Git\CShap\programming\array20210208\문제\bin\Debug\문제.exe
+D:\Git\CShap\programming\array20210208\문제\bin\Debug\문제.pdb
+D:\Git\CShap\programming\array20210208\문제\obj\Debug\문제.csprojAssemblyReference.cache
+D:\Git\CShap\programming\array20210208\문제\obj\Debug\문제.csproj.CoreCompileInputs.cache
+D:\Git\CShap\programming\array20210208\문제\obj\Debug\문제.exe
+D:\Git\CShap\programming\array20210208\문제\obj\Debug\문제.pdb

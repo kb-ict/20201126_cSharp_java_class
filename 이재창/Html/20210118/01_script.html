@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        console.log("안녕 세상아")
+        document.write("안녕 세상아아")
+    </script>
+</head>
+<body>
+    
+    <style>
+        .redText
+        {
+            color: red;
+        }
+    </style>
+
+    <h1 id="firstHeadTag">Lorem, ipsum dolor.</h1>
+    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+
+    <script>
+        // DOM객체를 사용함
+        var fir = document.querySelector('#firstHeadTag')
+        // 속성을 줘서 스타일 바꾸기
+        fir.setAttribute('class', 'redText')
+
+        // 직접 스타일 바꾸기
+        fir.style.background = 'yellow'
+    </script>
+
+    <script>
+        var now = 100;
+        now = "ㅎㅇ"
+        now = [1,2,3,4,5]
+
+        for (let index = 0; index < now.length; index++) {
+            document.write(now[index])
+            
+        }
+    </script>
+</body>
+</html>

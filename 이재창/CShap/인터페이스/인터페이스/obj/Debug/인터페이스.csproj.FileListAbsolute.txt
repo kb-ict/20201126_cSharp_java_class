@@ -1,0 +1,7 @@
+D:\Git\CShap\programming\인터페이스\인터페이스\bin\Debug\인터페이스.exe.config
+D:\Git\CShap\programming\인터페이스\인터페이스\bin\Debug\인터페이스.exe
+D:\Git\CShap\programming\인터페이스\인터페이스\bin\Debug\인터페이스.pdb
+D:\Git\CShap\programming\인터페이스\인터페이스\obj\Debug\인터페이스.csprojAssemblyReference.cache
+D:\Git\CShap\programming\인터페이스\인터페이스\obj\Debug\인터페이스.csproj.CoreCompileInputs.cache
+D:\Git\CShap\programming\인터페이스\인터페이스\obj\Debug\인터페이스.exe
+D:\Git\CShap\programming\인터페이스\인터페이스\obj\Debug\인터페이스.pdb

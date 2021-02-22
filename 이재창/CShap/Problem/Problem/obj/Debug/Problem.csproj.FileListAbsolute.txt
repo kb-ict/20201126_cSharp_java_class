@@ -1,0 +1,7 @@
+D:\Git\CShap\programming\Problem\Problem\bin\Debug\Problem.exe.config
+D:\Git\CShap\programming\Problem\Problem\bin\Debug\Problem.exe
+D:\Git\CShap\programming\Problem\Problem\bin\Debug\Problem.pdb
+D:\Git\CShap\programming\Problem\Problem\obj\Debug\Problem.csprojAssemblyReference.cache
+D:\Git\CShap\programming\Problem\Problem\obj\Debug\Problem.csproj.CoreCompileInputs.cache
+D:\Git\CShap\programming\Problem\Problem\obj\Debug\Problem.exe
+D:\Git\CShap\programming\Problem\Problem\obj\Debug\Problem.pdb

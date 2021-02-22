@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            width: 960px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            grid-template-rows: 200px 200px 200px; 
+            gap: 10px; /*Gutter랑 똑같은 거*/
+        }
+        .container>div
+        {
+            background-color: springgreen;
+        }
+        .header
+        {
+            grid-row: 1/2; /* start / end */
+            grid-column: 1/4;
+        }
+        .aside
+        {
+            grid-row: 2/3;
+            grid-column: 1/2;
+        }
+        .section
+        {
+            grid-row: 2/3;
+            grid-column: 2/4;
+        }
+        .footer
+        {
+            grid-row: 3/4;
+            grid-column: 1/4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>header</h1>
+        </div>
+        <div class="aside">
+            <h1>aside</h1>
+        </div>
+        <div class="section">
+            <h1>section</h1>
+        </div>
+        <div class="footer">
+            <h1>footer</h1>
+        </div>
+    </div>
+</body>
+</html>

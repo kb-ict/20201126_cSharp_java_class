@@ -1,0 +1,15 @@
+
+public class SerialMain {
+
+	public static void main(String[] args) {
+		System.out.println("----------------");
+		System.out.println("스마트 홈 제어 v1.0");
+		System.out.println("----------------");
+		System.out.println("1. TV 켜기");
+		System.out.println("2. TV 끄기");
+		System.out.println("3. 보일러 동작");
+		System.out.println("4. 세탁기 동작");
+		System.out.println("5. 종료");
+	}
+
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p
+        {
+            /* p태그가 늘어날 때 마다 증가하는 변수 */
+            counter-increment: rint;
+        }
+        /* p태그 시작 전에 카운터 변수 삽임 */
+        p::before
+        {
+            content: counter(rint) "."
+        }
+        p::after
+        {
+            content: " - " attr(data-page) " page ";
+        }
+        p::first-letter
+        {
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem, ipsum dolor.</h1>
+    <p data-page="52">Lorem ipsum dolor sit amet.</p>
+    <p data-page="273">Lorem ipsum dolor sit amet consectetur.</p>
+</body>
+</html>

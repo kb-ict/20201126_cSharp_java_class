@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 테두리 적용 방법1 */
+        .box:first-child
+        {
+            border:thick dashed black;
+            border-radius: 20px;
+        }
+        /* 테두리 적용 방법2 */
+        .box:last-child
+        {
+            border-width: thick;
+            border-style: dashed;
+            border-color: blue;
+        }
+        .box:nth-child(2)
+        {
+            border-left: solid salmon 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, explicabo?</h1>
+    </div>
+    <div class="box">
+        <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, explicabo?</h1>
+    </div>
+    <div class="box">
+        <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, explicabo?</h1>
+    </div>
+</body>
+</html>

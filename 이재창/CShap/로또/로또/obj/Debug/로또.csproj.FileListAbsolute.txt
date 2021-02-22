@@ -1,0 +1,7 @@
+D:\Git\CShap\programming\로또\로또\bin\Debug\로또.exe.config
+D:\Git\CShap\programming\로또\로또\bin\Debug\로또.exe
+D:\Git\CShap\programming\로또\로또\bin\Debug\로또.pdb
+D:\Git\CShap\programming\로또\로또\obj\Debug\로또.csprojAssemblyReference.cache
+D:\Git\CShap\programming\로또\로또\obj\Debug\로또.csproj.CoreCompileInputs.cache
+D:\Git\CShap\programming\로또\로또\obj\Debug\로또.exe
+D:\Git\CShap\programming\로또\로또\obj\Debug\로또.pdb

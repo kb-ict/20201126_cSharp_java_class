@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>자바스크립트 - 영화데이터베이스 API</title>
+    <style>
+        *{margin:0; padding: 0;}
+        h1 {width: 360px; margin: 0 auto; text-align: center;
+            color: blueviolet;
+            padding-top: 20px;
+        }
+        .subsubject {
+            text-align: center;
+        }
+        p{padding: 8px 0px;}
+        .container{
+            display: flex;
+            flex-flow: row wrap;
+            justify-items: center;
+            justify-content: center;
+        }
+
+        .container > div{
+            flex-basis:  25%;
+            flex : 0;
+            margin: 8px;
+            border:1px solid rgb(252, 252, 252);
+            padding: 8px;
+            cursor: pointer;
+            box-sizing: border-box;
+
+        }
+        .container > div:hover {
+            border:1px solid rebeccapurple;
+        }
+        .buttonWrapper{
+            width: 100vs;
+            text-align: center;
+        }
+        .more{
+            width: 120px;
+            padding: 8px 15px;
+            margin: 10px auto;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>The Movie</h1>
+    <p class="subsubject">"영화란 지루한 부분이 커트된 인생이다" - 알프레드 히치콕</p>
+
+    <div class="container">
+
+    </div>
+    <div class="buttonWrapper"><button class="more">더 보기</button></div>
+    
+
+    <script>
+        let page = 1;
+        const key = "df34bc3af9863b31e19c4bd6ab2889ed";
+        const base_url = "https://image.tmdb.org/t/p/w300/";
+        const container = document.querySelector(".container");
+        
+        function fetchMovie(page){
+            const url = `https://api.themoviedb.org/3/movie/upcoming?api_key=${key}&language=ko-KR&page=${page}`;
+            fetch(url)
+            .then(res => res.json())
+            .then(function(res){
+                const movies = res.results;
+                movies.map(function(movie){
+                    //console.log(movie.title);
+                    const div = document.createElement('div');
+                    const output = `
+                        <img src="${base_url + movie.poster_path}">
+                        <h2>${movie.title}</h2>
+                        <p class="overview">${movie.overview}</p>
+                        <p class="release_date">개봉일: ${movie.release_date}</p>
+                    `;
+                    div.innerHTML = output;
+                    container.appendChild(div);
+                });
+            })
+            .catch(erro => console.log(erro));
+        };
+        
+        window.addEventListener('onLoad', fetchMovie());
+        
+        //더보기 버튼 클릭 리스너    
+        const moreButton = document.querySelector(".more");
+        moreButton.addEventListener('click', function(){
+            if(page < 3){
+                page += 1;
+                fetchMovie(page);
+            } else {
+                this.disabled = true;
+            }
+            
+            console.log(page);
+        });
+    </script>
+
+    
+</body>
+</html>

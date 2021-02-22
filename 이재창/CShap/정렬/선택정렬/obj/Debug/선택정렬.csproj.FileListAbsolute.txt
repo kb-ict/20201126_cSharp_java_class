@@ -1,0 +1,7 @@
+D:\Git\CShap\programming\정렬\선택정렬\bin\Debug\선택정렬.exe.config
+D:\Git\CShap\programming\정렬\선택정렬\bin\Debug\선택정렬.exe
+D:\Git\CShap\programming\정렬\선택정렬\bin\Debug\선택정렬.pdb
+D:\Git\CShap\programming\정렬\선택정렬\obj\Debug\선택정렬.csprojAssemblyReference.cache
+D:\Git\CShap\programming\정렬\선택정렬\obj\Debug\선택정렬.csproj.CoreCompileInputs.cache
+D:\Git\CShap\programming\정렬\선택정렬\obj\Debug\선택정렬.exe
+D:\Git\CShap\programming\정렬\선택정렬\obj\Debug\선택정렬.pdb

@@ -1,0 +1,6 @@
+D:\Gitter\CShap\programming\Socket\client\bin\Debug\client.exe.config
+D:\Gitter\CShap\programming\Socket\client\bin\Debug\client.exe
+D:\Gitter\CShap\programming\Socket\client\bin\Debug\client.pdb
+D:\Gitter\CShap\programming\Socket\client\obj\Debug\client.csproj.CoreCompileInputs.cache
+D:\Gitter\CShap\programming\Socket\client\obj\Debug\client.exe
+D:\Gitter\CShap\programming\Socket\client\obj\Debug\client.pdb

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 동위 선택자 */
+
+        /* 바로 뒤에 껄 선택 */
+        /* h1바로 뒤에 있는 h2태그 한 개를 선택 */
+        /* 반드시 바로 뒤에 있어야함(다른거 있으면 안됨) */
+        h1+h2{color:red}
+
+        /* h1 뒤에 있는 모든 태그들을 선택 */
+        h1~h2{background: orange;}
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit.</h1>
+    <h2>Lorem1</h2>
+    <h2>Lorem2</h2>
+    <h2>Lorem3</h2>
+    <h2>Lorem4</h2>
+</body>
+</html>

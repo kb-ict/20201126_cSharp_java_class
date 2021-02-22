@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>자바스크립트 예제</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            text-align: center;
+
+        }
+        h1 {
+            margin: 20px auto;
+        }
+        button {
+            padding: 5px 5px;
+            margin: 5px 5px;
+        }
+
+        input {
+            padding: 8px;
+        
+        }
+        ul{
+            width: 600px;
+            margin: 10px auto;
+            text-align: left;
+        }
+        ul li {
+            padding: 8px;
+            list-style-type: none;
+            border-bottom: 1px solid gray;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        ul li:hover {
+            background: rgb(231, 193, 193);
+        }
+
+        ul li div img {
+            float: left;
+            margin: 0px 5px;
+            border-radius: 10px;
+        }
+
+        .video-player {
+            max-width: 640px;
+            position: relative;
+            margin: 20px auto;
+        }
+
+        .embed-responsive-16by9 {
+            height: 0;
+            padding-top: 2%;
+            padding-bottom:20%;
+        }
+    </style>
+</head>
+<body>
+
+<h1>유튜브 영화 예고편 검색</h1>
+<p>영화제목으로 예고편을 감상하세요.</p>
+
+<!-- 유튜브 재생 영역 -->
+<div class="youtube-container home-youtube-container embed-responsive embed-responsive-item videoPlayer">
+    <div class="homeVideoThumbnail video-player">
+        <img src="img/youtube.png" alt="YouTube video">
+    </div>  
+</div>
+
+<label for="search">영화검색</label>
+<input type="search" id="search" name="search" placeholder="영화제목을 입력해 주세요." size="40px" onkeyup="inputkeyup(event)">
+<button type="button" onclick="ajaxRequest()">Search</button>
+
+<ul class="list"></ul>
+
+<script>
+    const v = document.querySelector('.videoPlayer');
+
+    //iframe 추가하고 비디오 재생
+    function updateVideo(id){
+
+        v.classList.add("embed-responsive-16by9");
+        v.innerHTML = '<iframe src="//www.youtube.com/embed/' 
+            + id + '?autoplay=1" width="560" height="315" frameborder="0" allowfullscreen></iframe>';
+
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+    }
+    
+    //엔터키 이벤트
+    function inputkeyup(e){
+        if(e.keyCode == 13){
+            ajaxRequest();
+        }
+        
+    }
+
+    //jQuery를 사용하지 않고 Vanilla JS를 사용하자. 비동기로 호출한다.
+    function ajaxRequest(){
+
+        const search = document.getElementById("search");
+        const ul = document.querySelector(".list");
+
+        if(search.value.length == 0){
+            alert("검색어를 입력하세요.");
+            search.focus();
+            return false;
+        } else {
+            query = "공식 예고편 " +  search.value;
+            search.value = "";
+            search.focus();
+        }
+
+        const key = "AIzaSyD9phVVWPSLlXRR2bfp8OxYFPF8sOi8YUo";
+        const url = `https://www.googleapis.com/youtube/v3/search?key=${key}&q=${query}&part=snippet&type=video`;
+
+        //ul 일단 비우고 시작
+        ul.innerHTML = "";
+
+        const xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if(this.readyState == 4 && this.status == 200){
+                //파싱
+                const jsonObj = JSON.parse(this.response);
+
+                console.log(jsonObj['items']);
+                const videoList = jsonObj["items"];
+                videoList.forEach(element => {
+                    const li = document.createElement('li');
+                    const div = document.createElement('Div');
+                    const img = document.createElement('img');
+                    const h3 = document.createElement('h3');
+                    const p1 = document.createElement('p');
+
+                    h3.textContent = element["snippet"]["title"];
+                    img.src = element["snippet"]["thumbnails"]["medium"]["url"];
+                    p1.textContent = element["snippet"]["description"];
+                    //div.setAttribute("data-id", element["id"]["videoId"]);
+                    div.setAttribute("onClick", `updateVideo('${element["id"]["videoId"]}')`);
+
+                    div.appendChild(img);
+                    div.appendChild(h3);
+                    div.appendChild(p1);
+                    li.appendChild(div);
+                    ul.appendChild(li);
+
+                });
+            }
+        };
+        xhr.open("GET", url, true);
+        xhr.send();
+    }
+
+</script>
+    
+</body>
+</html>

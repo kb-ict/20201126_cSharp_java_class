@@ -1,0 +1,7 @@
+D:\Git\CShap\programming\20210215\P2\bin\Debug\P2.exe.config
+D:\Git\CShap\programming\20210215\P2\bin\Debug\P2.exe
+D:\Git\CShap\programming\20210215\P2\bin\Debug\P2.pdb
+D:\Git\CShap\programming\20210215\P2\obj\Debug\P2.csprojAssemblyReference.cache
+D:\Git\CShap\programming\20210215\P2\obj\Debug\P2.csproj.CoreCompileInputs.cache
+D:\Git\CShap\programming\20210215\P2\obj\Debug\P2.exe
+D:\Git\CShap\programming\20210215\P2\obj\Debug\P2.pdb

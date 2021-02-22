@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <style>
+        .reverse
+        {
+            background-color: black;
+            color: yellow;
+        }
+    </style>
+    <script>
+        // $(document).ready(function ()
+        $(function () {
+            //alert('하이');
+
+            // h1태그 클릭하면 글자를 추가해주는 기능
+            $('h1').on('click', function () {
+                $(this).html(function (index, html) {
+                    return html + '+';
+                })               
+            }).on({
+                mouseenter : function() {$(this).addClass('reverse');},
+                mouseleave : function() {$(this).removeClass('reverse');}
+            })
+        })
+    </script>
+</head>
+<body>
+    <h1>Header-1</h1>
+    <h1>Header-2</h1>
+    <h1>Header-3</h1>
+</body>
+</html>

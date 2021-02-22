@@ -1,0 +1,7 @@
+D:\Git\CShap\programming\20210215\20210215\bin\Debug\20210215.exe.config
+D:\Git\CShap\programming\20210215\20210215\bin\Debug\20210215.exe
+D:\Git\CShap\programming\20210215\20210215\bin\Debug\20210215.pdb
+D:\Git\CShap\programming\20210215\20210215\obj\Debug\20210215.csprojAssemblyReference.cache
+D:\Git\CShap\programming\20210215\20210215\obj\Debug\20210215.csproj.CoreCompileInputs.cache
+D:\Git\CShap\programming\20210215\20210215\obj\Debug\20210215.exe
+D:\Git\CShap\programming\20210215\20210215\obj\Debug\20210215.pdb

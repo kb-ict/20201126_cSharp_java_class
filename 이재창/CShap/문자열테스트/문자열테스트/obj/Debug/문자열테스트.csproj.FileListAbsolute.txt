@@ -1,0 +1,7 @@
+D:\Git\CShap\programming\문자열테스트\문자열테스트\bin\Debug\문자열테스트.exe.config
+D:\Git\CShap\programming\문자열테스트\문자열테스트\bin\Debug\문자열테스트.exe
+D:\Git\CShap\programming\문자열테스트\문자열테스트\bin\Debug\문자열테스트.pdb
+D:\Git\CShap\programming\문자열테스트\문자열테스트\obj\Debug\문자열테스트.csprojAssemblyReference.cache
+D:\Git\CShap\programming\문자열테스트\문자열테스트\obj\Debug\문자열테스트.csproj.CoreCompileInputs.cache
+D:\Git\CShap\programming\문자열테스트\문자열테스트\obj\Debug\문자열테스트.exe
+D:\Git\CShap\programming\문자열테스트\문자열테스트\obj\Debug\문자열테스트.pdb

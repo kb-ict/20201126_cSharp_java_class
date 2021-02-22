@@ -1,0 +1,13 @@
+D:\Git\CShap\programming\쓰레드\쓰레드\bin\Debug\쓰레드.exe.config
+D:\Git\CShap\programming\쓰레드\쓰레드\bin\Debug\쓰레드.exe
+D:\Git\CShap\programming\쓰레드\쓰레드\bin\Debug\쓰레드.pdb
+D:\Git\CShap\programming\쓰레드\쓰레드\obj\Debug\쓰레드.csprojAssemblyReference.cache
+D:\Git\CShap\programming\쓰레드\쓰레드\obj\Debug\쓰레드.csproj.CoreCompileInputs.cache
+D:\Git\CShap\programming\쓰레드\쓰레드\obj\Debug\쓰레드.exe
+D:\Git\CShap\programming\쓰레드\쓰레드\obj\Debug\쓰레드.pdb
+E:\Git\CShap\programming\쓰레드\쓰레드\bin\Debug\쓰레드.exe.config
+E:\Git\CShap\programming\쓰레드\쓰레드\bin\Debug\쓰레드.exe
+E:\Git\CShap\programming\쓰레드\쓰레드\bin\Debug\쓰레드.pdb
+E:\Git\CShap\programming\쓰레드\쓰레드\obj\Debug\쓰레드.csprojAssemblyReference.cache
+E:\Git\CShap\programming\쓰레드\쓰레드\obj\Debug\쓰레드.exe
+E:\Git\CShap\programming\쓰레드\쓰레드\obj\Debug\쓰레드.pdb

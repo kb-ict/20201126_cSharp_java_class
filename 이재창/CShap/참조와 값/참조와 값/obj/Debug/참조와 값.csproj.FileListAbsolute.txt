@@ -1,0 +1,7 @@
+D:\Git\CShap\programming\참조와 값\참조와 값\bin\Debug\참조와 값.exe.config
+D:\Git\CShap\programming\참조와 값\참조와 값\bin\Debug\참조와 값.exe
+D:\Git\CShap\programming\참조와 값\참조와 값\bin\Debug\참조와 값.pdb
+D:\Git\CShap\programming\참조와 값\참조와 값\obj\Debug\참조와 값.csprojAssemblyReference.cache
+D:\Git\CShap\programming\참조와 값\참조와 값\obj\Debug\참조와 값.csproj.CoreCompileInputs.cache
+D:\Git\CShap\programming\참조와 값\참조와 값\obj\Debug\참조와 값.exe
+D:\Git\CShap\programming\참조와 값\참조와 값\obj\Debug\참조와 값.pdb

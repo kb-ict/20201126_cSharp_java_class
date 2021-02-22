@@ -1,0 +1,10 @@
+D:\Git\CShap\programming\Form_Start\Form_Start\bin\Debug\Form_Start.exe.config
+D:\Git\CShap\programming\Form_Start\Form_Start\bin\Debug\Form_Start.exe
+D:\Git\CShap\programming\Form_Start\Form_Start\bin\Debug\Form_Start.pdb
+D:\Git\CShap\programming\Form_Start\Form_Start\obj\Debug\Form_Start.csprojAssemblyReference.cache
+D:\Git\CShap\programming\Form_Start\Form_Start\obj\Debug\Form_Start.Form1.resources
+D:\Git\CShap\programming\Form_Start\Form_Start\obj\Debug\Form_Start.Properties.Resources.resources
+D:\Git\CShap\programming\Form_Start\Form_Start\obj\Debug\Form_Start.csproj.GenerateResource.cache
+D:\Git\CShap\programming\Form_Start\Form_Start\obj\Debug\Form_Start.csproj.CoreCompileInputs.cache
+D:\Git\CShap\programming\Form_Start\Form_Start\obj\Debug\Form_Start.exe
+D:\Git\CShap\programming\Form_Start\Form_Start\obj\Debug\Form_Start.pdb

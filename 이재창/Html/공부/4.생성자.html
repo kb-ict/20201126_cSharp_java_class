@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Human(name, age)
+        {
+            this.name = name;
+            this.age = age;        
+        }
+        // 멤버 메서드를 하나만 만듬
+        Human.prototype.intro = function()
+        {
+            document.write(`name = ${this.name}<br>`);
+            document.write(`age = ${this.age}<br>`);
+        };   
+
+        var kim = new Human("김상형", 29);
+        kim.intro();
+    </script>
+    
+</body>
+</html>

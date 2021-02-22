@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "델리게이트", "델리게이트\델리게이트.csproj", "{72DCA126-2618-4D27-9094-C07B22B1CE2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "인터페이스확인", "인터페이스확인\인터페이스확인.csproj", "{4E10C453-E409-4991-A212-9B946C740361}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72DCA126-2618-4D27-9094-C07B22B1CE2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72DCA126-2618-4D27-9094-C07B22B1CE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72DCA126-2618-4D27-9094-C07B22B1CE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72DCA126-2618-4D27-9094-C07B22B1CE2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E10C453-E409-4991-A212-9B946C740361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E10C453-E409-4991-A212-9B946C740361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E10C453-E409-4991-A212-9B946C740361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E10C453-E409-4991-A212-9B946C740361}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AD65264-EA47-4253-BD75-765EA65C9476}
+	EndGlobalSection
+EndGlobal

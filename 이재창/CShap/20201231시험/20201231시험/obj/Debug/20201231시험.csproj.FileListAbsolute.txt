@@ -1,0 +1,7 @@
+D:\Git\CShap\programming\20201231시험\20201231시험\bin\Debug\20201231시험.exe.config
+D:\Git\CShap\programming\20201231시험\20201231시험\bin\Debug\20201231시험.exe
+D:\Git\CShap\programming\20201231시험\20201231시험\bin\Debug\20201231시험.pdb
+D:\Git\CShap\programming\20201231시험\20201231시험\obj\Debug\20201231시험.csprojAssemblyReference.cache
+D:\Git\CShap\programming\20201231시험\20201231시험\obj\Debug\20201231시험.csproj.CoreCompileInputs.cache
+D:\Git\CShap\programming\20201231시험\20201231시험\obj\Debug\20201231시험.exe
+D:\Git\CShap\programming\20201231시험\20201231시험\obj\Debug\20201231시험.pdb

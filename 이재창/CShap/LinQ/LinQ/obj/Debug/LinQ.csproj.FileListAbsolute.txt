@@ -1,0 +1,7 @@
+D:\Git\CShap\programming\LinQ\LinQ\bin\Debug\LinQ.exe.config
+D:\Git\CShap\programming\LinQ\LinQ\bin\Debug\LinQ.exe
+D:\Git\CShap\programming\LinQ\LinQ\bin\Debug\LinQ.pdb
+D:\Git\CShap\programming\LinQ\LinQ\obj\Debug\LinQ.csprojAssemblyReference.cache
+D:\Git\CShap\programming\LinQ\LinQ\obj\Debug\LinQ.csproj.CoreCompileInputs.cache
+D:\Git\CShap\programming\LinQ\LinQ\obj\Debug\LinQ.exe
+D:\Git\CShap\programming\LinQ\LinQ\obj\Debug\LinQ.pdb

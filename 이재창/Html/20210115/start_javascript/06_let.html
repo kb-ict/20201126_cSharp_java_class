@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var array = [1,2,3, "헐", '이게 되더라', 4]
+        for (i = 0; i < array.length; i++)
+        {
+            console.log(array[i] + '<br>')
+        }
+
+        var obj = {
+            name : "둘리",
+            age : 100,
+            master : "고길동"
+        }
+
+        console.log(obj['name'] + '<br>');
+        console.log(obj['age'] + '<br>');
+        console.log(obj['master'] + '<br>');
+        console.log(obj.name + '<br>');
+        console.log(obj.age + '<br>');
+        console.log(obj.master + '<br>');
+
+        var wow = function() {
+            alert("대에박")
+        }
+        // wow()
+
+        // console.log(wow)
+        // console.log(wow())
+
+        var devilJson =
+        {
+            one : [1,2,3,4,5],
+            two : {two_one : "2", two_two : "twotwo"},
+            three : 5
+        }
+        
+        console.log(devilJson['one']);
+        console.log(devilJson.two);
+        console.log(devilJson.three);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

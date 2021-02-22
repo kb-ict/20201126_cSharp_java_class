@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box
+        {
+            width: 100px;
+            height: 100px;
+        }
+        .red
+        {
+            background-color: red;
+            left: 50px;
+            top: 50px;
+        }
+        .green
+        {
+            background-color: green;
+            position: relative;
+            left: 50px;
+            top: 50px;
+        }
+        .blue
+        {
+            background-color: blue;
+            position: fixed;
+            left: 108px;
+            top: 108px;
+        }
+        .yellow
+        {
+            background-color: yellow;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            left: 30px;
+            /* top: 30px; */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box red">
+        <div class="box yellow">fixed</div>
+    </div>
+    <div class="box green">
+        <div class="box yellow"></div>
+    </div>
+    <div class="box blue">
+        <div class="box yellow"></div>
+    </div>
+    <script>
+        var div1 = document.createElement("div");
+        div1.innerHTML = "스크립트로만듬";
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+        $(document).ready(function () 
+        {
+            // h1 클릭 이벤트 추가
+            $('h1').click(function ()
+            {
+                $(this).html('click');
+                alert('이벤트가 발생함');
+
+                // h1 클릭 이벤트 삭제
+                $(this).off();
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>lorem</h1>
+    <h1>lorem</h1>
+    <h1>lorem</h1>
+    <h1>lorem</h1>
+</body>
+</html>

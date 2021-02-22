@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <style>
+        .redText
+        {
+            color: red;
+        }
+        .border
+        {
+            border: 1px solid green;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="firstHeadTag">Lorem, ipsum dolor.</h1>
+    <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+    <script>
+        $('h2').css('background', 'pink').addClass('redText').addClass('border');
+    </script>
+</body>
+</html>
