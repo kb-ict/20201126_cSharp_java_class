@@ -1,0 +1,9 @@
+C:\Users\KB\Desktop\Sang-joon Git\CSharp\_20210128_Calc\_20210128_Calc\bin\Debug\_20210128_Calc.exe
+C:\Users\KB\Desktop\Sang-joon Git\CSharp\_20210128_Calc\_20210128_Calc\bin\Debug\_20210128_Calc.pdb
+C:\Users\KB\Desktop\Sang-joon Git\CSharp\_20210128_Calc\_20210128_Calc\obj\Debug\_20210128_Calc.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\Sang-joon Git\CSharp\_20210128_Calc\_20210128_Calc\obj\Debug\_20210128_Calc.MyForm.resources
+C:\Users\KB\Desktop\Sang-joon Git\CSharp\_20210128_Calc\_20210128_Calc\obj\Debug\_20210128_Calc.Properties.Resources.resources
+C:\Users\KB\Desktop\Sang-joon Git\CSharp\_20210128_Calc\_20210128_Calc\obj\Debug\_20210128_Calc.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\Sang-joon Git\CSharp\_20210128_Calc\_20210128_Calc\obj\Debug\_20210128_Calc.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\Sang-joon Git\CSharp\_20210128_Calc\_20210128_Calc\obj\Debug\_20210128_Calc.exe
+C:\Users\KB\Desktop\Sang-joon Git\CSharp\_20210128_Calc\_20210128_Calc\obj\Debug\_20210128_Calc.pdb

@@ -1,0 +1,6 @@
+D:\starloge2020\c#consol\ldjEx1\Ex001\Ex002\bin\Debug\Ex002.exe.config
+D:\starloge2020\c#consol\ldjEx1\Ex001\Ex002\bin\Debug\Ex002.exe
+D:\starloge2020\c#consol\ldjEx1\Ex001\Ex002\bin\Debug\Ex002.pdb
+D:\starloge2020\c#consol\ldjEx1\Ex001\Ex002\obj\Debug\Ex002.csproj.CoreCompileInputs.cache
+D:\starloge2020\c#consol\ldjEx1\Ex001\Ex002\obj\Debug\Ex002.exe
+D:\starloge2020\c#consol\ldjEx1\Ex001\Ex002\obj\Debug\Ex002.pdb

@@ -1,0 +1,9 @@
+D:\ex\starloge2020\c#\VerySimpleExample\VerySimpleExample\bin\Release\VerySimpleExample.exe.config
+D:\ex\starloge2020\c#\VerySimpleExample\VerySimpleExample\bin\Release\VerySimpleExample.exe
+D:\ex\starloge2020\c#\VerySimpleExample\VerySimpleExample\bin\Release\VerySimpleExample.pdb
+D:\ex\starloge2020\c#\VerySimpleExample\VerySimpleExample\obj\Release\VerySimpleExample.Form1.resources
+D:\ex\starloge2020\c#\VerySimpleExample\VerySimpleExample\obj\Release\VerySimpleExample.Properties.Resources.resources
+D:\ex\starloge2020\c#\VerySimpleExample\VerySimpleExample\obj\Release\VerySimpleExample.csproj.GenerateResource.cache
+D:\ex\starloge2020\c#\VerySimpleExample\VerySimpleExample\obj\Release\VerySimpleExample.csproj.CoreCompileInputs.cache
+D:\ex\starloge2020\c#\VerySimpleExample\VerySimpleExample\obj\Release\VerySimpleExample.exe
+D:\ex\starloge2020\c#\VerySimpleExample\VerySimpleExample\obj\Release\VerySimpleExample.pdb

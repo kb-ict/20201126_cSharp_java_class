@@ -36,6 +36,13 @@ namespace adress200218
                         dataDel();
                         break;
                     case 5:
+                        Console.WriteLine("주소록 수정");
+                        break;
+                    case 6:
+                        Console.WriteLine("주소록 전체 삭제");
+                        addrList<Student>.Clear;
+                        break;
+                    case 7:
                         Console.WriteLine("프로그램 종료");
                         Environment.Exit(0);
                         break;

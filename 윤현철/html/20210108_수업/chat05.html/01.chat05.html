@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        body{font-family: sans-serif;}
+        li{list-style: none;}
+        a{text-decoration: none;}
+        img{border: 0;}
+
+        #main_header
+        {
+            width: 960px;
+            margin: 0 auto;
+            height: 160px;
+            position: relative;
+        }
+        #main_header>#title
+        {
+            position: absolute;
+            left: 20px; top: 30px;
+        }
+        #main_header>#main_gnb
+        {
+            position: absolute;
+            right: 0; top: 0;
+        }
+        #main_header>#main_lnb
+        {
+            position: absolute;
+            right: 0; bottom: 10px;
+        }        
+        #title
+        {
+            font-family: 'East Sea Dokdo', cursive;
+        }
+        #main_gnb>ul{overflow: hidden;}
+        #main_gnb>ul>li{float: left;}
+        #main_gnb>ul>li>a{
+            display: block;
+            padding: 2px 10px;
+            border: 1px solid black;
+        }
+        #main_gnb>ul>li>a:hover
+        {
+            background: black;
+            color: white;
+        }
+        #main_lnb>ul{overflow: hidden;}
+        #main_lnb>ul>li{float: left;}
+        #main_lnb>ul>li>a{
+            display: block;
+            padding: 10px 20px;
+            border: 1px solid black;
+        }
+        #main_lnb>ul>li>a:hover   
+        {
+            background: black;
+            color: white;
+        }
+        #main_gnb>ul>li:first-child>a{border-radius: 10px 0 0 10px;}
+        #main_gnb>ul>li:last-child>a{border-radius: 0 10px 10px 0;}
+        #main_lnb>ul>li:first-child>a{border-radius: 10px 0 0 10px;}
+        #main_lnb>ul>li:last-child>a{border-radius: 0 10px 10px 0;}
+        #content
+        {
+            width: 960px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        #content>#main_section
+        {
+            width: 750px;
+            float: left;
+        }
+        #content>#main_aside
+        {
+            width: 200px;
+            float: right;
+        }
+        #main_section>article.main_article
+        {
+            margin-bottom: 10px;
+            padding: 20px;
+            border: 1px solid black;
+        }
+        input:nth-of-type(1){display: none;}
+        input:nth-of-type(1)~div:nth-of-type(1){display: none;}
+        input:nth-of-type(1):checked~div:nth-of-type(1){display: block;}
+        input:nth-of-type(2){display: none;}
+        input:nth-of-type(2)~div:nth-of-type(2){display: none;}
+        input:nth-of-type(2):checked~div:nth-of-type(2){display: block;}
+        section.button{overflow: hidden;}
+        section.button>label{
+            display: block; float: left;
+            width: 100px; height: 30px;
+            line-height: 30px;
+            text-align: center;
+            box-sizing: border-box;
+            border: 1px solid black;
+            background: black;
+            color: white;
+        }
+        input:nth-of-type(1):checked~section.button>label:nth-of-type(1){
+            background: white;
+            color: black;
+        }
+        input:nth-of-type(2):checked~section.button>label:nth-of-type(2){
+            background: white;
+            color: black;
+        }
+        .item
+        {
+            overflow: hidden;
+            padding: 10px;
+            border: 1px solid black;
+            border-top: none;
+        }
+        .thumbnail
+        {
+            float: left;
+        }
+        .description
+        {
+            float: left;
+            margin-left: 10px;
+        }
+        .description>strong
+        {
+            display: block;
+            width: 120px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        #main_footer
+        {
+            width: 960px;
+            margin: 0 auto;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            padding: 10px;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"> -->
+</head>
+<body>
+    <header id="main_header">
+        <div id="title">
+            <h1>Lorem, ipsum dolor.</h1>
+            <h2>Lorem ipsum dolor sit amet.</h2>
+        </div>
+        <nav id="main_gnb">
+            <ul>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+            </ul>
+        </nav>
+        <nav id="main_lnb">
+            <ul>
+                <li><a href="#">일</a></li>
+                <li><a href="#">이</a></li>
+                <li><a href="#">삼</a></li>
+                <li><a href="#">사</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="content">
+        <section id="main_section">
+            <article class="main_article">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, minima at. Sint fugiat voluptatum aperiam sequi omnis ratione minima quae odit expedita illum, adipisci ipsam eos distinctio debitis, quas numquam inventore ea reiciendis nobis nemo? Quis illum exercitationem error doloremque! Qui natus temporibus eveniet accusamus, vitae enim et tenetur inventore eos commodi ab. Illum adipisci corporis repudiandae enim atque nulla in unde eaque. Laborum itaque, iure placeat totam dignissimos dolor, nihil ullam cupiditate iste adipisci culpa molestiae vitae? Architecto vitae recusandae expedita rem ipsum quidem odio eos minus, molestiae, non enim nostrum facilis porro, fugit dolore natus voluptatem? Iusto perspiciatis nisi ullam. At nulla perspiciatis beatae libero temporibus rem officiis. Deserunt aliquam eos eligendi dolore recusandae quibusdam optio praesentium voluptatem fuga! Ipsa tempora officiis similique libero cum aliquam voluptatum? Totam itaque ratione ipsam atque iure, possimus illum ex. Atque, mollitia. Fugiat error placeat quas dolorem possimus voluptas deleniti aliquam quos nisi praesentium nostrum voluptatem delectus eos autem unde dolor harum similique illum, qui temporibus iste ratione deserunt! Perferendis temporibus nostrum placeat unde, vel id! Quia voluptates fugit iste rem commodi placeat hic sunt?</p>
+            </article>
+            <article class="main_article">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, minima at. Sint fugiat voluptatum aperiam sequi omnis ratione minima quae odit expedita illum, adipisci ipsam eos distinctio debitis, quas numquam inventore ea reiciendis nobis nemo? Quis illum exercitationem error doloremque! Qui natus temporibus eveniet accusamus, vitae enim et tenetur inventore eos commodi ab. Illum adipisci corporis repudiandae enim atque nulla in unde eaque. Laborum itaque, iure placeat totam dignissimos dolor, nihil ullam cupiditate iste adipisci culpa molestiae vitae? Architecto vitae recusandae expedita rem ipsum quidem odio eos minus, molestiae, non enim nostrum facilis porro, fugit dolore natus voluptatem? Iusto perspiciatis nisi ullam. At nulla perspiciatis beatae libero temporibus rem officiis. Deserunt aliquam eos eligendi dolore recusandae quibusdam optio praesentium voluptatem fuga! Ipsa tempora officiis similique libero cum aliquam voluptatum? Totam itaque ratione ipsam atque iure, possimus illum ex. Atque, mollitia. Fugiat error placeat quas dolorem possimus voluptas deleniti aliquam quos nisi praesentium nostrum voluptatem delectus eos autem unde dolor harum similique illum, qui temporibus iste ratione deserunt! Perferendis temporibus nostrum placeat unde, vel id! Quia voluptates fugit iste rem commodi placeat hic sunt?</p>
+            </article>
+            <article class="main_article">
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, minima at. Sint fugiat voluptatum aperiam sequi omnis ratione minima quae odit expedita illum, adipisci ipsam eos distinctio debitis, quas numquam inventore ea reiciendis nobis nemo? Quis illum exercitationem error doloremque! Qui natus temporibus eveniet accusamus, vitae enim et tenetur inventore eos commodi ab. Illum adipisci corporis repudiandae enim atque nulla in unde eaque. Laborum itaque, iure placeat totam dignissimos dolor, nihil ullam cupiditate iste adipisci culpa molestiae vitae? Architecto vitae recusandae expedita rem ipsum quidem odio eos minus, molestiae, non enim nostrum facilis porro, fugit dolore natus voluptatem? Iusto perspiciatis nisi ullam. At nulla perspiciatis beatae libero temporibus rem officiis. Deserunt aliquam eos eligendi dolore recusandae quibusdam optio praesentium voluptatem fuga! Ipsa tempora officiis similique libero cum aliquam voluptatum? Totam itaque ratione ipsam atque iure, possimus illum ex. Atque, mollitia. Fugiat error placeat quas dolorem possimus voluptas deleniti aliquam quos nisi praesentium nostrum voluptatem delectus eos autem unde dolor harum similique illum, qui temporibus iste ratione deserunt! Perferendis temporibus nostrum placeat unde, vel id! Quia voluptates fugit iste rem commodi placeat hic sunt?</p>
+            </article>        
+        </section>
+        <aside id="main_aside">
+            <input type="radio" name="tab" id="first" checked>
+            <input type="radio" name="tab" id="second">
+            <section class="button">
+                <label for="first">first</label>
+                <label for="second">second</label>
+            </section>
+            <div class="tap_item">
+                <ul>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>HTML5 audio sadgasghfdaxc</strong>
+                                <p>2021-01-11</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>HTML5 as</strong>
+                                <p>2021-01-11</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>HTML5 df</strong>
+                                <p>2021-01-11</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>HTML5 gh</strong>
+                                <p>2021-01-11</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tap_item">
+                <ul>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>HTML5 audio</strong>
+                                <p>2021-01-11</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>HTML5 1</strong>
+                                <p>2021-01-11</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>HTML5 2</strong>
+                                <p>2021-01-11</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="http://placehold.it/45x45" alt="">
+                            </div>
+                            <div class="description">
+                                <strong>HTML5 3</strong>
+                                <p>2021-01-11</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+    <footer id="main_footer">
+        <h3>Lorem, ipsum dolor.</h3>
+        <address>Website Layout Basic</address>
+    </footer>
+</body>
+</html>

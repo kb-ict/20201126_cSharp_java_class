@@ -1,0 +1,7 @@
+D:\blacksheep\starloge2020\c#\classCar\classCar\bin\Debug\classCar.exe.config
+D:\blacksheep\starloge2020\c#\classCar\classCar\bin\Debug\classCar.exe
+D:\blacksheep\starloge2020\c#\classCar\classCar\bin\Debug\classCar.pdb
+D:\blacksheep\starloge2020\c#\classCar\classCar\obj\Debug\classCar.csprojAssemblyReference.cache
+D:\blacksheep\starloge2020\c#\classCar\classCar\obj\Debug\classCar.csproj.CoreCompileInputs.cache
+D:\blacksheep\starloge2020\c#\classCar\classCar\obj\Debug\classCar.exe
+D:\blacksheep\starloge2020\c#\classCar\classCar\obj\Debug\classCar.pdb

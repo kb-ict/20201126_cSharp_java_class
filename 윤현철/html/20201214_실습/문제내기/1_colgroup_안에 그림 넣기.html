@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>표 만들기</title>
+    <style>
+        td {
+            width: 100px;
+            /* 셀 너비 */
+            height: 30px;
+            /* 셀 높이 */
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1">
+        <caption>colgroup 연습</caption>
+        <colgroup>
+            <col>
+            <!-- 제일 첫번째 열은 '아무 것도 없는 것'으로-->
+            <col span="2" style="background-color:cyan;">
+            <col style="background-color:yellow">
+        </colgroup>
+        <tr>
+            <td>
+                <!--이미지 크기 조절-->
+                <img src="7456316410689587162.png" width=250px height=250px alt="">
+            </td>
+            <td align="center">PC</td>
+            <!--정중앙 정렬-->
+            <td align="center">Game</td>
+            <td align="center">V4</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="lotus.jpg" width=250px height=250px alt="">
+            </td>
+            <td align="center">연꽃</td>
+            <td align="center">로터스</td>
+            <td align="center">lotus</td>
+        </tr>
+    </table>
+</body>
+
+</html>

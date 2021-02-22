@@ -1,0 +1,10 @@
+D:\starloge2020\c#\20210129_수업\textbox_실습\textbox_실습\bin\Debug\textbox_실습.exe.config
+D:\starloge2020\c#\20210129_수업\textbox_실습\textbox_실습\bin\Debug\textbox_실습.exe
+D:\starloge2020\c#\20210129_수업\textbox_실습\textbox_실습\bin\Debug\textbox_실습.pdb
+D:\starloge2020\c#\20210129_수업\textbox_실습\textbox_실습\obj\Debug\textbox_실습.csprojAssemblyReference.cache
+D:\starloge2020\c#\20210129_수업\textbox_실습\textbox_실습\obj\Debug\textbox_실습.Form1.resources
+D:\starloge2020\c#\20210129_수업\textbox_실습\textbox_실습\obj\Debug\textbox_실습.Properties.Resources.resources
+D:\starloge2020\c#\20210129_수업\textbox_실습\textbox_실습\obj\Debug\textbox_실습.csproj.GenerateResource.cache
+D:\starloge2020\c#\20210129_수업\textbox_실습\textbox_실습\obj\Debug\textbox_실습.csproj.CoreCompileInputs.cache
+D:\starloge2020\c#\20210129_수업\textbox_실습\textbox_실습\obj\Debug\textbox_실습.exe
+D:\starloge2020\c#\20210129_수업\textbox_실습\textbox_실습\obj\Debug\textbox_실습.pdb

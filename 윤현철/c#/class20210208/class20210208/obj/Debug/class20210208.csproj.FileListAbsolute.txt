@@ -1,0 +1,7 @@
+D:\blacksheep\starloge2020\c#\class20210208\class20210208\bin\Debug\class20210208.exe.config
+D:\blacksheep\starloge2020\c#\class20210208\class20210208\bin\Debug\class20210208.exe
+D:\blacksheep\starloge2020\c#\class20210208\class20210208\bin\Debug\class20210208.pdb
+D:\blacksheep\starloge2020\c#\class20210208\class20210208\obj\Debug\class20210208.csprojAssemblyReference.cache
+D:\blacksheep\starloge2020\c#\class20210208\class20210208\obj\Debug\class20210208.csproj.CoreCompileInputs.cache
+D:\blacksheep\starloge2020\c#\class20210208\class20210208\obj\Debug\class20210208.exe
+D:\blacksheep\starloge2020\c#\class20210208\class20210208\obj\Debug\class20210208.pdb

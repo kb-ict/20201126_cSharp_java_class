@@ -1,0 +1,10 @@
+D:\Git\starloge2020\c#\LoginForm\LoginForm\bin\Debug\LoginForm.exe.config
+D:\Git\starloge2020\c#\LoginForm\LoginForm\bin\Debug\LoginForm.exe
+D:\Git\starloge2020\c#\LoginForm\LoginForm\bin\Debug\LoginForm.pdb
+D:\Git\starloge2020\c#\LoginForm\LoginForm\obj\Debug\LoginForm.csprojAssemblyReference.cache
+D:\Git\starloge2020\c#\LoginForm\LoginForm\obj\Debug\LoginForm.Form1.resources
+D:\Git\starloge2020\c#\LoginForm\LoginForm\obj\Debug\LoginForm.Properties.Resources.resources
+D:\Git\starloge2020\c#\LoginForm\LoginForm\obj\Debug\LoginForm.csproj.GenerateResource.cache
+D:\Git\starloge2020\c#\LoginForm\LoginForm\obj\Debug\LoginForm.csproj.CoreCompileInputs.cache
+D:\Git\starloge2020\c#\LoginForm\LoginForm\obj\Debug\LoginForm.exe
+D:\Git\starloge2020\c#\LoginForm\LoginForm\obj\Debug\LoginForm.pdb

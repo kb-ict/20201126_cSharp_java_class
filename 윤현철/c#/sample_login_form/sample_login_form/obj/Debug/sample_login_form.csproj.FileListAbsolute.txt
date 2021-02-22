@@ -1,0 +1,10 @@
+D:\ex\starloge2020\c#\sample_login_form\sample_login_form\bin\Debug\sample_login_form.exe.config
+D:\ex\starloge2020\c#\sample_login_form\sample_login_form\bin\Debug\sample_login_form.exe
+D:\ex\starloge2020\c#\sample_login_form\sample_login_form\bin\Debug\sample_login_form.pdb
+D:\ex\starloge2020\c#\sample_login_form\sample_login_form\obj\Debug\sample_login_form.csprojAssemblyReference.cache
+D:\ex\starloge2020\c#\sample_login_form\sample_login_form\obj\Debug\sample_login_form.Form1.resources
+D:\ex\starloge2020\c#\sample_login_form\sample_login_form\obj\Debug\sample_login_form.Properties.Resources.resources
+D:\ex\starloge2020\c#\sample_login_form\sample_login_form\obj\Debug\sample_login_form.csproj.GenerateResource.cache
+D:\ex\starloge2020\c#\sample_login_form\sample_login_form\obj\Debug\sample_login_form.csproj.CoreCompileInputs.cache
+D:\ex\starloge2020\c#\sample_login_form\sample_login_form\obj\Debug\sample_login_form.exe
+D:\ex\starloge2020\c#\sample_login_form\sample_login_form\obj\Debug\sample_login_form.pdb

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            /* p태그가 늘어날때마다 증가하는 변수 */
+            counter-increment: rint;
+        }
+        p::before
+        {
+            content: counter(rint)"."
+        }
+        P::after
+        {
+            content: " - "attr(data-page)" page "
+        }
+        p::first-letter
+        {
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p data-page="52">Lorem ipsum dolor sit.</p>
+    <p data-page="273">Lorem ipsum dolor sit.</p>
+
+</body>
+</html>

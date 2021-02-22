@@ -1,0 +1,7 @@
+D:\Ex\starloge2020\c#consol\20201228_수업\Ex1\Ex1\bin\Debug\Ex1.exe.config
+D:\Ex\starloge2020\c#consol\20201228_수업\Ex1\Ex1\bin\Debug\Ex1.exe
+D:\Ex\starloge2020\c#consol\20201228_수업\Ex1\Ex1\bin\Debug\Ex1.pdb
+D:\Ex\starloge2020\c#consol\20201228_수업\Ex1\Ex1\obj\Debug\Ex1.csprojAssemblyReference.cache
+D:\Ex\starloge2020\c#consol\20201228_수업\Ex1\Ex1\obj\Debug\Ex1.csproj.CoreCompileInputs.cache
+D:\Ex\starloge2020\c#consol\20201228_수업\Ex1\Ex1\obj\Debug\Ex1.exe
+D:\Ex\starloge2020\c#consol\20201228_수업\Ex1\Ex1\obj\Debug\Ex1.pdb

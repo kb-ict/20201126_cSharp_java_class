@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="one"><span>+</span>
+    <input type="text" id="two"><span>=</span>
+    <span id="result">결과가 여기에 나옴</span>
+    <div>
+        <input type="button" value="합" onclick="sum()">
+    </div>
+    <script>
+        function sum() {
+            var one = document.getElementById('one').value;
+            var two = document.getElementById('two').value;
+            alert(Number(one)+Number(two));
+            document.getElementById('result').innerText=Number(one)+Number(two);
+        }
+    </script>
+     <input type="text" id="one2"><span>-</span>
+     <input type="text" id="two2"><span>=</span>
+     <span id="result2">결과가 여기에 나옴</span>
+     <div>
+         <input type="button" value="빼기" onclick="su()">
+     </div>
+     <script>
+         function su() {
+             var one2 = document.getElementById('one2').value;
+             var two2 = document.getElementById('two2').value;
+             alert(Number(one2)-Number(two2));
+             document.getElementById('result2').innerText=Number(one2)-Number(two2);
+         }
+     </script>
+      <input type="text" id="one3"><span>*</span>
+      <input type="text" id="two3"><span>=</span>
+      <span id="result3">결과가 여기에 나옴</span>
+      <div>
+          <input type="button" value="곱" onclick="mu()">
+      </div>
+      <script>
+          function mu() {
+              var one3 = document.getElementById('one3').value;
+              var two3 = document.getElementById('two3').value;
+              alert(Number(one3)*Number(two3));
+              document.getElementById('result3').innerText=Number(one3)*Number(two3);
+          }
+      </script>
+       <input type="text" id="one4"><span>/</span>
+       <input type="text" id="two4"><span>=</span>
+       <span id="result4">결과가 여기에 나옴</span>
+       <div>
+           <input type="button" value="나누기" onclick="di()">
+       </div>
+       <script>
+           function di() {
+               var one4 = document.getElementById('one4').value;
+               var two4 = document.getElementById('two4').value;
+               alert(Number(one4)/Number(two4));
+               document.getElementById('result4').innerText=Number(one4)/Number(two4);
+           }
+       </script>
+</body>
+</html>

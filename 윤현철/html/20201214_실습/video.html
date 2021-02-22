@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- video-js 사용하기 위해 필요한 것-->
+    <link rel="stylesheet" 
+    href="https://vjs.zencdn.net/7.2.3/video-js.css"/>
+    <script src="https://vjs.zencdn.net/7.2.3/video.js">
+    </script>
+    <!-- video-js 사용하기 위해 필요한 것-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video src="Wildlife.mp4" controls></video>
+    <video width="640" height="360" controls autoplay muted>
+        <source src="Wildlife.webm" type="video/webm">
+        <source src="Wildlife.mp4" type="video/mp4">
+    </video>
+
+    <h1>video.js 플러그인 적용</h1>
+    <video width="640" height="360" controls
+    class="video-js" data-setup="{}">
+        <source src="Wildlife.webm" type="video/webm">
+        <source src="Wildlife.mp4" type="video/mp4">
+    </video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sIzlBUIqhCk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

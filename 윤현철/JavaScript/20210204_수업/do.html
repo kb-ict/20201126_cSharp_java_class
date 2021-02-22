@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var a=0;
+        function doA(){
+            window.alert("window");
+            alert("생략가능");
+        }
+        function doB(){
+            alert("a = " +a);
+        }
+        function doC(){
+            var adiv = document.getElementsByClassName("adiv")[0];
+            // alert(adiv);
+            adiv.style.left=a+"px"
+        }
+    </script>
+    <style>
+        .adiv{
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            background-color: aquamarine;
+            left: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="adiv">
+
+    </div>
+    <button onclick="doA();alert('함수호출하고 나서 경고창');a=a+50;">누르면 달라진다</button>
+    <button onclick="doB();">a값 확인</button>
+    <button onclick="doC();">adiv위치이동</button>
+</body>
+</html>

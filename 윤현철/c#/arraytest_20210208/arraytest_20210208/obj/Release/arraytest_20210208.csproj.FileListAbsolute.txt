@@ -1,0 +1,6 @@
+D:\blacksheep\starloge2020\c#\arraytest_20210208\arraytest_20210208\bin\Release\arraytest_20210208.exe.config
+D:\blacksheep\starloge2020\c#\arraytest_20210208\arraytest_20210208\bin\Release\arraytest_20210208.exe
+D:\blacksheep\starloge2020\c#\arraytest_20210208\arraytest_20210208\bin\Release\arraytest_20210208.pdb
+D:\blacksheep\starloge2020\c#\arraytest_20210208\arraytest_20210208\obj\Release\arraytest_20210208.csproj.CoreCompileInputs.cache
+D:\blacksheep\starloge2020\c#\arraytest_20210208\arraytest_20210208\obj\Release\arraytest_20210208.exe
+D:\blacksheep\starloge2020\c#\arraytest_20210208\arraytest_20210208\obj\Release\arraytest_20210208.pdb

@@ -1,0 +1,10 @@
+D:\starloge2020\c#consol\ldjEx1\apr\apr\bin\Debug\apr.exe.config
+D:\starloge2020\c#consol\ldjEx1\apr\apr\bin\Debug\apr.exe
+D:\starloge2020\c#consol\ldjEx1\apr\apr\bin\Debug\apr.pdb
+D:\starloge2020\c#consol\ldjEx1\apr\apr\obj\Debug\apr.csprojAssemblyReference.cache
+D:\starloge2020\c#consol\ldjEx1\apr\apr\obj\Debug\apr.Form1.resources
+D:\starloge2020\c#consol\ldjEx1\apr\apr\obj\Debug\apr.Properties.Resources.resources
+D:\starloge2020\c#consol\ldjEx1\apr\apr\obj\Debug\apr.csproj.GenerateResource.cache
+D:\starloge2020\c#consol\ldjEx1\apr\apr\obj\Debug\apr.csproj.CoreCompileInputs.cache
+D:\starloge2020\c#consol\ldjEx1\apr\apr\obj\Debug\apr.exe
+D:\starloge2020\c#consol\ldjEx1\apr\apr\obj\Debug\apr.pdb

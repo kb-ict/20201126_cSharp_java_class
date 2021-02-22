@@ -1,0 +1,7 @@
+D:\Git\starloge2020\c#consol\ldjEx1\ldjEx1\bin\Debug\ldjEx1.exe.config
+D:\Git\starloge2020\c#consol\ldjEx1\ldjEx1\bin\Debug\ldjEx1.exe
+D:\Git\starloge2020\c#consol\ldjEx1\ldjEx1\bin\Debug\ldjEx1.pdb
+D:\Git\starloge2020\c#consol\ldjEx1\ldjEx1\obj\Debug\ldjEx1.csprojAssemblyReference.cache
+D:\Git\starloge2020\c#consol\ldjEx1\ldjEx1\obj\Debug\ldjEx1.csproj.CoreCompileInputs.cache
+D:\Git\starloge2020\c#consol\ldjEx1\ldjEx1\obj\Debug\ldjEx1.exe
+D:\Git\starloge2020\c#consol\ldjEx1\ldjEx1\obj\Debug\ldjEx1.pdb
