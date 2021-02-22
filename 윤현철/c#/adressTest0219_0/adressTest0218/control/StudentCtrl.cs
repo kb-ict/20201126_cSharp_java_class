@@ -44,6 +44,7 @@ namespace adressTest0218.control
             for (int i = 0; i < addrList.Count; i++)
             {
                 Console.WriteLine("번호: " + (i + 1));
+                Console.WriteLine("ID: " + addrList[i].Id);
                 Console.WriteLine("이름: " + addrList[i].Name);
                 Console.WriteLine("전화: " + addrList[i].Tel);
                 Console.WriteLine("주소: " + addrList[i].Address);

@@ -40,6 +40,13 @@ namespace adressTest0218
                         Console.WriteLine("프로그램 종료");
                         Environment.Exit(0);
                         break;
+                    case Menu.MENU_MAIN_FORMAT_ERROR:
+                        Console.WriteLine("잘못된 숫자를 입력하셨습니다.");
+                        Console.WriteLine("메뉴를 다시 입력하여 주십시오.");
+                        break;
+                    default:
+                        Console.WriteLine("잘못된숫자를 입력했습니다. 재입력 요망");
+                        break;
                 }
             }
         }

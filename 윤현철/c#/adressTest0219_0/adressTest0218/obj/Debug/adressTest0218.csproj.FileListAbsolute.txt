@@ -12,3 +12,10 @@ E:\kb_c#_work\adressTest0218\adressTest0218\obj\Debug\adressTest0218.pdb
 \\192.168.51.3\ShareFolder\arduino\adressTest0219_0\adressTest0218\obj\Debug\adressTest0218.csproj.CoreCompileInputs.cache
 \\192.168.51.3\ShareFolder\arduino\adressTest0219_0\adressTest0218\obj\Debug\adressTest0218.exe
 \\192.168.51.3\ShareFolder\arduino\adressTest0219_0\adressTest0218\obj\Debug\adressTest0218.pdb
+D:\blacksheep\starloge2020\c#\adressTest0219_0\adressTest0218\bin\Debug\adressTest0218.exe.config
+D:\blacksheep\starloge2020\c#\adressTest0219_0\adressTest0218\bin\Debug\adressTest0218.exe
+D:\blacksheep\starloge2020\c#\adressTest0219_0\adressTest0218\bin\Debug\adressTest0218.pdb
+D:\blacksheep\starloge2020\c#\adressTest0219_0\adressTest0218\obj\Debug\adressTest0218.csprojAssemblyReference.cache
+D:\blacksheep\starloge2020\c#\adressTest0219_0\adressTest0218\obj\Debug\adressTest0218.csproj.CoreCompileInputs.cache
+D:\blacksheep\starloge2020\c#\adressTest0219_0\adressTest0218\obj\Debug\adressTest0218.exe
+D:\blacksheep\starloge2020\c#\adressTest0219_0\adressTest0218\obj\Debug\adressTest0218.pdb

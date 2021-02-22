@@ -8,6 +8,7 @@ namespace adressTest0218.view
 {
     class Menu
     {
+        public const int MENU_MAIN_FORMAT_ERROR = 0;
         public const int MENU_MAIN_ADD = 1;
         public const int MENU_MAIN_VIEW = 2;
         public const int MENU_MAIN_RANDOM_ADD = 3;
@@ -36,9 +37,31 @@ namespace adressTest0218.view
             Console.WriteLine("7.종료");
             Console.WriteLine("-----------------");
             Console.Write("메뉴 선택: ");
-            int menu =
-                Convert.ToInt32(Console.ReadLine());
+
+            int menu = 0;
+
+            try
+            {
+                menu = Convert.ToInt32(Console.ReadLine());
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine("에러 발생 : " + e.Message);
+            }
+
             return menu;
+            /* int menu;
+             Boolean isParse =
+                 int.TryParse(Console.ReadLine(), out menu);
+
+             if (isParse)
+                 return menu;
+             else
+             {
+                 Console.WriteLine("잘못된 입력이니 다시 입력하세요");
+                 return -1;
+             }*/
+
         }
 
         public string delMenu()
