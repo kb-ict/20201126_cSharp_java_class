@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function changeCaption(Cap) {
+            document.getElementById("fruit").innerText = Cap;            
+        }
+        //쌍따움표 안에는 홑따옴표가 역슬래시 없이 그냥 들어갈 수 있다.
+        //홑따옴표 안에는 쌍따옴표가 역슬래시 없이 그냥 들어갈 수 있다.
+    </script>
+</head>
+<body>
+    <h1 id="fruit">과일</h1>
+    <input type="button" value="Apple" onclick="changeCaption('Apple')">
+    <input type="button" value="Orange" onclick="changeCaption('Orange')">
+</body>
+</html>
