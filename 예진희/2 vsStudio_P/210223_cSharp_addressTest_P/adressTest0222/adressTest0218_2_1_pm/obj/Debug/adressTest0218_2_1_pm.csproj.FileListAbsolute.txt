@@ -1,0 +1,14 @@
+D:\임시\Git\jhy0409\2 vsStudio_P\210222_cSharp_addressTest_P\adressTest0222\adressTest0218_2_1_pm\bin\Debug\adressTest0218.exe.config
+D:\임시\Git\jhy0409\2 vsStudio_P\210222_cSharp_addressTest_P\adressTest0222\adressTest0218_2_1_pm\bin\Debug\adressTest0218.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210222_cSharp_addressTest_P\adressTest0222\adressTest0218_2_1_pm\bin\Debug\adressTest0218.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210222_cSharp_addressTest_P\adressTest0222\adressTest0218_2_1_pm\obj\Debug\adressTest0218_2_1_pm.csproj.CoreCompileInputs.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210222_cSharp_addressTest_P\adressTest0222\adressTest0218_2_1_pm\obj\Debug\adressTest0218.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210222_cSharp_addressTest_P\adressTest0222\adressTest0218_2_1_pm\obj\Debug\adressTest0218.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210222_cSharp_addressTest_P\adressTest0222\adressTest0218_2_1_pm\obj\Debug\adressTest0218_2_1_pm.csprojAssemblyReference.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210223_cSharp_addressTest_P\adressTest0222\adressTest0218_2_1_pm\bin\Debug\adressTest0218.exe.config
+D:\임시\Git\jhy0409\2 vsStudio_P\210223_cSharp_addressTest_P\adressTest0222\adressTest0218_2_1_pm\bin\Debug\adressTest0218.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210223_cSharp_addressTest_P\adressTest0222\adressTest0218_2_1_pm\bin\Debug\adressTest0218.pdb
+D:\임시\Git\jhy0409\2 vsStudio_P\210223_cSharp_addressTest_P\adressTest0222\adressTest0218_2_1_pm\obj\Debug\adressTest0218_2_1_pm.csprojAssemblyReference.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210223_cSharp_addressTest_P\adressTest0222\adressTest0218_2_1_pm\obj\Debug\adressTest0218_2_1_pm.csproj.CoreCompileInputs.cache
+D:\임시\Git\jhy0409\2 vsStudio_P\210223_cSharp_addressTest_P\adressTest0222\adressTest0218_2_1_pm\obj\Debug\adressTest0218.exe
+D:\임시\Git\jhy0409\2 vsStudio_P\210223_cSharp_addressTest_P\adressTest0222\adressTest0218_2_1_pm\obj\Debug\adressTest0218.pdb

@@ -1,0 +1,7 @@
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210218_cSharp_addressTest_P\addressTest0218\Z_boxupInHouse0219\bin\Debug\addressTest0218.exe.config
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210218_cSharp_addressTest_P\addressTest0218\Z_boxupInHouse0219\bin\Debug\addressTest0218.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210218_cSharp_addressTest_P\addressTest0218\Z_boxupInHouse0219\bin\Debug\addressTest0218.pdb
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210218_cSharp_addressTest_P\addressTest0218\Z_boxupInHouse0219\obj\Debug\Z_boxupInHouse0219.csprojAssemblyReference.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210218_cSharp_addressTest_P\addressTest0218\Z_boxupInHouse0219\obj\Debug\Z_boxupInHouse0219.csproj.CoreCompileInputs.cache
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210218_cSharp_addressTest_P\addressTest0218\Z_boxupInHouse0219\obj\Debug\addressTest0218.exe
+D:\9 임시\Git\jhy0409\2 vsStudio_P\210218_cSharp_addressTest_P\addressTest0218\Z_boxupInHouse0219\obj\Debug\addressTest0218.pdb
