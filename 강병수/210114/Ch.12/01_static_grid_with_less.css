@@ -1,0 +1,46 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.row {
+  overflow: hidden;
+}
+.span {
+  float: left;
+}
+.span_1 {
+  width: 80px;
+}
+.span_2 {
+  width: 160px;
+}
+.span_3 {
+  width: 240px;
+}
+.span_4 {
+  width: 320px;
+}
+.span_5 {
+  width: 400px;
+}
+.span_6 {
+  width: 480px;
+}
+.span_7 {
+  width: 560px;
+}
+.span_8 {
+  width: 640px;
+}
+.span_9 {
+  width: 720px;
+}
+.span_10 {
+  width: 800px;
+}
+.span_11 {
+  width: 880px;
+}
+.span_12 {
+  width: 960px;
+}
