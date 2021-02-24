@@ -1,74 +1,39 @@
 {
   "AddressBook": [
     {
-      "Name": "박길동",
-      "Tel": "010-2222-1111",
-      "Address": "대전시 동구 신암동",
-      "Email": "park@naver.com",
-      "Id": "9U9IGL3i"
-    },
-    {
-      "Name": "이길동",
-      "Tel": "010-4444-1111",
-      "Address": "서울시 동구 신암동",
-      "Email": "park@naver.com",
-      "Id": "jVbJa#%*"
-    },
-    {
+      "Id": "P#M$G?M&",
       "Name": "홍길동",
-      "Tel": "010-1111-3333",
-      "Address": "광주시 동구 신암동",
-      "Email": "hong@naver.com",
-      "Id": "RxJtILV1"
+      "Tel": "010-2222-5555",
+      "Address": "서울시 동구 신암동",
+      "Email": "choi@naver.com"
     },
     {
-      "Name": "이길동",
-      "Tel": "010-1111-1111",
-      "Address": "대구시 동구 신암동",
-      "Email": "choi@naver.com",
-      "Id": "NMQRiYC$"
-    },
-    {
+      "Id": "D%XDmDQI",
       "Name": "김길동",
-      "Tel": "010-1111-5555",
-      "Address": "서울시 동구 신암동",
-      "Email": "hong@naver.com",
-      "Id": "wL0!5%Cb"
+      "Tel": "010-2222-4444",
+      "Address": "광주시 동구 신암동",
+      "Email": "kim@naver.com"
     },
     {
-      "Name": "박길동",
-      "Tel": "010-1111-3333",
-      "Address": "대구시 동구 신암동",
-      "Email": "kim@naver.com",
-      "Id": "@Z^*t36%"
-    },
-    {
-      "Name": "홍길동",
-      "Tel": "010-2222-1111",
-      "Address": "대구시 동구 신암동",
-      "Email": "hong@naver.com",
-      "Id": "5~1QdKeQ"
-    },
-    {
+      "Id": "mlj9WA6#",
       "Name": "최길동",
-      "Tel": "010-1111-3333",
-      "Address": "서울시 동구 신암동",
-      "Email": "hong@naver.com",
-      "Id": "ho6@YKXM"
+      "Tel": "010-1111-1111",
+      "Address": "대전시 동구 신암동",
+      "Email": "park@naver.com"
     },
     {
+      "Id": "bD~F@58E",
+      "Name": "최길동",
+      "Tel": "010-2222-4444",
+      "Address": "부산시 동구 신암동",
+      "Email": "lee@naver.com"
+    },
+    {
+      "Id": "GNMhxkC^",
       "Name": "이길동",
-      "Tel": "010-1111-3333",
+      "Tel": "010-2222-2222",
       "Address": "대전시 동구 신암동",
-      "Email": "choi@naver.com",
-      "Id": "gn4~jy#@"
-    },
-    {
-      "Name": "최길동",
-      "Tel": "010-1111-3333",
-      "Address": "대전시 동구 신암동",
-      "Email": "park@naver.com",
-      "Id": "i$b^7668"
+      "Email": "lee@naver.com"
     }
   ]
 }
