@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        window.onload = function () {
+            var pbtn1 = document.getElementById("pbtn1");
+            var pp = document.getElementById("pp");
+
+            pbtn1.onclick = function () {
+                if (pp.style.display == "none") {
+                    pp.style.display = "block";
+                } else {
+                    pp.style.display = "none";
+                }
+            };
+        };
+
+        $(function () {
+            var pbtn2 = $("#pbtn2");
+            var pp = $("#pp");
+
+            pbtn2.click(function () {
+                pp.toggle(2500, function () {
+                    $("#pp1").toggle(2500, function () {
+                        alert("끝났음");
+                    });
+                });
+
+
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <p id="pp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur repellendus voluptatem praesentium
+        alias placeat harum iure eligendi. Sequi quos, error deserunt quod cupiditate, aperiam, iure facilis est quis
+        eveniet fuga.</p>
+    <p id="pp1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur repellendus voluptatem praesentium
+        alias placeat harum iure eligendi. Sequi quos, error deserunt quod cupiditate, aperiam, iure facilis est quis
+        eveniet fuga.</p>
+
+    <button id="pbtn1">javascript버튼</button>
+    <button id="pbtn2">jquery버튼</button>
+
+</body>
+
+</html>

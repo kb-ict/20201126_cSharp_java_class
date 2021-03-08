@@ -1,0 +1,9 @@
+C:\Users\KB\Desktop\Sang-joon Git\CSharp\_20210129_checkBox\_20210129_checkBox\bin\Debug\_20210129_checkBox.exe
+C:\Users\KB\Desktop\Sang-joon Git\CSharp\_20210129_checkBox\_20210129_checkBox\bin\Debug\_20210129_checkBox.pdb
+C:\Users\KB\Desktop\Sang-joon Git\CSharp\_20210129_checkBox\_20210129_checkBox\obj\Debug\_20210129_checkBox.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\Sang-joon Git\CSharp\_20210129_checkBox\_20210129_checkBox\obj\Debug\_20210129_checkBox.Form1.resources
+C:\Users\KB\Desktop\Sang-joon Git\CSharp\_20210129_checkBox\_20210129_checkBox\obj\Debug\_20210129_checkBox.Properties.Resources.resources
+C:\Users\KB\Desktop\Sang-joon Git\CSharp\_20210129_checkBox\_20210129_checkBox\obj\Debug\_20210129_checkBox.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\Sang-joon Git\CSharp\_20210129_checkBox\_20210129_checkBox\obj\Debug\_20210129_checkBox.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\Sang-joon Git\CSharp\_20210129_checkBox\_20210129_checkBox\obj\Debug\_20210129_checkBox.exe
+C:\Users\KB\Desktop\Sang-joon Git\CSharp\_20210129_checkBox\_20210129_checkBox\obj\Debug\_20210129_checkBox.pdb

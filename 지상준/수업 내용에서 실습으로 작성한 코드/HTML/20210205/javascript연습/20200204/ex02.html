@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- encoding 
+    MS949 A->30,B->31
+    UTF8 A->10 ,깍 숫자가 있기때문에..
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ㅁㄴㅇㅁㄴㅇ</title>
+    <script>
+        var a = 0;
+        function doA(){ 
+            // 함수시작..
+            // window.alert("window");
+            // alert("생략가능");
+            // 함수끝...
+        }
+        function doB(){
+            alert("a = "+a);
+        }
+        function doC(){
+            // id        class 두개...
+            // 중복허용X 중복허용O
+            var adiv = document.getElementsByClassName("adiv")[0];
+            // ctrl + k + c 주석설정
+            // ctrl + k + u 주석설정해제
+            // shift + delete 줄삭제
+            // alert(adiv);
+            // adiv.style.left= a+"px";
+            setInterval(function(){
+                adiv.style.left= a+"px";
+                a = a+10;
+            },3000);
+        }
+    </script>
+    <style>
+        .adiv{
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            left: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="adiv">
+    </div>
+    <button onclick="doA();alert('함수호출하고 나서 경고창');a=a+50;">누르면달라진다</button>
+    <button onclick="doB();">a값 확인</button>
+    <button onclick="doC();">adiv위치이동</button>
+</body>
+</html>

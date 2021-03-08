@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="adiv"></div>
+    <script>
+        var x,y,z;
+        x = 10;
+        y = 20;
+        z = 30;
+        var myTxt1 = "aaaa";
+        var myTxt2 = 'bbbb';
+        var adiv = document.getElementById("adiv");
+        // "a"+ "b" = "ab"
+        var d = "10"+20;    // 1020
+        var e = 10 + 20;    // 30
+
+        adiv.innerHTML = myTxt1 + myTxt2 + (x + y + z);
+    </script>
+</body>
+</html>

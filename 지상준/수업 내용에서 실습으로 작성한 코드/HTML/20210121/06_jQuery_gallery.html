@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+        // pivot 함수 만듦
+        $.fn.pivot = function (options) {
+            // 변수 선언
+            // 변수 앞에 달러 붙이는 이유
+            // jQuery를 사용해서 받은 것을 변수에 넣었다는것을 표시하려고
+            var $target = $(this);
+            var $items = $target.children();
+            // div 태그로 감싸기
+            var $container = $target.wrap('<div></div>').parent();
+            var option = {
+                width: 500,
+                height: 450
+            };
+            // 
+            // 옵션을 변경
+            // {width:500, height:450} => {width:700, height: 700}
+            $.extend(option, options);
+            // 스타일 지정
+            $target.css({
+                width: $items.length * option.width,
+                height: option.height,
+                position: 'absolute'
+            });
+            $items.css({
+                float: 'left',
+                width: option.width,
+                height: option.height
+            });
+            $container.css({
+                overflow: 'hidden',
+                position: 'relative',
+                width: option.width,
+                height: option.height
+            });
+
+            // 이벤트 연결
+            // 이 변수들을 통해서 이미지들이 움직일 것임.
+            var originalLeft = 0;
+            var oldLeft = 0;
+            var nowPosition = 0;
+            var isDown = false;
+
+            $target.on('mousedown', function (event) {
+                oldLeft = originalLeft = event.clientX; // 마우스를 누른 시점의 위치
+                isDown = true;
+                event.preventDefault();
+            });
+            $target.on('mousemove', function (event) { // 마우스 움직일 때
+                if (isDown) { // 마우스를 눌렀을 때
+                    var distance = oldLeft - event.clientX;
+                    oldLeft = event.clientX;
+
+                    // 움직입니다.
+                    // 예 left: -=100
+                    $target.animate({
+                        left: '-=' + distance
+                    }, 0);
+                    $target.stop(true); // 움직이고 나서 멈추기
+                }
+                event.preventDefault();
+            });
+
+            // 마우스를 뗐을 때
+            $target.on('mouseup', function () {
+
+                // 움직이는 함수 만듦
+                function movePosition(direction) {
+                    var changePosition = nowPosition + direction;
+                    if (0 <= changePosition && changePosition < $items.length) {
+                        nowPosition = changePosition;
+                    }
+
+                }
+
+                // 요소의 1/4이상 드래그시 피벗한다(움직임 = 피벗하다 같은 말)
+                // 어느쪽으로 드래그했느냐에 따라서 움직이는 방향 다름
+                if (originalLeft - event.clientX > option.width / 4) {
+                    movePosition(+1);
+
+                } else if (originalLeft - event.clientX < -option.width / 4) {
+                    movePosition(-1);
+                }
+
+                // 이동
+                $target.animate({
+                    'left': -nowPosition * option.width
+                }, 'fast');
+                isDown = false;
+                event.preventDefault();
+
+            });
+
+            $target.on('mouseout', function () {
+                // 이동
+                $target.animate({
+                    'left': -nowPosition * option.width
+                }, 'fast');
+                isDown = false;
+                event.preventDefault();
+
+            });
+        }
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#pivot_slider').pivot({
+                width: 700,
+                height: 700
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <h2>아래 영역 드래그해라</h2>
+    <div id="pivot_slider">
+        <div>
+            <h1>Lorem ipsum dolor sit.</h1>
+            <img src="Desert.jpg" alt="" width="300px">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ad nemo nam totam assumenda! Inventore
+                excepturi quo, labore ipsa accusamus neque quia similique ab voluptatibus, recusandae delectus iusto
+                possimus repudiandae, autem cum. Dignissimos vel doloremque impedit corporis at debitis odit.</p>
+        </div>
+        <div>
+            <h1>Lorem ipsum dolor sit.</h1>
+            <img src="Hydrangeas.jpg" alt="" width="300px">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ad nemo nam totam assumenda! Inventore
+                excepturi quo, labore ipsa accusamus neque quia similique ab voluptatibus, recusandae delectus iusto
+                possimus repudiandae, autem cum. Dignissimos vel doloremque impedit corporis at debitis odit.</p>
+        </div>
+        <div>
+            <h1>Lorem ipsum dolor sit.</h1>
+            <img src="Jellyfish.jpg" alt="" width="300px">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ad nemo nam totam assumenda! Inventore
+                excepturi quo, labore ipsa accusamus neque quia similique ab voluptatibus, recusandae delectus iusto
+                possimus repudiandae, autem cum. Dignissimos vel doloremque impedit corporis at debitis odit.</p>
+        </div>
+        <div>
+            <h1>Lorem ipsum dolor sit.</h1>
+            <img src="Koala.jpg" alt="" width="300px">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ad nemo nam totam assumenda! Inventore
+                excepturi quo, labore ipsa accusamus neque quia similique ab voluptatibus, recusandae delectus iusto
+                possimus repudiandae, autem cum. Dignissimos vel doloremque impedit corporis at debitis odit.</p>
+        </div>
+        <div>
+            <h1>Lorem ipsum dolor sit.</h1>
+            <img src="Lighthouse.jpg" alt="" width="300px">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ad nemo nam totam assumenda! Inventore
+                excepturi quo, labore ipsa accusamus neque quia similique ab voluptatibus, recusandae delectus iusto
+                possimus repudiandae, autem cum. Dignissimos vel doloremque impedit corporis at debitis odit.</p>
+        </div>
+    </div>
+</body>
+
+</html>

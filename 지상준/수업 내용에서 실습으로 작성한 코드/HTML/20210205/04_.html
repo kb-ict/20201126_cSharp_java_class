@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        #aa {
+            background-color: blueviolet;
+            height: 300px;
+            width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="sbtn">stop</button>
+    <div id="aa">
+        <p id="pp">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam officiis alias repellat
+            consequatur? Harum molestias mollitia magni ea, perferendis aliquid, impedit earum odio nesciunt dolores
+            tempora consequuntur iusto ipsum dicta.</p>
+    </div>
+</body>
+
+</html>
+<script>
+    $('#aa').click(function () {
+        $('#aa').slideUp(5000).slideDown(5000);
+    });
+    $('#sbtn').click(function () {
+        $('#aa').stop();
+    });
+</script>

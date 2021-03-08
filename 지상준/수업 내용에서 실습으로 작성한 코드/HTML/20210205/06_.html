@@ -1,0 +1,40 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.slider').bxSlider({
+                mode: 'fade',
+                captions: true,
+                slideWidth: 600
+            });
+        });
+    </script>
+
+    <style>
+
+        div {
+            margin: 0 auto;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="slider">
+        <div><img src="https://picsum.photos/id/1025/600/400" alt=""></div>
+        <div><img src="https://picsum.photos/id/1020/600/400" alt=""></div>
+        <div><img src="https://picsum.photos/id/1060/600/400" alt=""></div>
+        <div><img src="https://picsum.photos/id/1003/600/400" alt=""></div>
+        <div><img src="https://picsum.photos/id/642/600/400" alt=""></div>
+    </div>
+
+</body>
+
+</html>
