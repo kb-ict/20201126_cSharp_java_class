@@ -1,0 +1,10 @@
+D:\Saratoga93\Code\210128\Calculator\Calculator\bin\Debug\Calculator.exe.config
+D:\Saratoga93\Code\210128\Calculator\Calculator\bin\Debug\Calculator.exe
+D:\Saratoga93\Code\210128\Calculator\Calculator\bin\Debug\Calculator.pdb
+D:\Saratoga93\Code\210128\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+D:\Saratoga93\Code\210128\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+D:\Saratoga93\Code\210128\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+D:\Saratoga93\Code\210128\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+D:\Saratoga93\Code\210128\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\210128\Calculator\Calculator\obj\Debug\Calculator.exe
+D:\Saratoga93\Code\210128\Calculator\Calculator\obj\Debug\Calculator.pdb

@@ -1,0 +1,37 @@
+<cars>
+<car>
+  <parkingSpot>1</parkingSpot>
+  <carNumber>13고9252</carNumber>
+  <driverName>강병수</driverName>
+  <phoneNumber>010-2940-1613</phoneNumber>
+  <parkingTime>2021-04-16 오전 11:40:58</parkingTime>
+</car>
+<car>
+  <parkingSpot>2</parkingSpot>
+  <carNumber>55파1852</carNumber>
+  <driverName>고길동</driverName>
+  <phoneNumber>010-9432-1682</phoneNumber>
+  <parkingTime>2021-04-16 오전 11:06:12</parkingTime>
+</car>
+<car>
+  <parkingSpot>3</parkingSpot>
+  <carNumber>32허4642</carNumber>
+  <driverName>이승엽</driverName>
+  <phoneNumber>010-1321-1322</phoneNumber>
+  <parkingTime>2021-04-16 오전 11:06:12</parkingTime>
+</car>
+<car>
+  <parkingSpot>4</parkingSpot>
+  <carNumber>11케1111</carNumber>
+  <driverName>박해민</driverName>
+  <phoneNumber>010-9876-9768</phoneNumber>
+  <parkingTime>2021-04-16 오전 11:06:12</parkingTime>
+</car>
+<car>
+  <parkingSpot>5</parkingSpot>
+  <carNumber>345호9231</carNumber>
+  <driverName>허삼영</driverName>
+  <phoneNumber>010-9431-5222</phoneNumber>
+  <parkingTime>2021-04-16 오전 11:06:12</parkingTime>
+</car>
+</cars>

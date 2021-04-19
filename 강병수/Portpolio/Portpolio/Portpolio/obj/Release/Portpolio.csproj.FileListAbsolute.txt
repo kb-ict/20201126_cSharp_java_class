@@ -1,0 +1,15 @@
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\bin\Release\Portpolio.exe.config
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\bin\Release\Portpolio.exe
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\bin\Release\Portpolio.pdb
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Release\Portpolio.csprojAssemblyReference.cache
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Release\Portpolio.csproj.ResolveComReference.cache
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Release\Portpolio.UI.AddStudent.resources
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Release\Portpolio.UI.DeleteStudent.resources
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Release\Portpolio.UI.Main.resources
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Release\Portpolio.UI.ModifyScore.resources
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Release\Portpolio.UI.ModifyStudent.resources
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Release\Portpolio.UI.ScoreView.resources
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Release\Portpolio.csproj.GenerateResource.cache
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Release\Portpolio.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Release\Portpolio.exe
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Release\Portpolio.pdb

@@ -1,0 +1,6 @@
+D:\Saratoga93\Code\210405\Problem\Problem\bin\Debug\Problem.exe.config
+D:\Saratoga93\Code\210405\Problem\Problem\bin\Debug\Problem.exe
+D:\Saratoga93\Code\210405\Problem\Problem\bin\Debug\Problem.pdb
+D:\Saratoga93\Code\210405\Problem\Problem\obj\Debug\Problem.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\210405\Problem\Problem\obj\Debug\Problem.exe
+D:\Saratoga93\Code\210405\Problem\Problem\obj\Debug\Problem.pdb

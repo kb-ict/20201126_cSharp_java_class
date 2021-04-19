@@ -1,0 +1,10 @@
+D:\Saratoga93\Code\210415\RecursiveFunction\RecursiveFunction\bin\Debug\RecursiveFunction.exe.config
+D:\Saratoga93\Code\210415\RecursiveFunction\RecursiveFunction\bin\Debug\RecursiveFunction.exe
+D:\Saratoga93\Code\210415\RecursiveFunction\RecursiveFunction\bin\Debug\RecursiveFunction.pdb
+D:\Saratoga93\Code\210415\RecursiveFunction\RecursiveFunction\obj\Debug\RecursiveFunction.csprojAssemblyReference.cache
+D:\Saratoga93\Code\210415\RecursiveFunction\RecursiveFunction\obj\Debug\RecursiveFunction.Form1.resources
+D:\Saratoga93\Code\210415\RecursiveFunction\RecursiveFunction\obj\Debug\RecursiveFunction.Properties.Resources.resources
+D:\Saratoga93\Code\210415\RecursiveFunction\RecursiveFunction\obj\Debug\RecursiveFunction.csproj.GenerateResource.cache
+D:\Saratoga93\Code\210415\RecursiveFunction\RecursiveFunction\obj\Debug\RecursiveFunction.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\210415\RecursiveFunction\RecursiveFunction\obj\Debug\RecursiveFunction.exe
+D:\Saratoga93\Code\210415\RecursiveFunction\RecursiveFunction\obj\Debug\RecursiveFunction.pdb

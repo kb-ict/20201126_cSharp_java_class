@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도큐먼트</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        // body 까지 다 읽고 이 내용을 실행
+        window.onload = function()
+        {
+            // alert("경고창 출력");
+            var adiv = document.getElementById("adiv");
+            console.log("javascript adiv \n"+adiv);
+
+            adiv.onclick = function(){
+                adiv.style.backgroundColor="royalblue";
+            }
+        }
+        $(document).ready(function()
+        {
+            // alert("경고창 출력");
+            var adiv = $("#adiv");
+            console.log("jquery adiv \n" + adiv);
+            adiv.css("background-color","red");
+
+            $("#btn1").click(function(){
+                adiv.css("background-color","brown");
+            })
+        })
+    </script>
+</head>
+<body>
+    <div id="adiv">
+        배경색 바뀜
+    </div>
+    <button id="btn1">버튼</button>
+</body>
+</html>

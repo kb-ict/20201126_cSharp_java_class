@@ -1,0 +1,10 @@
+D:\Saratoga93\Code\210129\Practice2\Practice2\bin\Debug\Practice2.exe.config
+D:\Saratoga93\Code\210129\Practice2\Practice2\bin\Debug\Practice2.exe
+D:\Saratoga93\Code\210129\Practice2\Practice2\bin\Debug\Practice2.pdb
+D:\Saratoga93\Code\210129\Practice2\Practice2\obj\Debug\Practice2.csprojAssemblyReference.cache
+D:\Saratoga93\Code\210129\Practice2\Practice2\obj\Debug\Practice2.Form1.resources
+D:\Saratoga93\Code\210129\Practice2\Practice2\obj\Debug\Practice2.Properties.Resources.resources
+D:\Saratoga93\Code\210129\Practice2\Practice2\obj\Debug\Practice2.csproj.GenerateResource.cache
+D:\Saratoga93\Code\210129\Practice2\Practice2\obj\Debug\Practice2.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\210129\Practice2\Practice2\obj\Debug\Practice2.exe
+D:\Saratoga93\Code\210129\Practice2\Practice2\obj\Debug\Practice2.pdb

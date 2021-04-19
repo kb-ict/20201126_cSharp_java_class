@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <title>Document</title>
+    <script>
+        $(document).ready(function()
+        {
+            $('form').submit(function(event)
+            {
+                //id가 name인 태그의 값을 가져옴
+                var name = $('#name').val();
+                var pw = $('#password').val();
+
+                //C#의 $문법과 유사
+                alert(`이름:${name}, 비밀번호:${pw}`);
+                //기존 문법
+                alert('name:' + name + ', 비밀번호: ' + pw);
+                alert("name:" + name + ", 비밀번호: " + pw);
+
+                //기본 이벤트 제거
+                //event : jQuery에서 제공해주는 객체
+                event.preventDefault();
+            });
+        });
+    </script>
+</head>
+<body>
+    <form>
+        <input id="name" type="text">
+        <input id="password" type="password">
+        <input type="submit" value="제출">
+    </form>
+</body>
+</html>

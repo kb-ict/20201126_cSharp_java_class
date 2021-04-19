@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .redText
+        {
+            color:red;
+        }
+        .border
+        {
+            border: 1px solid royalblue;
+        }
+    </style>
+
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <h1 id="firstHeadTag">Lorem ipsum dolor sit amet.</h1>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ad.</h2>
+    <script>
+        //jQuery 를 통하여 태그 선택하기
+        $('h2').css('background', 'pink').addClass('redText').addClass('border');
+        </script>
+
+</body>
+</html>

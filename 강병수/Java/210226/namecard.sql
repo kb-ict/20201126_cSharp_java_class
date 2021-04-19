@@ -1,0 +1,1 @@
+UPDATE card0304 SET NAME = '희동' WHERE id = 3;

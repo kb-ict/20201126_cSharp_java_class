@@ -1,0 +1,10 @@
+D:\Saratoga93\Code\210415\Chap07\Chap07\bin\Debug\Chap07.exe.config
+D:\Saratoga93\Code\210415\Chap07\Chap07\bin\Debug\Chap07.exe
+D:\Saratoga93\Code\210415\Chap07\Chap07\bin\Debug\Chap07.pdb
+D:\Saratoga93\Code\210415\Chap07\Chap07\obj\Debug\Chap07.csprojAssemblyReference.cache
+D:\Saratoga93\Code\210415\Chap07\Chap07\obj\Debug\Chap07.Form1.resources
+D:\Saratoga93\Code\210415\Chap07\Chap07\obj\Debug\Chap07.Properties.Resources.resources
+D:\Saratoga93\Code\210415\Chap07\Chap07\obj\Debug\Chap07.csproj.GenerateResource.cache
+D:\Saratoga93\Code\210415\Chap07\Chap07\obj\Debug\Chap07.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\210415\Chap07\Chap07\obj\Debug\Chap07.exe
+D:\Saratoga93\Code\210415\Chap07\Chap07\obj\Debug\Chap07.pdb

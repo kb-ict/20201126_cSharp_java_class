@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //객체 빼먹은 거 보충
+
+        function student(name, num) {
+            this.name = name;
+            this.num = num;
+        }
+        //클래스 메소드와 같은 역할(한번 선언해두면 계속 슨다)
+        student.prototype.toString = function()
+        {
+            return "이름: " + this.name + " 군번: " + this.num;
+        }
+
+        //배열 빼먹은거 보충
+        var array = [];
+
+        array.push(new student("강병수", 1476059825));
+        array.push(new student("강병수1", 1576059825));
+
+        var output = '';
+        for(var index in array)
+        {
+            output += array[index] + '\n';
+        }
+        alert(output);
+    </script>
+</body>
+</html>

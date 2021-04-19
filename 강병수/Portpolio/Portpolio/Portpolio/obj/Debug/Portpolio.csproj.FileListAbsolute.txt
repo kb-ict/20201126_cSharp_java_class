@@ -1,0 +1,15 @@
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\bin\Debug\Portpolio.exe.config
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\bin\Debug\Portpolio.exe
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\bin\Debug\Portpolio.pdb
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Debug\Portpolio.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Debug\Portpolio.exe
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Debug\Portpolio.pdb
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Debug\Portpolio.UI.Main.resources
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Debug\Portpolio.csproj.GenerateResource.cache
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Debug\Portpolio.UI.AddStudent.resources
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Debug\Portpolio.UI.DeleteStudent.resources
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Debug\Portpolio.UI.ScoreView.resources
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Debug\Portpolio.UI.ModifyScore.resources
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Debug\Portpolio.UI.ModifyStudent.resources
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Debug\Portpolio.csproj.ResolveComReference.cache
+D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\obj\Debug\Portpolio.Properties.Resources.resources

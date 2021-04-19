@@ -1,0 +1,6 @@
+D:\Saratoga93\Code\210407\AntSequence\AntSequence\bin\Debug\AntSequence.exe.config
+D:\Saratoga93\Code\210407\AntSequence\AntSequence\bin\Debug\AntSequence.exe
+D:\Saratoga93\Code\210407\AntSequence\AntSequence\bin\Debug\AntSequence.pdb
+D:\Saratoga93\Code\210407\AntSequence\AntSequence\obj\Debug\AntSequence.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\210407\AntSequence\AntSequence\obj\Debug\AntSequence.exe
+D:\Saratoga93\Code\210407\AntSequence\AntSequence\obj\Debug\AntSequence.pdb

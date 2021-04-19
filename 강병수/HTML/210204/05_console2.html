@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="adiv">
+
+    </div>
+</body>
+</html>
+<script>
+    var x,y,z;
+    x = 10;
+    y = 20;
+    z = 30;
+    var myTxt1 = "asdf";
+    var myTxt2 = "ㅁㄴㅇㄹ";
+    var d = "10"+20; // 1020
+    var e = 10 + 20; // 30
+    var adiv = document.getElementById("adiv");
+    adiv.innerHTML = x + y + z + myTxt1 + myTxt2;
+    // adiv.innerHTML = myTxt1 + myTxt2 + x + y + z; asdfㅁㄴㅇㄹ102030으로 출력됨
+    // adiv.innerHTML = myTxt1 + myTxt2 + (x + y + z); 이렇게 하면 60으로 출력됨
+</script>

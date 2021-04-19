@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>이미지 처리</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript">
+		$(document).ready(function(){
+		$("#displayDiv").css("display", "none");
+		
+		$("#btn").click(function(){
+			if ($("#displayDiv").css("display") == "none"){
+				$("#displayDiv").css("display", "block");
+			}
+			else {
+				$("#displayDiv").css("display", "none");
+			}
+		});
+				
+		});
+		</script>
+</head>
+<body>
+	<h1>이미지 출력 및 숨기기</h1>
+	<button type="button" id="btn">보기 또는 숨기기</button>
+	<div id="displayDiv">
+		<img alt="" src="http://localhost:8080/210311/images/cat.jpg" width="640" height="480">
+	</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+[2021-04-14 10:35:20]   위치: System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   위치: System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   위치: System.Convert.ToInt32(String value)
+   위치: Portpolio.UI.AddStudent.AddScore_Click(Object sender, EventArgs e) 파일 D:\Saratoga93\Code\Portpolio\Portpolio\Portpolio\UI\AddStudent.cs:줄 33.txt

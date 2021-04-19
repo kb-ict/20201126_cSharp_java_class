@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // body 내용을 다 읽고 이 함수를 실행을 해달라...
+        window.onload = function () {
+            document.getElementById("adiv").onclick = function () {
+                alert("Test");
+                alert("Hello");
+            }
+
+        }
+        // document.getElementById("bdiv").innerHTML = "tag 사이에 들어갑니다.";
+        // 자바스크립트는 기본적으로 위에서 아래로 해석하기 떄문에 onload 안에 넣지않는 이상 bdiv 태그를 인식못하여 오류 발생
+    </script>
+    <style>
+        #adiv {
+            background-color: royalblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="adiv">
+        이걸 누르면 경고창이 뜹니다.
+    </div>
+    <div id="bdiv">
+        <p>가나다라마바사아자차</p>
+    </div>
+    
+</body>
+
+</html>
+<script>
+    document.getElementById("bdiv").innerHTML = "tag 사이에 들어갑니다.";
+</script>

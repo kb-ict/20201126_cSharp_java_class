@@ -1,0 +1,14 @@
+D:\Saratoga93\Code\210218\AddressBook\AddressBook\bin\Debug\AddressBook.exe.config
+D:\Saratoga93\Code\210218\AddressBook\AddressBook\bin\Debug\AddressBook.exe
+D:\Saratoga93\Code\210218\AddressBook\AddressBook\bin\Debug\AddressBook.pdb
+D:\Saratoga93\Code\210218\AddressBook\AddressBook\obj\Debug\AddressBook.csprojAssemblyReference.cache
+D:\Saratoga93\Code\210218\AddressBook\AddressBook\obj\Debug\AddressBook.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\210218\AddressBook\AddressBook\obj\Debug\AddressBook.exe
+D:\Saratoga93\Code\210218\AddressBook\AddressBook\obj\Debug\AddressBook.pdb
+D:\Saratoga93\Code\210222\AddressBook\AddressBook\bin\Debug\AddressBook.exe.config
+D:\Saratoga93\Code\210222\AddressBook\AddressBook\bin\Debug\AddressBook.exe
+D:\Saratoga93\Code\210222\AddressBook\AddressBook\bin\Debug\AddressBook.pdb
+D:\Saratoga93\Code\210222\AddressBook\AddressBook\obj\Debug\AddressBook.csprojAssemblyReference.cache
+D:\Saratoga93\Code\210222\AddressBook\AddressBook\obj\Debug\AddressBook.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\210222\AddressBook\AddressBook\obj\Debug\AddressBook.exe
+D:\Saratoga93\Code\210222\AddressBook\AddressBook\obj\Debug\AddressBook.pdb

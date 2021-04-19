@@ -1,0 +1,10 @@
+D:\Saratoga93\Code\210408\Lotto\Lotto\bin\Debug\Lotto.exe.config
+D:\Saratoga93\Code\210408\Lotto\Lotto\bin\Debug\Lotto.exe
+D:\Saratoga93\Code\210408\Lotto\Lotto\bin\Debug\Lotto.pdb
+D:\Saratoga93\Code\210408\Lotto\Lotto\obj\Debug\Lotto.csprojAssemblyReference.cache
+D:\Saratoga93\Code\210408\Lotto\Lotto\obj\Debug\Lotto.Form1.resources
+D:\Saratoga93\Code\210408\Lotto\Lotto\obj\Debug\Lotto.Properties.Resources.resources
+D:\Saratoga93\Code\210408\Lotto\Lotto\obj\Debug\Lotto.csproj.GenerateResource.cache
+D:\Saratoga93\Code\210408\Lotto\Lotto\obj\Debug\Lotto.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\210408\Lotto\Lotto\obj\Debug\Lotto.exe
+D:\Saratoga93\Code\210408\Lotto\Lotto\obj\Debug\Lotto.pdb

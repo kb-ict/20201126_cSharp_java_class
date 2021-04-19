@@ -1,0 +1,7 @@
+D:\Saratoga93\Code\210408\Ant\Ant\bin\Debug\Ant.exe.config
+D:\Saratoga93\Code\210408\Ant\Ant\bin\Debug\Ant.exe
+D:\Saratoga93\Code\210408\Ant\Ant\bin\Debug\Ant.pdb
+D:\Saratoga93\Code\210408\Ant\Ant\obj\Debug\Ant.csprojAssemblyReference.cache
+D:\Saratoga93\Code\210408\Ant\Ant\obj\Debug\Ant.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\210408\Ant\Ant\obj\Debug\Ant.exe
+D:\Saratoga93\Code\210408\Ant\Ant\obj\Debug\Ant.pdb

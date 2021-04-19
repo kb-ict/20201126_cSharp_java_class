@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //배열 = 하나의 배열 안에 여러 가지 자료형이 다 들어갈 수 있다.
+        var array = [1, 2, 3, 4, 5, "허먼", 34.443];
+        for (let index = 0; index < array.length; index++) {
+            const element = array[index];
+            console.log(element);
+            
+        }
+        
+        //객체 = JSON = JavaScriptObjectNotation
+        var obj =
+        {
+            age : 28,
+            name : "강병수",
+            collage : "경북대학교",
+            "!!!" : "가나다라",
+            123 : "ABCD"
+        }
+        console.log(obj.age);
+        console.log(obj['name']);
+        console.log(obj.collage);
+        console.log(obj["!!!"]);
+        console.log(obj["123"]);
+
+        var newArray = [array,obj];
+        console.log(newArray);
+        for (let index = 0; index < newArray.length; index++) {
+            const element = newArray[index];
+            console.log(element);
+        }
+        //함수
+
+        //함수 이름과 함께 선언
+        function testFunc() {
+            console.log("안녕하세요");
+        };
+        testFunc();
+
+        //변수에 함수를 집어넣는 방법
+        var testF = function () {
+            console.log("RunOut");
+        }
+        testF();
+
+        //리턴타입이랑 파라메터가 있는 경우
+        function jsFunc(param1, param2) {
+            var love = param1 + "☆" + param2;
+            return love;
+        }
+        console.log(jsFunc("zi존","도적"));
+    </script>
+</body>
+</html>

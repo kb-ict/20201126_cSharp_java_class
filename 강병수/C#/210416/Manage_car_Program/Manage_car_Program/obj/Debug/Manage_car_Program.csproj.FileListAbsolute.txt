@@ -1,0 +1,10 @@
+D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\bin\Debug\Manage_car_Program.exe.config
+D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\bin\Debug\Manage_car_Program.exe
+D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\bin\Debug\Manage_car_Program.pdb
+D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\obj\Debug\Manage_car_Program.Form1.resources
+D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\obj\Debug\Manage_car_Program.Properties.Resources.resources
+D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\obj\Debug\Manage_car_Program.csproj.GenerateResource.cache
+D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\obj\Debug\Manage_car_Program.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\obj\Debug\Manage_car_Program.exe
+D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\obj\Debug\Manage_car_Program.pdb
+D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\obj\Debug\Manage_car_Program.csprojAssemblyReference.cache

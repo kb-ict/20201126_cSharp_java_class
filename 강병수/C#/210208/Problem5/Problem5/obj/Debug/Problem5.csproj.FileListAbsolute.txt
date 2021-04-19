@@ -1,0 +1,7 @@
+D:\Saratoga93\Code\210208\Problem5\Problem5\bin\Debug\Problem5.exe.config
+D:\Saratoga93\Code\210208\Problem5\Problem5\bin\Debug\Problem5.exe
+D:\Saratoga93\Code\210208\Problem5\Problem5\bin\Debug\Problem5.pdb
+D:\Saratoga93\Code\210208\Problem5\Problem5\obj\Debug\Problem5.csprojAssemblyReference.cache
+D:\Saratoga93\Code\210208\Problem5\Problem5\obj\Debug\Problem5.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\210208\Problem5\Problem5\obj\Debug\Problem5.exe
+D:\Saratoga93\Code\210208\Problem5\Problem5\obj\Debug\Problem5.pdb

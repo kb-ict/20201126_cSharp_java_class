@@ -1,0 +1,277 @@
+[2021-04-16 14:06:29]2번 버튼 클릭
+[2021-04-16 14:07:49]1번 버튼 클릭
+[2021-04-16 14:07:50]2번 버튼 클릭
+[2021-04-16 14:07:50]2번 버튼 클릭
+[2021-04-16 14:07:50]1번 버튼 클릭
+[2021-04-16 14:07:50]2번 버튼 클릭
+[2021-04-16 14:07:50]1번 버튼 클릭
+[2021-04-16 14:07:50]1번 버튼 클릭
+[2021-04-16 14:07:51]2번 버튼 클릭
+[2021-04-16 14:14:43]1번 버튼 클릭
+[2021-04-16 14:14:43]2번 버튼 클릭
+[2021-04-16 14:14:43]1번 버튼 클릭
+[2021-04-16 14:14:44]2번 버튼 클릭
+[2021-04-16 14:14:44]1번 버튼 클릭
+[2021-04-16 14:14:44]2번 버튼 클릭
+[2021-04-16 14:14:45]1번 버튼 클릭
+[2021-04-16 14:14:45]2번 버튼 클릭
+[2021-04-16 14:14:45]1번 버튼 클릭
+[2021-04-16 14:14:46]2번 버튼 클릭
+[2021-04-16 14:14:46]1번 버튼 클릭
+[2021-04-16 14:14:46]2번 버튼 클릭
+[2021-04-16 14:14:47]2번 버튼 클릭
+[2021-04-16 14:14:47]1번 버튼 클릭
+[2021-04-16 14:14:48]2번 버튼 클릭
+[2021-04-16 14:14:48]1번 버튼 클릭
+[2021-04-16 14:14:48]2번 버튼 클릭
+[2021-04-16 14:14:49]1번 버튼 클릭
+[2021-04-16 14:14:49]1번 버튼 클릭
+[2021-04-16 14:14:49]2번 버튼 클릭
+[2021-04-16 14:14:50]1번 버튼 클릭
+[2021-04-16 14:14:50]2번 버튼 클릭
+[2021-04-16 14:14:50]1번 버튼 클릭
+[2021-04-16 14:14:50]2번 버튼 클릭
+[2021-04-16 14:14:51]1번 버튼 클릭
+[2021-04-16 14:14:51]2번 버튼 클릭
+[2021-04-16 14:20:30]1번 버튼 클릭
+[2021-04-16 14:20:31]2번 버튼 클릭
+[2021-04-16 14:20:31]1번 버튼 클릭
+[2021-04-16 14:20:32]2번 버튼 클릭
+[2021-04-16 15:00:46]1번 버튼 클릭
+[2021-04-16 15:00:46]2번 버튼 클릭
+[2021-04-16 15:57:56]1번 버튼 클릭
+[2021-04-16 15:57:57]2번 버튼 클릭
+[2021-04-16 16:14:39]2번 버튼 클릭
+[2021-04-16 16:14:40]1번 버튼 클릭
+[2021-04-16 16:14:42]2번 버튼 클릭
+[2021-04-16 16:14:42]2번 버튼 클릭
+[2021-04-16 16:14:42]2번 버튼 클릭
+[2021-04-16 16:14:42]2번 버튼 클릭
+[2021-04-16 16:14:42]2번 버튼 클릭
+[2021-04-16 16:14:43]2번 버튼 클릭
+[2021-04-16 16:14:43]2번 버튼 클릭
+[2021-04-16 16:14:43]2번 버튼 클릭
+[2021-04-16 16:14:43]2번 버튼 클릭
+[2021-04-16 16:14:43]2번 버튼 클릭
+[2021-04-16 16:14:43]2번 버튼 클릭
+[2021-04-16 16:14:44]2번 버튼 클릭
+'D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 31
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 32
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 32
+'D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 31
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 32
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 32
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 32
+'D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 31
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 32
+'D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 31
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 32
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 32
+[2021-04-19 09:35:32]1번 버튼 클릭
+[2021-04-19 09:35:33]2번 버튼 클릭
+[2021-04-19 09:35:33]2번 버튼 클릭
+[2021-04-19 09:35:33]2번 버튼 클릭
+[2021-04-19 09:35:33]1번 버튼 클릭
+[2021-04-19 09:35:33]1번 버튼 클릭
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 32
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 32
+[2021-04-19 10:24:25]차량번호를 입력하십시오
+[2021-04-19 10:27:30]해당 공간에는 이미 차가 존재합니다1
+[2021-04-19 10:27:35]해당 공간에는 이미 차가 존재합니다1
+[2021-04-19 10:28:06]해당 공간에는 이미 차가 존재합니다1
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 32
+[2021-04-19 10:40:00]주차할 수 없습니다ㅁㄴㅇㄹ
+[2021-04-19 10:40:00]시퀀스에 일치하는 요소가 없습니다.
+[2021-04-19 10:40:00]   위치: System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   위치: Manage_car_Program.Form1.Parking_Click(Object sender, EventArgs e) 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\Form1.cs:줄 55
+[2021-04-19 10:56:53]해당 공간에는 이미 차가 존재합니다1
+[2021-04-19 10:56:58]주차공간 1에 113고1412차량 출차
+[2021-04-19 10:57:00]주차공간 1에 113고1412차량 출차
+[2021-04-19 10:57:06]차량번호를 입력하십시오
+[2021-04-19 10:57:19]주차공간 1에 13가0103차량 출차
+[2021-04-19 10:57:21]해당 공간에는 이미 차가 존재합니다1
+[2021-04-19 10:57:37]해당 공간에는 이미 차가 존재합니다1
+[2021-04-19 10:57:51]주차공간 233에 13가0103차량 출차
+[2021-04-19 11:32:34]공간번호를 입력하십시오
+[2021-04-19 11:32:37]공간번호를 입력하십시오
+[2021-04-19 11:32:39]공간번호를 입력하십시오
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 32
+[2021-04-19 11:33:34]공간번호를 입력하십시오
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 32
+[2021-04-19 11:33:52]현재 공간에 저장되어있는 차량번호는 입니다
+[2021-04-19 11:34:07]현재 공간에 저장되어있는 차량번호는 13고0000입니다
+[2021-04-19 11:34:09]현재 공간에 저장되어있는 차량번호는 13고0000입니다
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 32
+[2021-04-19 11:38:39]현재 공간에 저장되어있는 차량번호는 입니다
+[2021-04-19 11:38:41]현재 공간에 저장되어있는 차량번호는 입니다
+[2021-04-19 11:38:44]현재 공간에 저장되어있는 차량번호는 입니다
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 32
+[2021-04-19 11:39:58]공간번호를 입력하십시오
+[2021-04-19 11:39:59]현재 공간에 저장되어있는 차량번호는 입니다
+[2021-04-19 11:40:02]현재 공간에 저장되어있는 차량번호는 13입니다
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 32
+루트 요소가 없습니다.
+   위치: System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   위치: System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   위치: System.Xml.XmlTextReaderImpl.Read()
+   위치: System.Xml.XmlReader.MoveToContent()
+   위치: System.Xml.Linq.XElement.Load(XmlReader reader, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text, LoadOptions options)
+   위치: System.Xml.Linq.XElement.Parse(String text)
+   위치: Manage_car_Program.DataManager.Load() 파일 D:\Saratoga93\Code\210416\Manage_car_Program\Manage_car_Program\DataManager.cs:줄 32

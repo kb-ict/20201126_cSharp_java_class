@@ -1,0 +1,7 @@
+D:\Saratoga93\Code\210405\Ex01\Ex01\bin\Debug\Ex01.exe.config
+D:\Saratoga93\Code\210405\Ex01\Ex01\bin\Debug\Ex01.exe
+D:\Saratoga93\Code\210405\Ex01\Ex01\bin\Debug\Ex01.pdb
+D:\Saratoga93\Code\210405\Ex01\Ex01\obj\Debug\Ex01.csprojAssemblyReference.cache
+D:\Saratoga93\Code\210405\Ex01\Ex01\obj\Debug\Ex01.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\210405\Ex01\Ex01\obj\Debug\Ex01.exe
+D:\Saratoga93\Code\210405\Ex01\Ex01\obj\Debug\Ex01.pdb

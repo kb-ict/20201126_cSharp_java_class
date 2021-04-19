@@ -1,0 +1,7 @@
+D:\Saratoga93\Code\210215\class_Review2\class_Review2\bin\Debug\class_Review2.exe.config
+D:\Saratoga93\Code\210215\class_Review2\class_Review2\bin\Debug\class_Review2.exe
+D:\Saratoga93\Code\210215\class_Review2\class_Review2\bin\Debug\class_Review2.pdb
+D:\Saratoga93\Code\210215\class_Review2\class_Review2\obj\Debug\class_Review2.csprojAssemblyReference.cache
+D:\Saratoga93\Code\210215\class_Review2\class_Review2\obj\Debug\class_Review2.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\210215\class_Review2\class_Review2\obj\Debug\class_Review2.exe
+D:\Saratoga93\Code\210215\class_Review2\class_Review2\obj\Debug\class_Review2.pdb

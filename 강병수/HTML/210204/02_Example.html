@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도큐먼트</title>
+    <script>
+        var a = 0;
+        function doA()
+        {   // 함수 시작
+            window.alert("window");
+            alert("window 태그 생략가능");
+        }   // 함수 끝
+        function doB()
+        {
+            alert("a = " + a);
+        }
+        function doC()
+        {   //id class 두개...
+            // id: 중복허용 X, class: 중복혀용 O
+            var adiv = document.getElementsByClassName("adiv")[0];
+            // ctrl + k + c 주석설정
+            // ctrl + k + u 주석설정해제
+            // shift + delete 줄삭제
+            // alert(adiv);
+            adiv.style.left= a+"px";
+        }
+    </script>
+    <style>
+        .adiv
+        {
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            left: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="adiv">
+
+    </div>
+    <button onclick="doA();alert('함수 호출하고나서 경고창'); a=a+50;">누르면달라진다</button>
+    <button onclick="doB();">a값 확인</button> <!-- // doA 함수 먼저 실행되고 나서야 a의 값이 바뀜 -->
+    <button onclick="doC();">adiv위치이동</button>
+</body>
+</html>

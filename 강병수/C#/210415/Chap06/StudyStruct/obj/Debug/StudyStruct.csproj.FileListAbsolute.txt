@@ -1,0 +1,10 @@
+D:\Study_DJ\20201126_all\djlee\20210415\Chap06\StudyStruct\bin\Debug\StudyStruct.exe.config
+D:\Study_DJ\20201126_all\djlee\20210415\Chap06\StudyStruct\bin\Debug\StudyStruct.exe
+D:\Study_DJ\20201126_all\djlee\20210415\Chap06\StudyStruct\bin\Debug\StudyStruct.pdb
+D:\Study_DJ\20201126_all\djlee\20210415\Chap06\StudyStruct\obj\Debug\StudyStruct.Form1.resources
+D:\Study_DJ\20201126_all\djlee\20210415\Chap06\StudyStruct\obj\Debug\StudyStruct.Properties.Resources.resources
+D:\Study_DJ\20201126_all\djlee\20210415\Chap06\StudyStruct\obj\Debug\StudyStruct.csproj.GenerateResource.cache
+D:\Study_DJ\20201126_all\djlee\20210415\Chap06\StudyStruct\obj\Debug\StudyStruct.csproj.CoreCompileInputs.cache
+D:\Study_DJ\20201126_all\djlee\20210415\Chap06\StudyStruct\obj\Debug\StudyStruct.exe
+D:\Study_DJ\20201126_all\djlee\20210415\Chap06\StudyStruct\obj\Debug\StudyStruct.pdb
+D:\Study_DJ\20201126_all\djlee\20210415\Chap06\StudyStruct\obj\Debug\StudyStruct.csprojAssemblyReference.cache

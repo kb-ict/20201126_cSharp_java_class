@@ -1,0 +1,10 @@
+D:\Saratoga93\Code\210201\Review\Review\bin\Debug\Review.exe.config
+D:\Saratoga93\Code\210201\Review\Review\bin\Debug\Review.exe
+D:\Saratoga93\Code\210201\Review\Review\bin\Debug\Review.pdb
+D:\Saratoga93\Code\210201\Review\Review\obj\Debug\Review.csprojAssemblyReference.cache
+D:\Saratoga93\Code\210201\Review\Review\obj\Debug\Review.Form1.resources
+D:\Saratoga93\Code\210201\Review\Review\obj\Debug\Review.Properties.Resources.resources
+D:\Saratoga93\Code\210201\Review\Review\obj\Debug\Review.csproj.GenerateResource.cache
+D:\Saratoga93\Code\210201\Review\Review\obj\Debug\Review.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\210201\Review\Review\obj\Debug\Review.exe
+D:\Saratoga93\Code\210201\Review\Review\obj\Debug\Review.pdb

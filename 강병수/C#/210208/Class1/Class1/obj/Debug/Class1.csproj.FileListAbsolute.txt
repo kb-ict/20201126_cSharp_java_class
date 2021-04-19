@@ -1,0 +1,7 @@
+D:\Saratoga93\Code\210208\Class1\Class1\bin\Debug\Class1.exe.config
+D:\Saratoga93\Code\210208\Class1\Class1\bin\Debug\Class1.exe
+D:\Saratoga93\Code\210208\Class1\Class1\bin\Debug\Class1.pdb
+D:\Saratoga93\Code\210208\Class1\Class1\obj\Debug\Class1.csprojAssemblyReference.cache
+D:\Saratoga93\Code\210208\Class1\Class1\obj\Debug\Class1.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\210208\Class1\Class1\obj\Debug\Class1.exe
+D:\Saratoga93\Code\210208\Class1\Class1\obj\Debug\Class1.pdb

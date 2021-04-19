@@ -1,0 +1,10 @@
+D:\Saratoga93\Code\210416\DelegateLamda\DelegateLamda\bin\Debug\DelegateLamda.exe.config
+D:\Saratoga93\Code\210416\DelegateLamda\DelegateLamda\bin\Debug\DelegateLamda.exe
+D:\Saratoga93\Code\210416\DelegateLamda\DelegateLamda\bin\Debug\DelegateLamda.pdb
+D:\Saratoga93\Code\210416\DelegateLamda\DelegateLamda\obj\Debug\DelegateLamda.csprojAssemblyReference.cache
+D:\Saratoga93\Code\210416\DelegateLamda\DelegateLamda\obj\Debug\DelegateLamda.Form1.resources
+D:\Saratoga93\Code\210416\DelegateLamda\DelegateLamda\obj\Debug\DelegateLamda.Properties.Resources.resources
+D:\Saratoga93\Code\210416\DelegateLamda\DelegateLamda\obj\Debug\DelegateLamda.csproj.GenerateResource.cache
+D:\Saratoga93\Code\210416\DelegateLamda\DelegateLamda\obj\Debug\DelegateLamda.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\210416\DelegateLamda\DelegateLamda\obj\Debug\DelegateLamda.exe
+D:\Saratoga93\Code\210416\DelegateLamda\DelegateLamda\obj\Debug\DelegateLamda.pdb

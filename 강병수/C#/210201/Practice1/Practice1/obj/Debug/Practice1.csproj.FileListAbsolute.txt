@@ -1,0 +1,7 @@
+D:\Saratoga93\Code\210201\Practice1\Practice1\bin\Debug\Practice1.exe.config
+D:\Saratoga93\Code\210201\Practice1\Practice1\bin\Debug\Practice1.exe
+D:\Saratoga93\Code\210201\Practice1\Practice1\bin\Debug\Practice1.pdb
+D:\Saratoga93\Code\210201\Practice1\Practice1\obj\Debug\Practice1.csprojAssemblyReference.cache
+D:\Saratoga93\Code\210201\Practice1\Practice1\obj\Debug\Practice1.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\210201\Practice1\Practice1\obj\Debug\Practice1.exe
+D:\Saratoga93\Code\210201\Practice1\Practice1\obj\Debug\Practice1.pdb

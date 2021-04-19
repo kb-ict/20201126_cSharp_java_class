@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="01_test.json"></script>
+</head>
+<body>
+    <script>
+        console.log('json 파일 읽어들이기');
+        var parseData = JSON.parse(JSON.stringify(data));
+        console.log(parseData);
+        var introduce = `안녕! 내 이름은 ${parseData["name"]}이야!
+        <br>내 고향은 ${parseData["homeTown"]}이야
+        <br>내 꿈은 도감 100% 찍는거야.
+        <br>내 라이벌은 ${parseData["Rival"]}이야.
+        <br>그 자식의 고향은 ${parseData["Rival's HomeTown"]}이지.
+        <br>우선 나와 함께하고 있는 멤버들을 소개할게.
+        <br> 우선 ${parseData["member"][0]["location"]}의 녀석들이야
+        <br> ${parseData["member"][0]["kansen"][0]}
+        <br> ${parseData["member"][0]["kansen"][1]}
+        <br> ${parseData["member"][0]["kansen"][2]}
+        <br> ${parseData["member"][0]["kansen"][3]}
+        <br> ${parseData["member"][0]["kansen"][4]}
+        <br> ${parseData["member"][0]["kansen"][5]}
+        <br> 그리고 ${parseData["member"][1]["location"]}의 녀석들이야
+        <br> ${parseData["member"][1]["kansen"][0]}
+        <br> ${parseData["member"][1]["kansen"][1]}
+        <br> ${parseData["member"][1]["kansen"][2]}
+        <br> ${parseData["member"][1]["kansen"][3]}
+        <br> ${parseData["member"][1]["kansen"][4]}
+        <br> ${parseData["member"][1]["kansen"][5]}`;
+
+        document.write(`<h1>${introduce}</h1>`);
+    </script>
+</body>
+</html>

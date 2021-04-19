@@ -1,0 +1,11 @@
+D:\Saratoga93\Code\210416\ParkingCar\ParkingCar\bin\Debug\ParkingCar.exe.config
+D:\Saratoga93\Code\210416\ParkingCar\ParkingCar\bin\Debug\ParkingCar.exe
+D:\Saratoga93\Code\210416\ParkingCar\ParkingCar\bin\Debug\ParkingCar.pdb
+D:\Saratoga93\Code\210416\ParkingCar\ParkingCar\obj\Debug\ParkingCar.csprojAssemblyReference.cache
+D:\Saratoga93\Code\210416\ParkingCar\ParkingCar\obj\Debug\ParkingCar.Form1.resources
+D:\Saratoga93\Code\210416\ParkingCar\ParkingCar\obj\Debug\ParkingCar.Form2.resources
+D:\Saratoga93\Code\210416\ParkingCar\ParkingCar\obj\Debug\ParkingCar.Properties.Resources.resources
+D:\Saratoga93\Code\210416\ParkingCar\ParkingCar\obj\Debug\ParkingCar.csproj.GenerateResource.cache
+D:\Saratoga93\Code\210416\ParkingCar\ParkingCar\obj\Debug\ParkingCar.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\210416\ParkingCar\ParkingCar\obj\Debug\ParkingCar.exe
+D:\Saratoga93\Code\210416\ParkingCar\ParkingCar\obj\Debug\ParkingCar.pdb

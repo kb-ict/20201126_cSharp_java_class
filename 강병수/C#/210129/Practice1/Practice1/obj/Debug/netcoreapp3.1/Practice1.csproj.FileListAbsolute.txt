@@ -1,0 +1,15 @@
+D:\Saratoga93\Code\210129\Practice1\Practice1\bin\Debug\netcoreapp3.1\Practice1.exe
+D:\Saratoga93\Code\210129\Practice1\Practice1\bin\Debug\netcoreapp3.1\Practice1.deps.json
+D:\Saratoga93\Code\210129\Practice1\Practice1\bin\Debug\netcoreapp3.1\Practice1.runtimeconfig.json
+D:\Saratoga93\Code\210129\Practice1\Practice1\bin\Debug\netcoreapp3.1\Practice1.runtimeconfig.dev.json
+D:\Saratoga93\Code\210129\Practice1\Practice1\bin\Debug\netcoreapp3.1\Practice1.dll
+D:\Saratoga93\Code\210129\Practice1\Practice1\bin\Debug\netcoreapp3.1\Practice1.pdb
+D:\Saratoga93\Code\210129\Practice1\Practice1\obj\Debug\netcoreapp3.1\Practice1.csprojAssemblyReference.cache
+D:\Saratoga93\Code\210129\Practice1\Practice1\obj\Debug\netcoreapp3.1\Practice1.Form1.resources
+D:\Saratoga93\Code\210129\Practice1\Practice1\obj\Debug\netcoreapp3.1\Practice1.csproj.GenerateResource.cache
+D:\Saratoga93\Code\210129\Practice1\Practice1\obj\Debug\netcoreapp3.1\Practice1.AssemblyInfoInputs.cache
+D:\Saratoga93\Code\210129\Practice1\Practice1\obj\Debug\netcoreapp3.1\Practice1.AssemblyInfo.cs
+D:\Saratoga93\Code\210129\Practice1\Practice1\obj\Debug\netcoreapp3.1\Practice1.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\210129\Practice1\Practice1\obj\Debug\netcoreapp3.1\Practice1.dll
+D:\Saratoga93\Code\210129\Practice1\Practice1\obj\Debug\netcoreapp3.1\Practice1.pdb
+D:\Saratoga93\Code\210129\Practice1\Practice1\obj\Debug\netcoreapp3.1\Practice1.genruntimeconfig.cache

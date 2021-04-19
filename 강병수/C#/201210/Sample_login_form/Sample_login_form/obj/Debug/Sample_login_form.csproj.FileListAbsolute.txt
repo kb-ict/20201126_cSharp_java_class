@@ -1,0 +1,10 @@
+D:\Saratoga93\Code\201210\Sample_login_form\Sample_login_form\bin\Debug\Sample_login_form.exe.config
+D:\Saratoga93\Code\201210\Sample_login_form\Sample_login_form\bin\Debug\Sample_login_form.exe
+D:\Saratoga93\Code\201210\Sample_login_form\Sample_login_form\bin\Debug\Sample_login_form.pdb
+D:\Saratoga93\Code\201210\Sample_login_form\Sample_login_form\obj\Debug\Sample_login_form.csprojAssemblyReference.cache
+D:\Saratoga93\Code\201210\Sample_login_form\Sample_login_form\obj\Debug\Sample_login_form.Form1.resources
+D:\Saratoga93\Code\201210\Sample_login_form\Sample_login_form\obj\Debug\Sample_login_form.Properties.Resources.resources
+D:\Saratoga93\Code\201210\Sample_login_form\Sample_login_form\obj\Debug\Sample_login_form.csproj.GenerateResource.cache
+D:\Saratoga93\Code\201210\Sample_login_form\Sample_login_form\obj\Debug\Sample_login_form.csproj.CoreCompileInputs.cache
+D:\Saratoga93\Code\201210\Sample_login_form\Sample_login_form\obj\Debug\Sample_login_form.exe
+D:\Saratoga93\Code\201210\Sample_login_form\Sample_login_form\obj\Debug\Sample_login_form.pdb
