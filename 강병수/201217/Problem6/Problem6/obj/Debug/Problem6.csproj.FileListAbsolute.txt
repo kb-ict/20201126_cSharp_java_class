@@ -1,7 +1,0 @@
-D:\Saratoga93\Code\201217\Problem6\Problem6\bin\Debug\Problem6.exe.config
-D:\Saratoga93\Code\201217\Problem6\Problem6\bin\Debug\Problem6.exe
-D:\Saratoga93\Code\201217\Problem6\Problem6\bin\Debug\Problem6.pdb
-D:\Saratoga93\Code\201217\Problem6\Problem6\obj\Debug\Problem6.csprojAssemblyReference.cache
-D:\Saratoga93\Code\201217\Problem6\Problem6\obj\Debug\Problem6.csproj.CoreCompileInputs.cache
-D:\Saratoga93\Code\201217\Problem6\Problem6\obj\Debug\Problem6.exe
-D:\Saratoga93\Code\201217\Problem6\Problem6\obj\Debug\Problem6.pdb

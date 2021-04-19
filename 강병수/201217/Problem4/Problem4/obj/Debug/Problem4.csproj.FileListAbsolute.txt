@@ -1,7 +1,0 @@
-D:\Saratoga93\Code\201217\Problem4\Problem4\bin\Debug\Problem4.exe.config
-D:\Saratoga93\Code\201217\Problem4\Problem4\bin\Debug\Problem4.exe
-D:\Saratoga93\Code\201217\Problem4\Problem4\bin\Debug\Problem4.pdb
-D:\Saratoga93\Code\201217\Problem4\Problem4\obj\Debug\Problem4.csprojAssemblyReference.cache
-D:\Saratoga93\Code\201217\Problem4\Problem4\obj\Debug\Problem4.csproj.CoreCompileInputs.cache
-D:\Saratoga93\Code\201217\Problem4\Problem4\obj\Debug\Problem4.exe
-D:\Saratoga93\Code\201217\Problem4\Problem4\obj\Debug\Problem4.pdb
